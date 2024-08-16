@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file=".weapon" key=".weapon">
+    <specification />
+    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
+    <inventory price="1000.0" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.0"/>
+    <trail probability="1" key="BulletEliteTrail"/>
+</weapon>
+

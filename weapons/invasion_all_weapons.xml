@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+Common
+    <weapon file="binoculars.weapon" />
+    <weapon file="riot_shield.weapon" />
+    <weapon file="medikit.weapon" />
+    <weapon file="medikit_ai_2.weapon" />
+    <weapon file="cover_resource.weapon" />
+    <weapon file="gl_resource.weapon" />
+    <weapon file="hornet_resource.weapon" />
+    <weapon file="mg_resource.weapon" />
+    <weapon file="minig_resource.weapon" />
+    <weapon file="mortar_resource.weapon" />
+    <weapon file="tow_resource.weapon" />
+    <weapon file="dog.weapon" />
+    <weapon file="dog_heal.weapon" />
+	<weapon file="bandage.weapon" />
+	<weapon file="vest_repair.weapon" />
+	<weapon file="wrench.weapon"  />
+	<weapon file="wrench_small.weapon" />
+	<weapon file="tracer_dart.weapon" />
+Vehicle
+    <weapon file="vw_grizzly_cannon.weapon" />
+    <weapon file="vw_rhino_cannon.weapon" />
+    <weapon file="vw_lasher_cannon.weapon" />
+
+    <weapon file="apc_hmg.weapon" />
+    <weapon file="apc_hmg_1.weapon" />
+    <weapon file="apc_hmg_2.weapon" />
+    <weapon file="buggy_mg.weapon" />
+    <weapon file="deployable_gl.weapon" />
+    <weapon file="deployable_mg.weapon" />
+    <weapon file="deployable_minig.weapon" />
+    <weapon file="hornet.weapon" />
+    <weapon file="humvee_gl.weapon" />
+    <weapon file="humvee_mg.weapon" />
+    <weapon file="mortar.weapon" />
+    <weapon file="tank_cannon.weapon" />
+    <weapon file="tank_cannon_1.weapon" />
+    <weapon file="tank_cannon_2.weapon" />
+    <weapon file="tank_mg.weapon" />
+    <weapon file="tank_mg_1.weapon" />
+    <weapon file="tank_mg_2.weapon" />
+    <weapon file="tow.weapon" />
+Allied Forces
+    <weapon file="wa_awp.weapon" />
+    <weapon file="wa_awp_e.weapon" />
+    <weapon file="wa_chrono.weapon" />
+    <weapon file="wa_chrono_e.weapon" />
+    <weapon file="wa_colt_m1911.weapon" />
+    <weapon file="wa_javelin.weapon" />
+    <weapon file="wa_m60.weapon" />
+    <weapon file="wa_m60_e.weapon" />
+    <weapon file="wa_mini_uzi.weapon" />
+    <weapon file="wa_mp5sd.weapon" />
+    <weapon file="wa_p90.weapon" />
+    <weapon file="wa_p90_e.weapon" />
+    <weapon file="wa_rocketeer.weapon" />
+    <weapon file="wa_rocketeer_e.weapon" />
+    <weapon file="wa_stoner_lmg.weapon" />
+    <weapon file="wa_stoner_lmg_e.weapon" />
+    <weapon file="wa_ump40.weapon" />
+    <weapon file="wa_ump40_e.weapon" />
+Soviet Union
+    <weapon file="ws_aek_919k.weapon" />
+    <weapon file="ws_akm.weapon" />
+    <weapon file="ws_desolator.weapon" />
+    <weapon file="ws_desolator_e.weapon" />
+    <weapon file="ws_dynamite_resource.weapon" />
+    <weapon file="ws_flakt.weapon" />
+    <weapon file="ws_flakt_e.weapon" />
+    <weapon file="ws_knife.weapon" />
+    <weapon file="ws_knife_e.weapon" />
+    <weapon file="ws_ppsh41.weapon" />
+    <weapon file="ws_ppsh41_e.weapon" />
+    <weapon file="ws_rpg-7.weapon" />
+    <weapon file="ws_teslat.weapon" />
+    <weapon file="ws_teslat_e.weapon" />
+Yuri's Army
+    <weapon file="wy_fist.weapon" />
+    <weapon file="wy_fist_e.weapon" />
+    <weapon file="wy_mind_control.weapon" />
+    <weapon file="wy_mind_control_e.weapon" />
+    <weapon file="wy_psychic_jab.weapon" />
+    <weapon file="wy_psychic_jab_e.weapon" />
+    <weapon file="wy_steyr_tmp.weapon" />
+    <weapon file="wy_virus.weapon" />
+    <weapon file="wy_virus_e.weapon" />
+    <weapon file="wy_yuri.weapon" />
+</weapons>

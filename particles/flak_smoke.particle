@@ -1,0 +1,55 @@
+particle_system SmokeFlak
+{
+	quota	9741
+	material	SmokeNormal
+	particle_width	1.5
+	particle_height	1.5
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Ring
+	{
+		angle	50
+		colour	1 1 1 1
+		colour_range_start	0.2 0.2 0.2 0.8
+		colour_range_end	0.3 0.3 0.3 1
+		direction	0 1 0
+		emission_rate	355.9
+		position	0 0 0
+		velocity	0.5
+		velocity_min	0.5
+		velocity_max	1
+		time_to_live_min	1
+		time_to_live_max	1
+		duration	0.05
+		duration_min	0.05
+		duration_max	0.05
+		width	3
+		height	3
+		depth	0
+		inner_width	0.8
+		inner_height	0.8
+	}
+
+	affector Scaler
+	{
+		rate	1.5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	-45
+		rotation_speed_range_end	45
+		rotation_range_start	0
+		rotation_range_end	270
+	}
+
+	affector ColourFader
+	{
+		red	0
+		green	0
+		blue	0
+		alpha	-0.5
+	}
+}

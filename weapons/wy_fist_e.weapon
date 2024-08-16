@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wy_fist.weapon" key="wy_fist_e.weapon">
+    <specification
+    name="Fist (Elite)"
+    damage="6" 
+    range="2.5"
+    stab_range="2.5"/>
+
+	<hud_icon filename="hud_brute_e.png" />
+
+	<commonness value="3" can_respawn_with="0" in_stock="1"/>
+	<inventory encumbrance="40.0" price="100.0" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.2"/>
+
+	<modifier class="speed" value="+0.10" />
+	<modifier class="hit_success_probability" value="-0.20" />
+</weapon>

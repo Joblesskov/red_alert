@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item key="vest1.carry_item" name="Vest, type I" slot="1" transform_on_consume="vest1_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+		<hud_icon filename="hud_vest1.png" />
+		<model mesh_filename="vest1.xml" />
+
+		<inventory encumbrance="4" price="2" />
+		<commonness value="1.0" in_stock="1" can_respawn_with="1" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+		<modifier class="speed" value="+0.03" />  
+		<modifier class="hit_success_probability" value="-0.05" />
+	</carry_item>
+
+	<carry_item key="vest1_2" name="Vest, type I, 50%" slot="1" transform_on_consume="vest1_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+		<hud_icon filename="hud_vest1_hole1.png" />
+		<model mesh_filename="vest1.xml" />
+
+		<inventory encumbrance="4" price="1" />
+		<commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+		<modifier class="speed" value="+0.03" />   
+		<modifier class="hit_success_probability" value="-0.025" />
+	</carry_item> 
+</carry_items>

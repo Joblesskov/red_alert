@@ -1,0 +1,32 @@
+material AlphaWave
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      depth_write off
+      depth_check on
+      depth_func greater
+      lighting on
+      ambient 0.5 0.5 0.5 0.5
+      diffuse 0.5 0.5 0.5 0.5
+      scene_blend alpha_blend
+      texture_unit {
+        texture alpha_wave_trail.png
+      }
+    } 
+
+    pass
+    {
+      lighting off
+      ambient vertexcolour
+      diffuse vertexcolour
+      depth_write off
+      scene_blend alpha_blend
+      texture_unit {
+        texture alpha_wave_trail.png
+      }
+    } 
+  }
+}

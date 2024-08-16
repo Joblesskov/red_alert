@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="ws_flakt.weapon">
+    <tag name="assault" />
+    <specification 
+        retrigger_time="0.8" 
+        accuracy_factor="0.9" 
+        sustained_fire_grow_step="0.5" 
+        sustained_fire_diminish_rate="0.5" 
+        magazine_size="10" 
+        can_shoot_standing="1" 
+        suppressed="0" 
+        name="Flak Gun" 
+        class="4" 
+        sight_range_modifier="1.0" 
+        projectile_speed="80.0" 
+        slot="0" 
+        burst_shots="1" 
+        barrel_offset="0.6"
+        projectiles_per_shot="1" />
+
+    <!-- <animation key="recoil" ref="40" /> -->
+    <animation state_key="recoil" animation_key="recoil, hip fire"/>
+    <!-- <animation key="reload" ref="35" /> -->
+    <animation state_key="reload" animation_key="reloading, pf98" />    
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+
+    <animation state_key="walking" animation_key="walking, bow" />
+    <animation state_key="running" animation_key="walking, bow" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
+
+
+    <sound key="fire" fileref="vflaat1a.wav"/>
+    <sound key="fire" fileref="vflaat1b.wav"/>
+    <sound key="magazine_out" fileref="pf98_cycle_out.wav" volume="0.3" />
+    <sound key="magazine_in" fileref="pf98_cycle_in.wav" volume="0.3"/>
+    <sound key="effect" fileref="pf98_effect.wav" volume="0.25"/>    
+    <sound key="cycle" fileref="m79_cycle.wav" volume="0.3"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <hud_icon filename="hud_flakt.png" />
+    <model filename="flakt.xml" />
+    <ballistics curve_height="5.0" near_far_distance="4.0" speed_estimation_near="100.0" speed_estimation_far="100.0" max_speed="100.0" randomness="0.0" tweak_factor="1.55" />
+    <projectile file="flak.projectile" />
+    <weak_hand_hold offset="0.3" />
+
+    <commonness value="1" can_respawn_with="1" in_stock="1"/>    
+    <inventory encumbrance="30.0" price="7.0" />
+
+    <modifier class="speed" value="-0.15" />
+</weapon>

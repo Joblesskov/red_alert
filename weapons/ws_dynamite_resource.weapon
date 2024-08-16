@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="ws_dynamite_resource.weapon" on_ground_up="0 1 0" radius="0.0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0">
+    <tag name="bazooka" />
+    <specification magazine_size="1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="1" 
+    carry_in_two_hands="0" 
+    can_shoot_prone="0" 
+    name="Dynamite deploy" 
+    class="5" 
+    spawn_instance_class="projectile" 
+    spawn_instance_key="dynamite.projectile" 
+    consume="0" 
+    sight_range_modifier="1" 
+    slot="1"
+    deployment="0" />
+    <drop_on_death_result class="spawn" instance_class="projectile" instance_key="dynamite_death.projectile" min_amount="1" max_amount="1" offset="0 1 0" position_spread="0 0" direction_spread="0.01 0.01" />    
+
+    <animation state_key="recoil" 		animation_key="claymore deploy" />
+    <animation state_key="hold" 		animation_key="still, single hand carry" />
+    <animation state_key="hold_on_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="hold_casual" 		animation_key="still, single hand carry" />
+    <animation state_key="still_against_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="crouching" 		animation_key="crouch, still, single hand carry" />
+    <animation state_key="running" 		animation_key="running, single hand carry" />
+    <animation state_key="walking" 		animation_key="walking, single hand carry" />
+    <animation state_key="walking_backwards" 	animation_key="walking backwards, single hand carry" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, single hand carry" />
+    <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, single hand carry" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    
+	<sound key="effect" fileref="icraatta.wav" pitch_variety="0" />
+    <model filename="dynamite.xml" />
+
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+
+    <hud_icon filename="hud_dynamite.png" />
+    <commonness value="1.0" in_stock="1" can_respawn_with="1" />
+    <inventory encumbrance="3.0" price="3.0" />
+
+    <modifier class="speed" value="-0.05" />
+
+</weapon>
+

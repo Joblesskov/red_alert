@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_sniper.weapon" key="wy_virus.weapon">
+    <tag name="sniper"/>
+    <specification
+        name="Virus Dart Gun" 
+        slot="0" 
+        class="0" 
+        suppressed="1"
+        projectile_speed="100.0" 
+        retrigger_time="0.6" 
+        accuracy_factor="1.0" 
+        sight_range_modifier="1.5"
+        sustained_fire_grow_step="1.0" 
+        sustained_fire_diminish_rate="1.0"
+        magazine_size="4" 
+        burst_shots="1" 
+        projectiles_per_shot="1" 
+        reload_one_at_a_time="0"
+        can_shoot_standing="1"
+        barrel_offset="0.4"/>
+
+    <animation key="recoil" ref="27"/>
+    <animation state_key="reload" animation_key="reloading, dart"/>
+
+    <sound key="fire" fileref="iviratta.wav" volume="0.7"/>
+    <sound key="magazine_in" fileref="mossberg500_reload.wav"/>
+    <sound class="impact" fileref="rifle_drop.wav"/>
+
+    <model filename="dartgun.xml"/>
+    <hud_icon filename="hud_virus.png"/>
+
+    <commonness value="1" can_respawn_with="1" in_stock="1"/>
+    <inventory encumbrance="10.0" price="30.0"/>
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.8"/>
+
+    <weak_hand_hold offset="0.3"/>
+
+    <projectile file="virus_dart.projectile"/>
+
+    <modifier class="speed" value="-0.06"/>
+</weapon>

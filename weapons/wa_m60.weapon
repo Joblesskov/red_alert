@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="wa_m60.weapon">
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.09" 
+  accuracy_factor="1" 
+  spread_range="0.2"
+  sustained_fire_grow_step="0.35" 
+  sustained_fire_diminish_rate="1.15" 
+  magazine_size="100" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  suppressed="0" 
+  name="M60" 
+  class="0" 
+  sight_range_modifier="1.1"
+  barrel_offset="0.6"
+  projectile_speed="125.0" />
+  
+  <next_in_chain key="wa_ump40.weapon" share_ammo="0"/>
+  <animation state_key="next_in_chain_out" animation_key="change weapon out" />
+  <animation state_key="next_in_chain_in" animation_key="change weapon in" />
+
+ 	<animation state_key="recoil" animation_key="recoil, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil2, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil3, hip fire" />
+	<animation key="recoil" stance_key="over_wall" ref="12" />
+	<animation key="recoil" stance_key="over_wall" ref="13" />
+	<animation key="recoil" stance_key="over_wall" ref="14" />
+  <animation state_key="hold" animation_key="hold, lmg" />
+  <animation key="reload" ref="33" />
+  <animation key="hold_on_wall" ref="1" />
+	<animation state_key="walking" animation_key="walking, hip fire" />
+	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    
+    <sound key="fire" fileref="igiat2a.wav" pitch_variety="0.05" volume="0.6" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="m60e4.xml" />
+
+    <hud_icon filename="hud_gi2.png" />
+    <commonness value="1" can_respawn_with="1" in_stock="0"/>
+    <inventory encumbrance="10.0" price="6.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.65" kill_decay_start_time="0.35" kill_decay_end_time="0.65" />
+    </projectile>
+    <stance state_key="over_wall" accuracy="1.0" />     
+    <modifier class="speed" value="-0.12" />
+</weapon>

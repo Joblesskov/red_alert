@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+Grenade
+    <projectile file="hand_grenade.projectile" />
+    <projectile file="impact_grenade.projectile" />
+    <projectile file="stun_grenade.projectile" />
+    <projectile file="dynamite_death.projectile" />
+    <projectile file="dynamite.projectile" />
+    <projectile file="c4.projectile" />
+    <projectile file="psychic_blast.projectile" />
+    <projectile file="psychic_blast_sub.projectile" />
+    <projectile file="rad_eruption.projectile" />
+    <projectile file="rad_eruption_sub.projectile" />
+Projectile
+    <projectile file="alpha_wave.projectile" />
+    <projectile file="desolator_bullet.projectile" />
+    <projectile file="desolator_bullet_e.projectile" />
+    <projectile file="desolator_sub.projectile" />
+    <projectile file="flak.projectile" />
+    <projectile file="javelin.projectile" />
+    <projectile file="neutron.projectile" />
+    <projectile file="psychic_jab_bullet.projectile" />
+    <projectile file="tesla.projectile" />
+    <projectile file="tracer_dart.projectile" />
+    <projectile file="tracer_dart_blast.projectile" />
+    <projectile file="tracer_missile.projectile" />
+    <projectile file="virus_dart.projectile" />
+    <projectile file="virus_cloud.projectile" />
+    <projectile file="virus_cloud_sub.projectile" />
+</projectiles>

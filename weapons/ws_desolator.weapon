@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="ws_desolator.weapon">
+    <tag name="sniper" />
+    <specification 
+	retrigger_time="1.5" 
+	accuracy_factor="1.0" 
+    spread_range="0.2"
+	sustained_fire_grow_step="0.9" 
+	sustained_fire_diminish_rate="0.66" 
+	magazine_size="10" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Rad Cannon" 
+	class="4" 
+	burst_shots="1"
+    projectiles_per_shot="1"
+	sight_range_modifier="1.2" 
+	projectile_speed="340.0" 
+	barrel_offset="0.4" />
+
+    <animation key="recoil" ref="40" />
+    <!-- <animation key="reload" ref="35" /> -->
+    <animation state_key="reload" animation_key="reloading, pf98" />    
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+
+    <animation state_key="walking" animation_key="walking, bow" />
+    <animation state_key="running" animation_key="walking, bow" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" /> 
+
+    <sound key="fire" fileref="idesat1a.wav" pitch_variety="0.01" volume="0.8" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="desolator.xml" />  
+    <hud_icon filename="hud_desolator.png" />
+    <commonness value="1" />
+    <inventory encumbrance="10.0" price="30.0" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.8"/>
+
+    <weak_hand_hold offset="0.3" />
+
+    <projectile file="desolator_bullet.projectile" />
+
+    <modifier class="speed" value="-0.06" />    
+
+</weapon>

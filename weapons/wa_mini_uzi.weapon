@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="wa_mini_uzi.weapon">
+    <tag name="assault" />
+    <specification 
+  retrigger_time="0.088" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="0.30" 
+  sustained_fire_diminish_rate="1.2"
+    spread_range="0.2"   
+  magazine_size="20" 
+  can_shoot_standing="1" 
+    carry_in_two_hands="0" 
+  suppressed="0" 
+  sight_range_modifier="1.0" 
+  name="mini UZI" 
+  class="0" 
+  projectile_speed="100.0"
+  barrel_offset="0"   
+slot="0"   />
+
+	<animation state_key="recoil"	animation_key="recoil, pistol" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil, smg1, prone" />	
+    <animation state_key="reload"	animation_key="reloading, pistol" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, smg1, prone" />
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+
+    <sound key="fire" fileref="mini_uzi_shot.wav" volume="0.8" />
+    <sound key="magazine_out" fileref="pistol_clip_out.wav" />
+    <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.4" />    
+    <sound key="cycle" fileref="pistol_chamber.wav" volume="0.45" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="mini_uzi.xml" />
+    <hud_icon filename="hud_engineer_a.png" />
+    <inventory encumbrance="6.0" price="3.0" />
+    <commonness value="1" can_respawn_with="1" in_stock="1"/>
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.45" kill_decay_start_time="0.32" kill_decay_end_time="0.42" />
+    </projectile>
+
+    <stance state_key="running" accuracy="0.45" />
+    <stance state_key="walking" accuracy="0.8" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="prone_moving" accuracy="0.4" />
+
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="0.95" />
+    
+    <modifier class="speed" value="+0.0" />      
+
+</weapon>

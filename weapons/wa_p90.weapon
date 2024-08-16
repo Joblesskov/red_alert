@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="wa_p90.weapon">
+    <tag name="assault" />
+    <specification retrigger_time="0.07" 
+    accuracy_factor="1"
+    spread_range="0.2"
+    sustained_fire_grow_step="0.4" 
+    sustained_fire_diminish_rate="4.0" 
+    magazine_size="50" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="P90" 
+    class="0" 
+    projectile_speed="110.0" />
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, p90" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+	
+    <sound key="fire" fileref="iseaatta.wav" pitch_variety="0.05" volume="0.6" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="p90.xml" />
+
+    <hud_icon filename="hud_seal.png" />
+    <commonness value="1" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="20.0" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.5"/>
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.55" 
+        kill_decay_start_time="0.35" 
+        kill_decay_end_time="0.46" />
+    </projectile>
+    <modifier class="speed" value="+0.1" />
+</weapon>

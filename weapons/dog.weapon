@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="dog.weapon" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0">
+
+    <specification 
+  magazine_size="1"
+  consume="0"  
+  can_shoot_standing="1" 
+  carry_in_two_hands="0" 
+  name="combat dog" 
+  class="5"
+  stab_enabled="0"
+  success_probability="1.0" 
+  suppressed="0"
+  range="2.5"
+  damage="10.0"
+  affect_vehicles="0"
+  character_state="death" />
+
+  
+    <animation state_key="recoil" 			animation_key="dog attack" />
+    <animation state_key="still_against_wall" 			animation_key="dog sit" />
+    <animation state_key="changing_weapon_in" 			animation_key="dog pose" />
+    <animation state_key="changing_weapon_out" 			animation_key="dog pose" />
+    <animation state_key="stabbing"	animation_key="dog stab" />
+        
+    <sound key="effect" fileref="dog_growl_1.wav" pitch_variety="0.05" volume="0.4" />
+    <sound key="effect" fileref="dog_growl_2.wav" pitch_variety="0.05" volume="0.4" />
+    <sound key="effect" fileref="dog_growl_3.wav" pitch_variety="0.05" volume="0.4" />
+    <sound key="effect" fileref="dog_growl_4.wav" pitch_variety="0.05" volume="0.4" />
+
+
+<control key="effect" value="1" />        
+
+     <model  />
+
+    <hud_icon filename="hud_unknown.png" />
+    <commonness value="1.0" />
+    <inventory encumbrance="11.0" price="1.0" in_stock="0"/>
+	
+    <modifier class="speed" value="+0.25" />	
+
+</weapon>

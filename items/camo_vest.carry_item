@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="camo_vest.carry_item" name="Camouflaged Vest" slot="1" transform_on_consume="camo_1" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+        <hud_icon filename="hud_camo_vest.png" />
+        <model mesh_filename="camo_vest.xml" />
+
+        <inventory encumbrance="10" price="30" />
+        <commonness value="1" in_stock="1" can_respawn_with="1" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.5" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="speed" value="-0.06" /> 
+		<modifier class="detectability" value="-0.15" />
+		<modifier class="hit_success_probability" value="+0.10" />
+    </carry_item>
+
+    <carry_item key="camo_1" name="Camouflaged Vest, 80%" slot="1" transform_on_consume="camo_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+        <hud_icon filename="hud_camo_vest_80.png" />
+        <model mesh_filename="camo_vest.xml" />
+
+        <inventory encumbrance="8" price="20" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.5" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="speed" value="-0.06" /> 
+		<modifier class="detectability" value="-0.15" />
+		<modifier class="hit_success_probability" value="+0.10" />
+    </carry_item>
+
+    <carry_item key="camo_2" name="Camouflaged Vest, 50%" slot="1" transform_on_consume="camo_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+        <hud_icon filename="hud_camo_vest_50.png" />
+        <model mesh_filename="camo_vest.xml" />
+
+        <inventory encumbrance="6" price="8" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.5" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="speed" value="-0.04" />
+		<modifier class="detectability" value="-0.10" />
+		<modifier class="hit_success_probability" value="+0.10" />
+    </carry_item>
+	
+    <carry_item key="camo_3" name="Camouflaged Vest, 20%" slot="1" transform_on_consume="camo_4" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+        <hud_icon filename="hud_camo_vest_20.png" />
+        <inventory encumbrance="5" price="2" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.5" />
+
+        <model mesh_filename="camo_vest.xml" />
+
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="speed" value="-0.02" />
+		<modifier class="detectability" value="-0.05" />
+		<modifier class="hit_success_probability" value="+0.10" />
+    </carry_item>
+	
+    <carry_item key="camo_4" name="Camouflaged Vest, destroyed" slot="1" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+        <hud_icon filename="hud_camo_vest_1.png" />
+        <model mesh_filename="camo_vest.xml" />
+
+        <inventory encumbrance="5" price="1" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.5" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+    </carry_item>
+</carry_items>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="wa_javelin.weapon" >
+    <tag name="bazooka" />
+    <specification 
+        retrigger_time="-1.0" 
+        accuracy_factor="1.0" 
+        sustained_fire_grow_step="0.4" 
+        sustained_fire_diminish_rate="0.2" 
+        magazine_size="1" 
+        can_shoot_standing="1" 
+        can_shoot_crouching="1" 
+        suppressed="0" 
+        name="Javelin" 
+        class="3" 
+        reload_one_at_a_time="1"  
+        sight_range_modifier="1.2" 
+        projectile_speed="100.0" 
+        slot="1" 
+        projectiles_per_shot="1" 
+    />
+        
+    <animation key="recoil" ref="40" />
+    <animation key="cycle" ref="30" />
+    <animation key="reload" ref="35" />
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+    <sound key="fire" fileref="iggiat2a.wav" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="javelin.xml" />
+    
+    <ballistics curve_height="8.0" near_far_distance="4.0" speed_estimation_near="70.0" speed_estimation_far="70.0" max_speed="70.0" randomness="0.0" tweak_factor="1.55" /> 
+
+    <projectile file="javelin.projectile" />
+    <weak_hand_hold offset="-0.35" />
+
+    <capacity value="2" source="rank" source_value="0.0" />
+    <capacity value="3" source="rank" source_value="0.05" />
+    <capacity value="4" source="rank" source_value="0.1" />
+    <capacity value="5" source="rank" source_value="0.4" />   
+    <capacity value="6" source="rank" source_value="0.5" />       
+
+    <hud_icon filename="hud_javelin.png" />
+    <commonness value="1" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="6.0" price="5.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+    <stance state_key="running" accuracy="0.5" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="prone_moving" accuracy="1.0" />
+
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" />
+    <modifier class="speed" value="-0.2" />
+</weapon>

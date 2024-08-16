@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item file="vest_plate_healthy.carry_item" key="vest_plate.carry_item" name="Plate" transform_on_consume="vest_plate_2">
+		<hud_icon filename="hud_vest_plate.png" />
+		<inventory encumbrance="11" price="40" /> 
+		<commonness value="1.0" in_stock="1" can_respawn_with="1" />
+	</carry_item>
+	
+	<carry_item file="vest_plate_healthy.carry_item" key="vest_plate_2" name="Plate, 90%" transform_on_consume="vest_plate_3"><hud_icon filename="hud_vest_plate_90.png" /></carry_item>
+	<carry_item file="vest_plate_healthy.carry_item" key="vest_plate_3" name="Plate, 80%" transform_on_consume="vest_plate_4"><hud_icon filename="hud_vest_plate_80.png" /></carry_item>
+	<carry_item file="vest_plate_healthy.carry_item" key="vest_plate_4" name="Plate, 70%" transform_on_consume="vest_plate_5"><hud_icon filename="hud_vest_plate_70.png" /></carry_item>
+	<carry_item file="vest_plate_healthy.carry_item" key="vest_plate_5" name="Plate, 60%" transform_on_consume="vest_plate_6"><hud_icon filename="hud_vest_plate_60.png" /></carry_item>
+	<carry_item file="vest_plate_healthy.carry_item" key="vest_plate_6" name="Plate, 50%" transform_on_consume="vest_plate_7"><hud_icon filename="hud_vest_plate_50.png" /></carry_item>
+	
+	<carry_item file="vest_plate_damaged.carry_item" key="vest_plate_7" name="Plate, 40%" transform_on_consume="vest_plate_8"><hud_icon filename="hud_vest_plate_40.png" /></carry_item>
+	<carry_item file="vest_plate_damaged.carry_item" key="vest_plate_8" name="Plate, 30%" transform_on_consume="vest_plate_9"><hud_icon filename="hud_vest_plate_30.png" /></carry_item>
+	<carry_item file="vest_plate_damaged.carry_item" key="vest_plate_9" name="Plate, 20%" transform_on_consume="vest_plate_10"><hud_icon filename="hud_vest_plate_20.png" /></carry_item>
+	
+	<carry_item file="vest_plate_damaged.carry_item" key="vest_plate_10" name="Plate, 10%">
+		<hud_icon filename="hud_vest_plate_10.png" />
+		<inventory encumbrance="7" price="1" /> 
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+		<modifier class="speed" value="-0.05" />
+		<modifier class="detectability" value="+0.06" />
+		<modifier class="hit_success_probability" value="-0.02" />
+	</carry_item>
+</carry_items>

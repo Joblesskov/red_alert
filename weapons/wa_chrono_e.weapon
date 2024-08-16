@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wa_chrono.weapon" key="wa_chrono_e.weapon">
+    <specification 
+        retrigger_time="0.1" 
+        spread_range="0.12"
+        sustained_fire_grow_step="0.12"
+        name="Neutron Microgun (Elite)" 
+        magazine_size="20"
+        burst_shots="20"
+    />
+    <projectile file="neutron.projectile">
+        <result damage="1.21"/>
+    </projectile>
+    
+    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
+    <inventory price="240.0" />
+    <capacity value="0" source="rank" source_value="2.0"/>
+    <capacity value="1" source="rank" source_value="6.0"/>
+    <hud_icon filename="hud_chrono_e.png" />
+</weapon>
+

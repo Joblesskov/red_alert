@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="virus cloud" key="virus_cloud.projectile" slot="2" radius="0.15" can_be_detected_by_driver="0" can_be_detected_by_footmen="0">
+    <tag name="grenade" />
+    <trigger class="time" time_to_live="0.0"/>
+    <result class="spawn" 
+        instance_class="grenade" 
+        instance_key="virus_cloud_sub.projectile" 
+        min_amount="6" 
+        max_amount="8" 
+        offset="0 6 0" 
+        position_spread="3 -6" 
+        direction_spread="0.0 0.0" />   
+
+    <rotation class="random" />
+    <throwable near_far_distance="100.0" speed_estimation_near="10.0" speed_estimation_far="10.0" max_speed="10.0" randomness="0.0" />
+
+    <model />
+    <hud_icon />
+
+    <sound class="result" key="other" fileref="gvirexpa.wav" volume="0.5" />
+    <sound class="result" key="other" fileref="gvirexpb.wav" volume="0.5" />
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+</projectile>

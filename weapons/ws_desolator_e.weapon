@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="ws_desolator.weapon" key="ws_desolator_e.weapon">
+    <specification 
+	retrigger_time="1.2"
+	sustained_fire_diminish_rate="0.83" 
+	magazine_size="10" 
+	can_shoot_standing="1" 
+	suppressed="1" 
+	name="Rad Cannon (Elite)"
+    projectiles_per_shot="1" 
+	sight_range_modifier="1.35" />
+    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
+    <inventory price="180.0" />
+    <capacity value="0" source="rank" source_value="0.8"/>
+    <capacity value="1" source="rank" source_value="2.4"/>
+    <hud_icon filename="hud_desolator_e.png" />
+	<projectile file="desolator_bullet_e.projectile" />
+</weapon>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="wy_yuri.weapon">
+    <tag name="sniper" />
+
+    <specification 
+		retrigger_time="3" 
+		accuracy_factor="1.1" 
+		sustained_fire_grow_step="0.0" 
+		sustained_fire_diminish_rate="0.1" 
+		magazine_size="100" 
+		can_shoot_standing="1" 
+		can_shoot_crouching="1"
+		can_shoot_prone="0"
+    	carry_in_two_hands="0"
+		suppressed="1" 
+		name="Yuri" 
+		class="2" 
+		projectile_speed="120.0" 
+		barrel_offset_3d="0 1.2 -0.1" 
+		sight_range_modifier="1.5"
+		spread_range="0"/>
+
+    <ballistics curve_height="6.0" near_far_distance="4.0" speed_estimation_near="500.0" speed_estimation_far="500.0" max_speed="500.0" randomness="0.0" tweak_factor="11" /> 
+    
+    <animation state_key="recoil" animation_key="still, yuri" />
+    <animation state_key="cycle" animation_key="cycle, yuri" />
+    <animation state_key="reload" animation_key="still, yuri" />
+
+    <animation state_key="hold" animation_key="still, yuri" />
+    <animation state_key="hold_on_wall" animation_key="still, yuri" />
+    <animation state_key="hold_casual" animation_key="still, yuri" />
+    <animation state_key="crouching" animation_key="crouch still, yuri" />
+    <animation state_key="prone_still" animation_key="still, yuri" />
+    
+    <animation state_key="running" animation_key="moving, yuri" />
+    <animation state_key="walking" animation_key="moving, yuri" />
+    <animation state_key="walking_backwards" animation_key="moving, yuri" />
+    <animation state_key="crouch_moving" animation_key="crouch still, yuri" />
+    <animation state_key="crouch_moving_backwards" animation_key="crouch still, yuri" />
+
+    <sound key="fire" fileref="iyurat1a.wav" pitch_variety="0.1"/>
+
+    <model filename="" />
+
+    <projectile file="alpha_wave.projectile">
+        <effect class="result" key="terrain" ref="AlphaWaveWoosh3" />
+        <effect class="result" key="other" copy="terrain" /> 
+    </projectile>
+
+    <hud_icon filename="hud_yuri.png" />
+    <commonness value="1" can_respawn_with="0" in_stock="1" />
+    <inventory encumbrance="10.0" price="250.0" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="10.0"/>
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <modifier class="speed" value="+0.1" />
+    <modifier class="detectability" value="+0.1" />
+
+    <shield offset="-0.3 -1.0 0.4" extent="0.3 0.8 1.0" usable_for_cover="0"/>
+    <shield offset="-0.0 -1.0 -0.2" extent="0.6 0.8 0.3" usable_for_cover="0"/>
+    <shield offset="-0.0 -1.0 1.0" extent="0.6 0.8 0.3" usable_for_cover="0"/>
+</weapon>

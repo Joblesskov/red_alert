@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wy_mind_control.weapon" key="wy_mind_control_e.weapon">
+    <specification 
+        retrigger_time="3"
+        name="Mind Control (Elite)" 
+        sight_range_modifier="1.4" />
+    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
+    <inventory price="240.0" />
+    <capacity value="0" source="rank" source_value="2.0"/>
+    <capacity value="1" source="rank" source_value="6.0"/>
+    <hud_icon filename="hud_psicorp_e.png" />
+    <modifier class="detectability" value="-0.1" />    
+
+    <projectile file="alpha_wave.projectile">
+        <effect class="result" key="terrain" ref="AlphaWaveWoosh2" />
+        <effect class="result" key="other" copy="terrain" /> 
+    </projectile>
+</weapon>
+

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call file="paratroopers1.call" />
+	<call file="paratroopers2.call" />
+</calls>
