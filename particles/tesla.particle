@@ -35,7 +35,7 @@ particle_system ShineTesla
 	affector ColourFader
 	{
 		red	-0.7
-		green	-0.7
+		green	-0.8
 		blue	-0.5
 		alpha	0
 	}

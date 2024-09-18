@@ -36,7 +36,7 @@
 
     <hud_icon filename="hud_hornet.png" />
     <commonness value="1" can_respawn_with="0" />
-    <inventory encumbrance="15.0" price="350.0" />
+    <inventory encumbrance="15.0" buy_price="220.0" sell_price="110.0" />
 
     <modifier class="speed" value="-0.4" />
 

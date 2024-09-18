@@ -14,13 +14,21 @@ class VirusSpreading : Tracker {
 		@m_metagame = @metagame;
 	}
 
+
+	array<string> virusKeys = {
+		"wy_virus.weapon",
+		"wy_virus_e.weapon",
+		"virus_cloud_sub.projectile",
+		"toxic_bomb_sub.projectile"
+	};
+
 	protected void handleCharacterKillEvent(const XmlElement@ event) {
 		const XmlElement@ killer = event.getFirstElementByTagName("killer");
 		const XmlElement@ target = event.getFirstElementByTagName("target");
         string killKey = event.getStringAttribute("key");
 		string targetGroup = target.getStringAttribute("soldier_group_name");
 
-		bool checkKey = killKey == "wy_virus.weapon" || killKey == "wy_virus_e.weapon" || killKey =="virus_cloud_sub.projectile";
+		bool checkKey = (virusKeys.find(killKey) != -1);
 		bool checkGroup = targetGroup != "virus";
 		if (killer !is null && target !is null && checkKey && checkGroup) {
 			

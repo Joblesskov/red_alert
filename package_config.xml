@@ -4,7 +4,7 @@
     description="Is it done, Yuri?&#xA;No, Comrade Premier. It has only begun."
     image="ra2.png"
     show_in_campaigns="1"
-    show_in_quick_match_mods="0"
+    show_in_quick_match_mods="1"
     campaign_entry_script="start_campaign.as">
     <campaign_options 
 		faction="1" 

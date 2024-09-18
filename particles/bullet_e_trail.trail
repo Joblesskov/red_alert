@@ -4,6 +4,6 @@ material="BulletEliteTrail"
 max_chains = "3"
 trail_length="15.0"
 intensity_range="0.4 0.8"
-initial_width_range="0.15 0.15"
-width_change="8.0"
+initial_width_range="0.3 0.3"
+width_change="12.0"
 />

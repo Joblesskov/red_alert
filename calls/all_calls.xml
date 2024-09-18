@@ -1,5 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <calls>
-	<call file="paratroopers1.call" />
-	<call file="paratroopers2.call" />
+	<call file="paratroopers1a.call" />
+	<call file="paratroopers2a.call" />
+	<call file="paratroopers1s.call" />
+	<call file="paratroopers2s.call" />
+	<call file="paratroopers1y.call" />
+	<call file="paratroopers2y.call" />
+	<call file="tanka.call" />
+	<call file="tanks.call" />
+	<call file="tanky.call" />
+	<call file="apca.call" />
+	<call file="apcs.call" />
+	<call file="apcy.call" />
+
+	<call file="harrier.call" />
+	<call file="black_eagle.call" />
+	<call file="nighthawk.call" />
+	<call file="aircraft_carrier.call" />
+
+	<call file="siege_chopper.call" />
+	<call file="dreadnought.call" />
+	<call file="mig.call" />
+
+	<call file="disc.call" />
+	<call file="toxic_strike.call" />
+	<call file="genetic_strike.call" />
 </calls>

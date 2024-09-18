@@ -50,6 +50,10 @@
 #include "ra2_command_handler.as"
 #include "mind_control.as"
 #include "virus_spreading.as"
+#include "nighthawk.as"
+#include "aircraft_carrier.as"
+#include "disc.as"
+#include "mutation.as"
 
 // --------------------------------------------
 class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
@@ -339,6 +343,10 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(RA2CommandHandler(this));
 		addTracker(MindControl(this));
 		addTracker(VirusSpreading(this));
+		addTracker(NighthawkGunRun(this));
+		addTracker(AircraftCarrierGunRun(this));
+		addTracker(DiscGunRun(this));
+		addTracker(Mutation(this));
 	}
 
 	// --------------------------------------------
@@ -543,30 +551,27 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 	protected void setupCallMarkers() {
 		// if you're adding a call here, make sure it has notify_metagame="1" in it's <call> tag
 		array<CallMarkerConfig@> configs = {
-			//CallMarkerConfig(string key, int atlasIndex = 0, float size = 2.0, float range = 1.0, string text = "")
-			CallMarkerConfig("mortar1.call", "call_marker", 6, 0.5, 30.0),
-//			CallMarkerConfig("mortar2.call", "call_marker", 7, 0.5, 50.0),            // remplaced in 1.77 with cluster bomb
-            CallMarkerConfig("cluster_bomb.call", "call_marker", 7, 0.5, 35.0),
-			CallMarkerConfig("artillery1.call", "call_marker", 8, 1.0, 65.0),   // was 90 size before 1.83
-			CallMarkerConfig("artillery2.call", "call_marker", 9, 1.0, 82.0),   // was 90 size before 1.83
-			CallMarkerConfig("paratroopers1.call", "call_marker_drop", 10, 0.5),
-			CallMarkerConfig("paratroopers2.call", "call_marker_drop", 11, 0.5),
-			CallMarkerConfig("paratroopers_medic.call", "call_marker_drop", 14, 0.5),            
-			CallMarkerConfig("humvee.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("humvee_alt.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("vfs_alt.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("buggy.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("buggy_alt.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("supply_quad.call", "call_marker_drop", 13, 0.5),
-			CallMarkerConfig("supply_quad_alt.call", "call_marker_drop", 13, 0.5),
-			CallMarkerConfig("tank.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("tank_alt.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("cover_drop.call", "call_marker_drop", 13, 0.5),
-            //CallMarkerConfig("a10_gun_run.call", "call_marker", 4, 0.5) //handled in a10_gun_run.as
-            CallMarkerConfig("gunship_run.call", "call_marker", 4, 0.5, 58),
-			CallMarkerConfig("gunship_run2.call", "call_marker", 4, 0.5, 58),
-			CallMarkerConfig("rubber_boat.call", "call_marker_drop", 12, 0.5),
-			CallMarkerConfig("rubber_boat_alt.call", "call_marker_drop", 12, 0.5)
+			CallMarkerConfig("paratroopers1a.call", "call_marker_drop", 10, 0.5),
+			CallMarkerConfig("paratroopers1s.call", "call_marker_drop", 10, 0.5),
+			CallMarkerConfig("paratroopers1y.call", "call_marker_drop", 10, 0.5),
+			CallMarkerConfig("paratroopers2a.call", "call_marker_drop", 11, 0.5),
+			CallMarkerConfig("paratroopers2s.call", "call_marker_drop", 11, 0.5),
+			CallMarkerConfig("paratroopers2y.call", "call_marker_drop", 11, 0.5),
+			CallMarkerConfig("tanka.call", "call_marker_drop", 12, 0.5),
+			CallMarkerConfig("tanks.call", "call_marker_drop", 12, 0.5),
+			CallMarkerConfig("tanky.call", "call_marker_drop", 12, 0.5),
+			CallMarkerConfig("apca.call", "call_marker_drop", 12, 0.5),
+			CallMarkerConfig("apcs.call", "call_marker_drop", 12, 0.5),
+			CallMarkerConfig("apcy.call", "call_marker_drop", 12, 0.5),
+			CallMarkerConfig("harrier.call", "call_marker", 7, 0.5, 10.0),
+			CallMarkerConfig("black_eagle.call", "call_marker", 7, 0.5, 10.0),
+			CallMarkerConfig("mig.call", "call_marker", 7, 0.5, 10.0),
+			CallMarkerConfig("nighthawk.call", "call_marker", 14, 0.5, 58),
+			CallMarkerConfig("disc.call", "call_marker", 4, 0.5, 58),
+			CallMarkerConfig("toxic_strike.call", "call_marker", 8, 1.0, 35.0),
+			CallMarkerConfig("genetic_strike.call", "call_marker", 8, 1.0, 35.0),
+			CallMarkerConfig("siege_chopper.call", "call_marker", 9, 1.0, 30.0),
+			CallMarkerConfig("dreadnought.call", "call_marker", 9, 1.0, 35.0)
 			};
 
 		addTracker(CallMarkerTracker(this, configs));

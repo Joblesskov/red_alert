@@ -3,9 +3,11 @@
 red alert
 	<text key="AEK-919k" text="AEK-919k冲锋枪" />
 	<text key="AKM" text="AKM突击步枪" />
+	<text key="AKM (AP)" text="AKM突击步枪 (穿甲)" />
 	<text key="AWP" text="AWP狙击步枪" />
 	<text key="AWP (Elite)" text="AWP狙击步枪 (精英)" />
 	<text key="Colt M1911" text="克尔特M1911" />
+	<text key="Colt M1911 (Precision)" text="克尔特M1911 (精确)" />
 	<text key="Fist" text="拳头" />
 	<text key="Fist (Elite)" text="拳头 (精英)" />
 	<text key="Flak Gun" text="便携高射炮" />
@@ -46,16 +48,83 @@ red alert
 	<text key="psychic blast" text="心灵冲击" />
 	<text key="rad eruption" text="放射场爆发" />
 
+	<text key="unarmored" text="无甲" />
 	<text key="black ops vest" text="夜行特战服"/> 
-	<text key="black ops vest, damaged" text="夜行特战服，受损"/> 
-	<text key="black ops vest, destroyed" text="夜行特战服，损坏"/> 
+	<text key="black ops vest, 80&#37;" text="夜行特战服，80&#37;"/> 
+	<text key="black ops vest, 60&#37;" text="夜行特战服，60&#37;"/> 
+	<text key="black ops vest, 40&#37;" text="夜行特战服，40&#37;"/> 
+	<text key="black ops vest, 20&#37;" text="夜行特战服，20&#37;"/> 
+	<text key="black ops vest, destroyed" text="夜行特战服，已损坏"/> 
 	<text key="EOD armor, 80&#37;" text="防爆服，80&#37;" />
 	<text key="EOD armor, 60&#37;" text="防爆服，60&#37;" />
 	<text key="EOD armor, 40&#37;" text="防爆服，40&#37;" />
 	<text key="EOD armor, 20&#37;" text="防爆服，20&#37;" />
 	<text key="EOD armor, destroyed" text="防爆服，已损坏" />
 	<text key="Plate" text="金属护甲" />
+	<text key="Plate, 90&#37;" text="金属护甲, 90&#37;" />
+	<text key="Plate, 80&#37;" text="金属护甲, 80&#37;" />
+	<text key="Plate, 70&#37;" text="金属护甲, 70&#37;" />
+	<text key="Plate, 60&#37;" text="金属护甲, 60&#37;" />
+	<text key="Plate, 50&#37;" text="金属护甲, 50&#37;" />
+	<text key="Plate, 40&#37;" text="金属护甲, 40&#37;" />
+	<text key="Plate, 30&#37;" text="金属护甲, 30&#37;" />
+	<text key="Plate, 20&#37;" text="金属护甲, 20&#37;" />
+	<text key="Plate, 10&#37;" text="金属护甲, 10&#37;" />
 	<text key="Thick Skin" text="基因改造" />
+	<text key="Thick Skin, 90&#37;" text="基因改造, 90&#37;" />
+	<text key="Thick Skin, 80&#37;" text="基因改造, 80&#37;" />
+	<text key="Thick Skin, 70&#37;" text="基因改造, 70&#37;" />
+	<text key="Thick Skin, 60&#37;" text="基因改造, 60&#37;" />
+	<text key="Thick Skin, 50&#37;" text="基因改造, 50&#37;" />
+	<text key="Thick Skin, 40&#37;" text="基因改造, 40&#37;" />
+	<text key="Thick Skin, 30&#37;" text="基因改造, 30&#37;" />
+	<text key="Thick Skin, 20&#37;" text="基因改造, 20&#37;" />
+	<text key="Thick Skin, 10&#37;" text="基因改造, 10&#37;" />
+	
+    <text key="Grizzly Tank" text="灰熊坦克" /> 
+    <text key="Rhino Tank" text="犀牛坦克" /> 
+    <text key="Lasher Tank" text="狂风坦克" /> 
+    <text key="IFV" text="步兵战车" /> 
+    <text key="Flak Track" text="防空履带车" /> 
+    <text key="Gattling Tank" text="加特林坦克" /> 
+
+    <text key="Aircraft Carrier Support" text="航空母舰支援" /> 
+    <text key="Requesting aircraft carrier support" text="请求航母支援" /> 
+    <text key="IFV Teleportation" text="传送步兵战车" /> 
+    <text key="I need light combat vehicle" text="我需要轻型战车" /> 
+    <text key="Chronosphere ready." text="超时空传送就绪" /> 
+    <text key="Flak Track Airdrop" text="空投防空履带车" /> 
+    <text key="Airdropping vehicle now." text="正在空投载具。" /> 
+    <text key="Gattling Tank Airdrop" text="空投加特林坦克" /> 
+    <text key="Black Eagle Air Strike" text="黑鹰战机空袭" /> 
+    <text key="Requesting Black Eagle air strike" text="请求黑鹰战机空袭" /> 
+    <text key="Gunner in position." text="炮手已就位" /> 
+    <text key="Floating Disc Air Support" text="幽浮支援" /> 
+    <text key="Requesting Floating Disc air support" text="请求幽浮支援" /> 
+    <text key="Levitation units online." text="悬浮单位在线" /> 
+    <text key="Dreadnought Support" text="导弹战舰支援" /> 
+    <text key="Requesting Dreadnought fire support" text="请求导弹战舰支援" /> 
+    <text key="Cruise and fire." text="巡游开火" /> 
+    <text key="Genetic Strike" text="基因空袭" /> 
+    <text key="Requesting genetic strike" text="请求基因空袭" /> 
+    <text key="Harrier Air Strike" text="入侵者战机空袭" /> 
+    <text key="Requesting Harrier air strike" text="请求入侵者战机空袭" /> 
+    <text key="Ready to strike." text="准备攻击" /> 
+    <text key="MIG Air Strike" text="米格战机空袭" /> 
+    <text key="Requesting MIG air strike" text="请求米格战机空袭" /> 
+    <text key="MIGs on the way." text="战机正在前往" /> 
+    <text key="Nighthawk Air Support" text="夜鹰直升机支援" /> 
+    <text key="Requesting Nighthawk air support" text="请求夜鹰直升机支援" /> 
+    <text key="Tour underway." text="航行中" /> 
+    <text key="Siege Chopper Fire Support" text="攻城直升机火力支援" /> 
+    <text key="Requesting Siege Chopper fire support" text="请求攻城直升机火力支援" /> 
+    <text key="Coordinates confirmed." text="坐标已确认" /> 
+    <text key="Grizzly Tank Teleportation" text="传送灰熊坦克" /> 
+    <text key="I need tank" text="我需要坦克" /> 
+    <text key="Rhino Tank Airdrop" text="空投犀牛坦克" /> 
+    <text key="Lasher Tank Airdrop" text="空投狂风坦克" /> 
+	<text key="Toxic Strike" text="剧毒空袭" />
+	<text key="Requesting toxic strike" text="请求剧毒空袭" />
 
 vanilla
 	<text key="Private" text="列兵" />

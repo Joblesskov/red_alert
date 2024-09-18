@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="genetic_strike.call"
+	radio_view_text="Genetic Strike" 
+    initiation_comment1="Requesting genetic strike"
+    acknowledge_comment="Roger."
+    notify_metagame="1" >
+
+	<round instances="12"
+		instance_class="grenade"
+		instance_key="genobomb.projectile" 
+		instance_spread="10 40 10" 
+		common_spread="0 0 0" 
+		launch_time="2.0"
+		spawn_time="4.0">
+		<sound class="launch" fileref="ibruatd.wav" />
+		<sound class="spawn" fileref="woosh1.wav" />
+	</round>
+
+	<round instances="12"
+		instance_class="grenade"
+		instance_key="genobomb.projectile" 
+		instance_spread="10 20 10" 
+		common_spread="0 0 0" 
+		launch_time="6.0"
+		spawn_time="6.0">
+		<sound class="spawn" fileref="woosh1.wav" />
+	</round>
+
+    <hud_icon filename="call_genetic_strike.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.6" />
+    <inventory encumbrance="0.0" price="150.0" />
+
+</call>

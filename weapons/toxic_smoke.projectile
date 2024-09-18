@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="toxic smoke" key="toxic_smoke.projectile" slot="2" pulldown_in_air="20">
+    <tag name="grenade" />
+    <trigger class="impact" />
+    <result class="spawn" 
+        instance_class="grenade" 
+        instance_key="virus_cloud_sub.projectile" 
+        min_amount="9" 
+        max_amount="12" 
+        offset="0 16 0" 
+        position_spread="5 -15" 
+        direction_spread="0.0 0.0" />   
+
+    <rotation class="random" />
+    
+    <model />
+    <hud_icon />
+</projectile>

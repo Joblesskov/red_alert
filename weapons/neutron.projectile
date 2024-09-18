@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="neutron" slot="1" pulldown_in_air="5.0" key="neutron.projectile">
-    <tag name="rocket"/>
     <result class="blast" radius="2" damage="1.01" push="0" decal="1" faction_compare="not_equal" />
     <trigger class="impact" />
     <rotation class="motion" />

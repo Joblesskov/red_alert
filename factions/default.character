@@ -517,7 +517,7 @@
 	</dialogue>       
   
  	<dialogue key="vehicle dialogue 2 men">
-		<comment text="Might have to go back to the armory" />
+		<comment text="MIGht have to go back to the armory" />
 		<comment text="Why?" />
 		<comment text="I forgot my vest" />    
 	</dialogue> 

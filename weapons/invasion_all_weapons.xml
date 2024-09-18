@@ -23,6 +23,10 @@ Vehicle
     <weapon file="vw_grizzly_cannon.weapon" />
     <weapon file="vw_rhino_cannon.weapon" />
     <weapon file="vw_lasher_cannon.weapon" />
+    <weapon file="vw_flak.weapon" />
+    <weapon file="vw_hover_missile.weapon" />
+    <weapon file="vw_gattling_ap.weapon" />
+    <weapon file="vw_gattling.weapon" />
 
     <weapon file="apc_hmg.weapon" />
     <weapon file="apc_hmg_1.weapon" />
@@ -48,6 +52,7 @@ Allied Forces
     <weapon file="wa_chrono.weapon" />
     <weapon file="wa_chrono_e.weapon" />
     <weapon file="wa_colt_m1911.weapon" />
+    <weapon file="wa_colt_m1911_1.weapon" />
     <weapon file="wa_javelin.weapon" />
     <weapon file="wa_m60.weapon" />
     <weapon file="wa_m60_e.weapon" />
@@ -64,6 +69,7 @@ Allied Forces
 Soviet Union
     <weapon file="ws_aek_919k.weapon" />
     <weapon file="ws_akm.weapon" />
+    <weapon file="ws_akm_1.weapon" />
     <weapon file="ws_desolator.weapon" />
     <weapon file="ws_desolator_e.weapon" />
     <weapon file="ws_dynamite_resource.weapon" />

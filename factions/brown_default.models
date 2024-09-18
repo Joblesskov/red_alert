@@ -35,6 +35,9 @@
 	<model filename="soldier_s_boris.xml">
 		<requirement class="weapon" slot="0" key="ws_akm.weapon"/>
 	</model>
+	<model filename="soldier_s_boris.xml">
+		<requirement class="weapon" slot="0" key="ws_akm_1.weapon"/>
+	</model>
 
 	<model filename="soldier_s_gi.xml">
 		<requirement class="weapon" slot="0" key="wa_ump40.weapon"/>
@@ -83,6 +86,9 @@
 	</model>
 	<model filename="soldier_s_tanya.xml">
 		<requirement class="weapon" slot="0" key="wa_colt_m1911.weapon"/>
+	</model>
+	<model filename="soldier_s_tanya.xml">
+		<requirement class="weapon" slot="0" key="wa_colt_m1911_1.weapon"/>
 	</model>
 	
 	<model filename="soldier_s_initiate.xml">

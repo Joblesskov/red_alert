@@ -13,7 +13,7 @@
     
 
     <model />
-    <hud_icon filename="hud_grenade.png" />
+    <hud_icon filename="hud_psychic_blast.png" />
     <sound class="result" key="other" fileref="iyurat2a.wav" volume="1.2" />
     <sound class="result" key="terrain" copy="other" />
     <sound class="result" key="static_object" copy="other" />
@@ -24,8 +24,9 @@
 
     <commonness value="1.0" />
     <capacity value="0" source="rank" source_value="0.0" /> 
-    <capacity value="6" source="rank" source_value="2.0" /> 
-    <inventory encumbrance="3.0" price="3.0" in_stock="1" />
+    <capacity value="4" source="rank" source_value="2.0" /> 
+    <capacity value="6" source="rank" source_value="6.0" /> 
+    <inventory encumbrance="3.0" price="2.0" in_stock="1" />
     
     <effect class="result" key="terrain" ref="PsychicBlast" />
     <effect class="result" key="other" copy="terrain" /> 

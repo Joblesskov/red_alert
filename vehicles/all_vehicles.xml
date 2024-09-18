@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
-  <vehicle file="invasion_all_weapons.xml" />	
+  <vehicle file="invasion_all_vehicles.xml" />	
 </vehicles>

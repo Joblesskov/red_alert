@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="nighthawk.call"
+	radio_view_text="Nighthawk Air Support" 
+	initiation_comment1="Requesting Nighthawk air support"
+	acknowledge_comment="Roger."
+	launch_comment="Tour underway."
+	notify_metagame="1" >
+	
+	<round 
+	   instances="0"
+	   instance_class="projectile"
+	   instance_key=""
+	   launch_time="5.0"
+	   spawn_time="18.0">
+	   <effect class="launch" ref="ShadowAirplaneCircleApproach" shadow="1" />
+	   <sound class="launch" fileref="vblhmoc.wav" />
+	</round>
+
+    <round instances="5"
+		instance_class="soldier"
+		instance_key="seal"
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="5.0"
+		spawn_time="11.0">
+    </round>
+
+	<round launch_time="11.0"
+	   spawn_time="18.0">
+	   <effect class="launch" ref="ShadowAirplaneCircle" shadow="1" />
+	</round>
+
+	<round launch_time="31.0"
+	   spawn_time="31.0">
+	   <effect class="launch" ref="ShadowAirplaneCircleLeave" shadow="1" />
+	</round>
+
+	<hud_icon filename="call_nighthawk.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="1.0" />
+	<inventory encumbrance="0.0" price="300.0" />
+
+</call>

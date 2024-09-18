@@ -21,7 +21,7 @@
         <inventory encumbrance="0" price="0" />
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="none" output_character_state="stun" consumes_item="0" />

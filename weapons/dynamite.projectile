@@ -5,11 +5,10 @@ class="grenade"
 name="dynamite" 
 key="dynamite.projectile" 
 slot="0" 
-can_be_disarmed="1" 
 can_be_detected_by_driver="0" 
 drop_count_limit_in_range="1">
 
-    <result class="blast" radius="7.5" damage="8.1" push="2.0" decal="1" character_state="death" />
+    <result class="blast" radius="8.0" damage="5.01" push="2.0" decal="1" character_state="death" />
     <collision class="sticky" />
     <trigger class="time" time_to_live="5.0"/>
 
@@ -21,12 +20,13 @@ drop_count_limit_in_range="1">
     <throwable curve_height="4.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="15.0" randomness="0.01"  tweak_factor="1.4"/>
 
     <commonness value="1" can_respawn_with="1" in_stock="1"/>
-    <inventory encumbrance="4.0" price="8.0" />
+    <inventory encumbrance="4.0" price="5.0" />
 
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.1" />
     <capacity value="2" source="rank" source_value="0.15" />
     <capacity value="3" source="rank" source_value="0.2" />
+    <capacity value="4" source="rank" source_value="0.4" />
 
     <sound class="result" key="other" fileref="gexpcraa.wav" volume="1.5" />
     

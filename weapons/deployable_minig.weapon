@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="deployable_minig.weapon"
+	ai_burst_time="3" 
+	ai_burst_time_variance="0.6" 
+	ai_burst_wait_time="0.5" 
+	ai_burst_wait_time_variance="0.4">
+	
+    <specification retrigger_time="0.04" 
+    accuracy_factor="0.8" 
+    sustained_fire_grow_step="0.014" 
+    sustained_fire_diminish_rate="0.2" 
+    spread_range="0.35"
+    sight_range_modifier="1.2"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="Minigun" 
+    class="0" 
+    projectile_speed="105.0" 
+    slot="2" 
+    barrel_offset="0" 
+    barrel_offset_3d="0 0.2 1.1"
+    projectiles_per_shot="1"
+    sight_height_offset="2.0" 
+    cooldown_start="0.6"
+    cooldown_end="0.0"	/>
+
+    <model mesh_filename="deployable_migu.mesh" texture_filename="deployable_mg.png" />
+    <hud_icon filename="hud_minigun.png" />
+    <commonness value="0.0" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="40.0" />    
+  
+    <projectile file="50cal_bullet.projectile">
+        <result class="hit" kill_probability="0.75" kill_decay_start_time="0.25" kill_decay_end_time="0.7" />
+    </projectile>
+
+    <effect class="muzzle" ref="BigMuzzle" />
+
+    <sound class="operation" key="fire" fileref="minigun_shot.wav" pitch_variety="0.05" volume="0.75"/>
+    <sound key="cooldown" fileref="overheating_mg.wav" volume="0.5"/>	
+    
+<!-- mid plate -->    
+    <shield offset="-0.2 0 0" extent="0.2 0.3 0.5" />
+<!-- front-L plate -->    
+    <shield offset="-0.2 0.1 0.15" extent="0.2 0.4 0.2" /> 
+<!-- front-R plate -->    
+    <shield offset="-0.2 0.1 -0.15" extent="0.2 0.4 0.2" />        
+
+</weapon>

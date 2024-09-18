@@ -13,7 +13,8 @@
     class="0" 
     projectile_speed="80.0" 
     slot="2" 
-    barrel_offset_3d="0 2.0 3.3" 
+    barrel_offset_3d="0 2.0 3.3"
+    sight_height_offset="1.5"
     projectiles_per_shot="1" />
     <model mesh_filename="grizzly_tank_barl.mesh" texture_filename="grizzly_tank_barl.png" />
     <hud_icon filename="hud_tank_cannon.png" />
@@ -23,7 +24,7 @@
     <projectile file="tank_cannon.projectile">
         <result class="blast" 
             radius="2.5" 
-            damage="2.8" 
+            damage="3.25" 
             push="1.0" 
             decal="1"
             damage_origin_vehicle="0"
@@ -47,5 +48,4 @@
     <effect class="muzzle" ref="CannonSmokeBigSphere" />       
 
     <sound class="operation" key="fire" fileref="vgriatta.wav" volume="1.5" />
-
 </weapon>

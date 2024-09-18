@@ -189,7 +189,7 @@
 	<text key="Save as" text="保存为" />
 	<text key="Presets" text="难度" />
 	<text key="Let's play" text="试玩模式" />
-	<text key="Help:Let's play" text="与简单模式类似，但有一些初始XP和RP。方便游戏主播录制试玩视频。" />
+	<text key="Help:Let's play" text="以1000000rp和xp开始游戏，方便体验全部内容。" />
 	<text key="Easy" text="简单" />
 	<text key="Help:Easy" text="增加友军数量并提高玩家生存几率" />
 	<text key="Hard" text="困难" />

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="disc.call"
+	radio_view_text="Floating Disc Air Support" 
+	initiation_comment1="Requesting Floating Disc air support"
+	acknowledge_comment="Roger."
+	launch_comment="Levitation units online."
+	notify_metagame="1" >
+	
+	<round
+	   launch_time="5.0"
+	   spawn_time="18.0">
+	   <effect class="launch" ref="ShadowAirplaneCircleApproach" shadow="1" />
+	   <sound class="launch" fileref="vflomob.wav" />
+	</round>
+
+	<round launch_time="11.0"
+	   spawn_time="18.0">
+	   <effect class="launch" ref="ShadowAirplaneCircle" shadow="1" />
+	</round>
+
+	<round launch_time="31.0"
+	   spawn_time="31.0">
+	   <effect class="launch" ref="ShadowAirplaneCircleLeave" shadow="1" />
+	</round>
+
+	<hud_icon filename="call_disc.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="1.0" />
+	<inventory encumbrance="0.0" price="240.0" />
+</call>

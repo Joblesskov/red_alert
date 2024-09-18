@@ -2,6 +2,7 @@
 <carry_items>
 vests
 	<carry_item file="god_vest.carry_item" />
+	<carry_item file="unarmored.carry_item" />
 	<carry_item file="vest1.carry_item" />      
 	<carry_item file="vest2.carry_item" /> 
 	<carry_item file="vest3.carry_item" />

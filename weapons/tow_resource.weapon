@@ -37,7 +37,7 @@
 
     <hud_icon filename="hud_tow2.png" />
     <commonness value="1" can_respawn_with="0" />
-    <inventory encumbrance="15.0" price="250.0" />
+    <inventory encumbrance="15.0" buy_price="160.0" sell_price="80.0" />
 
     <modifier class="speed" value="-0.4" />
 

@@ -14,6 +14,7 @@
     projectile_speed="80.0" 
     slot="2" 
     barrel_offset_3d="0 2.0 3.3" 
+    sight_height_offset="1.5"
     projectiles_per_shot="1" />
     <model mesh_filename="rhino_tank_barl.mesh" texture_filename="rhino_tank_barl.png" />
     <hud_icon filename="hud_tank_cannon.png" />
@@ -23,7 +24,7 @@
     <projectile file="tank_cannon.projectile" >
         <result class="blast" 
             radius="2.5" 
-            damage="3.5" 
+            damage="4.5" 
             push="1.0" 
             decal="1"
             damage_origin_vehicle="0"

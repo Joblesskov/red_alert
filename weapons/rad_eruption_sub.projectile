@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="rad eruption" slot="2" key="rad_eruption_sub.projectile" radius="0.15" pulldown_in_air="1" >
+<projectile class="grenade" name="rad eruption" slot="2" key="rad_eruption_sub.projectile" pulldown_in_air="1" >
 
     <trigger class="impact" />
     <result class="blast" 
         radius="14" 
-        damage="0.5" 
+        damage="0.2" 
         push="0.0" 
         decal="1" 
         character_state="death" 

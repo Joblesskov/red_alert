@@ -7,35 +7,37 @@
 
 	<control 
 	max_speed="15.0" 
-	acceleration="10.0" 
-	max_reverse_speed="12.0" 
-	min_health_to_steer="0.8" 
+	acceleration="12.0" 
+	max_reverse_speed="12.0"
 	max_rotation="0.85" 
 	max_water_depth="1.9" 
-	steer_smoothening="0.7" />
+	steer_smoothening="0.7"  
+	gears="1" />
 
 	<physics 
-	max_health="8" 
-	blast_damage_threshold="0.2"
+	max_health="10" 
+	blast_damage_threshold="0.1"
 	mass="12.0" 
     remove_collision_threshold="0.2"
 	extent="3.1 3.3 4.2" 
 	offset="0 0.0 0" 
 	top_offset="0 3.3 0" 
-	collision_model_pos="0 2.1 0" 
+	collision_model_pos="0 2.15 0" 
 	collision_model_extent="4.0 4.2 5.5" 
 	visual_offset="0 0 0" 
 	friction_offset="0.0" 
 	drag_offset="-0.05" /> 
 
-	<turret offset="0 0 0" weapon_key="apc_hmg.weapon" weapon_offset="0 0 0" weapon_recoil="0.1" max_rotation_step="0.00015" />
-
+	<turret offset="0 0 0" weapon_key="vw_hover_missile.weapon" weapon_offset="1 0 0" weapon_recoil="0" max_rotation_step="0.00015" />
+	<turret offset="0 0 0" weapon_key="vw_hover_missile.weapon" weapon_offset="-1 0 0" weapon_recoil="0" max_rotation_step="0.00015" />
+	
 	<visual class="chassis" mesh_filename="ifv.mesh" texture_filename="ifv.png" />
 	<visual class="turret" mesh_filename="ifv_tur.mesh" texture_filename="ifv_tur.png" />
 
 	<character_slot type="driver" position="0.7 0.3 1.0" rotation="0" exit_rotation="1.57" hiding="1" />
-	<character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" />
-
+	<character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" >
+		<turret index="0" /><turret index="1" />
+	</character_slot>
 	<!-- sound handling -->
 	<rev_sound filename="truck_rev0.wav" low_pitch="0.95" high_pitch="1.05" low_rev="0.0" high_rev="0.2" volume="1.0" />
 	<rev_sound filename="truck_rev3.wav" low_pitch="0.7" high_pitch="1.0" low_rev="0.05" high_rev="0.7" volume="1.0" />
@@ -43,7 +45,7 @@
 
 	<sound key="slide" filename="slide_noise.wav" />
 	<sound key="squeal" filename="tire_squeal.wav" />
-	<sound key="ignition" filename="truck_ignition.wav" />
+	<sound key="ignition" filename="vifvseb.wav" />
 	<sound key="turret_rotation" filename="turret_rotation1.wav" />
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />

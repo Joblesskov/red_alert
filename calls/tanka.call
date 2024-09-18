@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="tanka.call"
+	radio_view_text="Grizzly Tank Teleportation" 
+    initiation_comment1="I need tank"
+    acknowledge_comment="Roger."
+    launch_comment="Chronosphere ready."
+    notify_metagame="1" >
+
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="grizzly_tank.vehicle" 
+           instance_spread="0 0 0" 
+           common_spread="0 0 0" 
+           launch_time="3.0"
+           spawn_time="7.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="3.0"
+           initial_speed_to_target="0.0"
+		   avoid_objects="1">
+        <sound class="launch" fileref="schropen.wav" />
+        <sound class="spawn" fileref="schrmov.wav" />
+    </round>
+
+    <hud_icon filename="call_tanka.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.6" />
+    <inventory encumbrance="0.0" price="700.0" />
+</call>

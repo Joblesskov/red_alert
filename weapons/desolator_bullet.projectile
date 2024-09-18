@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="rad beam" slot="1" time_to_live="1.0" pulldown_in_air="4" key="desolator_bullet.projectile">
     <result class="spawn" 
-        instance_class="projectile" 
+        instance_class="grenade" 
         instance_key="desolator_sub.projectile"
         min_amount="3" max_amount="3" 
         offset="0 0 0" 

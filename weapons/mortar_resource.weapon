@@ -34,7 +34,7 @@
 
     <hud_icon filename="hud_mortar.png" />
     <commonness value="1" can_respawn_with="0" />
-    <inventory encumbrance="15.0" price="200.0" />
+    <inventory encumbrance="15.0" buy_price="140.0" sell_price="70.0" />
     
    <modifier class="speed" value="-0.5" />    
 

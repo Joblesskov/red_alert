@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_calls="1">
 	<!-- always load common first; it"s the one that clears the initial weapon resources -->
-Common
+
     <weapon key="binoculars.weapon" />
     <weapon key="riot_shield.weapon" />
     <weapon key="medikit.weapon" />
@@ -18,66 +18,55 @@ Common
 	<weapon key="wrench.weapon"  />
 	<weapon key="wrench_small.weapon" />
 	<weapon key="tracer_dart.weapon" />
-	<carry_item file="god_vest.carry_item" />
-	<carry_item file="vest1.carry_item" />      
-	<carry_item file="vest2.carry_item" /> 
-	<carry_item file="vest3.carry_item" />
-	<carry_item file="vest_exo.carry_item" />
-	<carry_item file="camouflage_suit.carry_item" />
-	<carry_item file="camo_vest.carry_item" />
-	<carry_item file="vest_blackops.carry_item" />	
-	<carry_item file="eodvest.carry_item" /> 
-	<carry_item file="dog.carry_item" />
-    <carry_item file="vest_plate.carry_item" />
-    <carry_item file="vest_thick_skin.carry_item" />
 
-Allied Forces
-    <weapon key="wa_awp.weapon" />
-    <weapon key="wa_awp_e.weapon" />
-    <weapon key="wa_chrono.weapon" />
-    <weapon key="wa_chrono_e.weapon" />
-    <weapon key="wa_colt_m1911.weapon" />
-    <weapon key="wa_javelin.weapon" />
-    <weapon key="wa_m60.weapon" />
-    <weapon key="wa_m60_e.weapon" />
-    <weapon key="wa_mini_uzi.weapon" />
-    <weapon key="wa_mp5sd.weapon" />
-    <weapon key="wa_p90.weapon" />
-    <weapon key="wa_p90_e.weapon" />
-    <weapon key="wa_rocketeer.weapon" />
-    <weapon key="wa_rocketeer_e.weapon" />
-    <weapon key="wa_stoner_lmg.weapon" />
-    <weapon key="wa_stoner_lmg_e.weapon" />
-    <weapon key="wa_ump40.weapon" />
-    <weapon key="wa_ump40_e.weapon" />
+	<carry_item key="god_vest.carry_item" />
+	<carry_item key="unarmored.carry_item" />
+	<carry_item key="vest1.carry_item" />      
+	<carry_item key="vest2.carry_item" /> 
+	<carry_item key="vest3.carry_item" />
+	<carry_item key="vest_exo.carry_item" />
+	<carry_item key="camouflage_suit.carry_item" />
+	<carry_item key="camo_vest.carry_item" />
+	<carry_item key="eodvest.carry_item" /> 
+	<carry_item key="dog.carry_item" />
+	<carry_item key="god_vest.carry_item" enabled="0" />
+	<carry_item key="vest_plate.carry_item" enabled="0" />
+	<carry_item key="vest_blackops.carry_item" enabled="0" />	
+	<carry_item key="vest_thick_skin.carry_item" enabled="0" />
 
-Soviet Union
-    <weapon key="ws_aek_919k.weapon" />
-    <weapon key="ws_akm.weapon" />
-    <weapon key="ws_desolator.weapon" />
-    <weapon key="ws_desolator_e.weapon" />
-    <weapon key="ws_dynamite_resource.weapon" />
-    <weapon key="ws_flakt.weapon" />
-    <weapon key="ws_flakt_e.weapon" />
-    <weapon key="ws_knife.weapon" />
-    <weapon key="ws_knife_e.weapon" />
-    <weapon key="ws_ppsh41.weapon" />
-    <weapon key="ws_ppsh41_e.weapon" />
-    <weapon key="ws_rpg-7.weapon" />
-    <weapon key="ws_teslat.weapon" />
-    <weapon key="ws_teslat_e.weapon" />
+	<vehicle key="buggy.vehicle" /> 
+	<vehicle key="mobile_armory.vehicle" />
+	<vehicle key="atv_base.vehicle" />
+	<vehicle key="atv_armory.vehicle" />
+	<vehicle key="rubber_boat.vehicle" />
 
-Yuri's Army
-    <weapon key="wy_fist.weapon" />
-    <weapon key="wy_fist_e.weapon" />
-    <weapon key="wy_mind_control.weapon" />
-    <weapon key="wy_mind_control_e.weapon" />
-    <weapon key="wy_psychic_jab.weapon" />
-    <weapon key="wy_psychic_jab_e.weapon" />
-    <weapon key="wy_steyr_tmp.weapon" />
-    <weapon key="wy_virus.weapon" />
-    <weapon key="wy_virus_e.weapon" />
-    <weapon key="wy_yuri.weapon" />
+	<vehicle key="cover1.vehicle" />
+	<vehicle key="sandbag_cover.vehicle" />
+	<vehicle key="deployable_mg.vehicle" />  
+	<vehicle key="deployable_mg_2.vehicle" />
+	<vehicle key="deployable_minig.vehicle" />
+	<vehicle key="deployable_minig_2.vehicle" />
+	<vehicle key="deployable_gl.vehicle" />
+	<vehicle key="deployable_gl_2.vehicle" />
+	<vehicle key="mortar.vehicle" />
+	<vehicle key="mortar_2.vehicle" />
+	<vehicle key="tow.vehicle" />	
+	<vehicle key="tow_2.vehicle" />    	
+	<vehicle key="hornet.vehicle" />
+	<vehicle key="hornet_2.vehicle" /> 
+    <vehicle key="radar_tower.vehicle" />
+	<vehicle key="gas_tank.vehicle" />
+	<vehicle key="radio_jammer_base.vehicle" />
+	<vehicle key="radio_jammer.vehicle" />
+	<vehicle key="radio_jammer2.vehicle" />
+	<vehicle key="water_tower.vehicle" />
+
+	<vehicle key="gas_tank.vehicle" />
+	<vehicle key="deco_vehicles.xml" />
+	<vehicle key="race_vehicles.xml" />
+	<vehicle key="water_tower.vehicle" />  
+	<vehicle key="para_spawn.vehicle" /> 
+	<vehicle key="tractor.vehicle" />
 
 TODO
 	<weapon key="tank_trap_resource.weapon" />

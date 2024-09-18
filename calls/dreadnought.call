@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="dreadnought.call"
+	radio_view_text="Dreadnought Support" 
+	initiation_comment1="Requesting Dreadnought fire support"
+	acknowledge_comment="Roger."
+	launch_comment="Cruise and fire." 
+	notify_metagame="1" >
+	
+	<round launch_time="3.0"
+	   spawn_time="3.0">
+	   <sound class="launch" fileref="vwasatc.wav" />
+	</round>
+
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.0" spawn_time="6.0">
+		<sound class="launch" fileref="vdreatta.wav" />
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.5" spawn_time="6.5">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="6.0" spawn_time="7.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="6.5" spawn_time="7.5">
+    </round>
+
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="7.0" spawn_time="8.0">
+		<sound class="launch" fileref="vdreatta.wav" />
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="7.5" spawn_time="8.5">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="8.0" spawn_time="9.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="8.5" spawn_time="9.5">
+    </round>
+	
+	<hud_icon filename="call_dreadnought.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="1.0" />
+	<inventory encumbrance="0.0" price="200.0" />
+</call>

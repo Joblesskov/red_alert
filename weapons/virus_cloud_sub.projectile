@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="virus cloud" key="virus_cloud_sub.projectile" slot="2" pulldown_in_air="1" can_be_detected_by_driver="0" can_be_detected_by_footmen="0">
+<projectile class="grenade" name="virus cloud" key="virus_cloud_sub.projectile" slot="2" pulldown_in_air="1">
 
     <trigger class="impact" />
     <result class="blast" 
-        radius="3.0"
+        radius="3.5"
         damage="0.1"
         push="0.0"
         decal="1"

@@ -33,7 +33,7 @@
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.55" 
-        kill_decay_start_time="0.35" 
+        kill_decay_start_time="0.25" 
         kill_decay_end_time="0.46" />
     </projectile>
     <modifier class="speed" value="+0.1" />

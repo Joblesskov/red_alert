@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="aircraft_carrier.call"
+	radio_view_text="Aircraft Carrier Support" 
+	initiation_comment1="Requesting aircraft carrier support"
+	acknowledge_comment="Roger."
+	launch_comment="" 
+	notify_metagame="1"
+	show_target_marker="0" >
+	
+	<round launch_time="4.0"
+	   spawn_time="6.0">
+	   <sound class="launch" fileref="vhortaka.wav" />
+	</round>
+
+	<hud_icon filename="call_aircraft_carrier.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.8" />
+	<inventory encumbrance="0.0" price="160.0" />
+
+</call>

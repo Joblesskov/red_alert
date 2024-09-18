@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <weapon key="wy_fist.weapon" />
+    <weapon key="wy_fist_e.weapon" />
+    <weapon key="wy_mind_control.weapon" />
+    <weapon key="wy_mind_control_e.weapon" />
+    <weapon key="wy_psychic_jab.weapon" />
+    <weapon key="wy_psychic_jab_e.weapon" />
+    <weapon key="wy_steyr_tmp.weapon" />
+    <weapon key="wy_virus.weapon" />
+    <weapon key="wy_virus_e.weapon" />
+    <weapon key="wy_yuri.weapon" />
+    
+    <carry_item key="vest_thick_skin.carry_item" enabled="1" />
+	
+ 	<vehicle key="jeep_1.vehicle" />
+ 	<vehicle key="gattling_tank.vehicle" />
+ 	<vehicle key="lasher_tank.vehicle" />
+ 	<vehicle key="transport_truck_1.vehicle" />  
+
+	<call key="paratroopers1y.call" />
+	<call key="paratroopers2y.call" />
+	<call key="tanky.call" />
+	<call key="apcy.call" />
+    <call key="disc.call" />
+    <call key="toxic_strike.call" />
+    <call key="genetic_strike.call" />
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="siege_chopper.call"
+	radio_view_text="Siege Chopper Fire Support" 
+	initiation_comment1="Requesting Siege Chopper fire support"
+	acknowledge_comment="Roger."
+	launch_comment="Coordinates confirmed."
+	notify_metagame="1" >
+     
+    <round launch_time="2.0"
+		spawn_time="6.0">
+		<sound class="launch" fileref="vchoa2c.wav" volume="1.5" />
+    </round>
+
+    <round instances="8"
+		instance_class="grenade"
+		instance_key="scho_artillery_shell.projectile" 
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="2.0"
+		spawn_time="6.0">
+		<sound class="launch" fileref="vchoat2a_m.wav" />
+		<sound class="spawn" fileref="woosh1.wav" />
+    </round>
+
+    <round instances="8"
+		instance_class="grenade"
+		instance_key="scho_artillery_shell.projectile" 
+		instance_spread="10 15 10" 
+		common_spread="0 0 0"
+		launch_time="4.0"
+		spawn_time="8.0">
+		<sound class="launch" fileref="vchoat2a_m.wav" />      
+		<sound class="spawn" fileref="woosh1.wav" />
+    </round>
+
+    <hud_icon filename="call_siege_chopper.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.6" />
+    <inventory encumbrance="0.0" price="160.0" />
+
+</call>

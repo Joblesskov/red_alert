@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <weapon key="wa_awp.weapon" />
+    <weapon key="wa_awp_e.weapon" />
+    <weapon key="wa_chrono.weapon" />
+    <weapon key="wa_chrono_e.weapon" />
+    <weapon key="wa_colt_m1911.weapon" />
+    <weapon key="wa_colt_m1911_1.weapon" />
+    <weapon key="wa_javelin.weapon" />
+    <weapon key="wa_m60.weapon" />
+    <weapon key="wa_m60_e.weapon" />
+    <weapon key="wa_mini_uzi.weapon" />
+    <weapon key="wa_mp5sd.weapon" />
+    <weapon key="wa_p90.weapon" />
+    <weapon key="wa_p90_e.weapon" />
+    <weapon key="wa_rocketeer.weapon" />
+    <weapon key="wa_rocketeer_e.weapon" />
+    <weapon key="wa_stoner_lmg.weapon" />
+    <weapon key="wa_stoner_lmg_e.weapon" />
+    <weapon key="wa_ump40.weapon" />
+    <weapon key="wa_ump40_e.weapon" />
+ 	<vehicle key="jeep.vehicle" />
+ 	<vehicle key="ifv.vehicle" />
+ 	<vehicle key="grizzly_tank.vehicle" />
+ 	<vehicle key="transport_truck.vehicle" />   
+    
+	<carry_item key="vest_blackops.carry_item" enabled="1" />	
+
+	<call key="paratroopers1a.call" />
+	<call key="paratroopers2a.call" />
+	<call key="tanka.call" />
+	<call key="apca.call" />
+	<call key="harrier.call" />
+	<call key="black_eagle.call" />
+    <call key="aircraft_carrier.call" />
+    <call key="nighthawk.call" />
+</resources>

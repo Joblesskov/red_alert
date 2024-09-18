@@ -10,8 +10,7 @@
 	<control 
 	max_speed="10.5" 
 	acceleration="10.5" 
-	max_reverse_speed="8.5" 
-	min_health_to_steer="1.3" 
+	max_reverse_speed="8.5"
 	max_rotation="0.0" 
 	max_water_depth="1.4" 
 	steer_smoothening="0.98" 
@@ -20,14 +19,14 @@
 	max_limiter_speed="6.0"/>
 
 	<physics 
-	max_health="13.0" 
-	blast_damage_threshold="0.5" 
+	max_health="15" 
+	blast_damage_threshold="0.3" 
 	mass="190.0" 
     remove_collision_threshold="0.2"	
 	extent="2.6 2.1 5.7"
 	offset="0 0 0" 
 	top_offset="0 2.1 0" 
-	collision_model_pos="0 1.3 0" 
+	collision_model_pos="0 1.2 0" 
 	collision_model_extent="3.4 2.6 7.4" 
 	visual_offset="0 0.0 0.0" /> 
 

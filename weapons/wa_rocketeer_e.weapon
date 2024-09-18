@@ -13,7 +13,7 @@
     <projectile file="bullet_ap.projectile" time_to_live="0.45">
         <result class="blast" 
 		radius="1" 
-		damage="0.5" 
+		damage="0.35" 
 		decal="0"
         faction_compare="not_equal" />
         <trail probability="1" key="BulletEliteTrail"/>

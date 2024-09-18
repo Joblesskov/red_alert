@@ -24,7 +24,7 @@
 
     <hud_icon filename="hud_deployable_gl.png" />
     <commonness value="1" can_respawn_with="0" />
-    <inventory encumbrance="10.0" price="300.0" />
+    <inventory encumbrance="10.0" buy_price="200.0" sell_price="100.0" />
 
     <modifier class="speed" value="-0.4" />
 
