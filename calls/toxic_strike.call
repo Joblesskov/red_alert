@@ -10,8 +10,8 @@
 		instance_key="toxic_bomb.projectile" 
 		instance_spread="15 40 15" 
 		common_spread="0 0 0" 
-		launch_time="2.0"
-		spawn_time="4.0">
+		launch_time="3.0"
+		spawn_time="5.0">
 		<sound class="launch" fileref="ivirata.wav" />
 		<sound class="spawn" fileref="woosh1.wav" />
 	</round>
@@ -21,8 +21,8 @@
 		instance_key="toxic_smoke.projectile" 
 		instance_spread="15 20 15" 
 		common_spread="0 0 0" 
-		launch_time="4.0"
-		spawn_time="4.0">
+		launch_time="5.0"
+		spawn_time="5.0">
 	</round>
 
 	<round instances="16"
@@ -30,8 +30,8 @@
 		instance_key="toxic_smoke.projectile" 
 		instance_spread="15 20 15" 
 		common_spread="0 0 0" 
-		launch_time="6.0"
-		spawn_time="6.0">
+		launch_time="7.0"
+		spawn_time="7.0">
 	</round>
 
     <hud_icon filename="call_toxic_strike.png" />

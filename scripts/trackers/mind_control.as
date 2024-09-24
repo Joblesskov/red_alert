@@ -117,7 +117,7 @@ class MindControl : Tracker {
 					"/>";
 
 				// m_metagame.getComms().send(command1);
-				killCharacter(m_metagame, targetId, targetGroup != "default");
+				killCharacter(m_metagame, targetId, true);
 				if (isWounded != 1) m_metagame.getComms().send(command2);
 				m_metagame.getComms().send(command3);
 			}

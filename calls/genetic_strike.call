@@ -10,8 +10,8 @@
 		instance_key="genobomb.projectile" 
 		instance_spread="10 40 10" 
 		common_spread="0 0 0" 
-		launch_time="2.0"
-		spawn_time="4.0">
+		launch_time="3.0"
+		spawn_time="5.0">
 		<sound class="launch" fileref="ibruatd.wav" />
 		<sound class="spawn" fileref="woosh1.wav" />
 	</round>
@@ -21,8 +21,8 @@
 		instance_key="genobomb.projectile" 
 		instance_spread="10 20 10" 
 		common_spread="0 0 0" 
-		launch_time="6.0"
-		spawn_time="6.0">
+		launch_time="7.0"
+		spawn_time="7.0">
 		<sound class="spawn" fileref="woosh1.wav" />
 	</round>
 

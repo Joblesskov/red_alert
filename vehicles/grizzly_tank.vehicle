@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="Grizzly Tank" key="grizzly_tank.vehicle" respawn_time="100" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="9.5">
+<vehicle file="vehicle_base.vehicle" name="Grizzly Tank" key="grizzly_tank.vehicle" respawn_time="84" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="9.5">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="heavy_combat" />
@@ -84,12 +84,12 @@
 
 	<event key="spot_rp_reward">
 		<trigger class="spot" />
-		<result class="reward" rp="50.0" />
+		<result class="reward" rp="35.0" />
 	</event>
 
 	<event key="destroy_rp_reward">
 		<trigger class="destroy" />
-		<result class="reward" rp="50.0" />
+		<result class="reward" rp="175.0" />
 	</event>
     
 	<event>

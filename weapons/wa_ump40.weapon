@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="wa_ump40.weapon" >
+<weapon file="base_primary_smg.weapon" key="wa_ump40.weapon" >
     <tag name="assault" />
     <specification 
   retrigger_time="0.09" 

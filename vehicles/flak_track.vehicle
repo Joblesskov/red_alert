@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="Flak Track" key="flak_track.vehicle" respawn_time="80" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25" max_character_collision_speed_on_normal="10.0">
+<vehicle file="vehicle_base.vehicle" name="Flak Track" key="flak_track.vehicle" respawn_time="40" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25" max_character_collision_speed_on_normal="10.0">
 	<tag name="metal_heavy" />
 	<tag name="apc" />
 
@@ -73,12 +73,12 @@
   
 	<event key="spot_rp_reward">
 		<trigger class="spot" />
-		<result class="reward" rp="20.0" />
+		<result class="reward" rp="25.0" />
 	</event>
 
 	<event key="destroy_rp_reward">
 		<trigger class="destroy" />
-		<result class="reward" rp="20.0" />
+		<result class="reward" rp="125.0" />
 	</event>
   
 	<event>

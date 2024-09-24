@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="ws_ppsh41.weapon" >
+<weapon file="base_primary_smg.weapon" key="ws_ppsh41.weapon" >
 	<specification 
 	retrigger_time="0.066" 
 	accuracy_factor="0.9"

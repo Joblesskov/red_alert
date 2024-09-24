@@ -96,15 +96,15 @@ class AircraftCarrierGunRun : Tracker {
 					Vector3 originalPos = AircraftCarrierQueue[i].m_targetPos;
 					float spread = 10.0;
 
-					gunRunLaunchProjectiles(AircraftCarrierQueue[i], 10, "hornet_missile.projectile", 2.0);
+					gunRunLaunchProjectiles(AircraftCarrierQueue[i], 16, "hornet_missile.projectile", 2.0);
 
 					sleep(0.44f);
 					AircraftCarrierQueue[i].m_targetPos = originalPos.add(Vector3(rand(-spread, spread), 0, rand(-spread, spread)));
-					gunRunLaunchProjectiles(AircraftCarrierQueue[i], 10, "hornet_missile.projectile", 2.0);
+					gunRunLaunchProjectiles(AircraftCarrierQueue[i], 16, "hornet_missile.projectile", 2.0);
 					
 					sleep(0.44f);
 					AircraftCarrierQueue[i].m_targetPos = originalPos.add(Vector3(rand(-spread, spread), 0, rand(-spread, spread)));
-					gunRunLaunchProjectiles(AircraftCarrierQueue[i], 10, "hornet_missile.projectile", 2.0);
+					gunRunLaunchProjectiles(AircraftCarrierQueue[i], 16, "hornet_missile.projectile", 2.0);
 
 					removeMarker(AircraftCarrierQueue[i]);
 					break;

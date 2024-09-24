@@ -568,10 +568,10 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 			CallMarkerConfig("mig.call", "call_marker", 7, 0.5, 10.0),
 			CallMarkerConfig("nighthawk.call", "call_marker", 14, 0.5, 58),
 			CallMarkerConfig("disc.call", "call_marker", 4, 0.5, 58),
-			CallMarkerConfig("toxic_strike.call", "call_marker", 8, 1.0, 35.0),
-			CallMarkerConfig("genetic_strike.call", "call_marker", 8, 1.0, 35.0),
-			CallMarkerConfig("siege_chopper.call", "call_marker", 9, 1.0, 30.0),
-			CallMarkerConfig("dreadnought.call", "call_marker", 9, 1.0, 35.0)
+			CallMarkerConfig("toxic_strike.call", "call_marker", 8, 0.5, 35.0),
+			CallMarkerConfig("genetic_strike.call", "call_marker", 8, 0.5, 35.0),
+			CallMarkerConfig("siege_chopper.call", "call_marker", 9, 0.5, 26.0),
+			CallMarkerConfig("dreadnought.call", "call_marker", 9, 0.5, 38.0)
 			};
 
 		addTracker(CallMarkerTracker(this, configs));

@@ -41,7 +41,7 @@
     <hud_icon filename="hud_desolator_e.png" />
     <commonness value="3" can_respawn_with="0" in_stock="1"/>   
     <inventory encumbrance="10.0" price="180.0" />
-    <capacity value="0" source="rank" source_value="0.8"/>
+    <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="2.4"/>
 
     <weak_hand_hold offset="0.3" />

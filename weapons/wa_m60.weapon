@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="wa_m60.weapon">
+<weapon file="base_primary_mg.weapon" key="wa_m60.weapon">
     <tag name="machine gun" />
     <specification 
   retrigger_time="0.09" 
@@ -49,6 +49,5 @@
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.65" kill_decay_start_time="0.35" kill_decay_end_time="0.65" />
     </projectile>
-    <stance state_key="over_wall" accuracy="1.0" />     
     <modifier class="speed" value="-0.12" />
 </weapon>

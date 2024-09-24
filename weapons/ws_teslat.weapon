@@ -2,7 +2,7 @@
 <weapon file="base_primary.weapon" key="ws_teslat.weapon">
     <tag name="cqb" />
 	<specification 
-        retrigger_time="1.7" 
+        retrigger_time="1.4" 
         accuracy_factor="0.6" 
         spread_range="0.20"
         sustained_fire_grow_step="2.3" 
@@ -62,5 +62,4 @@
     <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
     <stance state_key="running" accuracy="0.85" />
     <stance state_key="walking" accuracy="0.85" />
-
 </weapon>
