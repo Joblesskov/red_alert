@@ -6,7 +6,8 @@
         push="0.0" 
         decal="1" 
         faction_compare="not_equal" 
-        make_vehicle_hit_sound="0" />
+        make_vehicle_hit_sound="0" 
+        damage_origin_vehicle="0" />
     <trigger class="impact" />
     <rotation class="motion" />
 

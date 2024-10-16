@@ -33,6 +33,8 @@ class RA2CommandHandler : Tracker {
 		int senderId = event.getIntAttribute("player_id");
 		const XmlElement@ pInfo = getPlayerInfo(m_metagame, senderId);
 		int characterId = pInfo.getIntAttribute("character_id");
+		
+
 
 		// admin and moderator only from here on
 		if (!m_metagame.getAdminManager().isAdmin(sender, senderId) && !m_metagame.getModeratorManager().isModerator(sender, senderId)) {
@@ -84,30 +86,6 @@ class RA2CommandHandler : Tracker {
 			dictionary dict = {{"TagName", "command"},{"class", "chat"},{"text", "test yourself!"}};
 			m_metagame.getComms().send(XmlElement(dict));
 
-		} else if (checkCommand(message, "defend")) {
-			// make ai defend only, both sides
-			for (int i = 0; i < 2; ++i) {
-				string command =
-					"<command class='commander_ai'" +
-					"	faction='" + i + "'" +
-					"	base_defense='1.0'" +
-					"	border_defense='0.0'>" +
-					"</command>";
-				m_metagame.getComms().send(command);
-			}
-			sendPrivateMessage(m_metagame, senderId, "defensive ai set");
-
-		} else if (checkCommand(message, "0_attack")) {
-			// make ai attack only, both sides
-			string command =
-				"<command class='commander_ai'" +
-				"	faction='0'" +
-				"	base_defense='0.0'" +
-				"	border_defense='0.0'>" +
-				"</command>";
-			m_metagame.getComms().send(command);
-			sendPrivateMessage(m_metagame, senderId, "attack green ai set");
-
 		} else if(checkCommand(message, "xp")) {
 			const XmlElement@ info = getPlayerInfo(m_metagame, senderId);
 			if (info !is null) {
@@ -132,30 +110,6 @@ class RA2CommandHandler : Tracker {
 					"</command>";
 				m_metagame.getComms().send(command);
 			}
-		} else if (checkCommand(message, "squad")) {
-			spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);            
-        } else if (checkCommand(message, "esquad")) {
-			spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);                 
-		} else if (checkCommand(message, "armory")) {
-			spawnInstanceNearPlayer(senderId, "mobile_armory.vehicle", "vehicle", 0);		
 		} else if(checkCommand(message, "kill_rt")) {
 			destroyAllEnemyVehicles("radar_tower.vehicle");
 		} else if(checkCommand(message, "kill_own_rt")) {
@@ -168,19 +122,25 @@ class RA2CommandHandler : Tracker {
 			m_metagame.getComms().send("<command class='faction_resources' faction_id='0'><call key='gps.call' /></command>");
 		} else if(checkCommand(message, "dead")) {
 			killCharacter(m_metagame, characterId, true);
-		} else if (checkCommand(message, "grizzly_tank")) {
-			spawnInstanceNearPlayer(senderId, "grizzly_tank.vehicle", "vehicle", 0);		
-		} else if (checkCommand(message, "rhino_tank")) {
-			spawnInstanceNearPlayer(senderId, "rhino_tank.vehicle", "vehicle", 0);		
-		} else if (checkCommand(message, "lasher_tank")) {
-			spawnInstanceNearPlayer(senderId, "lasher_tank.vehicle", "vehicle", 0);		
-		} else if (checkCommand(message, "ifv")) {
-			spawnInstanceNearPlayer(senderId, "ifv.vehicle", "vehicle", 0);		
-		} else if (checkCommand(message, "flak_track")) {
-			spawnInstanceNearPlayer(senderId, "flak_track.vehicle", "vehicle", 0);		
-		} else if (checkCommand(message, "gattling_tank")) {
-			spawnInstanceNearPlayer(senderId, "gattling_tank.vehicle", "vehicle", 0);		
-		} 
+		} else if (checkCommand(message, "v")) {
+			array<string> parameters = parseParameters(message, "v");
+			if (parameters.size() > 0) {
+				spawnInstanceNearPlayer(senderId, parameters[0] + ".vehicle", "vehicle", 0);
+			}
+		} else if (checkCommand(message, "s")) {
+			array<string> parameters = parseParameters(message, "s");
+			if (parameters.size() > 0) {
+				int soldier_count = 1;
+				if (parameters.size() > 1) {
+					soldier_count = parseInt(parameters[1]);
+					if (soldier_count > 10) soldier_count = 10;
+					else if (soldier_count < 1) soldier_count = 1;
+				}
+				for (uint i = 0; i < soldier_count; i++) {
+					spawnInstanceNearPlayer(senderId, parameters[0], "soldier", 0);
+				}
+			}
+		}
 	}
 
 	// --------------------------------------------

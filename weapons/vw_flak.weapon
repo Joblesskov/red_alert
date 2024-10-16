@@ -13,14 +13,14 @@
     class="0" 
     projectile_speed="90.0" 
     slot="2" 
-    barrel_offset_3d="0 4.6 1.8" 
+    barrel_offset_3d="0 2.1 1.8" 
     sight_height_offset="4.0"
     projectiles_per_shot="1" />
     <model />
     <hud_icon filename="hud_apc.png" />
     <commonness value="0.0" />
 
-    <ballistics curve_height="4.0" near_far_distance="4.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" randomness="0.0" tweak_factor="2.2" />
+    <ballistics curve_height="4.0" near_far_distance="4.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" randomness="0.0" tweak_factor="2.3" />
     <projectile file="flak.projectile" pulldown_in_air="24.0">
         <result class="blast" 
             radius="5.1" 

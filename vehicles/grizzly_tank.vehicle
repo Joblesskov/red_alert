@@ -4,8 +4,8 @@
 	<tag name="heavy_combat" />
 	<tag name="any_tank" />
    
-	<tire_set offset="1.4 0.0 +0.5" radius="0.5" />
-	<tire_set offset="1.4 0.0 -3.5" radius="0.5" />
+	<tire_set offset="1.9 0.0 +2.7" radius="0.5" />
+	<tire_set offset="1.9 0.0 -2.7" radius="0.5" />
 
 	<control 
 	max_speed="10.5" 
@@ -23,26 +23,37 @@
 	blast_damage_threshold="0.3" 
 	mass="180.0" 
     remove_collision_threshold="0.2"	
-	extent="3.0 1.6 4.1" 
-	offset="0 0.0 -1.5" 
-	top_offset="0 1.6 -1.5" 
-	collision_model_pos="0 0.95 -1.4" 
-	collision_model_extent="3.9 2.0 5.3" 
+	extent="3.9 0.0 5.5" 
+	offset="0 0 0" 
+	top_offset="0 3 0" 
+	collision_model_pos="0 0 0" 
+	collision_model_extent="3.9 3.4 5.5" 
 	visual_offset="0 0 0" /> 
 
-	<sky_diving chute_offset="0 3.1 0" trigger_height="20.0" gravity="-10" mesh_filename="chute_large.mesh" texture_filename="chute.png" />
+	<sky_diving chute_offset="0 3.0 0" trigger_height="20.0" gravity="-10" mesh_filename="chute_large.mesh" texture_filename="chute.png" />
 
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="-0.15 0 0" weapon_key="vw_grizzly_cannon.weapon" weapon_offset="0 -0.1 0" weapon_recoil="0.2" max_rotation_step="0.00013" />
+	<turret offset="0 1.431 0.906" weapon_key="vw_grizzly_cannon.weapon" weapon_offset="0 0.364 1.821" weapon_recoil="0.15" max_rotation_step="0.00013" />
+	<turret offset="0 0.8 0.1" weapon_key="vw_grizzly_mg.weapon" weapon_offset="0 0 0" weapon_recoil="0.1" max_rotation_step="0.0002" parent_turret_index="0" />
+	
+	<visual class="chassis" mesh_filename="grizzly_chassis.mesh" texture_filename="grizzly_chassis.png" />
+	<visual class="turret" turret_index="0" mesh_filename="grizzly_turret.mesh" texture_filename="grizzly_turret.png" />
+	<visual class="turret" turret_index="1" mesh_filename="technical_mg.mesh" texture_filename="technical_mg.png" />
+	<visual class="track" mesh_filename="grizzly_track.mesh"  offset="1.49 0.0 0.0" >
+		<part texture_filename="grizzly_track.png" />
+	</visual>
+	<visual class="track" mesh_filename="grizzly_track.mesh"  offset="-1.49 0.0 0.0" >
+		<part texture_filename="grizzly_track.png" />
+	</visual>
 
-	<visual class="chassis" mesh_filename="grizzly_tank.mesh" texture_filename="grizzly_tank.png" />
-	<visual class="turret" turret_index="0" mesh_filename="grizzly_tank_tur.mesh" texture_filename="grizzly_tank_tur.png" />
-
-	<character_slot type="driver" position="1.4 0.5 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-1.4 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="driver" position="1.4 0.5 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.4 0.7 2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" />
+	</character_slot>
+	<character_slot type="gunner" position="-1.4 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<turret index="1" />
 	</character_slot>
 
 	<!-- sound handling -->
@@ -65,17 +76,10 @@
 	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
 	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
   
-	<effect event_key="health" value="3.0" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.3" />
-	<effect event_key="health" value="0.6" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.3" />
-	<effect event_key="health" value="0.6" ref="BrokenSparkle" post_processing="0" offset="0.0 1.8 -3.3" />    
-	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.1" />
-	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.8 2.5 -3.1" />  
-	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 3.2 0.5" />  
-	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.6 3.0 -0.2" />    
-	<effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 2.4 -3.1" />
+	<effect event_key="health" value="7.5" ref="SmallSmokeVehicle" offset="0.0 1.7 -1.0" />
+	<effect event_key="health" value="3.75" ref="MediumSmokeVehicle" offset="0.0 1.7 -1.0" />
+	<effect event_key="health" value="3.75" ref="BrokenSparkle" post_processing="0" offset="0.0 1.7 -1.0" />    
 	<effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
-	<effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />  
-   
 
 	<event key="receive_damage_xp_reward">
 		<trigger class="receive_damage" />

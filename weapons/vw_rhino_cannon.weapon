@@ -13,14 +13,14 @@
     class="0" 
     projectile_speed="80.0" 
     slot="2" 
-    barrel_offset_3d="0 2.0 3.3" 
+    barrel_offset_3d="0 0 2.12" 
     sight_height_offset="1.5"
     projectiles_per_shot="1" />
-    <model mesh_filename="rhino_tank_barl.mesh" texture_filename="rhino_tank_barl.png" />
+    <model mesh_filename="rhino_barrel.mesh" texture_filename="rhino_barrel.png" />
     <hud_icon filename="hud_tank_cannon.png" />
     <commonness value="0.0" />
 
-    <ballistics curve_height="2.0" near_far_distance="6.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" tweak_factor="4.8"/>
+    <ballistics curve_height="2.0" near_far_distance="6.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" tweak_factor="4.85"/>
     <projectile file="tank_cannon.projectile" >
         <result class="blast" 
             radius="2.5" 

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ai filename="default.ai">
-  <parameter class="uses_vehicles" value="0.0" />
-  <parameter class="force_as_leader" value="1.0" />
-
   <parameter class="accuracy_offset" value="0.1" />   <!-- was 1.05 in 1.81 -->
   <parameter class="accuracy_penalty_range" value="0.0" />
   <parameter class="max_sight_range_with_muzzle" value="42.5" />

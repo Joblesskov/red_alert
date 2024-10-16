@@ -17,11 +17,12 @@
     <projectile file="psychic_jab_bullet.projectile">
         <result class="blast" 
             radius="1.5" 
-            damage="0.4" 
+            damage="0.35" 
             push="0.0" 
             decal="1" 
             faction_compare="not_equal" 
-            make_vehicle_hit_sound="0" />
+            make_vehicle_hit_sound="0" 
+            damage_origin_vehicle="0" />
         <trail probability="1" key="BulletEliteTrail"/>
     </projectile> 
 </weapon>

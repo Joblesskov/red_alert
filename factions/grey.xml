@@ -348,7 +348,7 @@
 	</soldier>
 
 	<soldier name="slave" spawn_score="0.0" copy_from="default">
-		<!-- only produced by miner -->
+		<!-- no idea -->
 	</soldier>
 
 	<soldier name="medic" spawn_score="0.0" copy_from="initiate">
@@ -451,6 +451,7 @@
 			<parameter class="throw_grenade_time_interval_max" value="3.0" />
   			<parameter class="throw_grenade_time_interval_min" value="2.0" />
 			<parameter class="willingness_to_charge" value="0.9" />
+			<parameter class="force_as_leader" value="1" />
 		</ai>
 		<models file="grey_default.models" />
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
@@ -626,7 +627,7 @@
 			<sound key="death" fileref="iggidid.wav" volume="0.5" />
 			<sound key="death" fileref="iggidie.wav" volume="0.5" />
 		</character>
-		<ai filename="default.ai" />
+		<ai filename="tankhunter.ai" />
 		<models file="grey_default.models" />
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">

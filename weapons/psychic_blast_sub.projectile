@@ -6,7 +6,8 @@
         push="0.5" 
         decal="1" 
         character_state="death" 
-        faction_compare="not_equal" />
+        faction_compare="not_equal" 
+        damage_origin_vehicle="0" />
     <trigger class="time" time_to_live="0.0"/>
     <rotation class="motion" />
 </projectile>

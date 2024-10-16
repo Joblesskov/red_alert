@@ -23,7 +23,8 @@
             damage="0.2" 
             push="0.12" 
             decal="0" 
-            faction_compare="not_equal" /> 
+            faction_compare="not_equal" 
+            damage_origin_vehicle="0" /> 
     </projectile>
 </weapon>
 

@@ -63,7 +63,8 @@
 		radius="1" 
 		damage="0.2" 
 		decal="0"
-        faction_compare="not_equal" />
+        faction_compare="not_equal" 
+        damage_origin_vehicle="0" />
     </projectile>
     
     <capacity value="0" source="rank" source_value="0.0" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon key="vw_gattling_ap.weapon" >
     <specification 
-    retrigger_time="0.16" 
+    retrigger_time="0.125" 
     accuracy_factor="0.9" 
-    sustained_fire_grow_step="-0.024" 
+    sustained_fire_grow_step="-0.05" 
     sustained_fire_diminish_rate="-0.2" 
     spread_range="0.3"
     sight_range_modifier="1.15"
@@ -15,11 +15,11 @@
     class="0" 
     projectile_speed="110.0" 
     slot="2" 
-    barrel_offset_3d="0 3.4 2.6"
+    barrel_offset_3d="0 0 2.6"
     sight_height_offset="1.5" 
     projectiles_per_shot="1" />
 
-    <model mesh_filename="gattling_tank_barl.mesh" texture_filename="gattling_tank_barl.png" />
+    <model mesh_filename="gattling_tank_barrel.mesh" texture_filename="gattling_tank_barrel.png" />
     <hud_icon filename="hud_minigun.png" />
     <commonness value="0.0" can_respawn_with="0" />
     <inventory encumbrance="10.0" price="40.0" />    
@@ -27,7 +27,7 @@
     <projectile file="bullet.projectile" >
         <result class="blast" 
             radius="1.5" 
-            damage="0.12" 
+            damage="0.1" 
             decal="0"
             damage_origin_vehicle="0"
             faction_compare="not_equal" />

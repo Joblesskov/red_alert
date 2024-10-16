@@ -21,8 +21,11 @@ Common
 	<weapon file="tracer_dart.weapon" />
 Vehicle
     <weapon file="vw_grizzly_cannon.weapon" />
+    <weapon file="vw_grizzly_mg.weapon" />
     <weapon file="vw_rhino_cannon.weapon" />
+    <weapon file="vw_rhino_mg.weapon" />
     <weapon file="vw_lasher_cannon.weapon" />
+    <weapon file="vw_lasher_mg.weapon" />
     <weapon file="vw_flak.weapon" />
     <weapon file="vw_hover_missile.weapon" />
     <weapon file="vw_gattling_ap.weapon" />
