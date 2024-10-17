@@ -17,7 +17,7 @@ time_to_live="45">
 
     <rotation class="random" />
 
-    <model mesh_filename="c4.mesh" texture_filename="c4.png" />
+    <model filename="dynamite.xml" />
     <hud_icon filename="hud_c4.png" />
 
     <throwable curve_height="3.0" near_far_distance="4.0" speed_estimation_near="10.0" speed_estimation_far="10.0" max_speed="20.0" randomness="0.01" />

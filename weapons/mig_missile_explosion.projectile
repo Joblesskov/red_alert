@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="Maverick 3" slot="2" key="mig_missile_explosion.projectile" pulldown_in_air="20">
     <result class="blast" 
-        radius="5.0" 
+        radius="6.0" 
         damage="6.0" 
         push="2" 
         decal="1" 

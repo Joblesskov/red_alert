@@ -30,4 +30,5 @@
     <call key="mig.call" />
 	<call key="siege_chopper.call" />
     <call key="dreadnought.call" />
+    <call key="iron_curtain.call" />
 </resources>

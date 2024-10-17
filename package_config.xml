@@ -39,5 +39,15 @@
 			rp_multiplier="1.00"
 			player_damage_modifier="0.0"
 		/>
+
+		<preset text="Presets:Custom" help="Help:Presets:Custom" id="custom"
+			friendly_capacity="1.20"
+			friendly_accuracy="0.94"
+			enemy_capacity="1.0"
+			enemy_accuracy="0.94"
+			xp_multiplier="1.0"
+			rp_multiplier="1.0"
+			player_damage_modifier="0.0"
+		/>
 	</campaign_options>
 </package>

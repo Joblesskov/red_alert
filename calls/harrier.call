@@ -6,24 +6,16 @@
 	launch_comment="Ready to strike."
 	notify_metagame="1">
 
-    <round instances="1"
-           instance_class="grenade"
-           instance_key="harrier_missile.projectile" 
-           instance_spread="0 4 0" 
-           common_spread="0 0 0" 
-           launch_time="1.5"
-           spawn_time="3.0">
-	   <sound class="launch" fileref="vintata.wav" volume="1.5" />
-	   <sound class="spawn" fileref="vintatta.wav" />
-    </round>
-    <round instances="1"
-           instance_class="grenade"
-           instance_key="harrier_missile.projectile" 
-           instance_spread="0 4 0" 
-           common_spread="0 0 0"
-           launch_time="1.5"
-           spawn_time="3.0">
-	   <sound class="spawn" fileref="vintatta.wav" />
+    <round instances="2"
+            instance_class="grenade"
+            instance_key="harrier_missile.projectile" 
+            instance_spread="2 6 2" 
+            common_spread="0 0 0" 
+            launch_time="1.5"
+            spawn_time="3.0"
+            horizontal_offset_at_spawn="0.0">
+        <sound class="launch" fileref="vintata.wav" volume="1.5" />
+        <sound class="spawn" fileref="vintatta.wav" />
     </round>
 
     <hud_icon filename="call_harrier.png" />

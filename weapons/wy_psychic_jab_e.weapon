@@ -2,9 +2,12 @@
 <weapon file="wy_psychic_jab.weapon" key="wy_psychic_jab_e.weapon">
     <specification 
         retrigger_time="0.20" 
-        sustained_fire_grow_step="0.135"
+        sustained_fire_grow_step="0.1"
+        sustained_fire_diminish_rate="0.3" 
         suppressed="1" 
         name="Psychic Jab (Elite)" 
+        cooldown_start="0.3"
+        cooldown_end="0.22"
         projectile_speed="140.0"/>
 
     <commonness value="3" can_respawn_with="0" in_stock="1"/>    

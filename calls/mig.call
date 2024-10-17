@@ -7,23 +7,25 @@
 	notify_metagame="1">
 
     <round instances="2"
-           instance_class="grenade"
-           instance_key="mig_missile_explosion.projectile" 
-           instance_spread="4 4 4" 
-           common_spread="0 0 0" 
-           launch_time="2.0"
-           spawn_time="4.0">
-	   <sound class="launch" fileref="vmigmoa.wav" volume="1.5" />
-	   <sound class="spawn" fileref="vmigatta.wav" />
+            instance_class="grenade"
+            instance_key="mig_missile_explosion.projectile" 
+            instance_spread="2 6 2" 
+            common_spread="0 0 0" 
+            launch_time="2.0"
+            spawn_time="4.0"
+            horizontal_offset_at_spawn="0.0">
+        <sound class="launch" fileref="vmigmoa.wav" volume="1.5" />
+        <sound class="spawn" fileref="vmigatta.wav" />
     </round>
     <round instances="2"
-           instance_class="grenade"
-           instance_key="mig_missile_rad.projectile" 
-           instance_spread="4 4 4" 
-           common_spread="0 0 0" 
-           launch_time="2.0"
-           spawn_time="4.0">
-	   <sound class="spawn" fileref="vmigatta.wav" />
+            instance_class="grenade"
+            instance_key="mig_missile_rad.projectile" 
+            instance_spread="0 0 0" 
+            common_spread="0 0 0" 
+            launch_time="2.0"
+            spawn_time="4.0"
+            horizontal_offset_at_spawn="0.0">
+        <sound class="spawn" fileref="vmigatta.wav" />
     </round>
 
     <hud_icon filename="call_mig.png" />

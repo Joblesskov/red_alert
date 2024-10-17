@@ -15,11 +15,11 @@
     <projectile file="hand_grenade.projectile" />
     <projectile file="hornet_missile.projectile" />
     <projectile file="impact_grenade.projectile" />
+    <projectile file="iron_curtain.projectile" />
     <projectile file="javelin.projectile" />
     <projectile file="harrier_missile.projectile" />
     <projectile file="hover_missile.projectile" />
     <projectile file="laser.projectile" />
-    <projectile file="mig_missile.projectile" />
     <projectile file="mig_missile_explosion.projectile" />
     <projectile file="mig_missile_rad.projectile" />
     <projectile file="neutron.projectile" />

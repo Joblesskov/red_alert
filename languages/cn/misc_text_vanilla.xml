@@ -110,6 +110,9 @@ red alert
     <text key="Harrier Air Strike" text="入侵者战机空袭" /> 
     <text key="Requesting Harrier air strike" text="请求入侵者战机空袭" /> 
     <text key="Ready to strike." text="准备攻击" /> 
+    <text key="Iron Curtain" text="无敌" /> 
+    <text key="Requsting Iron Curtain activation" text="请求激活铁幕装置" /> 
+	<text key="Iron Curtain ready." text="铁幕装置就绪" />
     <text key="MIG Air Strike" text="米格战机空袭" /> 
     <text key="Requesting MIG air strike" text="请求米格战机空袭" /> 
     <text key="MIGs on the way." text="战机正在前往" /> 

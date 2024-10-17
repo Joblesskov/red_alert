@@ -6,24 +6,16 @@
 	launch_comment="Gunner in position."
 	notify_metagame="1">
 
-    <round instances="1"
-           instance_class="grenade"
-           instance_key="black_eagle_missile.projectile" 
-           instance_spread="0 4 0" 
-           common_spread="0 0 0" 
-           launch_time="1.2"
-           spawn_time="2.5">
-	   <sound class="launch" fileref="vbleata.wav" volume="1.5" />
-	   <sound class="spawn" fileref="vbleatta.wav" />
-    </round>
-    <round instances="1"
-           instance_class="grenade"
-           instance_key="black_eagle_missile.projectile" 
-           instance_spread="0 4 0" 
-           common_spread="0 0 0" 
-           launch_time="1.2"
-           spawn_time="2.5">
-	   <sound class="spawn" fileref="vbleatta.wav" />
+    <round instances="2"
+            instance_class="grenade"
+            instance_key="black_eagle_missile.projectile" 
+            instance_spread="2 6 2" 
+            common_spread="0 0 0" 
+            launch_time="1.2"
+            spawn_time="2.5"
+            horizontal_offset_at_spawn="0.0">
+        <sound class="launch" fileref="vbleata.wav" volume="1.5" />
+        <sound class="spawn" fileref="vbleatta.wav" />
     </round>
 
     <hud_icon filename="call_black_eagle.png" />
