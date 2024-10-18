@@ -305,7 +305,7 @@
 		</attribute_config>
 	</soldier>
 	100000
-	<soldier name="yuri" spawn_score="0.03">
+	<soldier name="yuri" spawn_score="0.02">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="iyupdia.wav" volume="0.5" />
 			<sound key="death" fileref="iyupdib.wav" volume="0.5" />

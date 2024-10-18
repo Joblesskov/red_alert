@@ -7,8 +7,6 @@
 	<vehicle file="ifv.vehicle" />
 	<vehicle file="flak_track.vehicle" />
 	<vehicle file="gattling_tank.vehicle" />
-
-	<vehicle file="mig_missile.vehicle" />
 	
 	<vehicle file="jeep.vehicle" />
 	<vehicle file="jeep_1.vehicle" /> 
@@ -41,6 +39,7 @@
 	<vehicle file="radio_jammer_base.vehicle" />
 	<vehicle file="radio_jammer.vehicle" />
 	<vehicle file="radio_jammer2.vehicle" />
+	<vehicle file="aa_emplacement.vehicle" />
 
 	<vehicle file="gas_tank.vehicle" />
 	<vehicle file="deco_vehicles.xml" />
@@ -48,4 +47,5 @@
 	<vehicle file="water_tower.vehicle" />  
 	<vehicle file="para_spawn.vehicle" /> 
 	<vehicle file="tractor.vehicle" />
+	<vehicle file="tank2.vehicle" />
 </vehicles>

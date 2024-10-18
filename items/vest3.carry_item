@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
-    <carry_item key="vest3.carry_item" name="Vest, type III" slot="1" transform_on_consume="vest3_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+    <carry_item key="vest3.carry_item" name="Vest, type III" slot="1" transform_on_consume="vest3_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest3.png" />
         <model mesh_filename="vest3.xml" />
 
@@ -16,7 +16,7 @@
 		<modifier class="hit_success_probability" value="-0.04" />
     </carry_item>
 
-    <carry_item key="vest3_2" name="Vest, type III, 80%" slot="1" transform_on_consume="vest3_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+    <carry_item key="vest3_2" name="Vest, type III, 80%" slot="1" transform_on_consume="vest3_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest3_80.png" />
         <model mesh_filename="vest3.xml" />
 
@@ -32,7 +32,7 @@
 		<modifier class="hit_success_probability" value="-0.03" />
     </carry_item>
 
-    <carry_item key="vest3_3" name="Vest, type III, 60%" slot="1" transform_on_consume="vest3_4" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+    <carry_item key="vest3_3" name="Vest, type III, 60%" slot="1" transform_on_consume="vest3_4" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest3_60.png" />
         <model mesh_filename="vest3.xml" />
 
@@ -47,7 +47,7 @@
 		<modifier class="hit_success_probability" value="-0.02" />
     </carry_item>
 	
-    <carry_item key="vest3_4" name="Vest, type III, 40%" slot="1" transform_on_consume="vest3_5" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+    <carry_item key="vest3_4" name="Vest, type III, 40%" slot="1" transform_on_consume="vest3_5" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest3_40.png" />
         <model mesh_filename="vest3.xml" />
 
@@ -62,7 +62,7 @@
 		<modifier class="hit_success_probability" value="-0.01" />
     </carry_item>
 	
-    <carry_item key="vest3_5" name="Vest, type III, 20%" slot="1" transform_on_consume="vest3_6" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+    <carry_item key="vest3_5" name="Vest, type III, 20%" slot="1" transform_on_consume="vest3_6" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest3_20.png" />
         <model mesh_filename="vest3.xml" />
 

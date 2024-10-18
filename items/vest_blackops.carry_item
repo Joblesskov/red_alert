@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
-    <carry_item key="vest_blackops.carry_item" name="black ops vest" slot="1" transform_on_consume="vest_blackops_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+    <carry_item key="vest_blackops.carry_item" name="black ops vest" slot="1" transform_on_consume="vest_blackops_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest_blackops.png" />
         <model mesh_filename="vest_black.xml" />
         
@@ -18,7 +18,7 @@
       	<modifier class="night_detectability" value="-0.08" />
     </carry_item>
 
-	<carry_item key="vest_blackops_2" name="black ops vest, 80%" slot="1" transform_on_consume="vest_blackops_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+	<carry_item key="vest_blackops_2" name="black ops vest, 80%" slot="1" transform_on_consume="vest_blackops_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest_blackops_80.png" />
         <model mesh_filename="vest_black.xml" />
         
@@ -35,7 +35,7 @@
       	<modifier class="night_detectability" value="-0.08" />
     </carry_item>
 
-	<carry_item key="vest_blackops_3" name="black ops vest, 60%" slot="1" transform_on_consume="vest_blackops_4" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+	<carry_item key="vest_blackops_3" name="black ops vest, 60%" slot="1" transform_on_consume="vest_blackops_4" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest_blackops_60.png" />
         <model mesh_filename="vest_black.xml" />
         
@@ -52,7 +52,7 @@
       	<modifier class="night_detectability" value="-0.06" />
     </carry_item>
 
-	<carry_item key="vest_blackops_4" name="black ops vest, 40%" slot="1" transform_on_consume="vest_blackops_5" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+	<carry_item key="vest_blackops_4" name="black ops vest, 40%" slot="1" transform_on_consume="vest_blackops_5" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
         <hud_icon filename="hud_vest_blackops_40.png" />
         <model mesh_filename="vest_black.xml" />
         
@@ -69,7 +69,7 @@
       	<modifier class="night_detectability" value="-0.06" />
     </carry_item>
 
-	<carry_item key="vest_blackops_5" name="black ops vest, 20%" slot="1" transform_on_consume="vest_blackops_6" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+	<carry_item key="vest_blackops_5" name="black ops vest, 20%" slot="1" transform_on_consume="vest_blackops_6" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
 		<hud_icon filename="hud_vest_blackops_20.png" />
 		<model mesh_filename="vest_black.xml" />
 
@@ -86,7 +86,7 @@
       	<modifier class="night_detectability" value="-0.05" />
 	</carry_item>
 
-	<carry_item key="vest_blackops_6" name="black ops vest, destroyed" slot="1" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+	<carry_item key="vest_blackops_6" name="black ops vest, destroyed" slot="1" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
 		<hud_icon filename="hud_vest_blackops_0.png" />
 		<model mesh_filename="vest_black.xml" />
 

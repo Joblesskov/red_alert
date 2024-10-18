@@ -32,9 +32,9 @@
 
 		<preset text="Difficulty:Normal" help="Help:Hard" id="normal"
 			friendly_capacity="2.0"
-			friendly_accuracy="1.00"
+			friendly_accuracy="0.96"
 			enemy_capacity="1.8"
-			enemy_accuracy="1.00"
+			enemy_accuracy="0.95"
 			xp_multiplier="1.00"
 			rp_multiplier="1.00"
 			player_damage_modifier="0.0"

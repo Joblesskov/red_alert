@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
-	<carry_item key="vest1.carry_item" name="Vest, type I" slot="1" transform_on_consume="vest1_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+	<carry_item key="vest1.carry_item" name="Vest, type I" slot="1" transform_on_consume="vest1_2" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
 		<hud_icon filename="hud_vest1.png" />
 		<model mesh_filename="vest1.xml" />
 
@@ -13,7 +13,7 @@
 		<modifier class="hit_success_probability" value="-0.05" />
 	</carry_item>
 
-	<carry_item key="vest1_2" name="Vest, type I, 50%" slot="1" transform_on_consume="vest1_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0">
+	<carry_item key="vest1_2" name="Vest, type I, 50%" slot="1" transform_on_consume="vest1_3" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0">
 		<hud_icon filename="hud_vest1_hole1.png" />
 		<model mesh_filename="vest1.xml" />
 

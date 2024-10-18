@@ -130,6 +130,11 @@ class UserSettings {
 			if (m_presetId == "normal") {
 				m_initialXp = 0;
 				m_initialRp = 5000;
+			}		
+
+			if (m_presetId == "custom") {
+				m_initialXp = 0;
+				m_initialRp = 5000;
 			}
 		}
 	}
