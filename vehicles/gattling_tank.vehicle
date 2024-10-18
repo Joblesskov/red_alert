@@ -28,8 +28,8 @@
 	friction_offset="0.0" 
 	drag_offset="-0.05" /> 
 
-	<turret offset="0 1.474 -0.108" weapon_key="vw_gattling_ap.weapon" weapon_offset="0.26 0.543 1.009" weapon_recoil="0.05" max_rotation_step="0.00018" />
-	<turret offset="0 1.474 -0.108" weapon_key="vw_gattling.weapon" weapon_offset="-0.26 0.543 1.009" weapon_recoil="0.05" max_rotation_step="0.00018" />
+	<turret offset="0 1.474 -0.108" weapon_key="vw_gattling_ap.weapon" weapon_offset="0.26 0.763 0.909" weapon_recoil="0.05" max_rotation_step="0.00018" />
+	<turret offset="0 1.474 -0.108" weapon_key="vw_gattling.weapon" weapon_offset="-0.26 0.763 0.909" weapon_recoil="0.05" max_rotation_step="0.00018" />
 
 	<visual class="chassis" mesh_filename="gattling_tank_chassis.mesh" texture_filename="gattling_tank_chassis.png" />
 	<visual class="turret" turret_index="0" mesh_filename="gattling_tank_turret.mesh" texture_filename="gattling_tank_turret.png" />

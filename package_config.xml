@@ -31,9 +31,9 @@
 		/>
 
 		<preset text="Difficulty:Normal" help="Help:Hard" id="normal"
-			friendly_capacity="3.0"
+			friendly_capacity="2.0"
 			friendly_accuracy="1.00"
-			enemy_capacity="2.5"
+			enemy_capacity="1.8"
 			enemy_accuracy="1.00"
 			xp_multiplier="1.00"
 			rp_multiplier="1.00"
