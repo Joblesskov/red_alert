@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="vw_gattling.weapon" key="vw_gattling_t.weapon">
+    <specification 
+    spread_range="0.3"
+    sight_range_modifier="1.25"
+    projectile_speed="120.0" 
+    barrel_offset_3d="0 0 0"
+    sight_height_offset="0.5" />
+
+    <model mesh_filename="" texture_filename="" />
+    <hud_icon filename="hud_gattling_cannon.png" />
+    <projectile file="bullet.projectile">
+        <result class="hit" 
+            kill_probability="0.75" 
+            kill_decay_start_time="0.40" 
+            kill_decay_end_time="0.60" 
+        />
+    </projectile>
+</weapon>

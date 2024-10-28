@@ -1,0 +1,8 @@
+<trail
+key="PrismTrail"
+material="PrismTrail"
+trail_length="50.0"
+intensity_range="0.5 0.8"
+initial_width_range="0.3 0.3"
+width_change="0"
+/>

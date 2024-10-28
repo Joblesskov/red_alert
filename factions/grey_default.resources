@@ -10,6 +10,9 @@
     <weapon key="wy_virus.weapon" />
     <weapon key="wy_virus_e.weapon" />
     <weapon key="wy_yuri.weapon" />
+
+    <weapon key="resource_gattling_cannon.weapon" />
+    <weapon key="resource_psychic_tower.weapon" />
     
     <carry_item key="vest_thick_skin.carry_item" enabled="1" />
 	

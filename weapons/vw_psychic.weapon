@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="vw_psychic.weapon" >
+    <specification 
+    slot="2" 
+    retrigger_time="5" 
+    accuracy_factor="1" 
+    spread_range="0.2" 
+    sustained_fire_grow_step="1.0" 
+    sustained_fire_diminish_rate="0.21" 
+    sight_range_modifier="1.6"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0"
+    barrel_offset_3d="0 4 0"
+    suppressed="0" 
+    name="Mind Control Tower" 
+    class="0" 
+    use_basic_muzzle_smoke_effect="0"
+    projectile_speed="340.0" />
+    
+    <sound key="fire" fileref="iyurat1a.wav" />
+    
+    <hud_icon filename="hud_psychic_tower.png" />
+
+    <effect class="muzzle" ref="" />
+    
+    <ballistics curve_height="6.0" near_far_distance="4.0" speed_estimation_near="400.0" speed_estimation_far="400.0" max_speed="400.0" randomness="0.0" tweak_factor="11" /> 
+    <projectile file="alpha_wave_t.projectile">
+        <effect class="result" key="terrain" ref="AlphaWaveWoosh3" />
+        <effect class="result" key="other" copy="terrain" /> 
+    </projectile>
+</weapon>

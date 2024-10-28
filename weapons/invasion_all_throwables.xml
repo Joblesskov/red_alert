@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
     <projectile file="alpha_wave.projectile" />
+    <projectile file="alpha_wave_t.projectile" />
     <projectile file="black_eagle_missile.projectile" />
     <projectile file="c4.projectile" />
     <projectile file="debri_destroy_small.projectile" />
@@ -24,6 +25,7 @@
     <projectile file="mig_missile_rad.projectile" />
     <projectile file="neutron.projectile" />
     <projectile file="nighthawk_bullet.projectile" />
+    <projectile file="prism_beam.projectile" />
     <projectile file="psychic_blast.projectile" />
     <projectile file="psychic_blast_sub.projectile" />
     <projectile file="psychic_jab_bullet.projectile" />

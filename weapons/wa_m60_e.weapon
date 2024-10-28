@@ -3,7 +3,7 @@
     <specification 
         retrigger_time="0.08" 
         spread_range="0.175"
-        sustained_fire_grow_step="0.4" 
+        sustained_fire_grow_step="0.3" 
         sustained_fire_diminish_rate="1.2" 
         magazine_size="150" 
         name="M60 (Elite)" 

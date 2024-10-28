@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="alpha-wave" slot="1" pulldown_in_air="1000.0" key="alpha_wave_t.projectile">
+    <result class="notify_script" key="mind_control_t" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+    <model filename="alpha_wave.xml" />
+
+    <commonness value="0.0" />
+
+    <sound class="result" key="terrain" fileref="" />
+    <sound class="result" key="other" copy="terrain" />
+
+    <trail probability="1.0" key="AlphaWave" />
+</projectile>

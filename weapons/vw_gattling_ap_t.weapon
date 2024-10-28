@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="vw_gattling_ap.weapon" key="vw_gattling_ap_t.weapon">
+    <specification 
+    spread_range="0.3"
+    sight_range_modifier="1.25"
+    projectile_speed="120.0" 
+    barrel_offset_3d="0 0 0"
+    sight_height_offset="0.5" />
+
+    <model mesh_filename="" texture_filename="" />
+    <hud_icon filename="hud_gattling_cannon.png" />
+    <projectile file="bullet.projectile" >
+        <result class="blast" 
+            radius="1.5" 
+            damage="0.12" 
+            decal="0"
+            damage_origin_vehicle="0"
+            faction_compare="not_equal" />
+    </projectile>
+</weapon>

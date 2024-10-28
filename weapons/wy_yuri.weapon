@@ -3,7 +3,7 @@
     <tag name="sniper" />
 
     <specification 
-		retrigger_time="3" 
+		retrigger_time="4" 
 		accuracy_factor="1.1" 
 		sustained_fire_grow_step="0.0" 
 		sustained_fire_diminish_rate="0.1" 

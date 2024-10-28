@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="wy_mind_control.weapon" key="wy_mind_control_e.weapon">
     <specification 
-        retrigger_time="3"
+        retrigger_time="4"
         name="Mind Control (Elite)" 
         sight_range_modifier="1.4" />
     <commonness value="3" can_respawn_with="0" in_stock="1"/>    

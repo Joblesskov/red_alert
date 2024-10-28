@@ -34,6 +34,12 @@
 	<vehicle file="tow_2.vehicle" />    	
 	<vehicle file="hornet.vehicle" />
 	<vehicle file="hornet_2.vehicle" /> 
+	<vehicle file="pillbox.vehicle" />
+	<vehicle file="prism_tower.vehicle" />
+	<vehicle file="sentry_gun.vehicle" />
+	<vehicle file="tesla_coil.vehicle" />
+	<vehicle file="gattling_cannon.vehicle" />
+	<vehicle file="psychic_tower.vehicle" />
 
 	<vehicle file="radar_tower.vehicle" />
 	<vehicle file="radio_jammer_base.vehicle" />

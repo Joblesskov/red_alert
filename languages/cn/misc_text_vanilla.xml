@@ -43,7 +43,7 @@ red alert
     <text key="Virus Dart Gun (Elite)" text="病毒狙击枪 (精英)" /> 
     <text key="Yuri" text="尤里" /> 
 
-	<text key="Dynamite deploy" text="高爆炸药 (部署)" />
+	<text key="dynamite deploy" text="高爆炸药部署" />
 	<text key="dynamite" text="高爆炸药" />
 	<text key="psychic blast" text="心灵冲击" />
 	<text key="rad eruption" text="放射场爆发" />
@@ -87,6 +87,17 @@ red alert
     <text key="IFV" text="步兵战车" /> 
     <text key="Flak Track" text="防空履带车" /> 
     <text key="Gattling Tank" text="加特林坦克" /> 
+    <text key="Pillbox" text="机枪碉堡" /> 
+    <text key="pillbox deploy" text="机枪碉堡部署包" /> 
+    <text key="Prism Tower" text="光棱塔" /> 
+    <text key="prism tower deploy" text="光棱塔部署包" /> 
+    <text key="Grand Cannon" text="巨炮" /> 
+    <text key="Sentry Gun" text="哨戒炮" /> 
+    <text key="sentry gun deploy" text="哨戒炮部署包" /> 
+    <text key="Battle Bunker" text="战斗碉堡" /> 
+    <text key="Tesla Coil" text="磁暴线圈" /> 
+    <text key="Gattling Cannon" text="加特林机炮" /> 
+    <text key="Psychic Tower" text="心灵控制塔" /> 
 
     <text key="Aircraft Carrier Support" text="航空母舰支援" /> 
     <text key="Requesting aircraft carrier support" text="请求航母支援" /> 

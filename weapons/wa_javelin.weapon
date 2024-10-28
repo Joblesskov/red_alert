@@ -33,7 +33,7 @@
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="javelin.xml" />
     
-    <ballistics curve_height="8.0" near_far_distance="4.0" speed_estimation_near="70.0" speed_estimation_far="70.0" max_speed="70.0" randomness="0.0" tweak_factor="1.55" /> 
+    <ballistics curve_height="8.0" near_far_distance="4.0" speed_estimation_near="70.0" speed_estimation_far="70.0" max_speed="70.0" randomness="0.0" tweak_factor="1.5" /> 
 
     <projectile file="javelin.projectile" />
     <weak_hand_hold offset="-0.35" />

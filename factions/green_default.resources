@@ -19,12 +19,16 @@
     <weapon key="wa_stoner_lmg_e.weapon" />
     <weapon key="wa_ump40.weapon" />
     <weapon key="wa_ump40_e.weapon" />
+
+	<weapon key="resource_pillbox.weapon" />
+	<weapon key="resource_prism_tower.weapon" />
+    
+	<carry_item key="vest_blackops.carry_item" enabled="1" />	
+
  	<vehicle key="jeep.vehicle" />
  	<vehicle key="ifv.vehicle" />
  	<vehicle key="grizzly_tank.vehicle" />
  	<vehicle key="transport_truck.vehicle" />   
-    
-	<carry_item key="vest_blackops.carry_item" enabled="1" />	
 
 	<call key="paratroopers1a.call" />
 	<call key="paratroopers2a.call" />

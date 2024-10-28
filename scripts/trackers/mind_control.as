@@ -17,7 +17,7 @@ class MindControl : Tracker {
 	protected void handleResultEvent(const XmlElement@ event) {
 
 		string sourceKey = event.getStringAttribute("key");
-		if (sourceKey != "mind_control") return;
+		if (sourceKey != "mind_control" && sourceKey != "mind_control_t" ) return;
 		
 		float range;
 		uint count;
@@ -27,7 +27,7 @@ class MindControl : Tracker {
 			"wy_mind_control.weapon",
 			"wy_mind_control_e.weapon",
 			"wy_fist.weapon",
-			"wy_fist_e.weapon"
+			"wy_fist_e.weapon",
 			"ws_akm.weapon",
 			"ws_akm_1.weapon",
 			"wa_colt_m1911.weapon",
@@ -60,9 +60,15 @@ class MindControl : Tracker {
 		array<const XmlElement@>@ controller_equipment = controller.getElementsByTagName("item");
 		if (controller_equipment.size() > 0) {
 			string weaponC = controller_equipment[0].getStringAttribute("key");
-			if (!dictR.exists(weaponC)) return;
-			range = float(dictR[weaponC]);
-			count = uint(dictC[weaponC]);
+			if (sourceKey == "mind_control_t")
+			{
+				range = 3;
+				count = 1;
+			} else if (dictR.exists(weaponC))
+			{
+				range = float(dictR[weaponC]);
+				count = uint(dictC[weaponC]);
+			} else return;
 		}
 
 		for (uint f = 0; f < 4; f++) {
@@ -82,23 +88,17 @@ class MindControl : Tracker {
 
 				// check if target is immune to mind control
 				array<const XmlElement@>@ target_equipment = target.getElementsByTagName("item");
+				string weaponT;
 				if (target_equipment.size() > 0) {
-					string weaponT = target_equipment[0].getStringAttribute("key");
+					weaponT = target_equipment[0].getStringAttribute("key");
 					if (immuneKeys.find(weaponT) != -1) continue;
-				}
+				} else continue;
 
 				string targetPos = target.getStringAttribute("position");
 				string targetGroup = target.getStringAttribute("soldier_group_name");
 				int isWounded = target.getIntAttribute("wounded");
 				int xp = target.getIntAttribute("xp");
 				float xpReward = float(xp)*0.0005 + 0.0010;
-
-				// kill target
-				// string command1 =
-				// 	"<command class='update_character' " +
-				// 	"	id='" + targetId + "' " +
-				// 	"	dead='1' " +
-				// 	"/>"; 
 
 				// create new character
 				string command2 = 
