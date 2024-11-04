@@ -12,7 +12,7 @@
     <modifier class="detectability" value="-0.1" />    
 
     <projectile file="alpha_wave.projectile">
-        <effect class="result" key="terrain" ref="AlphaWaveWoosh2" />
+        <effect class="result" key="terrain" ref="AlphaWaveWoosh2" lighting="1" />
         <effect class="result" key="other" copy="terrain" /> 
     </projectile>
 </weapon>

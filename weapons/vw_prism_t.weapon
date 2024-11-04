@@ -16,7 +16,7 @@
     name="Prism Beam" 
     class="0" 
     use_basic_muzzle_smoke_effect="0"
-    projectile_speed="340.0" />
+    projectile_speed="600.0" />
     
     <sound key="fire" fileref="bpriat1a.wav" />
     

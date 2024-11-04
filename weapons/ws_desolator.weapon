@@ -16,7 +16,8 @@
     projectiles_per_shot="1"
 	sight_range_modifier="1.2" 
 	projectile_speed="340.0" 
-	barrel_offset="0.4" />
+	barrel_offset="0.4"
+    use_basic_muzzle_smoke_effect="0" />
 
     <animation key="recoil" ref="40" />
     <!-- <animation key="reload" ref="35" /> -->
@@ -36,6 +37,8 @@
     <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
     <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
+
+    <effect class="muzzle" ref="MuzzleDesolator" />
 
     <model filename="desolator.xml" />  
     <hud_icon filename="hud_desolator.png" />

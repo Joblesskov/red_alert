@@ -17,7 +17,7 @@
     <hud_icon  />
 
 
-    <effect class="result" key="terrain" ref="SmokeVirus" post_processing="1" />
+    <effect class="result" key="terrain" ref="BloodExplosionGreenSmall" post_processing="1" lighting="0"/>
 
     <effect class="result" type="splat_map" surface_tag="" size="3.5" atlas_index="0" layer="1" />
     <effect class="result" type="splat_map" surface_tag="" size="4.5" atlas_index="4" layer="0" />

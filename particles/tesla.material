@@ -1,0 +1,19 @@
+material add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+
+material tesla : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture muzzle_tesla.png 	
+}}}}

@@ -31,7 +31,7 @@
     <model filename="" />
 
     <projectile file="alpha_wave.projectile">
-      <effect class="result" key="terrain" ref="AlphaWaveWoosh1" />
+      <effect class="result" key="terrain" ref="AlphaWaveWoosh1" lighting="1" />
       <effect class="result" key="other" copy="terrain" /> 
     </projectile>
 

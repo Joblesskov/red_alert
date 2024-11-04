@@ -20,7 +20,7 @@
 
 	<visual class="chassis" mesh_filename="tesla_coil.mesh" texture_filename="tesla_coil.png" />
 
-	<character_slot type="gunner" enter_position="0 0 0" seat_position="0 0 0" rotation="0" exit_rotation="3.14" hiding="1" >
+	<character_slot type="gunner" enter_position="0 0 -1" seat_position="0 0 0" rotation="0" exit_rotation="3.14" hiding="1" >
 		<turret index="0" />
 	</character_slot>
 

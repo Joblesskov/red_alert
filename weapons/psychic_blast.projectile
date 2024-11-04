@@ -28,7 +28,7 @@
     <capacity value="6" source="rank" source_value="6.0" /> 
     <inventory encumbrance="3.0" price="2.0" in_stock="1" />
     
-    <effect class="result" key="terrain" ref="PsychicBlast" />
+    <effect class="result" key="terrain" ref="PsychicBlast" lighting="0" />
     <effect class="result" key="other" copy="terrain" /> 
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="vehicle" copy="terrain" />

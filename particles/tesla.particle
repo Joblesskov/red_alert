@@ -1,10 +1,62 @@
+particle_system MuzzleTesla
+{
+	quota 50
+	material tesla
+	particle_width 25
+	particle_height 2
+	renderer billboard
+	billboard_type oriented_self
+	billboard_origin center_left
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0.01
+	
+	emitter Point
+	{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 10
+		position 0 0 0
+		velocity 0.00001
+		time_to_live 0.5
+		duration 0.1
+	}
+		affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	-90
+		rotation_range_end	-90
+	}
+	affector ColourFader
+	{
+		red		-2
+		green	-1.8
+		blue	-1
+		alpha	0
+	}
+}
+
+particle_system MuzzleTeslaElite : MuzzleTesla
+{
+	particle_width 30
+	particle_height 2.4
+}
+
+particle_system MuzzleTeslaCoilT : MuzzleTesla
+{
+	particle_width 90
+	particle_height 8
+}
 
 particle_system ShineTesla
 {
 	quota	9741
 	material	Shine
-	particle_width	2
-	particle_height	2
+	particle_width	1
+	particle_height	1
 	cull_each	false
 	renderer	billboard
 	billboard_type	point
@@ -13,17 +65,17 @@ particle_system ShineTesla
 	{
 		angle	90
 		colour	1 1 1 1
-		colour_range_start	0.4 0.8 0.6 0.9
-		colour_range_end	0.5 1 0.7 1
+		colour_range_start	0.4 0.6 0.8 0.9
+		colour_range_end	0.5 0.7 1 1
 		direction	0 1 0
 		emission_rate	50
 		position	0 0 0
 		velocity	0
 		velocity_min	0
 		velocity_max	1
-		time_to_live	1
-		time_to_live_min	0.8
-		time_to_live_max	0.8
+		time_to_live	0.3
+		time_to_live_min	0.3
+		time_to_live_max	0.3
 		duration	0.05
 		duration_min	0.05
 		duration_max	0.05
@@ -42,6 +94,6 @@ particle_system ShineTesla
 
 	affector Scaler
 	{
-		rate	1
+		rate	1.6
 	}
 }
