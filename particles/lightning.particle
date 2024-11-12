@@ -70,35 +70,35 @@ particle_system Lightning
 
 particle_system Lightning_trail
 {
-	quota	2000
+	quota	500
 	material	Lightning_trail
-	particle_width	0.5
-	particle_height	0.5
+	particle_width	2
+	particle_height	2
 	cull_each	false
 	renderer	billboard
-	billboard_type	oriented_self
+	billboard_type	point
 
 	emitter Point
 	{
-		angle	180
+		angle	360
 		colour	1 1 1 0.4
 		colour_range_start	1 1 1 1
 		colour_range_end	1 1 1 1
 		direction	0 1 0
-		emission_rate	80
+		emission_rate	50
 		position	0 0 0
-		velocity	10.0
-		velocity_min	2.0
-		velocity_max	2.0
+		velocity	0.0
+		velocity_min	2
+		velocity_max	4
 		time_to_live	0.8
 		time_to_live_min	0.8
 		time_to_live_max	0.8
-		duration	1.0
+		duration	0.0
 	}
 	
 	affector Scaler
 	{
-		rate	0.8
+		rate	-1
 	}
 
 	affector Rotator
@@ -111,8 +111,8 @@ particle_system Lightning_trail
 
 	affector ColourFader
 	{
-		red	-0.7
-		green	-0.7
+		red	-0.5
+		green	-0.5
 		blue	-0.3
 		alpha	-1
 	}
@@ -128,11 +128,5 @@ particle_system Lightning_trail
 		blue2	-1
 		alpha2	-0.8
 		state_change	20
-	}
-
-	affector LinearForce
-	{
-		force_vector 0 0 0
-		force_application add
 	}
 }

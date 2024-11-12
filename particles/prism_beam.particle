@@ -102,3 +102,39 @@ particle_system PrismShine
 	}
 }
 
+particle_system PrismPower
+{
+	quota	1000
+	material	Shine
+	particle_width	2.2
+	particle_height	2.2
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point
+	{
+		angle	0
+		colour	1 1 1 1
+		direction	0 1 0
+		emission_rate	2
+		position	0 0 0
+		velocity	8
+		time_to_live	0.7
+		time_to_live_min	0.7
+		time_to_live_max	0.7
+		duration	0.0
+	}
+
+	affector ColourInterpolator 
+	{
+		colour0	0 0 0 1
+		time0	0
+		colour1	0.9 0.9 1 1
+		time1	0.1
+		colour2	0.9 0.9 1 1
+		time2	0.6
+		colour3	0 0 0 1
+		time3	0.7
+	}
+}

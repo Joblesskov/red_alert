@@ -39,8 +39,7 @@
     <sound key="last_ammo" fileref="ichratta.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
 
-    <effect class="muzzle" ref="LawMuzzle" />
-    <effect class="muzzle" ref="UpDust" />
+    <effect class="muzzle" ref="" />
 
     <hud_icon filename="hud_chrono.png" />
     <model filename="chrono.xml" />

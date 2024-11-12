@@ -10,6 +10,12 @@
     <trigger class="impact" />
     <rotation class="motion" />
 
+    <effect class="result" key="terrain" ref="DesolatorShine" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+    <effect class="result" key="other" copy="terrain" />
+
     <sound class="result" key="terrain" fileref="ricochet1.wav" />
     <sound class="result" key="terrain" fileref="ricochet2.wav" />
     <sound class="result" key="terrain" fileref="ricochet3.wav" />

@@ -2,14 +2,14 @@
 <weapon file="base_primary.weapon" key="ws_desolator_e.weapon">
     <tag name="sniper" />
     <specification 
-	retrigger_time="1.2" 
+	retrigger_time="1.0" 
 	accuracy_factor="1.0" 
     spread_range="0.2"
 	sustained_fire_grow_step="0.9" 
 	sustained_fire_diminish_rate="0.83" 
 	magazine_size="12" 
 	can_shoot_standing="1" 
-	suppressed="1" 
+	suppressed="0" 
 	name="Rad Cannon (Elite)" 
 	class="4" 
 	burst_shots="1"

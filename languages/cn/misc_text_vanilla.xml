@@ -97,7 +97,9 @@ red alert
     <text key="Battle Bunker" text="战斗碉堡" /> 
     <text key="Tesla Coil" text="磁暴线圈" /> 
     <text key="Gattling Cannon" text="加特林机炮" /> 
+    <text key="gattling cannon deploy" text="加特林机炮部署包" /> 
     <text key="Psychic Tower" text="心灵控制塔" /> 
+    <text key="psychic tower deploy" text="心灵控制塔部署包" /> 
 
     <text key="Aircraft Carrier Support" text="航空母舰支援" /> 
     <text key="Requesting aircraft carrier support" text="请求航母支援" /> 

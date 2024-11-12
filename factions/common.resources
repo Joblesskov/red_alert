@@ -7,12 +7,12 @@
     <weapon key="medikit.weapon" />
     <weapon key="medikit_ai_2.weapon" />
     <weapon key="cover_resource.weapon" />
-    <weapon key="gl_resource.weapon" />
+    <!-- <weapon key="gl_resource.weapon" />
     <weapon key="hornet_resource.weapon" />
     <weapon key="mg_resource.weapon" />
     <weapon key="minig_resource.weapon" />
     <weapon key="mortar_resource.weapon" />
-    <weapon key="tow_resource.weapon" />
+    <weapon key="tow_resource.weapon" /> -->
 	<weapon key="bandage.weapon" />
 	<weapon key="vest_repair.weapon" />
 	<weapon key="wrench.weapon"  />

@@ -136,6 +136,7 @@
 
 			<weapon key="medikit_ai_2.weapon" />
 
+			<carry_item key="vest1.carry_item" />
 			<carry_item key="vest2.carry_item" />
 		</resources>
 
@@ -167,12 +168,8 @@
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wy_steyr_tmp.weapon" />
 
-			<weapon key="mg_resource.weapon" />
-			<weapon key="minig_resource.weapon" />
-			<weapon key="mortar_resource.weapon" />
-			<weapon key="tow_resource.weapon" />
-			<weapon key="gl_resource.weapon" />
-			<weapon key="hornet_resource.weapon" />
+			<weapon key="resource_gattling_cannon.weapon" />
+			<weapon key="resource_psychic_tower.weapon" />
 
 			<carry_item key="vest1.carry_item" />
 		</resources>

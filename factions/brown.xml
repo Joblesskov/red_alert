@@ -236,12 +236,8 @@
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_aek_919k.weapon" />
 
-			<weapon key="mg_resource.weapon" />
-			<weapon key="minig_resource.weapon" />
-			<weapon key="mortar_resource.weapon" />
-			<weapon key="tow_resource.weapon" />
-			<weapon key="gl_resource.weapon" />
-			<weapon key="hornet_resource.weapon" />
+			<weapon key="resource_sentry_gun.weapon" />
+			<weapon key="resource_tesla_coil.weapon" />
 
 			<carry_item key="vest1.carry_item" />
 		</resources>
