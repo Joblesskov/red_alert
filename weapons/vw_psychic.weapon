@@ -2,11 +2,11 @@
 <weapon key="vw_psychic.weapon" >
     <specification 
     slot="2" 
-    retrigger_time="5" 
+    retrigger_time="2" 
     accuracy_factor="1" 
-    spread_range="0.2" 
-    sustained_fire_grow_step="1.0" 
-    sustained_fire_diminish_rate="0.21" 
+    spread_range="0.1" 
+    sustained_fire_grow_step="0.3" 
+    sustained_fire_diminish_rate="0.05" 
     sight_range_modifier="1.6"
     magazine_size="-1" 
     can_shoot_standing="0" 
@@ -16,7 +16,9 @@
     name="Mind Control Tower" 
     class="0" 
     use_basic_muzzle_smoke_effect="0"
-    projectile_speed="340.0" />
+    projectile_speed="340.0"
+    cooldown_start="0.6"
+    cooldown_end="0.4" />
     
     <sound key="fire" fileref="iyurat1a.wav" />
     
@@ -24,9 +26,17 @@
 
     <effect class="muzzle" ref="" />
     
-    <ballistics curve_height="6.0" near_far_distance="4.0" speed_estimation_near="400.0" speed_estimation_far="400.0" max_speed="400.0" randomness="0.0" tweak_factor="11" /> 
+    <ballistics curve_height="10.0" near_far_distance="4.0" speed_estimation_near="400.0" speed_estimation_far="400.0" max_speed="400.0" randomness="0.0" tweak_factor="13" /> 
     <projectile file="alpha_wave_t.projectile">
-        <effect class="result" key="terrain" ref="AlphaWaveWoosh3" />
+        <effect class="result" key="terrain" ref="AlphaWaveWoosh4" />
         <effect class="result" key="other" copy="terrain" /> 
     </projectile>
+
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
+    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
+    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />	
+    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.5" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />  <!-- important non combat player-only vehicles -->  
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="3.0" />    
 </weapon>

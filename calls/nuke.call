@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="nuke.call"
+	radio_view_text="Nuke Attack" 
+	initiation_comment1="Requesting nuclear missile attack"
+	acknowledge_comment="Roger."
+	launch_comment="Nuclear missile launched."
+	notify_metagame="1">
+
+    <round instances="1"
+        instance_class="grenade"
+        instance_key="nuke.projectile" 
+        instance_spread="0 0 0" 
+        common_spread="0 0 0" 
+        launch_time="3.0"
+        spawn_time="11.0"
+        horizontal_offset_at_spawn="0.0"
+		initial_speed_to_target="20.0" >
+        <sound class="launch" fileref="snuksire.wav" />
+    </round>
+    
+    <round instances="1"
+        instance_class="grenade"
+        instance_key="nuke_under.projectile" 
+        instance_spread="0 0 0" 
+        common_spread="0 0 0" 
+        launch_time="3.0"
+        spawn_time="11.0"
+        horizontal_offset_at_spawn="0.0"
+		initial_speed_to_target="20.0" >
+    </round>
+
+    <hud_icon filename="call_nuke.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="1.0" />
+    <inventory encumbrance="0.0" price="1500.0" />
+</call>

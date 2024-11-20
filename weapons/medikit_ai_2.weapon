@@ -33,6 +33,6 @@
 
     <hud_icon filename="hud_trauma_kit.png" />
     <commonness value="0.14" />
-    <inventory encumbrance="2.0" price="4.0" />
+    <inventory encumbrance="2.0" price="1.0" />
     <modifier class="speed" value="+0.1" />    
 </weapon>

@@ -1,0 +1,31 @@
+import ShadowPlantIntegrated from "shadow_plant.material"
+import ShadowPlantIntegrated2 from "shadow_plant.material"
+import ShadowPlantSimple from "shadow_plant.material"
+
+material ShadowLightningStormIntegrated : ShadowPlantIntegrated {
+	technique Basic {
+		shadow_caster_material ShadowLightningStormIntegrated2
+	}
+}
+
+material ShadowLightningStormIntegrated2 : ShadowPlantIntegrated2 {
+	technique ShadersShadows {
+		pass Basic {	
+			texture_unit Basic {
+				texture shadow_cloud.png
+			}
+		}
+	}
+}
+
+material ShadowLightningStormSimple : ShadowPlantSimple {
+	technique NoShaders {
+		pass Basic {
+			texture_unit Basic {
+				texture shadow_cloud.png
+        	}
+		} 
+	}
+}
+
+

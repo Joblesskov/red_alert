@@ -15,7 +15,8 @@
     suppressed="0" 
     name="Lasher MG" 
     class="0" 
-    projectile_speed="110.0" />
+    projectile_speed="110.0" 
+    use_basic_muzzle_smoke_effct="0" />
     
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
@@ -29,6 +30,8 @@
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
 	
+    <effect class="muzzle" ref="" />
+
     <model filename="" />
 
     <hud_icon filename="hud_tank_mg.png" />

@@ -1,0 +1,78 @@
+particle_system ShadowLightningStorm
+{
+	quota	100
+	// RWR will internally extend shadow material names with Simple/Integrated
+	material	ShadowLightningStorm
+	particle_width	20
+	particle_height	80
+	cull_each	false
+	renderer	billboard
+	billboard_type	perpendicular_common
+	common_direction 0 1 0
+	common_up_vector 1 0 0
+	iteration_interval 	0.01
+
+	emitter Box
+	{
+		angle	180
+		colour	1 1 1 1
+		direction	0 0 0
+		position	0 20 0
+		emission_rate	20
+		velocity	2
+		time_to_live	3.0
+		duration	25
+		width	0
+		height	80
+		depth	80
+	}
+	affector ColourFader{
+		red		+1
+		green	+1
+		blue	+1
+		alpha	+1
+	}
+}
+particle_system RainLightningStorm
+{
+	quota	50000
+	material	Rain
+	particle_width	0.2
+	particle_height	4.0
+	cull_each	false
+	renderer	billboard
+	billboard_type	oriented_self
+	common_up_vector	0 1 0
+
+	emitter Box
+	{
+		angle	0
+		colour	1 1 1 1
+		colour_range_start	0.5 0.5 0.6 0.2
+		colour_range_end	0.5 0.5 0.6 0.6
+		direction	0 -1 0
+		emission_rate	1000
+		position	0 40 0
+		velocity	0.0001
+		time_to_live	0
+		time_to_live_min	3
+		time_to_live_max	5
+		duration	25
+		width	0
+		height	80
+		depth	80
+	}
+
+	affector ColourFader
+	{
+		red	0
+		green	0
+		blue	0
+		alpha	-0.1
+	}
+
+	affector LinearForce {
+		force_vector 0 -40 0
+		force_application add
+	}
+}

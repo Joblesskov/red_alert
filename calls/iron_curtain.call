@@ -7,20 +7,31 @@
     notify_metagame="1" >
 
     <round instances="1"
-            instance_class="grenade"
-            instance_key="iron_curtain.projectile" 
-            instance_spread="0 0 0" 
-            common_spread="0 0 0" 
-            launch_time="2.0"
-            spawn_time="4.0"
-            horizontal_offset_at_spawn="0.0"
-            vertical_offset_at_spawn="3.0"
-            initial_speed_to_target="0.0" >
+        instance_class="vehicle"
+        instance_key="event_iron_curtain.vehicle" 
+        instance_spread="0 0 0" 
+        common_spread="0 0 0" 
+        launch_time="3.0"
+        spawn_time="3.0"
+        horizontal_offset_at_spawn="0.0" >
+    </round>
+
+    <round instances="1"
+        instance_class="grenade"
+        instance_key="iron_curtain.projectile" 
+        instance_spread="0 0 0" 
+        common_spread="0 0 0" 
+        launch_time="3.0"
+        spawn_time="5.0"
+        horizontal_offset_at_spawn="0.0"
+        vertical_offset_at_spawn="3.0"
+        initial_speed_to_target="0.0" >
         <sound class="launch" fileref="siroread.wav" />
     </round>
+
 
     <hud_icon filename="call_iron_curtain.png" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="1.0" />
-    <inventory encumbrance="0.0" price="1500.0" />
+    <inventory encumbrance="0.0" price="1000.0" />
 </call>

@@ -16,6 +16,7 @@
             horizontal_offset_at_spawn="0.0">
         <sound class="launch" fileref="vmigmoa.wav" volume="1.5" />
         <sound class="spawn" fileref="vmigatta.wav" />
+    	<effect class="launch" ref="ShadowAirplaneFlyby_F22" shadow="1" />
     </round>
     <round instances="2"
             instance_class="grenade"

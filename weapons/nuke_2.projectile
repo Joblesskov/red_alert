@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="nuke blaster" slot="2" pulldown_in_air="0" key="nuke_2.projectile">
+    <result class="blast" 
+        radius="50.0" 
+        damage="5" 
+        push="5.0" 
+        decal="1" 
+        character_state="death" />
+    <trigger class="time" time_to_live="0.0"/>
+    <rotation class="motion" />
+</projectile>

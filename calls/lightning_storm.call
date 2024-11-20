@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="lightning_storm.call"
+	radio_view_text="Lightning Storm" 
+    initiation_comment1="Requsting lightning storm creation"
+    acknowledge_comment="Roger."
+    launch_comment="Lightning storm ready."
+    notify_metagame="1" >
+
+    <round instances="1"
+		instance_class="vehicle"
+		instance_key="event_lightning_storm.vehicle" 
+		instance_spread="0 0 0" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="3.0"
+		horizontal_offset_at_spawn="0.0">
+    </round>
+
+    <round instances="1"
+		instance_class="vehicle"
+		instance_key="event_jammer.vehicle" 
+		instance_spread="0 0 0" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="3.0"
+		horizontal_offset_at_spawn="0.0">
+    </round>
+
+    <round instances="10"
+		instance_class="grenade"
+		instance_key="lightning_bolt.projectile" 
+		instance_spread="5 30 5" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="4.0"
+		horizontal_offset_at_spawn="0.0"
+		vertical_offset_at_spawn="42.0"
+		initial_speed_to_target="3.0" >
+		<sound class="launch" fileref="swearead.wav" />
+		<sound class="spawn" fileref="sweaintr.wav" />
+		<effect class="launch" ref="ShadowLightningStorm" shadow="1" />
+		<effect class="launch" ref="RainLightningStorm" />
+    </round>
+
+    <round instances="160"
+		instance_class="grenade"
+		instance_key="lightning_bolt.projectile" 
+		instance_spread="30 30 30" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="4.0"
+		horizontal_offset_at_spawn="0.0"
+		vertical_offset_at_spawn="42.0"
+		initial_speed_to_target="3.0" >
+    </round>
+
+
+    <hud_icon filename="call_lightning_storm.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="1.0" />
+    <inventory encumbrance="0.0" price="1500.0" />
+</call>

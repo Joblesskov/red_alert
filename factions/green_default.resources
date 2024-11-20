@@ -38,4 +38,5 @@
 	<call key="black_eagle.call" />
     <call key="aircraft_carrier.call" />
     <call key="nighthawk.call" />
+    <call key="lightning_storm.call" />
 </resources>

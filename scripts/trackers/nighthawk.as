@@ -35,7 +35,7 @@ class NighthawkGunRun : Tracker {
   protected bool m_running = false; //the update function is only running when there are calls in queue
   protected array<NighthawkRequest@> NighthawkQueue; //AC-130 requests are stored here
   protected float m_pi = acos(-1.0f); //pi constant
-  protected float m_arrivalTime = 6.0; //synchronize with particle animation time
+  protected float m_arrivalTime = 3.0; //synchronize with particle animation time
   protected float m_circleTime = 20.0; //synchronize with particle animation time
   protected float m_circleCount = 1.0; //number of loops the plane takes
   protected int m_burstCount = 17; //number of times the plane fires

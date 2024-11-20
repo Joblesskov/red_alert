@@ -21,9 +21,15 @@
     <projectile file="harrier_missile.projectile" />
     <projectile file="hover_missile.projectile" />
     <projectile file="laser.projectile" />
+    <projectile file="lightning_bolt.projectile" />
     <projectile file="mig_missile_explosion.projectile" />
     <projectile file="mig_missile_rad.projectile" />
     <projectile file="neutron.projectile" />
+    <projectile file="nuke.projectile" />
+    <projectile file="nuke_under.projectile" />
+    <projectile file="nuke_1.projectile" />
+    <projectile file="nuke_under1.projectile" />
+    <projectile file="nuke_2.projectile" />
     <projectile file="nighthawk_bullet.projectile" />
     <projectile file="prism_beam.projectile" />
     <projectile file="psychic_blast.projectile" />

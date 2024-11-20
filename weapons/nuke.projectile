@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="nuclear missile" slot="2" pulldown_in_air="0" key="nuke.projectile">
+    <result class="spawn" 
+        instance_class="projectile" 
+        instance_key="nuke_1.projectile" 
+        min_amount="1" 
+        max_amount="1" 
+        offset="0 0 0" 
+        position_spread="0 0" 
+        direction_spread="0 0" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+    
+    <model mesh_filename="noxe_missile.xml" />
+
+    <sound class="result" key="other" fileref="snukintr.wav" />
+    <sound class="result" key="vehicle" copy="other" />       
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="character" copy="other" />
+</projectile>

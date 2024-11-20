@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="wy_mind_control.weapon" key="wy_mind_control_e.weapon">
+<weapon file="base_primary.weapon" key="wy_mind_control_e.weapon">
+    <tag name="sniper" />
+
     <specification 
-        retrigger_time="4"
-        name="Mind Control (Elite)" 
-        sight_range_modifier="1.4" />
-    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
-    <inventory price="240.0" />
-    <capacity value="0" source="rank" source_value="2.0"/>
-    <capacity value="1" source="rank" source_value="6.0"/>
-    <hud_icon filename="hud_psicorp_e.png" />
-    <modifier class="detectability" value="-0.1" />    
+		retrigger_time="4" 
+		accuracy_factor="1.1" 
+		sustained_fire_grow_step="0.0" 
+		sustained_fire_diminish_rate="0.1" 
+		magazine_size="100" 
+		can_shoot_standing="1" 
+		suppressed="1" 
+		name="Mind Control (Elite)" 
+		class="2" 
+		projectile_speed="120.0" 
+		barrel_offset_3d="0 1 -0.1" 
+		sight_range_modifier="1.4"
+		use_basic_muzzle_smoke_effect="0"
+		spread_range="0"/>
+
+    <ballistics curve_height="6.0" near_far_distance="4.0" speed_estimation_near="400.0" speed_estimation_far="400.0" max_speed="400.0" randomness="0.0" tweak_factor="11" /> 
+    
+    <animation state_key="recoil" animation_key="recoil, mind control" />
+    <animation state_key="cycle" animation_key="cycle, mind control" />
+    <animation state_key="reload" animation_key="recoil1" />
+    <animation state_key="running" animation_key="running, no weapon, 60" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, no weapon, 61" />
+    <animation state_key="crouch_moving_backwards"   animation_key="crouching backwards, single hand carry" /> 
+
+    <effect class="muzzle" ref="" />
+
+    <sound key="fire" fileref="iyurat1a.wav" pitch_variety="0.1"/>
+
+    <model filename="" />
 
     <projectile file="alpha_wave.projectile">
+        <result class="notify_script" key="mind_control_e" />
         <effect class="result" key="terrain" ref="AlphaWaveWoosh2" lighting="1" />
         <effect class="result" key="other" copy="terrain" /> 
     </projectile>
-</weapon>
 
+    <hud_icon filename="hud_psicorp_e.png" />
+    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
+    <inventory encumbrance="10.0" price="240.0" />
+    <capacity value="0" source="rank" source_value="2.0"/>
+    <capacity value="1" source="rank" source_value="6.0"/>
+
+    <modifier class="detectability" value="-0.1" />    
+</weapon>

@@ -16,9 +16,9 @@
 
    	<effect class="result" key="vehicle" tag="metal_heavy" ref="HitTank" lighting="1" />
    	<effect class="result" key="vehicle" tag="metal_heavy" ref="HitTankSparks" />  
-    <effect class="result" key="vehicle" tag="metal_heavy" ref="ShineNeutron" lighting="0" />
+    <effect class="result" key="vehicle" tag="metal_heavy" ref="ShineNeutron" />
 
-    <effect class="result" key="terrain" ref="ShineNeutron" lighting="1" />
+    <effect class="result" key="terrain" ref="ShineNeutron" />
     <effect class="result" key="other" ref="Shine" lighting="0" />
     <effect class="result" key="other" ref="Godray" lighting="0" />
 

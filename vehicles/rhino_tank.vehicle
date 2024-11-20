@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="Rhino Tank" key="rhino_tank.vehicle" respawn_time="90" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
+<vehicle file="vehicle_base.vehicle" name="Rhino Tank" key="rhino_tank.vehicle" usable_for_cover="0" respawn_time="90" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="heavy_combat" />
@@ -36,8 +36,8 @@
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
 	<turret offset="0 1.657 -0.137" weapon_key="vw_rhino_cannon.weapon" weapon_offset="0 0.324 1.575" weapon_recoil="0.15" max_rotation_step="0.0001" />
-	<turret offset="-1.1 0.67 0.9" weapon_key="vw_rhino_mg.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" rotation="-0.1" rotation_range="0.5" />
-	<turret offset="+1.1 0.67 0.9" weapon_key="vw_rhino_mg.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" rotation="+0.1" rotation_range="0.5" />
+	<turret offset="-1.1 0.67 0.9" weapon_key="vw_rhino_mg.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" max_rotation_step="0.0006" parent_turret_index="0" rotation="-0.5" rotation_range="1.5" />
+	<turret offset="+1.1 0.67 0.9" weapon_key="vw_rhino_mg.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" max_rotation_step="0.0006" parent_turret_index="0" rotation="+0.5" rotation_range="1.5" />
 
 	<visual class="chassis" mesh_filename="rhino_chassis.mesh" texture_filename="rhino_chassis.png" />
 	<visual class="turret" turret_index="0" mesh_filename="rhino_turret.mesh" texture_filename="rhino_turret.png"/>

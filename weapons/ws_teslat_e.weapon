@@ -35,9 +35,9 @@
     <animation state_key="prone_still" animation_key="prone_still, pistol" />
     <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
     
-    <sound key="fire" fileref="itesatta.wav" pitch_variety="0.1"/>
-    <sound key="fire" fileref="itesat2a.wav" pitch_variety="0.1"/>
-    <sound key="fire" fileref="itesat2b.wav" pitch_variety="0.1"/>
+    <sound key="fire" fileref="itesatta.wav" pitch_variety="0.1" volume="0.7" />
+    <sound key="fire" fileref="itesat2a.wav" pitch_variety="0.1" volume="0.7" />
+    <sound key="fire" fileref="itesat2b.wav" pitch_variety="0.1" volume="0.7" />
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />

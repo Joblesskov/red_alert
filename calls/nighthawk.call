@@ -10,8 +10,8 @@
 	   instances="0"
 	   instance_class="projectile"
 	   instance_key=""
-	   launch_time="5.0"
-	   spawn_time="18.0">
+	   launch_time="3.0"
+	   spawn_time="16.0">
 	   <effect class="launch" ref="ShadowAirplaneCircleApproach" shadow="1" />
 	   <sound class="launch" fileref="vblhmoc.wav" />
 	</round>
@@ -21,17 +21,17 @@
 		instance_key="seal"
 		instance_spread="10 15 10" 
 		common_spread="0 0 0" 
-		launch_time="5.0"
-		spawn_time="11.0">
+		launch_time="3.0"
+		spawn_time="9.0">
     </round>
 
-	<round launch_time="11.0"
-	   spawn_time="18.0">
+	<round launch_time="3.0"
+	   spawn_time="15.0">
 	   <effect class="launch" ref="ShadowAirplaneCircle" shadow="1" />
 	</round>
 
-	<round launch_time="31.0"
-	   spawn_time="31.0">
+	<round launch_time="25.0"
+	   spawn_time="25.0">
 	   <effect class="launch" ref="ShadowAirplaneCircleLeave" shadow="1" />
 	</round>
 

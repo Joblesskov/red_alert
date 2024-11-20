@@ -17,8 +17,6 @@ class MindControl : Tracker {
 	protected void handleResultEvent(const XmlElement@ event) {
 
 		string sourceKey = event.getStringAttribute("key");
-		if (sourceKey != "mind_control" && sourceKey != "mind_control_t" ) return;
-		
 		float range;
 		uint count;
 
@@ -38,17 +36,25 @@ class MindControl : Tracker {
 
 		// range
 		dictionary dictR = {
-			{"wy_mind_control.weapon", 2},
-			{"wy_mind_control_e.weapon", 2.5},
-			{"wy_yuri.weapon", 3}
+			{"mind_control", 2},
+			{"mind_control_e", 2.5},
+			{"mind_control_y", 3},
+			{"mind_control_t", 3.5}
 		};
 
 		// count
 		dictionary dictC = {
-			{"wy_mind_control.weapon", 1},
-			{"wy_mind_control_e.weapon", 1},
-			{"wy_yuri.weapon", 2}
+			{"mind_control", 1},
+			{"mind_control_e", 1},
+			{"mind_control_y", 2},
+			{"mind_control_t", 1}
 		};
+
+		// check mind control type
+		if (dictR.exists(sourceKey)) {
+			range = float(dictR[sourceKey]);
+			count = uint(dictC[sourceKey]);
+		} else return;
 
 		// get controller
         int controllerId = event.getIntAttribute("character_id");
@@ -56,21 +62,6 @@ class MindControl : Tracker {
 		const XmlElement@ controller = getCharacterInfo2(m_metagame, controllerId);
 		int factionId = controller.getIntAttribute("faction_id");
 		
-		// get control type
-		array<const XmlElement@>@ controller_equipment = controller.getElementsByTagName("item");
-		if (controller_equipment.size() > 0) {
-			string weaponC = controller_equipment[0].getStringAttribute("key");
-			if (sourceKey == "mind_control_t")
-			{
-				range = 3;
-				count = 1;
-			} else if (dictR.exists(weaponC))
-			{
-				range = float(dictR[weaponC]);
-				count = uint(dictC[weaponC]);
-			} else return;
-		}
-
 		for (uint f = 0; f < 4; f++) {
 			// skip own faction
 			if (factionId == f) continue;
@@ -81,7 +72,7 @@ class MindControl : Tracker {
 			// continue if no characters in range
 			uint total_soldier_count = characters.length();
 
-			// control only one character
+			// control character(s)
 			for (uint c = 0; c < count && c < total_soldier_count; c++) {
 				int targetId = characters[c].getIntAttribute("id");
 				const XmlElement@ target = getCharacterInfo2(m_metagame, targetId);
@@ -101,7 +92,7 @@ class MindControl : Tracker {
 				float xpReward = float(xp)*0.0005 + 0.0010;
 
 				// create new character
-				string command2 = 
+				string command1 = 
 					"<command class='create_instance' " +
 					"	faction_id='" + factionId + "' " +
 					"	position='" + targetPos + "' " +
@@ -110,16 +101,17 @@ class MindControl : Tracker {
 					"/>";
 
 				// reward xp
-				string command3 =
+				string command2 =
 					"<command class='xp_reward' " +
 					"	character_id='" + controllerId + "' " +
 					"	reward='" + xpReward + "' " +
 					"/>";
 
-				// m_metagame.getComms().send(command1);
+				// kill the old one, spawn a new one
+				// wounded mind is weak and can not fight anymore
 				killCharacter(m_metagame, targetId, true);
-				if (isWounded != 1) m_metagame.getComms().send(command2);
-				m_metagame.getComms().send(command3);
+				if (isWounded != 1) m_metagame.getComms().send(command1);
+				m_metagame.getComms().send(command2);
 			}
 		}
 	}

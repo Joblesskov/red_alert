@@ -1,3 +1,65 @@
+particle_system LightningBolt
+{
+	quota	50
+	material	Lightning
+	particle_width	30
+	particle_height	30
+	cull_each	false
+	renderer	billboard
+	billboard_type	oriented_self
+	billboard_origin	bottom_center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Point
+	{
+		angle	0
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	120
+		position	0 0 0
+		velocity	0
+		velocity_min	0.05
+		velocity_max	0.2
+		time_to_live	0.8
+		time_to_live_min	0.8
+		time_to_live_max	0.8
+		duration	0.05
+		duration_min	0.05
+		duration_max	0.05
+		/*
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		*/
+	}
+
+	affector ColourFader
+	{
+		red	-1
+		green	-1
+		blue	-1
+		alpha	-1
+	}
+
+	affector ColourFader2
+	{
+		red1	-1
+		green1	-1
+		blue1	-1
+		alpha1	-1
+		red2	-1
+		green2	-1
+		blue2	-1
+		alpha2	-0.8
+		state_change	20
+	}
+}
+
 material Lightning
 {
 	receive_shadows off

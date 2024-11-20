@@ -49,6 +49,50 @@ class RA2CommandHandler : Tracker {
 			handleKick(message, senderId, true);
 		} else if (checkCommand(message, "kick")) {
 			handleKick(message, senderId);
+		} else if (checkCommand(message, "0_defend")) {
+			for (int i = 0; i < 1; ++i) {
+				string command =
+					"<command class='commander_ai'" +
+					"	faction='" + i + "'" +
+					"	base_defense='0.7'" +
+					"	border_defense='0.3'>" +
+					"</command>";
+				m_metagame.getComms().send(command);
+			}
+			sendPrivateMessage(m_metagame, senderId, "defensive ally set");
+		} else if (checkCommand(message, "1_defend")) {
+			for (int i = 1; i < 3; ++i) {
+				string command =
+					"<command class='commander_ai'" +
+					"	faction='" + i + "'" +
+					"	base_defense='0.7'" +
+					"	border_defense='0.3'>" +
+					"</command>";
+				m_metagame.getComms().send(command);
+			}
+			sendPrivateMessage(m_metagame, senderId, "defensive enemy set");
+		} else if (checkCommand(message, "0_attack")) {
+			for (int i = 0; i < 1; ++i) {
+				string command =
+					"<command class='commander_ai'" +
+					"	faction='" + i + "'" +
+					"	base_defense='0.0'" +
+					"	border_defense='0.0'>" +
+					"</command>";
+				m_metagame.getComms().send(command);
+			}
+			sendPrivateMessage(m_metagame, senderId, "attack ally set");
+		} else if (checkCommand(message, "1_attack")) {
+			for (int i = 1; i < 3; ++i) {
+				string command =
+					"<command class='commander_ai'" +
+					"	faction='" + i + "'" +
+					"	base_defense='0.0'" +
+					"	border_defense='0.0'>" +
+					"</command>";
+				m_metagame.getComms().send(command);
+			}
+			sendPrivateMessage(m_metagame, senderId, "attack enemy set");
 		} else if (checkCommand(message, "0_win")) {
 			m_metagame.getComms().send("<command class='set_match_status' lose='1' faction_id='1' />");
 			m_metagame.getComms().send("<command class='set_match_status' lose='1' faction_id='2' />");
@@ -128,6 +172,14 @@ class RA2CommandHandler : Tracker {
 			array<string> parameters = parseParameters(message, "v");
 			if (parameters.size() > 0) {
 				spawnInstanceNearPlayer(senderId, parameters[0] + ".vehicle", "vehicle", 0);
+			}
+		} else if (checkCommand(message, "w")) {
+			array<string> parameters = parseParameters(message, "w");
+			if (parameters.size() > 0) {
+				addWeaponToBackpack(senderId, parameters[0] + ".weapon");
+				addWeaponToBackpack(senderId, "wy_" + parameters[0] + ".weapon");
+				addWeaponToBackpack(senderId, "wa_" + parameters[0] + ".weapon");
+				addWeaponToBackpack(senderId, "ws_" + parameters[0] + ".weapon");
 			}
 		} else if (checkCommand(message, "s")) {
 			array<string> parameters = parseParameters(message, "s");
@@ -274,6 +326,25 @@ class RA2CommandHandler : Tracker {
 					}
 				}
 				
+				m_metagame.getComms().send(c);
+			}
+		}
+	}
+
+	protected void addWeaponToBackpack(int senderId, string weaponKey) {
+		const XmlElement@ player = getPlayerInfo(m_metagame, senderId);
+		if (player !is null) {
+			const XmlElement@ characterInfo = getCharacterInfo(m_metagame, player.getIntAttribute("character_id"));
+			if (characterInfo !is null) {
+				int characterId = player.getIntAttribute("character_id");
+				XmlElement c("command");
+				c.setStringAttribute("class", "update_inventory");
+				c.setIntAttribute("character_id", characterId); 
+				c.setStringAttribute("container_type_class", "backpack");
+				XmlElement i("item"); 
+				i.setStringAttribute("class", "weapon"); 
+				i.setStringAttribute("key", weaponKey); 
+				c.appendChild(i); 
 				m_metagame.getComms().send(c);
 			}
 		}

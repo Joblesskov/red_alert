@@ -17,11 +17,13 @@
 	<call file="black_eagle.call" />
 	<call file="nighthawk.call" />
 	<call file="aircraft_carrier.call" />
+	<call file="lightning_storm.call" />
 
 	<call file="siege_chopper.call" />
 	<call file="dreadnought.call" />
 	<call file="mig.call" />
 	<call file="iron_curtain.call" />
+	<call file="nuke.call" />
 
 	<call file="disc.call" />
 	<call file="toxic_strike.call" />

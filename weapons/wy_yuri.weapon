@@ -18,7 +18,8 @@
 		projectile_speed="120.0" 
 		barrel_offset_3d="0 1.2 -0.1" 
 		sight_range_modifier="1.5"
-		spread_range="0"/>
+		spread_range="0"
+		use_basic_muzzle_smoke_effect="0"/>
 
     <ballistics curve_height="6.0" near_far_distance="4.0" speed_estimation_near="500.0" speed_estimation_far="500.0" max_speed="500.0" randomness="0.0" tweak_factor="11" /> 
     
@@ -38,11 +39,14 @@
     <animation state_key="crouch_moving" animation_key="crouch still, yuri" />
     <animation state_key="crouch_moving_backwards" animation_key="crouch still, yuri" />
 
+    <effect class="muzzle" ref="" />
+	
     <sound key="fire" fileref="iyurat1a.wav" pitch_variety="0.1"/>
 
     <model filename="" />
 
     <projectile file="alpha_wave.projectile">
+        <result class="notify_script" key="mind_control_y" />
         <effect class="result" key="terrain" ref="AlphaWaveWoosh3" lighting="1" />
         <effect class="result" key="other" copy="terrain" /> 
     </projectile>
@@ -56,10 +60,10 @@
     <effect class="muzzle" ref="LawMuzzle" />
     <effect class="muzzle" ref="UpDust" />
 
-    <modifier class="speed" value="+0.1" />
+    <modifier class="speed" value="+0.15" />
     <modifier class="detectability" value="+0.1" />
 
-    <shield offset="-0.3 -1.0 0.4" extent="0.3 0.8 1.0" usable_for_cover="0"/>
-    <shield offset="-0.0 -1.0 -0.2" extent="0.6 0.8 0.3" usable_for_cover="0"/>
-    <shield offset="-0.0 -1.0 1.0" extent="0.6 0.8 0.3" usable_for_cover="0"/>
+    <shield offset="-0.3 -1.0 0.4" extent="0.3 0.7 1.0" usable_for_cover="0"/>
+    <shield offset="-0.0 -1.0 -0.2" extent="0.6 0.7 0.3" usable_for_cover="0"/>
+    <shield offset="-0.0 -1.0 1.0" extent="0.6 0.7 0.3" usable_for_cover="0"/>
 </weapon>

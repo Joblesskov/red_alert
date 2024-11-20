@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="Lasher Tank" key="lasher_tank.vehicle" respawn_time="84" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="6">
+<vehicle file="vehicle_base.vehicle" name="Lasher Tank" key="lasher_tank.vehicle" usable_for_cover="0" respawn_time="84" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="6">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="heavy_combat" />

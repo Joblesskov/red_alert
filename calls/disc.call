@@ -13,13 +13,13 @@
 	   <sound class="launch" fileref="vflomob.wav" />
 	</round>
 
-	<round launch_time="11.0"
-	   spawn_time="18.0">
+	<round launch_time="7.0"
+	   spawn_time="14.0">
 	   <effect class="launch" ref="ShadowAirplaneCircle" shadow="1" />
 	</round>
 
-	<round launch_time="31.0"
-	   spawn_time="31.0">
+	<round launch_time="27.0"
+	   spawn_time="27.0">
 	   <effect class="launch" ref="ShadowAirplaneCircleLeave" shadow="1" />
 	</round>
 

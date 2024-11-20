@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="nuclear missile" slot="2" pulldown_in_air="0" key="nuke_1.projectile">
+    <result class="spawn" 
+        instance_class="projectile" 
+        instance_key="nuke_2.projectile" 
+        min_amount="5" 
+        max_amount="5" 
+        offset="0 40 0" 
+        position_spread="10 0" 
+        direction_spread="0 0" />
+    <trigger class="time" time_to_live="2.0" />
+    <rotation class="motion" />
+    
+	<effect class="result" key="other" ref="ScreenFlashNuke" lighting="0" /> 
+    <effect class="result" key="vehicle" copy="other" />       
+    <effect class="result" key="terrain" copy="other" />
+    <effect class="result" key="static_object" copy="other" />
+    <effect class="result" key="character" copy="other" />
+
+    <sound class="result" key="other" fileref="snukexpl.wav" />
+    <sound class="result" key="vehicle" copy="other" />       
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="character" copy="other" />
+</projectile>

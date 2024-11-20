@@ -1,5 +1,5 @@
 <vehicle name="Psychic Tower" key="psychic_tower.vehicle" map_view_atlas_index="10" respawn_time="240.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" >
-	<tag name="target" />
+	<tag name="defensive_at" />
 
 	<tire_set offset="1.5 0.0 1.5" radius="0.1" />
 	<tire_set offset="1.5 0.0 -1.5" radius="0.1" />
@@ -16,7 +16,7 @@
 		collision_model_extent="2.8 4 2.8" 
 		visual_offset="0 0 0" /> 
 	
-	<turret offset="0 2.8 0" weapon_key="vw_psychic.weapon" weapon_offset="0 3.4 0" weapon_recoil="0" max_rotation_step="0.0005" rotation="0" />
+	<turret offset="0 2.8 0" weapon_key="vw_psychic.weapon" weapon_offset="0 5.0 0" weapon_recoil="0" max_rotation_step="0.0005" rotation="0" />
 
 	<visual class="chassis" mesh_filename="psychic_tower.mesh" texture_filename="psychic_tower.png" />
 	<visual class="turret" turret_index="0" mesh_filename="psychic_tower_turret.mesh" texture_filename="psychic_tower_turret.png" />

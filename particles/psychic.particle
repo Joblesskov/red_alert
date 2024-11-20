@@ -65,3 +65,13 @@ particle_system AlphaWaveWoosh3 : PsychicBase
 		rate 10.0
 	}
 }
+
+particle_system AlphaWaveWoosh4 : PsychicBase
+{
+	particle_width		2.5
+	particle_height		2.5
+	affector Scaler 
+	{
+		rate 10.0
+	}
+}

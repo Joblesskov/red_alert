@@ -1,9 +1,8 @@
 <trail
 key="NeutronTrail"
 material="MissileTrail"
-max_chains="20"
-trail_length="50.0"
+trail_length="10.0"
 intensity_range="0.4 0.4"
 initial_width_range="0.2 0.2"
-width_change="+8.0"
+width_change="+4.0"
 />

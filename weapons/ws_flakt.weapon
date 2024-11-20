@@ -31,8 +31,8 @@
     <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
 
 
-    <sound key="fire" fileref="vflaat1a.wav"/>
-    <sound key="fire" fileref="vflaat1b.wav"/>
+    <sound key="fire" fileref="vflaat1a.wav" volume="1.2" />
+    <sound key="fire" fileref="vflaat1b.wav" volume="1.2" />
     <sound key="magazine_out" fileref="pf98_cycle_out.wav" volume="0.3" />
     <sound key="magazine_in" fileref="pf98_cycle_in.wav" volume="0.3"/>
     <sound key="effect" fileref="pf98_effect.wav" volume="0.25"/>    
