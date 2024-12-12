@@ -28,7 +28,6 @@
         <result class="blast" 
             radius="1.5" 
             damage="0.1" 
-            decal="0"
             damage_origin_vehicle="0"
             faction_compare="not_equal" />
     </projectile>

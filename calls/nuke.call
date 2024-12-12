@@ -14,7 +14,7 @@
         launch_time="3.0"
         spawn_time="11.0"
         horizontal_offset_at_spawn="0.0"
-		initial_speed_to_target="20.0" >
+		initial_speed_to_target="25.0" >
         <sound class="launch" fileref="snuksire.wav" />
     </round>
     
@@ -26,7 +26,19 @@
         launch_time="3.0"
         spawn_time="11.0"
         horizontal_offset_at_spawn="0.0"
-		initial_speed_to_target="20.0" >
+		initial_speed_to_target="25.0" >
+    </round>
+
+    <round instances="50"
+        instance_class="grenade"
+        instance_key="rad_eruption_sub.projectile" 
+        instance_spread="25 30 25" 
+        common_spread="0 0 0" 
+        launch_time="3.0"
+        spawn_time="16.0"
+        horizontal_offset_at_spawn="0.0"
+		vertical_offset_at_spawn="40.0"
+		initial_speed_to_target="6.0" >
     </round>
 
     <hud_icon filename="call_nuke.png" />

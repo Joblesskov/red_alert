@@ -13,40 +13,47 @@
 
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
 		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="5.0" spawn_time="6.0">
+		launch_time="5.0" spawn_time="6.0" horizontal_offset_at_spawn="0.0">
 		<sound class="launch" fileref="vdreatta.wav" />
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
 		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="5.5" spawn_time="6.5">
+		launch_time="5.0" spawn_time="6.3" horizontal_offset_at_spawn="0.0">
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
 		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="6.0" spawn_time="7.0">
+		launch_time="5.0" spawn_time="6.6" horizontal_offset_at_spawn="0.0">
+		<sound class="spawn" fileref="vdreatta.wav" />
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
 		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="6.5" spawn_time="7.5">
+		launch_time="5.0" spawn_time="7.0" horizontal_offset_at_spawn="0.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.0" spawn_time="7.3" horizontal_offset_at_spawn="0.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.0" spawn_time="7.6" horizontal_offset_at_spawn="0.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.0" spawn_time="8.0" horizontal_offset_at_spawn="0.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.0" spawn_time="8.3" horizontal_offset_at_spawn="0.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.0" spawn_time="8.6" horizontal_offset_at_spawn="0.0">
+    </round>
+	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
+		instance_spread="5 4 5" common_spread="15 0 15" 
+		launch_time="5.0" spawn_time="9.0" horizontal_offset_at_spawn="0.0">
     </round>
 
-	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="7.0" spawn_time="8.0">
-		<sound class="launch" fileref="vdreatta.wav" />
-    </round>
-	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="7.5" spawn_time="8.5">
-    </round>
-	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="8.0" spawn_time="9.0">
-    </round>
-	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
-		launch_time="8.5" spawn_time="9.5">
-    </round>
-	
 	<hud_icon filename="call_dreadnought.png" />
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="100" source="rank" source_value="1.0" />

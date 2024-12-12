@@ -15,5 +15,5 @@ material screen_flash : add_base
     pass{
 		depth_func always_pass
         texture_unit{
-            texture screen_flash.png 	
+            texture shine.png 	
 }}}}

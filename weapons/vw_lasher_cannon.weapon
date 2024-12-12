@@ -36,12 +36,13 @@
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
     <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
-    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />	<!-- Heavy Armour is high because this is a tank destroyer -->
-    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
-    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.0" />	<!-- barely below Medium Armour so that it becomes higher priority in short range if medium armour is far away. -->
-    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.5" />
-    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />  <!-- important non combat player-only vehicles -->  
-    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="3.5" /> 
+    <target_factors tag="heavy" distance="1.0" direction="0.0" squad_command="1.0" base_score="8" />
+    <target_factors tag="medium" distance="1.0" direction="0.0" squad_command="1.0" base_score="6" />
+    <target_factors tag="light" distance="1.0" direction="0.0" squad_command="1.0" base_score="4" />
+    <target_factors tag="defensive1" distance="1.0" direction="0.0" squad_command="1.0" base_score="3" />
+    <target_factors tag="defensive2" distance="1.0" direction="0.0" squad_command="1.0" base_score="7" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="5" /> 
 
     <effect class="muzzle" ref="BiggerMuzzle" />
     <effect class="muzzle" ref="CannonSmokeBig" /> 

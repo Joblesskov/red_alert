@@ -40,6 +40,7 @@
     <projectile file="scho_artillery_shell.projectile" />
     <projectile file="stun_grenade.projectile" />
     <projectile file="tesla.projectile" />
+    <projectile file="test.projectile" />
     <projectile file="toxic_bomb.projectile" />
     <projectile file="toxic_bomb_sub.projectile" />
     <projectile file="toxic_smoke.projectile" />

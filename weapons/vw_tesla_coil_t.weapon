@@ -2,11 +2,11 @@
 <weapon key="vw_tesla_coil_t.weapon" >
     <specification 
     slot="2" 
-    retrigger_time="4.5" 
+    retrigger_time="4.0" 
     accuracy_factor="0.5" 
     spread_range="0.9"
     sustained_fire_grow_step="1.0" 
-    sustained_fire_diminish_rate="0.25" 
+    sustained_fire_diminish_rate="0.26" 
     sight_range_modifier="1.6"
     magazine_size="-1" 
     can_shoot_standing="0" 
@@ -27,7 +27,7 @@
 
     <projectile file="tesla.projectile">
         <result class="blast" 
-            radius="2.5" 
+            radius="3" 
             damage="2" 
             push="0.2" 
             decal="1" 
@@ -36,10 +36,12 @@
     </projectile>
 
     <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
-    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
-    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
-    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />	
-    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.5" />
-    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />  <!-- important non combat player-only vehicles -->  
-    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="3.0" />    
+    <target_factors tag="heavy" distance="1.0" direction="0.0" squad_command="1.0" base_score="8" />
+    <target_factors tag="medium" distance="1.0" direction="0.0" squad_command="1.0" base_score="6" />
+    <target_factors tag="light" distance="1.0" direction="0.0" squad_command="1.0" base_score="4" />
+    <target_factors tag="defensive1" distance="1.0" direction="0.0" squad_command="1.0" base_score="3" />
+    <target_factors tag="defensive2" distance="1.0" direction="0.0" squad_command="1.0" base_score="7" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="5" /> 
+
 </weapon>

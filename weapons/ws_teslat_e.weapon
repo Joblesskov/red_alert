@@ -53,8 +53,8 @@
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="1.5"/>
 
-    <effect class="muzzle" ref="MuzzleTeslaElite" />
-    <effect class="muzzle" ref="ShineTesla" lighting="1" />
+    <effect class="muzzle" ref="MuzzleTeslaElite" lighting="0" />
+    <effect class="muzzle" ref="ShineTesla" lighting="0" />
 
     <modifier class="speed" value="-0.12" />    
     <stance state_key="running" accuracy="0.85" />

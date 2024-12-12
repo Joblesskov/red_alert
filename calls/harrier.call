@@ -16,7 +16,7 @@
             horizontal_offset_at_spawn="0.0">
         <sound class="launch" fileref="vintata.wav" volume="1.5" />
         <sound class="spawn" fileref="vintatta.wav" />
-	    <effect class="launch" ref="ShadowAirplaneFlyby_F22" shadow="1" />
+	    <effect class="spawn" ref="ShadowAirplaneFlyby_F22" shadow="1" />
     </round>
 
     <hud_icon filename="call_harrier.png" />

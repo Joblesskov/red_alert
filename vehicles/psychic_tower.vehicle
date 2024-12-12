@@ -1,5 +1,5 @@
 <vehicle name="Psychic Tower" key="psychic_tower.vehicle" map_view_atlas_index="10" respawn_time="240.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" >
-	<tag name="defensive_at" />
+	<tag name="defensive2" />
 
 	<tire_set offset="1.5 0.0 1.5" radius="0.1" />
 	<tire_set offset="1.5 0.0 -1.5" radius="0.1" />

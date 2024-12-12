@@ -21,7 +21,7 @@
     <inventory encumbrance="3.0" price="2.0" />
 
     
-    <effect class="result" key="terrain" ref="RadShine" lighting="1" />
+    <effect class="result" key="terrain" ref="RadShine" />
     <effect class="result" key="other" copy="terrain" /> 
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="vehicle" copy="terrain" />

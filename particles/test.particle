@@ -1,0 +1,49 @@
+material TestMaterial 
+{     
+	receive_shadows off     
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+			texture_unit 
+			{
+				texture test.png 	
+			}
+		}
+	}
+}
+
+particle_system TestParticle
+{
+	quota			100
+	material		TestMaterial
+	particle_width	20
+	particle_height	20
+
+	billboard_type	point
+	billboard_origin	center
+
+	emitter Point
+	{
+		angle           0
+		colour          1 1 1 1
+		direction       0 1 0
+		position        0 0 0
+		velocity        0
+		emission_rate   2
+		time_to_live    0.3
+		duration        5
+	}
+
+	affector ColourFader
+	{
+		red	-3
+		green -3
+		blue -3
+		alpha -3
+	}
+}

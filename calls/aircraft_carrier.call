@@ -8,8 +8,9 @@
 	show_target_marker="0" >
 	
 	<round launch_time="3.0"
-	   spawn_time="5.0">
-	   <sound class="launch" fileref="vhortaka.wav" />
+		spawn_time="5.0">
+		<sound class="launch" fileref="vhortaka.wav" />
+		<effect class="spawn" ref="ShadowAirplaneFlyby_F22" shadow="1" />
 	</round>
 
 	<hud_icon filename="call_aircraft_carrier.png" />

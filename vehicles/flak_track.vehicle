@@ -1,5 +1,6 @@
 <vehicle file="vehicle_base.vehicle" name="Flak Track" key="flak_track.vehicle" usable_for_cover="0" respawn_time="40" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="10.0">
 	<tag name="metal_heavy" />
+	<tag name="medium" />
 	<tag name="apc" />
 
 	<tire_set offset="1.3 0.0 3.1" radius="0.50" />

@@ -1,7 +1,7 @@
 <vehicle file="vehicle_base.vehicle" name="Grizzly Tank" key="grizzly_tank.vehicle" usable_for_cover="0" respawn_time="84" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="9.5">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
-	<tag name="heavy_combat" />
+	<tag name="heavy" />
 	<tag name="any_tank" />
    
 	<tire_set offset="1.9 0.0 +2.7" radius="0.5" />
