@@ -44,6 +44,8 @@
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
 
+    <effect class="muzzle" ref="" />
+
     <model filename="" />
     <hud_icon filename="hud_initiate.png" />
     

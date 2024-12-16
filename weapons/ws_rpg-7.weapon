@@ -37,11 +37,9 @@
     <weak_hand_hold offset="0.3" />
 
     <capacity value="2" source="rank" source_value="0.0" />
-    <capacity value="3" source="rank" source_value="0.05" />
-    <capacity value="4" source="rank" source_value="0.1" />
-    <capacity value="5" source="rank" source_value="0.4" />   
-    <capacity value="6" source="rank" source_value="0.5" />
-
+    <capacity value="3" source="rank" source_value="0.1" />
+    <capacity value="4" source="rank" source_value="0.4" />
+    
     <hud_icon filename="hud_rpg-7.png" />
     <commonness value="0.22" />
     <inventory encumbrance="5.0" price="4.0" />

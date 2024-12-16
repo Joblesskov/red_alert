@@ -9,6 +9,7 @@
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="0.4"/>
     <hud_icon filename="hud_ggi_e.png" />
+	<addon_model filename="elite.xml" />
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.63" kill_decay_start_time="0.35" kill_decay_end_time="0.75" />
         <trail probability="1" key="BulletEliteTrail"/>

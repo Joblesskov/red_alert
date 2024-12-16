@@ -10,6 +10,7 @@
     <capacity value="0" source="rank" source_value="1.0"/>
     <capacity value="1" source="rank" source_value="3.0"/>
     <hud_icon filename="hud_rocketeer_e.png" />
+	<addon_model filename="elite.xml" />
     <projectile file="bullet_ap.projectile" time_to_live="0.45">
         <result class="blast" 
 		radius="1" 

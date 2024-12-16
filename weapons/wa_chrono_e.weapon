@@ -18,6 +18,7 @@
     <capacity value="0" source="rank" source_value="2.0"/>
     <capacity value="1" source="rank" source_value="6.0"/>
     <hud_icon filename="hud_chrono_e.png" />
+	<addon_model filename="elite.xml" />
     <modifier class="speed" value="+0.12" />
 </weapon>
 

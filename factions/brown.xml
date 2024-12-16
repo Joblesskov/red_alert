@@ -309,6 +309,7 @@
 			<weapon key="ws_teslat.weapon" />
 			<weapon key="ws_teslat_e.weapon" />
 
+			<carry_item key="eodvest.carry_item" />
 			<carry_item key="vest_plate.carry_item" />
 
 			<call key="paratroopers1s.call" />
@@ -682,6 +683,7 @@
 
 			<weapon key="medikit_ai_2.weapon" />
 
+			<carry_item key="vest1.carry_item" />
 			<carry_item key="vest2.carry_item" />
 		</resources>
 

@@ -12,6 +12,7 @@
     <capacity value="0" source="rank" source_value="0.5"/>
     <capacity value="1" source="rank" source_value="1.5"/>
     <hud_icon filename="hud_seal_e.png" />
+	<addon_model filename="elite.xml" />
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.56" 
         kill_decay_start_time="0.25" 

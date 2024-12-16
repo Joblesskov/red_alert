@@ -1,9 +1,11 @@
 material RadShine
 {
+	receive_shadows off
 	technique
 	{
 		pass
 		{
+			depth_func always_pass
 			lighting off
 			scene_blend add
 			depth_write off
@@ -11,7 +13,7 @@ material RadShine
 
 			texture_unit
 			{
-				texture burst_shine.png
+				texture shine.png
 			}
 		}
 	}

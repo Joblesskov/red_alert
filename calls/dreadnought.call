@@ -12,37 +12,37 @@
 	</round>
 
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="5 0 5" 
 		launch_time="5.0" spawn_time="6.0" horizontal_offset_at_spawn="0.0">
 		<sound class="launch" fileref="vdreatta.wav" />
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="5 0 5" 
 		launch_time="5.0" spawn_time="6.3" horizontal_offset_at_spawn="0.0">
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="8 0 8" 
 		launch_time="5.0" spawn_time="6.6" horizontal_offset_at_spawn="0.0">
 		<sound class="spawn" fileref="vdreatta.wav" />
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="10 0 10" 
 		launch_time="5.0" spawn_time="7.0" horizontal_offset_at_spawn="0.0">
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="10 0 10" 
 		launch_time="5.0" spawn_time="7.3" horizontal_offset_at_spawn="0.0">
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="10 0 10" 
 		launch_time="5.0" spawn_time="7.6" horizontal_offset_at_spawn="0.0">
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="12 0 12" 
 		launch_time="5.0" spawn_time="8.0" horizontal_offset_at_spawn="0.0">
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"
-		instance_spread="5 4 5" common_spread="15 0 15" 
+		instance_spread="5 4 5" common_spread="12 0 12" 
 		launch_time="5.0" spawn_time="8.3" horizontal_offset_at_spawn="0.0">
     </round>
 	<round instances="2" instance_class="grenade" instance_key="v3.projectile"

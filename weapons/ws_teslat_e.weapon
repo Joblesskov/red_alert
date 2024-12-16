@@ -48,6 +48,7 @@
     <projectile file="tesla.projectile" />
 
 	<hud_icon filename="hud_teslat_e.png" />
+	<addon_model filename="elite.xml" />
     <commonness value="3" in_stock="1" can_respawn_with="0" />
     <inventory encumbrance="12.0" price="180.0" />
     <capacity value="0" source="rank" source_value="0.0"/>

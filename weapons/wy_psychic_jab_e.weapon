@@ -16,6 +16,7 @@
     <capacity value="1" source="rank" source_value="0.5"/>
 
     <hud_icon filename="hud_initiate_e.png" />
+	<addon_model filename="elite.xml" />
 
     <projectile file="psychic_jab_bullet.projectile">
         <result class="blast" 

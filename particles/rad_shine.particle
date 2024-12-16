@@ -2,19 +2,17 @@ particle_system RadShine
 {
     quota 500
     material RadShine
-    particle_width 32
-    particle_height 24
+    particle_width 40
+    particle_height 40
     renderer billboard
-	billboard_type perpendicular_common
-	billboard_origin center
-	common_direction 0 1 0
-	common_up_vector 0 0 1
+	billboard_type		oriented_common
+	common_up_vector	0 0 1 
 
     emitter Point 
     {
 		angle 0
 		colour 0.1 0.5 0.1 0.3
-    	position 0 2 0
+    	position 0 0 0
 		direction 0 1 0
 		emission_rate 20
 		velocity 0.0001

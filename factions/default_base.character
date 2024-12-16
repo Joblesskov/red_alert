@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<character>
+<character>	
+	<sound class="vehicle" tag="heavy" filename="igensqua.wav" volume="1" />
+	<sound class="vehicle" tag="medium" filename="igensqua.wav" volume="1" />
+	<sound class="vehicle" tag="" filename="igensqua.wav" volume="1" />
+
 	<parameter class="moving_inputsteer_threshold" value="0.1" />
 	<parameter class="stopping_velocity_threshold" value="0.01" />
 

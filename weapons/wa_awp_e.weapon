@@ -20,5 +20,6 @@
     <capacity value="1" source="rank" source_value="1.5"/>
     <modifier class="speed" value="-0.03" />
     <hud_icon filename="hud_sniper_e.png" />
+	<addon_model filename="elite.xml" />
 </weapon>
 

@@ -11,7 +11,7 @@
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="none" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.50" /> 
+        <modifier class="hit_success_probability" value="+1" /> 
     </carry_item>
 
     <carry_item key="dog_2" name="dog" slot="1" transform_on_consume="dog_3" time_to_live_out_in_the_open="0.0">
@@ -25,7 +25,7 @@
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="none" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.50" /> 
+        <modifier class="hit_success_probability" value="+1" /> 
     </carry_item>
 	
     <carry_item key="dog_3" name="dog_3" slot="1" transform_on_consume="dog_4" time_to_live_out_in_the_open="0.0">
@@ -39,7 +39,7 @@
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="none" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.50" /> 
+        <modifier class="hit_success_probability" value="+1" /> 
     </carry_item>
 	
     <carry_item key="dog_4" name="dog_4" slot="1" time_to_live_out_in_the_open="0.0">
@@ -53,6 +53,6 @@
         <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="none" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.50" /> 
+        <modifier class="hit_success_probability" value="+1" /> 
     </carry_item>
 </carry_items>

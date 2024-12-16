@@ -4,7 +4,7 @@
     accuracy_factor="1.0"
     sustained_fire_grow_step="0.15" 
     sustained_fire_diminish_rate="0.2" 
-    spread_range="0.15"
+    spread_range="0.1"
 	sight_range_modifier="1.15"
     magazine_size="-1"
     can_shoot_standing="0" 
@@ -21,10 +21,10 @@
     <hud_icon filename="hud_apc.png" />
     <commonness value="0.0" />
 
-    <ballistics curve_height="4.0" near_far_distance="4.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" randomness="0.0" tweak_factor="2.3" />
+    <ballistics curve_height="4.0" near_far_distance="4.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" randomness="0.0" tweak_factor="2.33" />
     <projectile file="flak.projectile" pulldown_in_air="24.0">
         <result class="blast" 
-            radius="5.1" 
+            radius="4.0" 
             damage="0.25" 
             push="0.12" 
             damage_origin_vehicle="0"

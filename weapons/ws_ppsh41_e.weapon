@@ -12,6 +12,7 @@
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="0.3"/>
 	<hud_icon filename="hud_conscript_e.png" />
+	<addon_model filename="elite.xml" />
     <projectile file="bullet.projectile">
 		<result
 		class="hit"
