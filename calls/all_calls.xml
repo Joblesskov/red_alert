@@ -28,4 +28,5 @@
 	<call file="disc.call" />
 	<call file="toxic_strike.call" />
 	<call file="genetic_strike.call" />
+	<call file="dominate.call" />
 </calls>

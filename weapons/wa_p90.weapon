@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_smg.weapon" key="wa_p90.weapon">
+<weapon file="base_primary_smg.weapon" key="wa_p90.weapon"
+    ai_burst_time="0.9" 
+    ai_burst_time_variance="0.1" 
+    ai_burst_wait_time="0.3" 
+    ai_burst_wait_time_variance="0.05" >
     <tag name="assault" />
     <specification retrigger_time="0.07" 
     accuracy_factor="1"
@@ -36,5 +40,5 @@
         kill_decay_start_time="0.25" 
         kill_decay_end_time="0.46" />
     </projectile>
-    <modifier class="speed" value="+0.1" />
+    <modifier class="speed" value="+0.07" />
 </weapon>

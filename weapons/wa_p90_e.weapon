@@ -19,6 +19,6 @@
         kill_decay_end_time="0.46" />
         <trail probability="1" key="BulletEliteTrail"/>
     </projectile>
-    <modifier class="speed" value="+0.12" />
+    <modifier class="speed" value="+0.1" />
 </weapon>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="nuclear missile" slot="2" pulldown_in_air="0" key="nuke_under.projectile">
+<projectile class="grenade" name="nuclear missile" slot="2" pulldown_in_air="4" key="nuke_under.projectile">
     <result class="spawn" 
         instance_class="projectile" 
         instance_key="nuke_under1.projectile" 

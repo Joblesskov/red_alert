@@ -51,6 +51,7 @@
 	<vehicle file="event_lightning_storm.vehicle" />
 	<vehicle file="event_iron_curtain.vehicle" />
 	<vehicle file="event_nuke.vehicle" />
+	<vehicle file="event_dominate.vehicle" />
 
 	<vehicle file="gas_tank.vehicle" />
 	<vehicle file="deco_vehicles.xml" />

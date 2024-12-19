@@ -1,3 +1,20 @@
+material face{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+			depth_func always_pass
+
+        	texture_unit{
+            	texture face.png
+			}
+		}
+	}
+}
+
 particle_system PsychicBase
 {
 	quota				500
@@ -73,5 +90,92 @@ particle_system AlphaWaveWoosh4 : PsychicBase
 	affector Scaler 
 	{
 		rate 10.0
+	}
+}
+
+particle_system AlphaWaveWoosh5 : PsychicBase
+{
+	particle_width		25
+	particle_height		25
+	affector Scaler 
+	{
+		rate 50.0
+	}
+}
+
+particle_system ScreenFlashPsychic
+{
+	quota 200
+	material screen_flash
+	particle_width 100
+	particle_height 100
+	renderer billboard
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 0.8 0 0.3 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 1
+		duration 0.0099
+	}
+	affector Scaler
+	{
+		rate 0
+	}
+	affector ColourInterpolator
+	{
+		time0 0
+		colour0 0.8 0 0.3 1
+		time1 1
+		colour1 0 0 0 0
+	}
+}
+
+particle_system DominateFace
+{
+	quota 200
+	material face
+	particle_width 10
+	particle_height 10
+	renderer billboard
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0
+	
+	emitter Point
+	{
+		angle 0
+		colour 0.6 0.6 0.6 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 1
+		duration 0.0099
+	}
+	affector Scaler
+	{
+		rate 5
+	}
+
+	affector ColourFader
+	{
+		red 0
+		green	0
+		blue	0
+		alpha -1
 	}
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="alpha-wave" slot="2" pulldown_in_air="4" key="alpha_wave_s.projectile">
+    <result class="notify_script" key="mind_control_s" />
+    <trigger class="time" time_to_live="0" />
+    <rotation class="motion" />
+    <model filename="" />
+
+    <commonness value="0.0" />
+
+    <sound class="result" key="terrain" fileref="spsydom.wav" volume="2" />
+    <sound class="result" key="other" copy="terrain" />
+
+    <effect class="result" key="terrain" ref="AlphaWaveWoosh5" lighting="1" />
+    <effect class="result" key="terrain" ref="ScreenFlashPsychic" lighting="0" />
+    <effect class="result" key="terrain" ref="DominateFace" lighting="0" />
+    <effect class="result" key="other" copy="terrain" /> 
+
+</projectile>

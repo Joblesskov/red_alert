@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="alpha-wave" slot="2" pulldown_in_air="4" key="alpha_wave_s1.projectile">
+    <result class="blast" radius="40.0" damage="100.0" push="3" decal="0" character_state="stun" faction_compare="not_equal" />
+    <trigger class="time" time_to_live="0" />
+    <rotation class="motion" />
+    <model filename="" />
+
+    <commonness value="0.0" />
+
+    <sound class="result" key="terrain" fileref="" />
+    <sound class="result" key="other" copy="terrain" />
+
+</projectile>

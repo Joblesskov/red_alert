@@ -38,16 +38,18 @@ class MindControl : Tracker {
 		dictionary dictR = {
 			{"mind_control", 2},
 			{"mind_control_e", 2.5},
-			{"mind_control_y", 3},
-			{"mind_control_t", 3.5}
+			{"mind_control_y", 3.25},
+			{"mind_control_t", 3.5},
+			{"mind_control_s", 17}
 		};
 
 		// count
 		dictionary dictC = {
 			{"mind_control", 1},
 			{"mind_control_e", 1},
-			{"mind_control_y", 2},
-			{"mind_control_t", 1}
+			{"mind_control_y", 1},
+			{"mind_control_t", 2},
+			{"mind_control_s", 9}
 		};
 
 		// check mind control type

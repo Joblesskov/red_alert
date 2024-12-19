@@ -28,4 +28,5 @@
     <call key="disc.call" />
     <call key="toxic_strike.call" />
     <call key="genetic_strike.call" />
+    <call key="dominate.call" />
 </resources>

@@ -571,6 +571,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 			CallMarkerConfig("disc.call", "call_marker_gunship", 4, 0.5, 58),
 			CallMarkerConfig("toxic_strike.call", "call_marker", 8, 0.5, 35.0),
 			CallMarkerConfig("genetic_strike.call", "call_marker", 8, 0.5, 35.0),
+			CallMarkerConfig("dominate.call", "call_marker_gunship", 2, 1.0, 30.0),
 			CallMarkerConfig("siege_chopper.call", "call_marker", 9, 0.5, 26.0),
 			CallMarkerConfig("dreadnought.call", "call_marker", 9, 0.5, 38.0),
 			CallMarkerConfig("iron_curtain.call", "call_marker", 13, 0.5, 10.0),
