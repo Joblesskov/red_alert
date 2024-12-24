@@ -1,3 +1,5 @@
+import FakeNormalAndDepthWithTexture from "normal_and_depth.material"
+
 material add_base{
 	receive_shadows off
 	technique{
@@ -17,3 +19,35 @@ material screen_flash : add_base
         texture_unit{
             texture shine.png 	
 }}}}
+
+material nuke_missile : FakeNormalAndDepthWithTexture
+{
+    	receive_shadows off
+
+	technique FakeNormalAndDepth {
+        	pass FakeNormalAndDepth {
+            		texture_unit {
+                		texture nuke.png
+	        		tex_address_mode clamp
+            		}
+			fragment_program_ref NormalAndDepthWithTextureFP {
+				param_named alphaRejection float 0.125
+			}
+        	}
+    	} 
+
+	technique Basic
+	{
+		pass 
+		{
+			lighting off
+			depth_write on
+			alpha_rejection greater 32
+			texture_unit 
+			{
+				tex_address_mode clamp
+				texture nuke.png
+			}
+		}
+	}
+}

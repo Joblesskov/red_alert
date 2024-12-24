@@ -36,6 +36,32 @@ particle_system ScreenFlashNuke
 	}
 }
 
+particle_system NukeMissile
+{
+	quota	1000
+	material	nuke_missile
+	particle_width	3.4
+	particle_height	8.3
+	cull_each	false
+	renderer	billboard
+	billboard_type	oriented_self
+
+	emitter Point
+	{
+		angle	0
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	101
+		position	0 0 0
+		velocity	0.001
+		time_to_live	0.01
+		duration		0
+		repeat_delay	0
+	}
+}
+
 particle_system NukeBeam
 {
 	quota	1000

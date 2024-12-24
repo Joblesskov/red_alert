@@ -13,6 +13,7 @@
     <projectile file="dynamite_death.projectile" />
     <projectile file="dynamite.projectile" />
     <projectile file="flak.projectile" />
+    <projectile file="flare.projectile" />
     <projectile file="genobomb.projectile" />
     <projectile file="genobomb_sub.projectile" />
     <projectile file="hand_grenade.projectile" />

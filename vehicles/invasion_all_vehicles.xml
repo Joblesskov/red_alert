@@ -16,6 +16,8 @@
 	<vehicle file="transport_truck_2.vehicle" />
 	<vehicle file="buggy.vehicle" /> 
 	<vehicle file="mobile_armory.vehicle" />
+	<vehicle file="armored_truck.vehicle" />
+	<vehicle file="radar_truck.vehicle" />
 	<vehicle file="atv_base.vehicle" />
 	<vehicle file="atv_armory.vehicle" />
 	<vehicle file="rubber_boat.vehicle" />
