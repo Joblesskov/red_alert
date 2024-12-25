@@ -36,7 +36,7 @@
     <capacity value="1" source="rank" source_value="0.5"/>
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.55" 
+        <result class="hit" kill_probability="0.65" 
         kill_decay_start_time="0.25" 
         kill_decay_end_time="0.46" />
     </projectile>

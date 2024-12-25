@@ -18,7 +18,7 @@
 	<addon_model filename="elite.xml" />
     
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.54" kill_decay_start_time="0.38" kill_decay_end_time="0.48" />
+        <result class="hit" kill_probability="0.54" kill_decay_start_time="0.25" kill_decay_end_time="0.40" />
         <trail probability="1" key="BulletEliteTrail"/>
     </projectile>
     <modifier class="speed" value="+0.1" />

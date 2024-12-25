@@ -7,8 +7,8 @@ weapon
 	<text key="AKM (AP)" text="AKM突击步枪 (穿甲)" />
 	<text key="AWP" text="AWP狙击步枪" />
 	<text key="AWP (Elite)" text="AWP狙击步枪 (精英)" />
-	<text key="Colt M1911" text="克尔特M1911" />
-	<text key="Colt M1911 (Precision)" text="克尔特M1911 (精确)" />
+	<text key="Colt M1911" text="柯尔特M1911" />
+	<text key="Colt M1911 (Precision)" text="柯尔特M1911 (精确)" />
 	<text key="Fist" text="拳头" />
 	<text key="Fist (Elite)" text="拳头 (精英)" />
 	<text key="Flak Gun" text="便携高射炮" />
@@ -31,8 +31,8 @@ weapon
 	<text key="PPSh-41 (Elite)" text="波波沙冲锋枪 (精英)" />
 	<text key="Psychic Jab" text="心灵之火" />
 	<text key="Psychic Jab (Elite)" text="心灵之火 (精英)" />
-	<text key="Rad Cannon" text="放射炮" />
-	<text key="Rad Cannon (Elite)" text="放射炮 (精英)" />
+	<text key="Rad Cannon" text="辐射炮" />
+	<text key="Rad Cannon (Elite)" text="辐射炮 (精英)" />
 	<text key="Rocketeer" text="双子机炮" />
 	<text key="Rocketeer (Elite)" text="双子机炮 (精英)" />
 	<text key="Steyr TMP" text="斯太尔TMP战术冲锋枪"/>
@@ -47,7 +47,7 @@ weapon
 	<text key="dynamite deploy" text="高爆炸药部署" />
 	<text key="dynamite" text="高爆炸药" />
 	<text key="psychic blast" text="心灵冲击" />
-	<text key="rad eruption" text="放射场爆发" />
+	<text key="rad eruption" text="辐射爆发" />
 vest
 	<text key="unarmored" text="无甲" />
 	<text key="black ops vest" text="夜行特战服"/> 
@@ -116,12 +116,12 @@ call
     <text key="Gunner in position." text="炮手已就位" /> 
     <text key="Floating Disc Air Support" text="幽浮支援" /> 
     <text key="Requesting Floating Disc air support" text="请求幽浮支援" /> 
-    <text key="Levitation units online." text="悬浮单位在线" /> 
+    <text key="Levitation units online." text="镭射幽浮已就位" /> 
     <text key="Dominate" text="心灵支配" /> 
     <text key="Requesting Psychic Dominator activation" text="请求启动心灵支配仪" /> 
-	<text key="Psychic energy is being concentrated." text="正在集中心灵能量" />
-    <text key="Dreadnought Support" text="导弹战舰支援" /> 
-    <text key="Requesting Dreadnought fire support" text="请求导弹战舰支援" /> 
+	<text key="Psychic energy is being concentrated." text="正在聚集心灵能量" />
+    <text key="Dreadnought Support" text="无畏级导弹舰支援" /> 
+    <text key="Requesting Dreadnought fire support" text="请求无畏级导弹舰支援" /> 
     <text key="Cruise and fire." text="巡游开火" /> 
     <text key="Genetic Strike" text="基因空袭" /> 
     <text key="Requesting genetic strike" text="请求基因空袭" /> 
@@ -140,9 +140,9 @@ call
     <text key="Nighthawk Air Support" text="夜鹰直升机支援" /> 
     <text key="Requesting Nighthawk air support" text="请求夜鹰直升机支援" /> 
     <text key="Tour underway." text="航行中" /> 
-    <text key="Nuke Attack" text="原子弹攻击" /> 
-    <text key="Requesting nuclear missile attack" text="请求原子弹攻击" /> 
-	<text key="Nuclear missile launched." text="原子弹已发射" />
+    <text key="Nuke Attack" text="核弹攻击" /> 
+    <text key="Requesting nuclear missile attack" text="请求核弹攻击" /> 
+	<text key="Nuclear missile launched." text="核弹已发射" />
     <text key="Siege Chopper Fire Support" text="攻城直升机火力支援" /> 
     <text key="Requesting Siege Chopper fire support" text="请求攻城直升机火力支援" /> 
     <text key="Coordinates confirmed." text="坐标已确认" /> 

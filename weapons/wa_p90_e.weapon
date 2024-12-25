@@ -14,7 +14,7 @@
     <hud_icon filename="hud_seal_e.png" />
 	<addon_model filename="elite.xml" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.56" 
+        <result class="hit" kill_probability="0.55" 
         kill_decay_start_time="0.25" 
         kill_decay_end_time="0.46" />
         <trail probability="1" key="BulletEliteTrail"/>

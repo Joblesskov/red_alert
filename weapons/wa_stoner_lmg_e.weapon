@@ -11,9 +11,8 @@
     <hud_icon filename="hud_ggi_e.png" />
 	<addon_model filename="elite.xml" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.63" kill_decay_start_time="0.35" kill_decay_end_time="0.75" />
+        <result class="hit" kill_probability="0.62" kill_decay_start_time="0.33" kill_decay_end_time="0.55" />
         <trail probability="1" key="BulletEliteTrail"/>
     </projectile> 
     <shield offset="-0.6 -0.1 0" extent="0.4 0.8 0.8" usable_for_cover="0"/>
 </weapon>
-

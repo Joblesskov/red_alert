@@ -228,7 +228,7 @@
 			<attribute weight="1.0" min="0.0" max="0.0" />
 		</attribute_config>
 	</soldier>
-	3000~6000
+	3000~10000
 	<soldier name="engineer" spawn_score="0.05">
 		<character filename="default_male.character">
 			<sound key="death" fileref="ienadia.wav" volume="0.5" />
@@ -246,6 +246,7 @@
 			<weapon key="resource_prism_tower.weapon" />
 
 			<carry_item key="vest1.carry_item" />
+			<carry_item key="vest3.carry_item" />
 		</resources>
 
 		<item_class_existence_config>
@@ -259,7 +260,7 @@
 			<attribute weight="1.0" min="0.0" max="0.0" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.3" max="0.6" />
+			<attribute weight="1.0" min="0.3" max="1.0" />
 		</attribute_config>
 	</soldier>
 	5000~10000 15000~30000

@@ -19,7 +19,7 @@
     <model mesh_filename="barrier_item.mesh" texture_filename="prism_tower_item.png" />
 
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="0.4" />
+    <capacity value="1" source="rank" source_value="0.5" />
 
     <hud_icon filename="hud_prism_tower.png" />
     <commonness value="0.5" can_respawn_with="0" />
