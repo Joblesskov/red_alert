@@ -34,8 +34,11 @@ Vehicle
     <weapon file="vw_pillbox_mg.weapon" />
     <weapon file="vw_pillbox_mg_ap.weapon" />
     <weapon file="vw_prism_t.weapon" />
+    <weapon file="vw_grand_cannon.weapon" />
     <weapon file="vw_sentry_gun.weapon" />
     <weapon file="vw_sentry_gun_ap.weapon" />
+    <weapon file="vw_bunker_mg.weapon" />
+    <weapon file="vw_bunker_mg_ap.weapon" />
     <weapon file="vw_tesla_coil_t.weapon" />
     <weapon file="vw_gattling_t.weapon" />
     <weapon file="vw_gattling_ap_t.weapon" />
@@ -98,6 +101,7 @@ Soviet Union
     <weapon file="ws_teslat.weapon" />
     <weapon file="ws_teslat_e.weapon" />
     <weapon file="resource_sentry_gun.weapon" />
+    <weapon file="resource_battle_bunker.weapon" />
     <weapon file="resource_tesla_coil.weapon" />
 Yuri's Army
     <weapon file="wy_fist.weapon" />
@@ -112,4 +116,5 @@ Yuri's Army
     <weapon file="wy_yuri.weapon" />
     <weapon file="resource_gattling_cannon.weapon" />
     <weapon file="resource_psychic_tower.weapon" />
+    <weapon file="resource_grand_cannon.weapon" />
 </weapons>

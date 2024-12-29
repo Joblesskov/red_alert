@@ -3,7 +3,7 @@
     <specification retrigger_time="2.0" 
     accuracy_factor="0.92" 
     sustained_fire_grow_step="1" 
-    sustained_fire_diminish_rate="1"
+    sustained_fire_diminish_rate="0.52"
     sight_range_modifier="1.2"
     magazine_size="-1" 
     can_shoot_standing="0" 

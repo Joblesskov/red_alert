@@ -244,6 +244,7 @@
 
 			<weapon key="resource_pillbox.weapon" />
 			<weapon key="resource_prism_tower.weapon" />
+			<weapon key="resource_grand_cannon.weapon" />
 
 			<carry_item key="vest1.carry_item" />
 			<carry_item key="vest3.carry_item" />

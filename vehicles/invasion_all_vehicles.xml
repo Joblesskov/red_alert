@@ -38,7 +38,9 @@
 	<vehicle file="hornet_2.vehicle" /> 
 	<vehicle file="pillbox.vehicle" />
 	<vehicle file="prism_tower.vehicle" />
+	<vehicle file="grand_cannon.vehicle" />
 	<vehicle file="sentry_gun.vehicle" />
+	<vehicle file="battle_bunker.vehicle" />
 	<vehicle file="tesla_coil.vehicle" />
 	<vehicle file="gattling_cannon.vehicle" />
 	<vehicle file="psychic_tower.vehicle" />

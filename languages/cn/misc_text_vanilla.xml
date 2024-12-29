@@ -93,9 +93,11 @@ vehicle
     <text key="Prism Tower" text="光棱塔" /> 
     <text key="prism tower deploy" text="光棱塔部署包" /> 
     <text key="Grand Cannon" text="巨炮" /> 
+    <text key="grand cannon deploy" text="巨炮部署包" /> 
     <text key="Sentry Gun" text="哨戒炮" /> 
     <text key="sentry gun deploy" text="哨戒炮部署包" /> 
     <text key="Battle Bunker" text="战斗碉堡" /> 
+    <text key="battle bunker deploy" text="战斗碉堡部署包" /> 
     <text key="Tesla Coil" text="磁暴线圈" /> 
     <text key="tesla coil deploy" text="磁暴线圈部署包" /> 
     <text key="Gattling Cannon" text="加特林机炮" /> 

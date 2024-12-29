@@ -17,6 +17,7 @@
     <weapon key="ws_teslat_e.weapon" />
     
 	<weapon key="resource_sentry_gun.weapon" />
+	<weapon key="resource_battle_bunker.weapon" />
 	<weapon key="resource_tesla_coil.weapon" />
     
     <carry_item key="vest_plate.carry_item" enabled="1" />

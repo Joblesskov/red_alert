@@ -237,6 +237,7 @@
 			<weapon key="ws_aek_919k.weapon" />
 
 			<weapon key="resource_sentry_gun.weapon" />
+			<weapon key="resource_battle_bunker.weapon" />
 			<weapon key="resource_tesla_coil.weapon" />
 
 			<carry_item key="vest1.carry_item" />

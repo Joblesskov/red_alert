@@ -22,7 +22,7 @@
 	<visual class="chassis" mesh_filename="gattling_cannon.mesh" texture_filename="gattling_cannon.png" />
     <visual class="turret" turret_index="0" mesh_filename="gattling_cannon_turret.mesh" texture_filename="gattling_cannon_turret.png" />
 	
-	<character_slot type="gunner" enter_position="0 0 -1" seat_position="0 0 0" rotation="0" exit_rotation="3.14" hiding="1" >
+	<character_slot type="gunner" position="0 1 -1" rotation="0" exit_rotation="3.14" hiding="1" >
 		<turret index="0" /><turret index="1" />
 	</character_slot>
 

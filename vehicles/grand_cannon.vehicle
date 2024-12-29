@@ -1,29 +1,31 @@
-<vehicle name="Psychic Tower" key="psychic_tower.vehicle" map_view_atlas_index="10" respawn_time="240.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" >
+<vehicle name="Grand Cannon" key="grand_cannon.vehicle" map_view_atlas_index="10" respawn_time="320.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" >
 	<tag name="defensive2" />
 
-	<tire_set offset="1.5 0.0 1.5" radius="0.1" />
-	<tire_set offset="1.5 0.0 -1.5" radius="0.1" />
+	<tire_set offset="2 0 2" radius="0.1" />
+	<tire_set offset="2 0 -2" radius="0.1" />
 	
 	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.0" />
 	
-	<physics max_health="22.75" 
+	<physics max_health="45.0" 
 		mass="10000.0" 
 		blast_damage_threshold="0.1" 
-		extent="3 0.0 3" 
+		extent="5 0.0 5" 
 		offset="0 0.0 0" 
-		top_offset="0 10 0" 
-		collision_model_pos="0 2 0" 
-		collision_model_extent="2.8 4 2.8" 
+		top_offset="0 6 0" 
+		collision_model_pos="0 0 0" 
+		collision_model_extent="5 6 5" 
 		visual_offset="0 0 0" /> 
 	
-	<turret offset="0 2.8 0" weapon_key="vw_psychic.weapon" weapon_offset="0 5.0 0" weapon_recoil="0" max_rotation_step="0.0005" rotation="0" />
+	<turret offset="0 1.262 0" weapon_key="vw_grand_cannon.weapon" weapon_offset="0 2.076 2.3" weapon_recoil="0.2" physics_recoil="0" max_rotation_step="0.0002" rotation="0" />
 
-	<visual class="chassis" mesh_filename="psychic_tower.mesh" texture_filename="psychic_tower.png" />
-	<visual class="turret" turret_index="0" mesh_filename="psychic_tower_turret.mesh" texture_filename="psychic_tower_turret.png" />
+	<visual class="chassis" mesh_filename="grand_cannon.mesh" texture_filename="grand_cannon.png" />
+	<visual class="turret" turret_index="0" mesh_filename="grand_cannon_turret.mesh" texture_filename="grand_cannon_turret.png" />
 	
-	<character_slot type="gunner" position="0 1 -1" rotation="0" exit_rotation="3.14" hiding="1" >
+	<character_slot type="gunner" position="0 1 -2" rotation="0" exit_rotation="3.14" hiding="1" >
 		<turret index="0" />
 	</character_slot>
+
+	<sound key="turret_rotation" filename="bgralo2b.wav" />
 
 	<event key="receive_damage_xp_reward">
 		<trigger class="receive_damage" />
@@ -31,11 +33,11 @@
 	</event>
 	<event key="spot_rp_reward">
 		<trigger class="spot" />
-		<result class="reward" rp="75.0" />
+		<result class="reward" rp="100.0" />
 	</event>
 	<event key="destroy_rp_reward">
 		<trigger class="destroy" />
-		<result class="reward" rp="375.0" />
+		<result class="reward" rp="500.0" />
 	</event>
 	
 	<event>
@@ -55,8 +57,8 @@
 		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_jeep2.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.05 0.2" />
 	</event>  
 	
-	<effect event_key="health" value="11.375" ref="SmallSmokeVehicle" offset="0 6 0" />  
-	<effect event_key="health" value="5.6875" ref="MediumSmokeVehicle" offset="0 6 0" />  
+	<effect event_key="health" value="22.5" ref="SmallSmokeVehicle" offset="0 4 -0.66" />  
+	<effect event_key="health" value="11.25" ref="MediumSmokeVehicle" offset="0 4 -0.66" />  
 	<effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
 	
 	<event>

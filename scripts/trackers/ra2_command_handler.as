@@ -93,6 +93,17 @@ class RA2CommandHandler : Tracker {
 				m_metagame.getComms().send(command);
 			}
 			sendPrivateMessage(m_metagame, senderId, "attack enemy set");
+		} else if (checkCommand(message, "battle")) {
+			for (int i = 0; i < 3; ++i) {
+				string command =
+					"<command class='commander_ai'" +
+					"	faction='" + i + "'" +
+					"	base_defense='0.5'" +
+					"	border_defense='0.2'>" +
+					"</command>";
+				m_metagame.getComms().send(command);
+			}
+			sendPrivateMessage(m_metagame, senderId, "attack and defend");
 		} else if (checkCommand(message, "0_win")) {
 			m_metagame.getComms().send("<command class='set_match_status' lose='1' faction_id='1' />");
 			m_metagame.getComms().send("<command class='set_match_status' lose='1' faction_id='2' />");

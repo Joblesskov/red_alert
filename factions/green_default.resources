@@ -22,6 +22,7 @@
 
 	<weapon key="resource_pillbox.weapon" />
 	<weapon key="resource_prism_tower.weapon" />
+    <weapon key="resource_grand_cannon.weapon" />
     
 	<carry_item key="vest_blackops.carry_item" enabled="1" />	
 

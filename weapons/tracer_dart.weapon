@@ -43,7 +43,7 @@
 
     <hud_icon filename="hud_tracer.png" />
     <commonness value="1.0" can_respawn_with="0" in_stock="1" />
-    <inventory encumbrance="4.0" price="80.0" />
+    <inventory encumbrance="4.0" price="100.0" />
 
     <projectiles_per_shot value="1" />
     <weak_hand_hold offset="0.1" />
