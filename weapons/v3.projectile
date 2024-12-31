@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="V3" slot="2" key="v3.projectile" pulldown_in_air="20">
-    <result class="blast" radius="6.0" damage="6.0" push="2" decal="1" />
+    <result class="blast" radius="6.0" damage="10.0" push="2" decal="1" />
     <trigger class="impact" />
     <rotation class="motion" />
     <model mesh_filename="v3_rocket.xml" />

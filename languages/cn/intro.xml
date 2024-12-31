@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <intro>
-    <text key="Hint" text="普通盟狙的视野大于病狙，而精英等级则相反"/>
     <text key="Hint" text="当心那些油桶，它们产生的爆炸是致命的！"/>
     <text key="Hint" text="盟军擅长高精尖科技和精确打击"/>
     <text key="Hint" text="苏联以强大的火力和装甲碾压敌人"/>
@@ -8,9 +7,11 @@
     <text key="Hint" text="超级武器通常需要几分钟的冷却才能再次使用"/>
     <text key="Hint" text="低级防御塔对步兵很有效，而高级防御塔更擅长反载具"/>
     <text key="Hint" text="隐藏的科技钻油井每分钟为你带来20RP的收入"/>
-    <text key="Hint" text="注意精英士兵的脚边会有军衔标志"/>
     <text key="Hint" text="重甲坦克可以完全防御部分武器的攻击"/>
     <text key="Hint" text="精英武器更贵，也更强大，请灵活运用"/>
     <text key="Hint" text="优先对付正在呼叫支援或放置防御塔的敌人"/>
     <text key="Hint" text="犀牛坦克的攻防更强，狂风坦克更容易碾压步兵"/>
+    <text key="Hint" text="大扳手修复更快，但是携带量有限"/>
+    <text key="Hint" text="绷带生效快但修复层数少，而背心修复包则相反"/>
+    <text key="Hint" text="创伤医护包生效更快，但是携带量有限"/>
 </intro>

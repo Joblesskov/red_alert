@@ -7,12 +7,6 @@
     <weapon key="medikit.weapon" />
     <weapon key="medikit_ai_2.weapon" />
     <weapon key="cover_resource.weapon" />
-    <!-- <weapon key="gl_resource.weapon" />
-    <weapon key="hornet_resource.weapon" />
-    <weapon key="mg_resource.weapon" />
-    <weapon key="minig_resource.weapon" />
-    <weapon key="mortar_resource.weapon" />
-    <weapon key="tow_resource.weapon" /> -->
 	<weapon key="bandage.weapon" />
 	<weapon key="vest_repair.weapon" />
 	<weapon key="wrench.weapon"  />
@@ -42,18 +36,6 @@
 
 	<vehicle key="cover1.vehicle" />
 	<vehicle key="sandbag_cover.vehicle" />
-	<vehicle key="deployable_mg.vehicle" />  
-	<vehicle key="deployable_mg_2.vehicle" />
-	<vehicle key="deployable_minig.vehicle" />
-	<vehicle key="deployable_minig_2.vehicle" />
-	<vehicle key="deployable_gl.vehicle" />
-	<vehicle key="deployable_gl_2.vehicle" />
-	<vehicle key="mortar.vehicle" />
-	<vehicle key="mortar_2.vehicle" />
-	<vehicle key="tow.vehicle" />	
-	<vehicle key="tow_2.vehicle" />    	
-	<vehicle key="hornet.vehicle" />
-	<vehicle key="hornet_2.vehicle" /> 
     <vehicle key="radar_tower.vehicle" />
 	<vehicle key="gas_tank.vehicle" />
 	<vehicle key="radio_jammer_base.vehicle" />

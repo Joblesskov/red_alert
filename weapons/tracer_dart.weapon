@@ -54,9 +54,7 @@
     <capacity value="4" source="rank" source_value="5.0" />
     
     
-    <projectile file="tracer_dart.projectile">
-      <!--    <result class="spawn" instance_class="call" instance_key="tracer_dart.call"  min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0 0" direction_spread="0 0" />     -->
-    </projectile>
+    <projectile file="tracer_dart.projectile" />
     
     <stance state_key="running" accuracy="0.4" />
     <stance state_key="walking" accuracy="0.5" />

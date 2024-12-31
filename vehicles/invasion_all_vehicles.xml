@@ -14,7 +14,6 @@
 	<vehicle file="transport_truck.vehicle" />
 	<vehicle file="transport_truck_1.vehicle" />
 	<vehicle file="transport_truck_2.vehicle" />
-	<vehicle file="buggy.vehicle" /> 
 	<vehicle file="mobile_armory.vehicle" />
 	<vehicle file="armored_truck.vehicle" />
 	<vehicle file="radar_truck.vehicle" />
@@ -24,18 +23,6 @@
 
 	<vehicle file="cover1.vehicle" />
 	<vehicle file="sandbag_cover.vehicle" />
-	<vehicle file="deployable_mg.vehicle" />  
-	<vehicle file="deployable_mg_2.vehicle" />
-	<vehicle file="deployable_minig.vehicle" />
-	<vehicle file="deployable_minig_2.vehicle" />
-	<vehicle file="deployable_gl.vehicle" />
-	<vehicle file="deployable_gl_2.vehicle" />
-	<vehicle file="mortar.vehicle" />
-	<vehicle file="mortar_2.vehicle" />
-	<vehicle file="tow.vehicle" />	
-	<vehicle file="tow_2.vehicle" />    	
-	<vehicle file="hornet.vehicle" />
-	<vehicle file="hornet_2.vehicle" /> 
 	<vehicle file="pillbox.vehicle" />
 	<vehicle file="prism_tower.vehicle" />
 	<vehicle file="grand_cannon.vehicle" />
@@ -49,7 +36,6 @@
 	<vehicle file="radio_jammer_base.vehicle" />
 	<vehicle file="radio_jammer.vehicle" />
 	<vehicle file="radio_jammer2.vehicle" />
-	<vehicle file="aa_emplacement.vehicle" />
 
 	<vehicle file="event_jammer.vehicle" />
 	<vehicle file="event_lightning_storm.vehicle" />

@@ -19,7 +19,7 @@
     <capacity value="3" source="rank" source_value="0.2" />
     <capacity value="4" source="rank" source_value="0.4" />
     <capacity value="6" source="rank" source_value="0.8" />
-    <inventory encumbrance="3.0" price="2.0" />
+    <inventory encumbrance="3.0" price="1.0" />
 
     <sound class="result" key="other" fileref="explosion1.wav" />
     <sound class="result" key="other" fileref="explosion2.wav" />  

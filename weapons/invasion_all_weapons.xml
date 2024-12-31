@@ -6,12 +6,6 @@ Common
     <weapon file="medikit.weapon" />
     <weapon file="medikit_ai_2.weapon" />
     <weapon file="cover_resource.weapon" />
-    <weapon file="gl_resource.weapon" />
-    <weapon file="hornet_resource.weapon" />
-    <weapon file="mg_resource.weapon" />
-    <weapon file="minig_resource.weapon" />
-    <weapon file="mortar_resource.weapon" />
-    <weapon file="tow_resource.weapon" />
     <weapon file="dog.weapon" />
     <weapon file="dog_heal.weapon" />
 	<weapon file="bandage.weapon" />
@@ -43,25 +37,7 @@ Vehicle
     <weapon file="vw_gattling_t.weapon" />
     <weapon file="vw_gattling_ap_t.weapon" />
     <weapon file="vw_psychic.weapon" />
-
-    <weapon file="apc_hmg.weapon" />
-    <weapon file="apc_hmg_1.weapon" />
-    <weapon file="apc_hmg_2.weapon" />
-    <weapon file="buggy_mg.weapon" />
-    <weapon file="deployable_gl.weapon" />
-    <weapon file="deployable_mg.weapon" />
-    <weapon file="deployable_minig.weapon" />
-    <weapon file="hornet.weapon" />
-    <weapon file="humvee_gl.weapon" />
-    <weapon file="humvee_mg.weapon" />
-    <weapon file="mortar.weapon" />
-    <weapon file="tank_cannon.weapon" />
-    <weapon file="tank_cannon_1.weapon" />
-    <weapon file="tank_cannon_2.weapon" />
-    <weapon file="tank_mg.weapon" />
-    <weapon file="tank_mg_1.weapon" />
-    <weapon file="tank_mg_2.weapon" />
-    <weapon file="tow.weapon" />
+    
 Allied Forces
     <weapon file="wa_awp.weapon" />
     <weapon file="wa_awp_e.weapon" />

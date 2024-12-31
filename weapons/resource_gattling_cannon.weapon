@@ -16,7 +16,7 @@
     
     <sound class="impact" fileref="sandbag_drop.wav" />    
 
-    <model mesh_filename="barrier_item.mesh" texture_filename="gattling_cannon_item.png" />
+    <model mesh_filename="barrier_item.mesh" texture_filename="item_gattling_cannon.png" />
 
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.2" />

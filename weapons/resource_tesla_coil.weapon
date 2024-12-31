@@ -16,7 +16,7 @@
     
     <sound class="impact" fileref="sandbag_drop.wav" />    
 
-    <model mesh_filename="barrier_item.mesh" texture_filename="tesla_coil_item.png" />
+    <model mesh_filename="barrier_item.mesh" texture_filename="item_tesla_coil.png" />
 
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.5" />
