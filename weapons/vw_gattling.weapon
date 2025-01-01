@@ -16,7 +16,6 @@
     projectile_speed="110.0" 
     slot="2" 
     barrel_offset_3d="0 0 2.6"
-    sight_height_offset="1.5" 
     projectiles_per_shot="2" />
 
     <model mesh_filename="gattling_tank_barrel.mesh" texture_filename="gattling_tank_barrel.png" />

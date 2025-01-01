@@ -14,8 +14,7 @@
     projectile_speed="100.0" 
     slot="2" 
     barrel_offset_3d="0 1.6 0.81"
-    projectiles_per_shot="1"
-    sight_height_offset="3.0" />
+    projectiles_per_shot="1" />
     
     <model mesh_filename="" texture_filename="" />
     <hud_icon filename="hud_hornet.png" />

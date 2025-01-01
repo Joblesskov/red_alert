@@ -18,7 +18,7 @@
 	projectile_speed="110.0"
 	projectiles_per_shot="2"
     barrel_offset_3d="0.0 10.0 0.0"
-    sight_height_offset="8.0"
+    sight_height_offset="6.0"
 	stab_enabled="1"
 	use_basic_muzzle_smoke_effect="0"
     slot="0" />

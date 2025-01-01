@@ -12,7 +12,6 @@
     can_shoot_standing="0" 
     can_shoot_crouching="0"
     barrel_offset_3d="0 0 1.2"
-    sight_height_offset="1.5"
     suppressed="0" 
     name="Grizzly MG" 
     class="0" 

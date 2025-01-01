@@ -13,8 +13,7 @@
     class="0" 
     projectile_speed="80.0" 
     slot="2" 
-    barrel_offset_3d="0 0 2.29"
-    sight_height_offset="1.5"
+    barrel_offset_3d="0 0 2.29" 
     projectiles_per_shot="1" />
     <model mesh_filename="grizzly_barrel.mesh" texture_filename="grizzly_barrel.png" />
     <hud_icon filename="hud_tank_cannon.png" />

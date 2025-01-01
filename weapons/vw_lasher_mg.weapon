@@ -11,7 +11,6 @@
     magazine_size="-1" 
     can_shoot_standing="0" 
     can_shoot_crouching="0"
-    sight_height_offset="1.5"
     suppressed="0" 
     name="Lasher MG" 
     class="0" 

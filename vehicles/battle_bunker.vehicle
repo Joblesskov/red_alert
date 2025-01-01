@@ -25,22 +25,22 @@
 
 	<visual class="chassis" mesh_filename="battle_bunker.mesh" texture_filename="battle_bunker.png" />
 
-	<character_slot type="gunner" position="0 1 1" rotation="0.00" exit_rotation="0.00" hiding="1" >
+	<character_slot type="gunner" position="0 0.5 1" rotation="0.00" exit_rotation="0.00" hiding="1" >
 		<turret index="0" />
 	</character_slot>
-	<character_slot type="gunner" position="0.86 1 0.5" rotation="1.05" exit_rotation="1.05" hiding="1" >
+	<character_slot type="gunner" position="0.86 0.5 0.5" rotation="1.05" exit_rotation="1.05" hiding="1" >
 		<turret index="1" />
 	</character_slot>
-	<character_slot type="gunner" position="-0.86 1 0.5" rotation="5.24" exit_rotation="5.24" hiding="1" >
+	<character_slot type="gunner" position="-0.86 0.5 0.5" rotation="5.24" exit_rotation="5.24" hiding="1" >
 		<turret index="5" />
 	</character_slot>
-	<character_slot type="gunner" position="0.86 1 -0.5" rotation="2.09" exit_rotation="2.09" hiding="1" >
+	<character_slot type="gunner" position="0.86 0.5 -0.5" rotation="2.09" exit_rotation="2.09" hiding="1" >
 		<turret index="2" />
 	</character_slot>
-	<character_slot type="gunner" position="-0.86 1 -0.5" rotation="4.19" exit_rotation="4.19" hiding="1" >
+	<character_slot type="gunner" position="-0.86 0.5 -0.5" rotation="4.19" exit_rotation="4.19" hiding="1" >
 		<turret index="4" />
 	</character_slot>
-	<character_slot type="gunner" position="0 1 -1" rotation="3.14" exit_rotation="3.14" hiding="1" >
+	<character_slot type="gunner" position="0 0.5 -1" rotation="3.14" exit_rotation="3.14" hiding="1" >
 		<turret index="3" />
 	</character_slot>
 
@@ -76,6 +76,7 @@
 	
 	<effect event_key="health" value="15" ref="SmallSmokeVehicle" offset="0 3 -0.66" />  
 	<effect event_key="health" value="7.5" ref="MediumSmokeVehicle" offset="0 3 -0.66" />  
+  	<effect event_key="health" value="7.5" ref="SmallFireRepeat" offset="0 3 -0.66" />  
 	<effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
 	
 	<event>

@@ -15,7 +15,6 @@
     projectile_speed="90.0" 
     slot="2" 
     barrel_offset_3d="0 2.1 1.8" 
-    sight_height_offset="4.0"
     projectiles_per_shot="1" />
     <model />
     <hud_icon filename="hud_apc.png" />

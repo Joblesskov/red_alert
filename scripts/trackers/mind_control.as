@@ -48,7 +48,7 @@ class MindControl : Tracker {
 			{"mind_control", 1},
 			{"mind_control_e", 1},
 			{"mind_control_y", 1},
-			{"mind_control_t", 2},
+			{"mind_control_t", 1},
 			{"mind_control_s", 9}
 		};
 

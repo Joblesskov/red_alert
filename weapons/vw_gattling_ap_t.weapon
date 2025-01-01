@@ -4,8 +4,7 @@
     spread_range="0.5"
     sight_range_modifier="1.25"
     projectile_speed="120.0" 
-    barrel_offset_3d="0 0 0"
-    sight_height_offset="0.5" />
+    barrel_offset_3d="0 0 0" />
 
     <model mesh_filename="" texture_filename="" />
     <hud_icon filename="hud_gattling_cannon.png" />
