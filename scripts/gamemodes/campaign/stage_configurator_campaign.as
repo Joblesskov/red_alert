@@ -231,8 +231,6 @@ class StageConfiguratorCampaign : StageConfiguratorInvasion {
 		stage.m_includeLayers.insertLast("layer1.invasion"); 
 
 		stage.addTracker(Overtime(m_metagame, 0));
-		stage.addTracker(Spawner(m_metagame, 1, Vector3(255,0,344),20, "default_ai"));          // added 15 in 1.65, less over_capacity to compensate
-
 
 		stage.m_maxSoldiers = 21 * 5;     // was 33 * 3 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 4 (1.81) was 5 (1.86)

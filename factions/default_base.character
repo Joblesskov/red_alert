@@ -2,6 +2,7 @@
 <character>	
 	<sound class="vehicle" tag="heavy" filename="igensqua.wav" volume="1" />
 	<sound class="vehicle" tag="medium" filename="igensqua.wav" volume="1" />
+	<sound class="vehicle" tag="mirage" filename="igensqua.wav" volume="1" />
 	<sound class="vehicle" tag="" filename="igensqua.wav" volume="1" />
 
 	<parameter class="moving_inputsteer_threshold" value="0.1" />

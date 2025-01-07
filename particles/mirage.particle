@@ -1,0 +1,86 @@
+particle_system MirageShine
+{
+	quota	500
+	material	FlareFlash
+	particle_width	0
+	particle_height	0
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point
+	{
+		angle	0
+		colour	0.6 0 0 1
+		direction	0 1 0
+		emission_rate	100
+		position	0 0 0
+		velocity	0
+		time_to_live	0.2
+		duration	0.1
+	}
+
+	affector ColourFader
+	{
+		red		0
+		green	0
+		blue	0
+		alpha	-5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	-90
+		rotation_range_end	-90
+	}
+
+	affector Scaler
+	{
+		rate	20
+	}
+}
+
+particle_system MirageMuzzle
+{
+	quota	500
+	material	FlareFlash
+	particle_width	3
+	particle_height	3
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point
+	{
+		angle	0
+		colour	1 0.9 0.9 1
+		direction	0 1 0
+		emission_rate	100
+		position	0 0 0
+		velocity	0
+		time_to_live	0.1
+		duration	0.1
+	}
+	
+	affector Scaler {
+		rate	-10
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	-90
+		rotation_range_end	-90
+	}
+
+	affector ColourFader
+	{
+		red		0
+		green	0
+		blue	0
+		alpha	-10
+	}
+}

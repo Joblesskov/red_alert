@@ -7,6 +7,9 @@
 	<vehicle file="ifv.vehicle" />
 	<vehicle file="flak_track.vehicle" />
 	<vehicle file="gattling_tank.vehicle" />
+	<vehicle file="mirage_tank.vehicle" />
+	<vehicle file="prism_tank.vehicle" />
+	<vehicle file="apocalypse_tank.vehicle" />
 	
 	<vehicle file="jeep.vehicle" />
 	<vehicle file="jeep_1.vehicle" /> 

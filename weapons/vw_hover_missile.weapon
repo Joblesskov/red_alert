@@ -21,7 +21,9 @@
     <commonness value="0.0" />
 
     <ballistics curve_height="10" near_far_distance="0" speed_estimation_near="150.0" speed_estimation_far="150.0" max_speed="150.0" tweak_factor="1.9" randomness="0.0" />
-    <projectile file="hover_missile.projectile" />
+    <projectile file="hover_missile.projectile">
+        <trail probability="1.0" key="MissileTrail" />
+    </projectile>
     
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
@@ -34,6 +36,7 @@
     <target_factors tag="defensive2" distance="1.0" direction="0.0" squad_command="1.0" base_score="7" />
     <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
     <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="5" /> 
+    <target_factors tag="mirage" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.01" />
 
     <effect class="muzzle" ref="LawMuzzle" />
     <effect class="muzzle" ref="UpDust" />

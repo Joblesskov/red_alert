@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="vw_apocalypse_missile.weapon">
+    <specification retrigger_time="0.2" 
+    accuracy_factor="0.85" 
+    sustained_fire_grow_step="0.05" 
+    sustained_fire_diminish_rate="0.05" 
+    sight_range_modifier="1.3"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="mammoth missile" 
+    class="0" 
+    projectile_speed="100.0" 
+    slot="2" 
+    barrel_offset_3d="0 0.5 0"
+    sight_height_offset="0.3"
+    projectiles_per_shot="1"
+    cooldown_start="0.2"
+    cooldown_end="0.1" />
+    
+    <model mesh_filename="" texture_filename="" />
+    <hud_icon filename="hud_hornet.png" />
+    <commonness value="0.0" />
+
+    <ballistics curve_height="4" near_far_distance="0" speed_estimation_near="150.0" speed_estimation_far="150.0" max_speed="150.0" tweak_factor="3" randomness="0.0" />
+    <projectile file="hover_missile.projectile">
+        <result class="blast" 
+        radius="3.5" 
+        damage="0.1" 
+        push="0.2"
+        decal="1"
+        damage_origin_vehicle="0"
+        faction_compare="not_equal" />
+        <trail probability="1.0" key="MissileTrailThin" />
+    </projectile>
+    
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.01" />
+    <target_factors tag="medium" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
+    <target_factors tag="light" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
+    <target_factors tag="defensive1" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.2" />
+    <target_factors tag="defensive2" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="5" /> 
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <sound key="fire" fileref="vapoat2a.wav" volume="0.6" />
+    <sound key="fire" fileref="vapoat2b.wav" volume="0.6" />
+    <sound key="fire" fileref="vapoat2c.wav" volume="0.6" />
+</weapon>

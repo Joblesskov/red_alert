@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="mirage cannon" slot="1" pulldown_in_air="4.0" key="mirage_cannon.projectile">      
+    <trigger class="impact" />
+    <rotation class="motion" />
+    <model />
+    <commonness value="0.0" />
+    <sound />
+    <effect class="result" key="terrain" ref="MirageShine" lighting="0" />
+    <effect class="result" key="character" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="other" copy="terrain" />
+</projectile>

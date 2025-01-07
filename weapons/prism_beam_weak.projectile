@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="prism beam" slot="1" pulldown_in_air="4" key="prism_beam_weak.projectile">
+    <tag name="grenade"/>
+    <result class="blast" radius="2.5" damage="5" push="0.2" decal="1" faction_compare="not_equal" damage_origin_vehicle="0" />   
+    <trigger class="impact" />
+
+    <rotation class="motion" />
+    <model />
+
+    <commonness value="0.0" />
+    
+    <effect class="result" key="terrain" ref="PrismShine" lighting="0" />
+    <effect class="result" key="terrain" ref="PrismBeam" lighting="0" />
+
+    <effect class="result" type="splat_map" surface_tag="" size="2.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+    <effect class="result" key="other" copy="terrain" /> 
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+
+    <trail probability="1" key="PrismTrailThin" />
+</projectile>

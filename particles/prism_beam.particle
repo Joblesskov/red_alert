@@ -21,16 +21,7 @@ particle_system PrismBeam
 		velocity_min	0.05
 		velocity_max	0.2
 		time_to_live	0.8
-		time_to_live_min	0.8
-		time_to_live_max	0.8
 		duration	0.05
-		duration_min	0.05
-		duration_max	0.05
-/*
-		repeat_delay	2
-		repeat_delay_min	2
-		repeat_delay_max	2
-*/
 	}
 
 	affector ColourFader
@@ -70,19 +61,8 @@ particle_system PrismShine
 		emission_rate	300
 		position	0 0 0
 		velocity	0
-		velocity_min	0
-		velocity_max	0
 		time_to_live	1
-		time_to_live_min	1
-		time_to_live_max	1
 		duration	0.05
-		duration_min	0.05
-		duration_max	0.05
-/*
-		repeat_delay	2
-		repeat_delay_min	2
-		repeat_delay_max	2
-*/
 		width	1
 		height	1
 		depth	1

@@ -25,7 +25,7 @@
     remove_collision_threshold="0.2"	
 	extent="3.4 0 5.8"
 	offset="0 0 0" 
-	top_offset="0 4 0" 
+	top_offset="0 6 0" 
 	collision_model_pos="0 0 0.8" 
 	collision_model_extent="3.4 4.2 7.4" 
 	visual_offset="0 0 0" /> 

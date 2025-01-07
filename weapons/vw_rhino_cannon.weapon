@@ -42,6 +42,7 @@
     <target_factors tag="defensive2" distance="1.0" direction="0.0" squad_command="1.0" base_score="7" />
     <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
     <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="5" /> 
+    <target_factors tag="mirage" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.01" />
 
     <effect class="muzzle" ref="BiggerMuzzle" />
     <effect class="muzzle" ref="CannonSmokeBig" /> 
