@@ -85,6 +85,9 @@ vehicle
     <text key="Grizzly Tank" text="灰熊坦克" /> 
     <text key="Rhino Tank" text="犀牛坦克" /> 
     <text key="Lasher Tank" text="狂风坦克" /> 
+    <text key="Prism Tank" text="光棱坦克" /> 
+    <text key="Mirage Tank" text="幻影坦克" /> 
+    <text key="Tank Destroyer" text="坦克杀手" /> 
     <text key="Apocalypse Tank" text="天启坦克" /> 
     <text key="IFV" text="步兵战车" /> 
     <text key="Flak Track" text="防空履带车" /> 

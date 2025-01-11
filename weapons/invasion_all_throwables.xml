@@ -18,6 +18,7 @@
     <projectile file="genobomb.projectile" />
     <projectile file="genobomb_sub.projectile" />
     <projectile file="hand_grenade.projectile" />
+    <projectile file="hornet_missile.projectile" />
     <projectile file="impact_grenade.projectile" />
     <projectile file="iron_curtain.projectile" />
     <projectile file="javelin.projectile" />

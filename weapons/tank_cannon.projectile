@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="tank cannon" slot="1" pulldown_in_air="50.0" radius="0.4" key="tank_cannon.projectile">
     <tag name="rocket"/>
-    <result class="blast" 
-        radius="2.5" 
-        damage="3.5" 
-        push="1.0" 
-        decal="1"
-        damage_origin_vehicle="0"
-        faction_compare="not_equal"
-    />
         
     <trigger class="impact" />
     <rotation class="motion" />

@@ -16,18 +16,19 @@ Common
 Vehicle
     <weapon file="vw_grizzly_cannon.weapon" />
     <weapon file="vw_grizzly_mg.weapon" />
-    <weapon file="vw_rhino_cannon.weapon" />
-    <weapon file="vw_rhino_mg.weapon" />
-    <weapon file="vw_lasher_cannon.weapon" />
-    <weapon file="vw_lasher_mg.weapon" />
-    <weapon file="vw_flak.weapon" />
     <weapon file="vw_hover_missile.weapon" />
-    <weapon file="vw_gattling_ap.weapon" />
-    <weapon file="vw_gattling.weapon" />
     <weapon file="vw_mirage_cannon.weapon" />
     <weapon file="vw_prism.weapon" />
+    <weapon file="vw_destroyer_cannon.weapon" />
+    <weapon file="vw_rhino_cannon.weapon" />
+    <weapon file="vw_rhino_mg.weapon" />
+    <weapon file="vw_flak.weapon" />
     <weapon file="vw_apocalypse_cannon.weapon" />
     <weapon file="vw_apocalypse_missile.weapon" />
+    <weapon file="vw_lasher_cannon.weapon" />
+    <weapon file="vw_lasher_mg.weapon" />
+    <weapon file="vw_gattling_ap.weapon" />
+    <weapon file="vw_gattling.weapon" />
     
     <weapon file="vw_pillbox_mg.weapon" />
     <weapon file="vw_pillbox_mg_ap.weapon" />
