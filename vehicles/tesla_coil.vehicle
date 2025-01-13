@@ -16,7 +16,7 @@
 		collision_model_extent="2.8 4 2.8" 
 		visual_offset="0 0 0" /> 
 	
-	<turret offset="0 7 0" weapon_key="vw_tesla_coil_t.weapon" weapon_offset="0 0 0" weapon_recoil="0" max_rotation_step="0.0005" rotation="0" />
+	<turret offset="0 7 0" weapon_key="vw_tesla_t.weapon" weapon_offset="0 0 0" weapon_recoil="0" max_rotation_step="0.0005" rotation="0" />
 
 	<visual class="chassis" mesh_filename="tesla_coil.mesh" texture_filename="tesla_coil.png" />
 

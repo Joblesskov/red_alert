@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="ws_flakt.weapon" key="ws_flakt_e.weapon">
+<weapon file="ws_flak.weapon" key="ws_flak_e.weapon">
     <specification 
         retrigger_time="0.6" 
         accuracy_factor="0.92"

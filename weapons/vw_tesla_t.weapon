@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon key="vw_tesla_coil_t.weapon" >
+<weapon key="vw_tesla_t.weapon" >
     <specification 
     slot="2" 
     retrigger_time="4.0" 

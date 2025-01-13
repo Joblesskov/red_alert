@@ -15,10 +15,10 @@
 		<requirement class="weapon" slot="0" key="ws_desolator_e.weapon"/>
 	</model>
 	<model filename="soldier_s_flakt.xml">
-		<requirement class="weapon" slot="0" key="ws_flakt.weapon"/>
+		<requirement class="weapon" slot="0" key="ws_flak.weapon"/>
 	</model>
 	<model filename="soldier_s_flakt.xml">
-		<requirement class="weapon" slot="0" key="ws_flakt_e.weapon"/>
+		<requirement class="weapon" slot="0" key="ws_flak_e.weapon"/>
 	</model>
 	<model filename="soldier_s_ivan.xml">
 		<requirement class="weapon" slot="0" key="ws_knife.weapon"/>
@@ -27,10 +27,10 @@
 		<requirement class="weapon" slot="0" key="ws_knife_e.weapon"/>
 	</model>
 	<model filename="soldier_s_teslat.xml">
-		<requirement class="weapon" slot="0" key="ws_teslat.weapon"/>
+		<requirement class="weapon" slot="0" key="ws_tesla.weapon"/>
 	</model>
 	<model filename="soldier_s_teslat.xml">
-		<requirement class="weapon" slot="0" key="ws_teslat_e.weapon"/>
+		<requirement class="weapon" slot="0" key="ws_tesla_e.weapon"/>
 	</model>
 	<model filename="soldier_s_boris.xml">
 		<requirement class="weapon" slot="0" key="ws_akm.weapon"/>

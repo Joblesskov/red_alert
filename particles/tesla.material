@@ -17,3 +17,11 @@ material tesla : add_base
         texture_unit{
             texture muzzle_tesla.png 	
 }}}}
+
+material twin_tesla : add_base
+{   
+    technique{
+    pass{
+        texture_unit{
+            texture muzzle_twin_tesla.png 	
+}}}}

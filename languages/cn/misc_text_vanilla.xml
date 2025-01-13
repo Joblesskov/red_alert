@@ -88,6 +88,7 @@ vehicle
     <text key="Prism Tank" text="光棱坦克" /> 
     <text key="Mirage Tank" text="幻影坦克" /> 
     <text key="Tank Destroyer" text="坦克杀手" /> 
+    <text key="Tesla Tank" text="磁能坦克" /> 
     <text key="Apocalypse Tank" text="天启坦克" /> 
     <text key="IFV" text="步兵战车" /> 
     <text key="Flak Track" text="防空履带车" /> 

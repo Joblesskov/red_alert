@@ -170,8 +170,8 @@
 		<models file="brown_default.models" />
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
-			<weapon key="ws_flakt.weapon" />
-			<weapon key="ws_flakt_e.weapon" />
+			<weapon key="ws_flak.weapon" />
+			<weapon key="ws_flak_e.weapon" />
 
 			<weapon key="ws_rpg-7.weapon" />
 
@@ -308,8 +308,8 @@
 		<models file="brown_default.models" />
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
-			<weapon key="ws_teslat.weapon" />
-			<weapon key="ws_teslat_e.weapon" />
+			<weapon key="ws_tesla.weapon" />
+			<weapon key="ws_tesla_e.weapon" />
 
 			<carry_item key="eodvest.carry_item" />
 			<carry_item key="vest_plate.carry_item" />
