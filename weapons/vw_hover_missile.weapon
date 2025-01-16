@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon key="vw_hover_missile.weapon">
-    <specification retrigger_time="1.6" 
+    <specification retrigger_time="1.67" 
     accuracy_factor="0.9" 
     sustained_fire_grow_step="1.0" 
     sustained_fire_diminish_rate="0.7" 
-    sight_range_modifier="1.4"
+    sight_range_modifier="1.35"
     magazine_size="-1" 
     can_shoot_standing="0" 
     can_shoot_crouching="0" 
@@ -22,6 +22,13 @@
 
     <ballistics curve_height="10" near_far_distance="0" speed_estimation_near="150.0" speed_estimation_far="150.0" max_speed="150.0" tweak_factor="1.9" randomness="0.0" />
     <projectile file="hover_missile.projectile">
+        <result class="blast" 
+            radius="3.0" 
+            damage="0.45" 
+            push="0.2"
+            decal="1"
+            damage_origin_vehicle="0"
+            faction_compare="not_equal"/>
         <trail probability="1.0" key="MissileTrail" />
     </projectile>
     

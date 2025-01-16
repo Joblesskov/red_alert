@@ -19,10 +19,10 @@
     <model mesh_filename="barrier_item.mesh" texture_filename="item_prism_tower.png" />
 
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="0.5" />
+    <capacity value="1" source="rank" source_value="0.6" />
 
     <hud_icon filename="hud_prism_tower.png" />
-    <commonness value="0.5" can_respawn_with="0" />
+    <commonness value="0.4" can_respawn_with="0" />
     <inventory encumbrance="15.0" buy_price="750.0" sell_price="375.0" />
 
     <modifier class="speed" value="-0.4" />

@@ -241,7 +241,6 @@
 			<weapon key="resource_tesla_coil.weapon" />
 
 			<carry_item key="vest1.carry_item" />
-			<carry_item key="vest3.carry_item" />
 		</resources>
 
 		<item_class_existence_config>

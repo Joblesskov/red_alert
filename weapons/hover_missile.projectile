@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="hover missile" slot="1" pulldown_in_air="40.0" key="hover_missile.projectile">
     <tag name="rocket"/>
-    <result class="blast" 
-    radius="3.0" 
-    damage="0.45" 
-    push="0.2"
-    decal="1"
-    damage_origin_vehicle="0"
-    faction_compare="not_equal"
-    />
         
     <trigger class="impact" />
     <rotation class="motion" />

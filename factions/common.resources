@@ -12,6 +12,7 @@
 	<weapon key="wrench.weapon"  />
 	<weapon key="wrench_small.weapon" />
 	<weapon key="tracer_dart.weapon" />
+	<weapon key="sell_building.weapon" />
 
 	<carry_item key="god_vest.carry_item" />
 	<carry_item key="unarmored.carry_item" />

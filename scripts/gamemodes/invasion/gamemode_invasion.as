@@ -54,6 +54,7 @@
 #include "aircraft_carrier.as"
 #include "disc.as"
 #include "mutation.as"
+#include "sell_building.as"
 
 // --------------------------------------------
 class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
@@ -347,6 +348,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(AircraftCarrierGunRun(this));
 		addTracker(DiscGunRun(this));
 		addTracker(Mutation(this));
+		addTracker(SellBuiding(this));
 	}
 
 	// --------------------------------------------

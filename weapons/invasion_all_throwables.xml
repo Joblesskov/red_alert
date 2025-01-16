@@ -44,6 +44,7 @@
     <projectile file="rad_eruption.projectile" />
     <projectile file="rad_eruption_sub.projectile" />
     <projectile file="scho_artillery_shell.projectile" />
+    <projectile file="sell_building.projectile" />
     <projectile file="stun_grenade.projectile" />
     <projectile file="tesla.projectile" />
     <projectile file="test.projectile" />

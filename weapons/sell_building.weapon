@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="sell_building.weapon" on_ground_up="0 1 0">
+    <tag name="assault" />       
+	
+     <specification magazine_size="-1" 
+    retrigger_time="1.0" 
+    sustained_fire_grow_step="0" 
+    can_shoot_standing="1" 
+    can_shoot_crouching="1" 
+    can_shoot_prone="1" 
+    suppressed="1" 
+    name="sell building" 
+    class="3" 
+    sight_range_modifier="1" 
+    slot="1"
+    projectile_speed="200.0" 
+    use_basic_muzzle_smoke_effect="0" />
+	
+    <animation key="hold" animation_key="still, binoculars" />
+    <animation key="hold_on_wall" animation_key="still, binoculars" />
+    <animation key="hold_casual" animation_key="still, binoculars" />
+    <animation key="still_against_wall" animation_key="still, binoculars" />
+    <animation key="recoil" animation_key="recoil, binoculars" />
+    <animation key="crouching" animation_key="crouching still, binoculars" />
+    <animation key="running" animation_key="running, binoculars" />
+    <animation key="walking" animation_key="walking, binoculars" />
+    <animation key="walking_backwards" animation_key="walking backwards, binoculars" />
+    <animation key="crouch_moving" animation_key="crouching forwards, binoculars" />
+    <animation key="changing_weapon_out" ref="57" />
+    <animation key="changing_weapon_in" ref="58" />
+    <animation key="reload" ref="35" />
+   
+
+    <model filename="binoculars.xml" />
+    <hud_icon filename="hud_sell_building.png" />
+    <commonness value="0.0" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="0.0" price="0.0" />
+
+    <projectile file="sell_building.projectile">
+        <trail probability="1" />
+    </projectile>
+</weapon>

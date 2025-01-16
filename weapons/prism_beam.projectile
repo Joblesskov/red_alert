@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="prism beam" slot="1" pulldown_in_air="4" key="prism_beam.projectile">
     <tag name="grenade"/>
-    <result class="blast" radius="2.5" damage="6" push="0.2" decal="1" faction_compare="not_equal" damage_origin_vehicle="0" />   
     <trigger class="impact" />
 
     <rotation class="motion" />
@@ -20,6 +19,4 @@
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="vehicle" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />
-
-    <trail probability="1" key="PrismTrail" />
 </projectile>

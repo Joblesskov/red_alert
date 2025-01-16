@@ -15,7 +15,7 @@ particle_system PrismBeam
 		colour_range_start	0.8 0.8 1 1
 		colour_range_end	1 1 1 1
 		direction	0 1 0
-		emission_rate	120
+		emission_rate	12
 		position	0 0 0
 		velocity	0
 		velocity_min	0.05
@@ -58,7 +58,7 @@ particle_system PrismShine
 		colour_range_start	0.8 0.8 1 1
 		colour_range_end	1 1 1 1
 		direction	0 1 0
-		emission_rate	300
+		emission_rate	30
 		position	0 0 0
 		velocity	0
 		time_to_live	1

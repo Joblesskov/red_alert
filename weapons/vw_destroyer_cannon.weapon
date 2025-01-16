@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon key="vw_destroyer_cannon.weapon">
-    <specification retrigger_time="2.2" 
+    <specification retrigger_time="2.3" 
     accuracy_factor="0.94" 
     sustained_fire_grow_step="1" 
     sustained_fire_diminish_rate="0.5"
@@ -28,8 +28,7 @@
             push="1.5" 
             decal="1"
             damage_origin_vehicle="0"
-            faction_compare="not_equal"
-        />
+            faction_compare="not_equal"/>
     </projectile>
     
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->

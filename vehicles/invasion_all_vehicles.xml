@@ -8,6 +8,7 @@
 	<vehicle file="prism_tank.vehicle" />
 	<vehicle file="rhino_tank.vehicle" />
 	<vehicle file="flak_track.vehicle" />
+	<vehicle file="v3.vehicle" />
 	<vehicle file="tesla_tank.vehicle" />
 	<vehicle file="apocalypse_tank.vehicle" />
 	<vehicle file="lasher_tank.vehicle" />

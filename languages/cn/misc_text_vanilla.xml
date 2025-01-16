@@ -44,6 +44,7 @@ weapon
     <text key="Virus Dart Gun (Elite)" text="病毒狙击枪 (精英)" /> 
     <text key="Yuri" text="尤里" /> 
 
+	<text key="sell building" text="变卖建筑" />
 	<text key="dynamite deploy" text="高爆炸药部署" />
 	<text key="dynamite" text="高爆炸药" />
 	<text key="psychic blast" text="心灵冲击" />
@@ -88,6 +89,7 @@ vehicle
     <text key="Prism Tank" text="光棱坦克" /> 
     <text key="Mirage Tank" text="幻影坦克" /> 
     <text key="Tank Destroyer" text="坦克杀手" /> 
+    <text key="V3 rocket launcher" text="V3火箭发射车" /> 
     <text key="Tesla Tank" text="磁能坦克" /> 
     <text key="Apocalypse Tank" text="天启坦克" /> 
     <text key="IFV" text="步兵战车" /> 

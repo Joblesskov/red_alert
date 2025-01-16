@@ -13,6 +13,7 @@ Common
 	<weapon file="wrench.weapon"  />
 	<weapon file="wrench_small.weapon" />
 	<weapon file="tracer_dart.weapon" />
+    <weapon file="sell_building.weapon" />
 Vehicle
     <weapon file="vw_grizzly_cannon.weapon" />
     <weapon file="vw_grizzly_mg.weapon" />
@@ -23,6 +24,7 @@ Vehicle
     <weapon file="vw_rhino_cannon.weapon" />
     <weapon file="vw_rhino_mg.weapon" />
     <weapon file="vw_flak.weapon" />
+    <weapon file="vw_v3.weapon" />
     <weapon file="vw_apocalypse_cannon.weapon" />
     <weapon file="vw_apocalypse_missile.weapon" />
     <weapon file="vw_lasher_cannon.weapon" />

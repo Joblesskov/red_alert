@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon key="vw_rhino_cannon.weapon">
-    <specification retrigger_time="2.2" 
-    accuracy_factor="0.90" 
-    sustained_fire_grow_step="1" 
-    sustained_fire_diminish_rate="0.5" 
-    sight_range_modifier="1.3"
+<weapon key="vw_v3.weapon">
+    <specification retrigger_time="5" 
+    accuracy_factor="0.9" 
+    sustained_fire_grow_step="1.0" 
+    sustained_fire_diminish_rate="0.22" 
+    sight_range_modifier="2.4"
     magazine_size="-1" 
     can_shoot_standing="0" 
     can_shoot_crouching="0" 
     suppressed="0" 
-    name="Rhino cannon" 
+    name="v3 rocket launcher" 
     class="0" 
-    projectile_speed="80.0" 
+    projectile_speed="100.0" 
     slot="2" 
-    barrel_offset_3d="0 0 2.12" 
+    barrel_offset_3d="0 0 0"
     projectiles_per_shot="1" />
-    <model mesh_filename="rhino_barrel.mesh" texture_filename="rhino_barrel.png" />
-    <hud_icon filename="hud_tank_cannon.png" />
+    
+    <model mesh_filename="" texture_filename="" />
+    <hud_icon filename="hud_hornet.png" />
     <commonness value="0.0" />
 
-    <ballistics curve_height="2.0" near_far_distance="6.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" tweak_factor="4.85"/>
-    <projectile file="tank_cannon.projectile" >
+    <ballistics curve_height="20" near_far_distance="0" speed_estimation_near="150.0" speed_estimation_far="150.0" max_speed="150.0" tweak_factor="0.98" />
+    <projectile file="v3.projectile">
         <result class="blast" 
-            radius="2.5" 
-            damage="4.5" 
-            push="1.0" 
+            radius="6.0" 
+            damage="10" 
+            push="1"
             decal="1"
             damage_origin_vehicle="0"
             faction_compare="not_equal"/>
@@ -43,9 +44,8 @@
     <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="5" /> 
     <target_factors tag="mirage" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.01" />
 
-    <effect class="muzzle" ref="BiggerMuzzle" />
-    <effect class="muzzle" ref="CannonSmokeBig" /> 
-    <effect class="muzzle" ref="CannonSmokeBigSphere" />       
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
 
-    <sound class="operation" key="fire" fileref="vrhiatta.wav" volume="1.5" />
+    <sound key="fire" fileref="vv3latta.wav" />
 </weapon>
