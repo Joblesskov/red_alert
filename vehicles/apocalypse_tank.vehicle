@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="Apocalypse Tank" key="apocalypse_tank.vehicle" usable_for_cover="0" respawn_time="140" time_to_live_unsteerable="95" map_view_atlas_index="7" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="6.0">
+<vehicle name="Apocalypse Tank" key="apocalypse_tank.vehicle" usable_for_cover="0" respawn_time="140" time_to_live_unsteerable="95" map_view_atlas_index="7" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="6.0">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="heavy" />
@@ -21,7 +21,7 @@
 	<physics 
 	max_health="40" 
 	blast_damage_threshold="0.3" 
-	mass="240.0" 
+	mass="60" 
     remove_collision_threshold="0.2"	
 	extent="5.1 0.0 6.3"
 	offset="0 0 0" 

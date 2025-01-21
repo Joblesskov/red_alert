@@ -2,18 +2,18 @@
 <weapon key="binoculars.weapon" on_ground_up="0 1 0">
     <tag name="assault" />       
 	
-     <specification magazine_size="-1" 
-    retrigger_time="1.0" 
-    sustained_fire_grow_step="0" 
-    can_shoot_standing="1" 
-    can_shoot_crouching="1" 
-    can_shoot_prone="1" 
-    suppressed="1" 
-    name="Binoculars" 
-    class="3" 
-    sight_range_modifier="2.5" 
-    slot="1"
-    use_basic_muzzle_smoke_effect="0" />
+    <specification magazine_size="-1" 
+        retrigger_time="1.0" 
+        sustained_fire_grow_step="0" 
+        can_shoot_standing="1" 
+        can_shoot_crouching="1" 
+        can_shoot_prone="1" 
+        suppressed="1" 
+        name="Binoculars" 
+        class="3" 
+        sight_range_modifier="2.5" 
+        slot="1"
+        use_basic_muzzle_smoke_effect="0" />
 	
     <animation key="hold" animation_key="still, binoculars" />
     <animation key="hold_on_wall" animation_key="still, binoculars" />

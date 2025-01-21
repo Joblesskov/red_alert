@@ -15,15 +15,15 @@
 		enemy_accuracy="1"
 		xp_multiplier="1"
 		rp_multiplier="1"
-		allow_activate_server="0"
+		allow_activate_server="1"
 		allow_change_settings="1"
 		require_journal_key_to_change_settings="difficulty_change"
 		allow_skinpacks="1">
 
 		<preset text="Let's play" help="Help:Let's play" id="test"
-			friendly_capacity="3.0"
+			friendly_capacity="2.20"
 			friendly_accuracy="1.00"
-			enemy_capacity="2.5"
+			enemy_capacity="1.80"
 			enemy_accuracy="1.00"
 			xp_multiplier="1.00"
 			rp_multiplier="1.00"
@@ -31,9 +31,9 @@
 		/>
 
 		<preset text="Difficulty:Normal" help="Help:Hard" id="normal"
-			friendly_capacity="2.25"
+			friendly_capacity="2.20"
 			friendly_accuracy="0.96"
-			enemy_capacity="1.75"
+			enemy_capacity="1.80"
 			enemy_accuracy="0.95"
 			xp_multiplier="1.00"
 			rp_multiplier="1.00"

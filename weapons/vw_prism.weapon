@@ -40,8 +40,8 @@
     <target_factors tag="heavy" distance="1.0" direction="0.0" squad_command="1.0" base_score="8" />
     <target_factors tag="medium" distance="1.0" direction="0.0" squad_command="1.0" base_score="6" />
     <target_factors tag="light" distance="1.0" direction="0.0" squad_command="1.0" base_score="4" />
-    <target_factors tag="defensive1" distance="1.0" direction="0.0" squad_command="1.0" base_score="3" />
-    <target_factors tag="defensive2" distance="1.0" direction="0.0" squad_command="1.0" base_score="7" />
+    <target_factors tag="defensive1" distance="1.0" direction="0.0" squad_command="1.0" base_score="6" />
+    <target_factors tag="defensive2" distance="1.0" direction="0.0" squad_command="1.0" base_score="14" />
     <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.1" />
     <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="5" /> 
     <target_factors tag="mirage" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.01" />

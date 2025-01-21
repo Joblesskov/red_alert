@@ -1,8 +1,8 @@
-<vehicle file="vehicle_base.vehicle" name="Armory truck" key="mobile_armory.vehicle" respawn_time="3" time_to_live_unsteerable="175" existence="one_per_faction" protectors="5" soldier_capacity_offset="5" map_view_atlas_index="14" should_be_destroyed="1" allow_ai_to_use="0" reserves_spawn_point="1" >
+<vehicle name="Armory truck" key="mobile_armory.vehicle" respawn_time="3" time_to_live_unsteerable="175" existence="one_per_faction" protectors="5" soldier_capacity_offset="5" map_view_atlas_index="14" should_be_destroyed="1" allow_ai_to_use="0" reserves_spawn_point="1" >
 	<tag name="metal_thin" />
     <tag name="tactical" />
 
-        <tire_set offset="1.12 0.0 2.688" radius="0.64" />
+	<tire_set offset="1.12 0.0 2.688" radius="0.64" />
 	<tire_set offset="1.12 0.0 -1.248" radius="0.64" />
 	<tire_set offset="1.12 0.0 -2.768" radius="0.64" />
 
@@ -25,8 +25,8 @@
 	top_offset="0 9.6 0" 
 	collision_model_pos="0 1.44 0.32" 
 	collision_model_extent="2.72 3.36 8.4" 
-	visual_offset="0 0.24 -0.24" /> 
-	<modifier class="blast_range" value="-5.0" />
+	visual_offset="0 0.24 -0.24" />
+
 	<visual class="chassis" mesh_filename="mobile_armory.mesh" texture_filename="mobile_armory.png" />
 	<visual class="chassis" key="broken" mesh_filename="mobile_armory_broken.mesh" texture_filename="mobile_armory_broken.png" />
 	<visual class="tire" mesh_filename="truck_wheel.mesh" texture_filename="truck_wheel.png" />
@@ -34,7 +34,7 @@
 	<character_slot type="driver" position="0.5 0.8 1.68" rotation="0" exit_rotation="1.57" hiding="1" />
 	<character_slot type="passenger" position="-0.5 0.8 1.68" rotation="0" exit_rotation="-1.57" hiding="1" />
 
-  <item_container class="armory" offset="0 0.8 -4.8" />
+	<item_container class="armory" offset="0 0.8 -4.8" />
 
 	<!-- sound handling -->
 	<rev_sound filename="truck_rev0.wav" low_pitch="0.95" high_pitch="1.05" low_rev="0.0" high_rev="0.2" volume="1.0" />

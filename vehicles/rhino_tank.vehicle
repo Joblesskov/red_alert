@@ -1,4 +1,4 @@
-<vehicle file="vehicle_base.vehicle" name="Rhino Tank" key="rhino_tank.vehicle" usable_for_cover="0" respawn_time="90" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
+<vehicle name="Rhino Tank" key="rhino_tank.vehicle" usable_for_cover="0" respawn_time="90" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="heavy" />
@@ -21,7 +21,7 @@
 	<physics 
 	max_health="20" 
 	blast_damage_threshold="0.3" 
-	mass="200.0" 
+	mass="50" 
     remove_collision_threshold="0.2"	
 	extent="4.3 0.0 5.6"
 	offset="0 0 0" 

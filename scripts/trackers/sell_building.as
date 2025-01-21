@@ -34,7 +34,7 @@ class SellBuiding : Tracker{
             {"pillbox.vehicle", 50},
             {"prism_tower.vehicle", 150},
             {"grand_cannon.vehicle", 200},
-            {"sentry_sun.vehicle", 50},
+            {"sentry_gun.vehicle", 50},
             {"battle_bunker.vehicle", 50},
             {"tesla_coil.vehicle", 150},
             {"gattling_cannon.vehicle", 100},

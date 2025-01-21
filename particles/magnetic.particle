@@ -1,0 +1,102 @@
+material PurpleTrail
+{
+    receive_shadows off
+    technique
+    {
+        pass{
+            depth_write off
+            depth_check on
+            depth_func greater
+            lighting on
+            ambient 0.5 0.5 0.5 0.5
+            diffuse 0.5 0.5 0.5 0.5
+            scene_blend alpha_blend
+            texture_unit {
+                texture purple_trail.png
+            }
+        } 
+
+        pass{
+            lighting off
+            ambient vertexcolour
+            diffuse vertexcolour
+            depth_write off
+            scene_blend alpha_blend
+            texture_unit {
+                texture purple_trail.png
+            }
+        } 
+    }
+}
+
+particle_system woosh_magnetic
+{
+
+    quota                                   500
+    material                                woosh
+    particle_width                          2.0
+    particle_height                         2.0
+    renderer                                billboard 
+    billboard_type                          oriented_common
+    common_up_vector                  			0 0 1 
+
+    emitter                                 Point 
+    {
+		colour	0.85 0.5 0.9 0.3
+        position 0 0 0
+		direction	0 1 0
+		emission_rate	30
+		time_to_live	0.3
+		duration	0.05
+    }
+
+    affector                                Scaler 
+    {
+        rate                                60.0
+    }
+
+	affector ColourFader
+	{
+		red	    -0.85
+		green	-0.5
+		blue	-0.9
+		alpha	-1.0
+	}
+}
+
+particle_system woosh_magnetic_small
+{
+
+    quota                                   500
+    material                                woosh
+    particle_width                          1.0
+    particle_height                         1.0
+    renderer                                billboard 
+    billboard_type                          oriented_common
+    common_up_vector                  			0 0 1 
+
+    emitter                                 Point 
+    {
+        colour	0.85 0.5 0.9 0.3
+        position 0 0 0
+        direction	0 1 0
+        emission_rate	30
+        time_to_live	0.3
+        duration	0.05
+        duration_min	0.05
+        duration_max	0.05    
+    }
+
+    affector                                Scaler 
+    {
+        rate                                60.0
+    }
+
+	affector ColourFader
+	{
+		red	    -0.85
+		green	-0.5
+		blue	-0.9
+		alpha	-1.4
+	}
+}
