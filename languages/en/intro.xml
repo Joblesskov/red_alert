@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intro>
+    <text key="Hint" text="Watch out for those fule barrels, which produce deadly explosions!"/>
+    <text key="Hint" text="The Allies excel in high-tech and precision strikes."/>
+    <text key="Hint" text="The Soviet Union crushes enemies with powerful firepower and armor."/>
+    <text key="Hint" text="Yuri wields unique psychic powers and biotechnology."/>
+    <text key="Hint" text="Super weapons usually require a few minutes of cooldown before they can be used again."/>
+    <text key="Hint" text="Basic towers are effective against infantry, advanced towers against vehicles."/>
+    <text key="Hint" text="Hidden tech oil derricks provide you with an income of 20RP per minute."/>
+    <text key="Hint" text="Heavy armor tanks can fully defend against certain attacks."/>
+    <text key="Hint" text="Elite weapons are more expensive but also more powerful, use them strategically."/>
+    <text key="Hint" text="Prioritize enemies that are calling for support or placing defense towers."/>
+    <text key="Hint" text="Rhino tanks have stronger attack and defense, Lasher tanks better at crushing infantry."/>
+    <text key="Hint" text="The big wrench repairs faster but has limited carrying capacity."/>
+    <text key="Hint" text="Use bandages to treat minor armor damage, vest repaire kits for severe damage."/>
+    <text key="Hint" text="Trauma medical kits work faster but have limited carrying capacity."/>
+</intro>
