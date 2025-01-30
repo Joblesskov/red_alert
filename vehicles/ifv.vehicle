@@ -36,7 +36,9 @@
 	<visual class="chassis" mesh_filename="ifv_chassis.mesh" texture_filename="ifv_chassis.png" />
 	<visual class="turret" mesh_filename="ifv_turret.mesh" texture_filename="ifv_turret.png" />
 	<visual class="tire" mesh_filename="ifv_tire.mesh" texture_filename="ifv_tire.png" />
-
+	<visual class="chassis" key="broken" mesh_filename="ifv_chassis.mesh" texture_filename="ifv_chassis_broken.png" />
+	<visual class="turret" key="broken" mesh_filename="ifv_turret.mesh" texture_filename="ifv_turret_broken.png" />  
+	
 	<character_slot type="driver" position="0.7 0.3 0.5" rotation="0" exit_rotation="1.57" hiding="1" />
 	<character_slot type="gunner" position="-0.7 0.3 -0.5" rotation="0" exit_rotation="-1.57" hiding="1" >
 		<turret index="0" /><turret index="1" />
@@ -66,6 +68,7 @@
 	<effect event_key="health" value="2.5" ref="MediumSmokeVehicle" offset="0.0 2 -2" />
 	<effect event_key="health" value="2.5" ref="BrokenSparkle" post_processing="0" offset="0.0 2 -2" />    
 	<effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />  
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 2 -2" />
   
 	<event key="receive_damage_xp_reward">
 		<trigger class="receive_damage" />
