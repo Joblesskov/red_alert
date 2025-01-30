@@ -14,6 +14,7 @@
 	<vehicle file="lasher_tank.vehicle" />
 	<vehicle file="gattling_tank.vehicle" />
 	<vehicle file="mastermind.vehicle" />
+	<vehicle file="magnetron.vehicle" />
 	
 	<vehicle file="jeep.vehicle" />
 	<vehicle file="jeep_1.vehicle" /> 

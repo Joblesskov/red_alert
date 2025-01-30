@@ -144,6 +144,7 @@
 
 			<projectile key="hand_grenade.projectile" />
 
+			<carry_item key="vest1.carry_item" />
 			<carry_item key="vest2.carry_item" />
 		</resources>
 
@@ -743,7 +744,6 @@
 			<weapon key="medikit_ai_2.weapon" />
 
 			<carry_item key="vest1.carry_item" />
-			<carry_item key="vest2.carry_item" />
 		</resources>
 
 		<item_class_existence_config>

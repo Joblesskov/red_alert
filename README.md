@@ -39,3 +39,5 @@ TODO: ore, more defence towers and vehicles, a tech tree based on buildings, and
         /v apocalypse_tank
 
     check vehicles\invasion_all_vehicles.xml for all vehicle keys
+
+/iron_curtain: activate iron curtain
