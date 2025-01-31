@@ -4,8 +4,6 @@ In this mod, you can fight as an soldier for one of the three factions from Red 
 
 To play this mod, place all files in `RunningWithRifles\media\packages\red_alert`.
 
-The project is still in its early stages. I plan to release it on Steam Workshop when it is basically completed. 
-
 TODO: ore, more defence towers and vehicles, a tech tree based on buildings, and ra2 mission maps.
 
 #### cheat:

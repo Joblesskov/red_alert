@@ -1,4 +1,4 @@
-<vehicle name="Mastermind" key="mastermind.vehicle" usable_for_cover="0" respawn_time="140" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="5">
+<vehicle name="Mastermind" key="mastermind.vehicle" usable_for_cover="0" respawn_time="140" time_to_live_unsteerable="95" map_view_atlas_index="21" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="5">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="heavy" />

@@ -1,4 +1,4 @@
-<vehicle name="Magnetron" key="magnetron.vehicle" usable_for_cover="0" respawn_time="80" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="6">
+<vehicle name="Magnetron" key="magnetron.vehicle" usable_for_cover="0" respawn_time="80" time_to_live_unsteerable="95" map_view_atlas_index="22" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="6">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="medium" />

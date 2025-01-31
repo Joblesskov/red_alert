@@ -1,4 +1,4 @@
-<vehicle name="Tesla Tank" key="tesla_tank.vehicle" usable_for_cover="0" respawn_time="96" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
+<vehicle name="Tesla Tank" key="tesla_tank.vehicle" usable_for_cover="0" respawn_time="96" time_to_live_unsteerable="95" map_view_atlas_index="8" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
 	<tag name="heavy" />
