@@ -23,8 +23,13 @@
 	<weapon key="resource_pillbox.weapon" />
 	<weapon key="resource_prism_tower.weapon" />
     <weapon key="resource_grand_cannon.weapon" />
+
+    <projectile key="c4.projectile" />
+    <projectile key="flare_prism_tank.projectile" />
+    <projectile key="flare_mirage_tank.projectile" />
+    <projectile key="flare_tank_destroyer.projectile" />
     
-	<carry_item key="vest_blackops.carry_item" enabled="1" />	
+	<carry_item key="vest_blackops.carry_item" />	
 
  	<vehicle key="jeep.vehicle" />
  	<vehicle key="ifv.vehicle" />

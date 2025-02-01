@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<call 	name="4 paratroopers" key="paratroopers1y.call"
+<call name="4 paratroopers" key="paratroopers1y.call"
 	initiation_comment1="Reinforcements"
 	initiation_comment2="requesting 4"
 	acknowledge_comment="Roger"
 	launch_comment="4 airborne"
-  notify_metagame="1"  >
+	notify_metagame="1"  >
 
     <round instances="2"
-           instance_class="soldier"
+		instance_class="soldier"
 	    instance_key="initiate"
-           instance_spread="10 15 10" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="11.0">
-
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="4.0"
+		spawn_time="9.0">
         <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
         <sound class="launch" fileref="plane_flyby.wav" />
     </round>
 
     <round instances="1"
-           instance_class="soldier"
+		instance_class="soldier"
 	    instance_key="brute"
-           instance_spread="10 15 10" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="11.0">
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="4.0"
+		spawn_time="9.0">
     </round>
 
     <round instances="1"
-           instance_class="soldier"
+		instance_class="soldier"
 	    instance_key="medic"
-           instance_spread="10 15 10" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="11.0">
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="4.0"
+		spawn_time="9.0">
     </round>
 
     <hud_icon filename="call_paratroopers1.png" />

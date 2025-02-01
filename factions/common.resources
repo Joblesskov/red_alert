@@ -5,14 +5,24 @@
     <weapon key="binoculars.weapon" />
     <weapon key="riot_shield.weapon" />
     <weapon key="medikit.weapon" />
-    <weapon key="medikit_ai_2.weapon" />
     <weapon key="cover_resource.weapon" />
 	<weapon key="bandage.weapon" />
-	<weapon key="vest_repair.weapon" />
 	<weapon key="wrench.weapon"  />
-	<weapon key="wrench_small.weapon" />
 	<weapon key="tracer_dart.weapon" />
 	<weapon key="sell_building.weapon" />
+
+    <projectile key="c4.projectile" enabled="0" />
+    <projectile key="dynamite.projectile" enabled="0" />
+    <projectile key="rad_eruption.projectile" enabled="0" />
+    <projectile key="psychic_blast.projectile" enabled="0" />
+    <projectile key="flare_prism_tank.projectile" enabled="0" />
+    <projectile key="flare_mirage_tank.projectile" enabled="0" />
+    <projectile key="flare_tank_destroyer.projectile" enabled="0" />
+    <projectile key="flare_tesla_tank.projectile" enabled="0" />
+    <projectile key="flare_v3.projectile" enabled="0" />
+    <projectile key="flare_apocalypse_tank.projectile" enabled="0" />
+    <projectile key="flare_mastermind.projectile" enabled="0" />
+    <projectile key="flare_magnetron.projectile" enabled="0" />
 
 	<carry_item key="god_vest.carry_item" />
 	<carry_item key="unarmored.carry_item" />
@@ -50,18 +60,4 @@
 	<vehicle key="water_tower.vehicle" />  
 	<vehicle key="para_spawn.vehicle" /> 
 	<vehicle key="tractor.vehicle" />
-
-TODO
-	<weapon key="tank_trap_resource.weapon" />
-	<weapon key="tracer_dart.weapon" />
-	<weapon key="flamethrower.weapon" />
-	<vehicle key="sandbag_cover.vehicle" />
-	<vehicle key="dogcrate_para.vehicle" />
-	<vehicle key="tank_trap.vehicle" />
-
-Vanilla
-	<!-- note, we have faction specific bazookas, therefore not included here -->
-
-Vehicle	
-
 </resources>

@@ -14,6 +14,10 @@ TODO: ore, more defence towers and vehicles, a tech tree based on buildings, and
 
 /dead: kill yourself and respawn
 
+/iron_curtain: activate iron curtain
+
+/god: add god vest to backpack
+
 /w &lt;weapon>: add weapon to backpack
 
     for example:
@@ -38,4 +42,3 @@ TODO: ore, more defence towers and vehicles, a tech tree based on buildings, and
 
     check vehicles\invasion_all_vehicles.xml for all vehicle keys
 
-/iron_curtain: activate iron curtain

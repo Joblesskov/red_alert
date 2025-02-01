@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<call 	name="8 paratroopers" key="paratroopers2s.call"
+<call name="8 paratroopers" key="paratroopers2s.call"
 	initiation_comment1="Reinforcements"
 	initiation_comment2="requesting 8"
 	acknowledge_comment="Roger"
 	launch_comment="8 airborne"
-       notify_metagame="1"  >
+	notify_metagame="1"  >
 
     <round instances="4"
-           instance_class="soldier"
-	    instance_key="conscript"
-           instance_spread="10 15 10" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="11.0">
-
-        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
-        <sound class="launch" fileref="plane_flyby.wav" />
+		instance_class="soldier"
+		instance_key="conscript"
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="5.0"
+		spawn_time="11.0">
+		<effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+		<sound class="launch" fileref="plane_flyby.wav" />
     </round>
 
     <round instances="2"
-           instance_class="soldier"
+		instance_class="soldier"
 	    instance_key="flak"
-           instance_spread="10 15 10" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="11.0">
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="5.0"
+		spawn_time="11.0">
     </round>
 
     <round instances="1"
-           instance_class="soldier"
+		instance_class="soldier"
 	    instance_key="medic"
-           instance_spread="10 15 10" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="11.0">
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="5.0"
+		spawn_time="11.0">
     </round>
 
     <round instances="1"
-           instance_class="soldier"
+		instance_class="soldier"
 	    instance_key="tesla"
-           instance_spread="10 15 10" 
-           common_spread="0 0 0" 
-           launch_time="5.0"
-           spawn_time="11.0">
+		instance_spread="10 15 10" 
+		common_spread="0 0 0" 
+		launch_time="5.0"
+		spawn_time="11.0">
     </round>
 
     <hud_icon filename="call_paratroopers2.png" />

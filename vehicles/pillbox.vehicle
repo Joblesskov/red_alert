@@ -13,7 +13,7 @@
 		offset="0 0.0 0" 
 		top_offset="0 5 0" 
 		collision_model_pos="0 0 0" 
-		collision_model_extent="2.8 3.2 2.8" 
+		collision_model_extent="2.8 4.0 2.8" 
 		visual_offset="0 0 0" /> 
 	
 	<turret offset="0 1 0" weapon_key="vw_pillbox_mg.weapon" weapon_offset="0 0 1.3" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="0" />

@@ -4,14 +4,11 @@ Common
     <weapon file="binoculars.weapon" />
     <weapon file="riot_shield.weapon" />
     <weapon file="medikit.weapon" />
-    <weapon file="medikit_ai_2.weapon" />
     <weapon file="cover_resource.weapon" />
     <weapon file="dog.weapon" />
     <weapon file="dog_heal.weapon" />
 	<weapon file="bandage.weapon" />
-	<weapon file="vest_repair.weapon" />
 	<weapon file="wrench.weapon"  />
-	<weapon file="wrench_small.weapon" />
 	<weapon file="tracer_dart.weapon" />
     <weapon file="sell_building.weapon" />
 Vehicle

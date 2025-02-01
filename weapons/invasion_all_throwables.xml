@@ -15,6 +15,7 @@
     <projectile file="dynamite.projectile" />
     <projectile file="flak.projectile" />
     <projectile file="flare.projectile" />
+    <projectile file="flare_vehicle.projectile" />
     <projectile file="genobomb.projectile" />
     <projectile file="genobomb_sub.projectile" />
     <projectile file="hand_grenade.projectile" />
@@ -48,7 +49,6 @@
     <projectile file="sell_building.projectile" />
     <projectile file="stun_grenade.projectile" />
     <projectile file="tesla.projectile" />
-    <projectile file="test.projectile" />
     <projectile file="toxic_bomb.projectile" />
     <projectile file="toxic_bomb_sub.projectile" />
     <projectile file="toxic_smoke.projectile" />

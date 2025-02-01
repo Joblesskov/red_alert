@@ -7,18 +7,24 @@
     notify_metagame="1" >
 
     <round instances="1"
-           instance_class="vehicle"
-           instance_key="ifv.vehicle" 
-           instance_spread="0 0 0" 
-           common_spread="0 0 0" 
-           launch_time="3.0"
-           spawn_time="7.0"
-           horizontal_offset_at_spawn="0.0"
-           vertical_offset_at_spawn="3.0"
-           initial_speed_to_target="0.0"
-		   avoid_objects="1">
+        instance_class="vehicle"
+        instance_key="ifv.vehicle" 
+        instance_spread="0 0 0" 
+        common_spread="0 0 0" 
+        launch_time="3.0"
+        spawn_time="7.0"
+        horizontal_offset_at_spawn="0.0"
+        vertical_offset_at_spawn="3.0"
+        initial_speed_to_target="0.0"
+        avoid_objects="1">
         <sound class="launch" fileref="schropen.wav" />
         <sound class="spawn" fileref="schrmov.wav" />
+    </round>
+
+    <round 
+        launch_time="7.0"
+        spawn_time="7.0">s
+		<effect class="launch" ref="Chronosphere" />
     </round>
 
     <hud_icon filename="call_apca.png" />

@@ -98,9 +98,6 @@
 
 		<resources file="common.resources" />
 		<resources file="green_default.resources" />
-		<resources>
-			<carry_item key="god_vest.carry_item" enabled="1" />	
-		</resources>
 
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -278,7 +275,7 @@
 			<weapon key="wa_p90.weapon" />
 			<weapon key="wa_p90_e.weapon" />
 
-			<weapon key="medikit_ai_2.weapon" />
+			<weapon key="medikit.weapon" />
 			
 			<projectile key="stun_grenade.projectile" />
 			<projectile key="c4.projectile" />
@@ -344,7 +341,7 @@
 		</attribute_config>
 	</soldier>
 	10000~20000 30000~50000
-	<soldier name="roketeer" spawn_score="0.12">
+	<soldier name="rocketeer" spawn_score="0.12">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="irocdiea.wav" volume="0.5" />
 		</character>
@@ -457,7 +454,7 @@
 			<weapon key="wa_colt_m1911.weapon" />
 			<weapon key="wa_colt_m1911_1.weapon" />
 
-			<weapon key="medikit_ai_2.weapon" />
+			<weapon key="medikit.weapon" />
 			
 			<projectile key="stun_grenade.projectile" />
 			<projectile key="c4.projectile" />
@@ -741,7 +738,7 @@
 			<weapon key="wy_psychic_jab.weapon" />
 			<weapon key="wy_psychic_jab_e.weapon" />
 
-			<weapon key="medikit_ai_2.weapon" />
+			<weapon key="medikit.weapon" />
 
 			<carry_item key="vest1.carry_item" />
 		</resources>
@@ -844,7 +841,7 @@
 
 			<projectile key="psychic_blast.projectile" />
 
-			<carry_item key="camo_vest.carry_item" />
+			<carry_item key="vest3.carry_item" />
 		</resources>
 
 		<item_class_existence_config>

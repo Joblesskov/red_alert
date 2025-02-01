@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
-    <carry_item key="god_vest.carry_item" name="godmode" slot="1" transform_on_consume="god_vest_2" time_to_live_out_in_the_open="5.0">
+    <carry_item key="god_vest.carry_item" name="godmode" slot="1" transform_on_consume="god_vest_2" time_to_live_out_in_the_open="30.0">
         <hud_icon filename="hud_worn_underpants.png" />
         <inventory encumbrance="0" price="0" />
         <capacity value="0" source="rank" source_value="0.0" />
         <capacity value="1" source="rank" source_value="100.0" />
 
-        <model mesh_filename="vest1.xml" />
+        <model mesh_filename="underpants.mesh" texture_filename="underpants.png" />
 
-        <commonness value="10000000.0" in_stock="1" can_respawn_with="1" />
+        <commonness value="1.0" in_stock="1" can_respawn_with="1" />
 
 	<!-- death or wound or stun -> no effect -->
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="0" />

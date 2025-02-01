@@ -113,6 +113,15 @@ vehicle
     <text key="gattling cannon deploy" text="加特林机炮部署包" /> 
     <text key="Psychic Tower" text="心灵控制塔" /> 
     <text key="psychic tower deploy" text="心灵控制塔部署包" /> 
+
+    <text key="Prism Tank Drop" text="光棱坦克空投信标"/> 
+    <text key="Mirage Tank Drop" text="幻影坦克空投信标"/> 
+    <text key="Tank Destroyer Drop" text="坦克杀手空投信标"/> 
+    <text key="Tesla Tank Drop" text="磁能坦克空投信标"/> 
+    <text key="V3 rocket launcher Drop" text="V3火箭发射车空投信标"/> 
+    <text key="Apocalypse Tank Drop" text="天启坦克空投信标"/> 
+    <text key="Mastermind Drop" text="心灵之主空投信标"/> 
+    <text key="Magnetron Drop" text="磁电坦克空投信标"/> 
 call
     <text key="Aircraft Carrier Support" text="航空母舰支援" /> 
     <text key="Requesting aircraft carrier support" text="请求航母支援" /> 

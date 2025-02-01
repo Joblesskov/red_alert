@@ -205,8 +205,8 @@ class RA2CommandHandler : Tracker {
 					spawnInstanceNearPlayer(senderId, parameters[0], "soldier", 0);
 				}
 			}
-		} else if (checkCommand(message, "t")) {
-			spawnInstanceNearPlayer(senderId, "test.projectile", "grenade", 0);
+		} else if (checkCommand(message, "god")) {
+			spawnInstanceNearPlayer(senderId, "god_vest.carry_item", "carry_item"); 
 		} 
 	}
 

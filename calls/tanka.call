@@ -20,6 +20,12 @@
         <sound class="launch" fileref="schropen.wav" />
         <sound class="spawn" fileref="schrmov.wav" />
     </round>
+    
+    <round 
+        launch_time="7.0"
+        spawn_time="7.0">s
+		<effect class="launch" ref="Chronosphere" />
+    </round>
 
     <hud_icon filename="call_tanka.png" />
     <capacity value="0" source="rank" source_value="0.0" />

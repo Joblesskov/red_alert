@@ -16,7 +16,7 @@
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"
 	projectile_speed="100.0"
-	projectiles_per_shot="6"
+	projectiles_per_shot="7"
     barrel_offset="0.0"
 	stab_enabled="1"
 	use_basic_muzzle_smoke_effect="0"
@@ -61,10 +61,10 @@
 
     <projectile file="bullet.projectile" time_to_live="0.4">
         <result class="hit"
-		kill_probability="0.6"
-        kill_probability_offset_on_successful_hit="2.4"
-		kill_decay_start_time="0.25"
-		kill_decay_end_time="0.40" />
+		kill_probability="0.7"
+        kill_probability_offset_on_successful_hit="2.3"
+		kill_decay_start_time="0.20"
+		kill_decay_end_time="0.35" />
 		<trail probability="1" key="BulletEliteTrail" />
     </projectile>
 

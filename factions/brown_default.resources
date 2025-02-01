@@ -19,8 +19,14 @@
 	<weapon key="resource_sentry_gun.weapon" />
 	<weapon key="resource_battle_bunker.weapon" />
 	<weapon key="resource_tesla_coil.weapon" />
+
+    <projectile key="dynamite.projectile" />
+    <projectile key="rad_eruption.projectile" />
+    <projectile key="flare_tesla_tank.projectile" />
+    <projectile key="flare_v3.projectile" />
+    <projectile key="flare_apocalypse_tank.projectile" />
     
-    <carry_item key="vest_plate.carry_item" enabled="1" />
+    <carry_item key="vest_plate.carry_item" />
 	
  	<vehicle key="jeep_2.vehicle" />
  	<vehicle key="flak_track.vehicle" />
