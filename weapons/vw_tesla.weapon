@@ -30,7 +30,7 @@
         <result class="blast" 
             radius="3" 
             damage="1.35" 
-            push="0.2" 
+            push="0" 
             decal="1" 
             faction_compare="not_equal" 
             damage_origin_vehicle="0" />   

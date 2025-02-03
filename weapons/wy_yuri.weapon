@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon key="wy_yuri.weapon" on_ground_up="0 0 1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="1.0" drop_count_factor_on_player_death="1.0" drop_count_limit_in_range="2">
     <tag name="sniper" />
+    <tag name="hero" />
 
     <specification 
 		retrigger_time="3" 
@@ -21,8 +22,8 @@
 		spread_range="0"
 		use_basic_muzzle_smoke_effect="0"/>
 
-    <ballistics curve_height="6.0" near_far_distance="4.0" speed_estimation_near="500.0" speed_estimation_far="500.0" max_speed="500.0" randomness="0.0" tweak_factor="11" /> 
-    
+    <ballistics curve_height="10.0" near_far_distance="0.0" speed_estimation_near="1000.0" speed_estimation_far="1000.0" max_speed="10000.0" randomness="0.0" tweak_factor="9" /> 
+
     <animation state_key="recoil" animation_key="still, yuri" />
     <animation state_key="cycle" animation_key="cycle, yuri" />
     <animation state_key="reload" animation_key="still, yuri" />
@@ -61,4 +62,6 @@
     <shield offset="-0.3 -1.0 0.4" extent="0.3 0.7 1.0" usable_for_cover="0"/>
     <shield offset="-0.0 -1.0 -0.2" extent="0.6 0.7 0.3" usable_for_cover="0"/>
     <shield offset="-0.0 -1.0 1.0" extent="0.6 0.7 0.3" usable_for_cover="0"/>
+    <target_factors tag="dog" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="hero" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
 </weapon>

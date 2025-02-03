@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary.weapon" key="wy_fist.weapon">
     <tag name="cqb" />
+    <tag name="dog" />
 
     <specification
 	magazine_size="-1" 

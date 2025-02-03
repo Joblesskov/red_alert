@@ -25,7 +25,7 @@
             character_state="stun" 
             radius="5.0" 
             damage="7.5" 
-            push="1.5" 
+            push="0.4" 
             decal="1"
             damage_origin_vehicle="0"
             faction_compare="not_equal"/>

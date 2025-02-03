@@ -18,8 +18,8 @@
 		use_basic_muzzle_smoke_effect="0"
 		spread_range="0"/>
 
-    <ballistics curve_height="6.0" near_far_distance="4.0" speed_estimation_near="400.0" speed_estimation_far="400.0" max_speed="400.0" randomness="0.0" tweak_factor="11" /> 
-    
+    <ballistics curve_height="10.0" near_far_distance="0.0" speed_estimation_near="1000.0" speed_estimation_far="1000.0" max_speed="10000.0" randomness="0.0" tweak_factor="9" /> 
+
     <animation state_key="recoil" animation_key="recoil, mind control" />
     <animation state_key="cycle" animation_key="cycle, mind control" />
     <animation state_key="reload" animation_key="recoil1" />
@@ -44,4 +44,6 @@
     <inventory encumbrance="10.0" price="80.0" />
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="2.0"/>
+    <target_factors tag="dog" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="hero" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
 </weapon>

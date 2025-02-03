@@ -4,7 +4,7 @@
     <result class="blast" 
     radius="4.0" 
     damage="1.5" 
-    push="0.1" 
+    push="0.03" 
     decal="1" 
     character_state="death"
     damage_origin_vehicle="0"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="Javelin" slot="1" pulldown_in_air="20.0" key="javelin.projectile">
     <tag name="rocket"/>
-    <result class="blast" radius="3.5" damage="3.7" push="0.8" decal="1" damage_origin_vehicle="0" />
+    <result class="blast" radius="3.5" damage="3.7" push="0.3" decal="1" damage_origin_vehicle="0" />
     <trigger class="impact" />
     <rotation class="motion" />
     <model mesh_filename="javmissile.xml" />

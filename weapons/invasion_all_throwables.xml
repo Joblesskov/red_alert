@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
     <projectile file="alpha_wave.projectile" />
-    <projectile file="alpha_wave_t.projectile" />
     <projectile file="alpha_wave_s.projectile" />
     <projectile file="alpha_wave_s1.projectile" />
     <projectile file="apocalypse_cannon.projectile" />

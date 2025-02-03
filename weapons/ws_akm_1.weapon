@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="ws_akm.weapon" key="ws_akm_1.weapon">
-    <tag name="assault" />
     <specification 
     retrigger_time="0.175" 
     accuracy_factor="0.95" 

@@ -25,17 +25,17 @@
 	max_water_depth="1.4" 
 	steer_smoothening="0.98" 
 	tracked="1" 
-	gears="1" 
 	max_limiter_speed="6.0"/>
 
 	<physics 
 	max_health="60" 
 	blast_damage_threshold="0.3" 
-	mass="80" 
+	mass="3.0" 
     remove_collision_threshold="0.2"	
 	extent="5.1 0.0 6.3"
 	offset="0 0 0" 
 	top_offset="0 6 0" 
+	collision_response_factor="4.0"
 	collision_model_pos="0 0 0"
 	collision_model_extent="5.1 2.4 6.3"
 	visual_offset="0 0.2 0" /> 

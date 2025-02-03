@@ -12,7 +12,7 @@ use_time_to_live="1"
 time_to_live="45"
 time_to_live_out_in_the_open="0" >
 
-    <result class="blast" radius="6.0" damage="5.01" push="2.0" decal="1" character_state="death" faction_compare="not_equal" />
+    <result class="blast" radius="6.0" damage="5.01" push="0.3" decal="1" character_state="death" faction_compare="not_equal" />
     <collision class="sticky" />
     <trigger class="time" time_to_live="0.2"/>
 

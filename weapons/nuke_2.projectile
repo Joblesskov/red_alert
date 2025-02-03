@@ -3,7 +3,7 @@
     <result class="blast" 
         radius="45.0" 
         damage="5" 
-        push="5.0" 
+        push="1.5" 
         decal="1" 
         character_state="death" />
     <trigger class="time" time_to_live="0.0"/>

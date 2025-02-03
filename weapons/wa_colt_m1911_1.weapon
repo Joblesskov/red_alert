@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="wa_colt_m1911.weapon" key="wa_colt_m1911_1.weapon" >
-	<tag name="assault" />      
+	<tag name="assault" />    
+    <tag name="hero" />  
 	
     <specification
 	retrigger_time="0.25"

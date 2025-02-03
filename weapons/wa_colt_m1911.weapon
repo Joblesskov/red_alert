@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary.weapon" key="wa_colt_m1911.weapon" >
-	<tag name="cqb" />      
+	<tag name="cqb" />    
+    <tag name="hero" />  
 	
     <specification
 	retrigger_time="0.2"
