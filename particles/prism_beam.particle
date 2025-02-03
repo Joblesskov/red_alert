@@ -202,3 +202,51 @@ particle_system PrismShineWeak
 		rate	0.2
 	}
 }
+
+particle_system MuzzlePrism
+{
+	quota 50
+	material prism_muzzle
+	particle_width 200
+	particle_height 1.4
+	renderer billboard
+	billboard_type oriented_self
+	billboard_origin center_left
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+	common_up_vector 0 0 1
+	iteration_interval 0.01
+	
+	emitter Point
+	{
+		angle 0
+		colour 0.8 0.8 1 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.00001
+		time_to_live 0.5
+		duration 0.01
+	}
+	
+	affector Rotator
+	{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	-90
+		rotation_range_end	-90
+	}
+
+	affector ColourFader
+	{
+		red		-1.5
+		green	-1.5
+		blue	-1.5
+		alpha	0
+	}
+}
+
+particle_system MuzzlePrismThin: MuzzlePrism
+{
+	particle_height 0.8
+}

@@ -19,12 +19,12 @@
     <hud_icon filename="hud_grand_cannon.png" />
     <commonness value="0.0" />
 
-    <ballistics curve_height="1.0" near_far_distance="0.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" tweak_factor="4.1"/>
-    <projectile file="legion_cannon.projectile" >
+    <ballistics curve_height="6.0" near_far_distance="0.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" tweak_factor="3.4"/>
+    <projectile file="legion_cannon.projectile" pulldown_in_air="80">
         <result class="blast" 
             radius="6.0" 
             damage="7.5" 
-            push="1.5" 
+            push="1.0" 
             decal="1"
             damage_origin_vehicle="0"
             faction_compare="not_equal"/>

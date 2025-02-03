@@ -1,4 +1,4 @@
-<vehicle name="Grand Cannon" key="grand_cannon.vehicle" map_view_atlas_index="36" respawn_time="320.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" >
+<vehicle name="Grand Cannon" key="grand_cannon.vehicle" map_view_atlas_index="36" respawn_time="320.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" allow_owner_to_use_only="1"  >
 	<tag name="defensive2" />
 
 	<tire_set offset="2 0 2" radius="0.1" />
