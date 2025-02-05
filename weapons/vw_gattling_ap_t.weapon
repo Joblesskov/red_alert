@@ -10,6 +10,7 @@
     <hud_icon filename="hud_gattling_cannon.png" />
     <projectile file="bullet.projectile" >
         <result class="blast" 
+            push="0"
             radius="1.5" 
             damage="0.12" 
             damage_origin_vehicle="0"

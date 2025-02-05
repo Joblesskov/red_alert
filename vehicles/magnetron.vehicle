@@ -27,7 +27,7 @@
 	top_offset="0 6 0" 
 	collision_response_factor="4.0"
 	collision_model_pos="0 0 0" 
-	collision_model_extent="3.6 4.0 6.2" 
+	collision_model_extent="3.6 3.6 6.2" 
 	visual_offset="0 0 0" /> 
 
 	<sky_diving chute_offset="0 3.0 0" trigger_height="20.0" gravity="-10" mesh_filename="chute_large.mesh" texture_filename="chute.png" />
@@ -36,6 +36,7 @@
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
 	<turret offset="0 2.079 -0.855" weapon_key="vw_magnetron.weapon" weapon_offset="0 0.7 2.5" weapon_recoil="0" max_rotation_step="0.0001" />
+	<turret offset="0 2.044 1.886" weapon_key="vw_lasher_mg.weapon" weapon_offset="0 0.3 0.3" weapon_recoil="0" max_rotation_step="0.0004" rotation_range="3.14" />
 
 	<visual class="chassis" mesh_filename="magnetron_chassis.mesh" texture_filename="magnetron_chassis.png" />
 	<visual class="turret" turret_index="0" mesh_filename="magnetron_turret.mesh" texture_filename="magnetron_turret.png" />
@@ -50,15 +51,18 @@
 	</visual>
 
 	<character_slot type="driver" position="1.5 0.5 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-1.5 0.7 2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="gunner" position="-1.5 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" />
+	</character_slot>
+	<character_slot type="gunner" position="-1.5 0.7 2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<turret index="1" />
 	</character_slot>
 
 	<!-- sound handling -->
 	<rev_sound filename="tank_rev0.wav" low_pitch="0.4" high_pitch="0.5" low_rev="0.0" high_rev="1.0" volume="0.9" />
 	<rev_sound filename="tank_rev0_b.wav" low_pitch="0.6" high_pitch="0.7" low_rev="0.0" high_rev="1.0" volume="0.6" /> 
 	<rev_sound filename="tank_rev1.wav" low_pitch="0.2" high_pitch="0.4" low_rev="0.4" high_rev="0.7" volume="1.0" />
-	<rev_sound filename="vmagstaa.wav" low_pitch="0.4" high_pitch="0.8" low_rev="0.1" high_rev="1.0" volume="0.9" />  
+	<rev_sound filename="vmagstaa.wav" low_pitch="0.4" high_pitch="0.8" low_rev="0.1" high_rev="1.0" volume="1.8" />  
 	<rev_sound filename="tank_rev2.wav" low_pitch="0.3" high_pitch="0.5" low_rev="0.9" high_rev="1.0" volume="0.9" />
 
 	<sound key="squeal" filename="tire_squeal.wav" />

@@ -14,6 +14,7 @@
     <projectile file="bullet_ap.projectile" time_to_live="0.45">
         <result class="blast" 
 		radius="1" 
+        push="0"
 		damage="0.3" 
         faction_compare="not_equal" 
         damage_origin_vehicle="0" />

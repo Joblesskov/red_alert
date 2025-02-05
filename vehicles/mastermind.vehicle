@@ -36,8 +36,6 @@
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
 	<turret offset="0 2 -0.5" weapon_key="vw_mastermind.weapon" weapon_offset="0 0 0" weapon_recoil="0" max_rotation_step="0.001" />
-	<turret offset="0 2 -0.5" weapon_key="vw_mastermind.weapon" weapon_offset="0 0 0" weapon_recoil="0" max_rotation_step="0.001" />
-	<turret offset="0 2 -0.5" weapon_key="vw_mastermind.weapon" weapon_offset="0 0 0" weapon_recoil="0" max_rotation_step="0.001" />
 
 	<visual class="chassis" mesh_filename="mastermind_chassis.mesh" texture_filename="mastermind_chassis.png" />
 	<visual class="chassis" key="broken" mesh_filename="mastermind_chassis.mesh" texture_filename="mastermind_chassis_broken.png" />
@@ -53,18 +51,12 @@
 	<character_slot type="gunner" position="-1.0 0.5 1.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" />
 	</character_slot>
-	<character_slot type="gunner" position="1.0 0.5 -0.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37">
-		<turret index="1" />
-	</character_slot>
-	<character_slot type="gunner" position="-1.0 0.5 -0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
-		<turret index="2" />
-	</character_slot>
 
 	<!-- sound handling -->
 	<rev_sound filename="tank_rev0.wav" low_pitch="0.4" high_pitch="0.5" low_rev="0.0" high_rev="1.0" volume="0.9" />
 	<rev_sound filename="tank_rev0_b.wav" low_pitch="0.6" high_pitch="0.7" low_rev="0.0" high_rev="1.0" volume="0.6" /> 
 	<rev_sound filename="tank_rev1.wav" low_pitch="0.2" high_pitch="0.4" low_rev="0.4" high_rev="0.7" volume="1.0" />
-	<rev_sound filename="vmasstaa.wav" low_pitch="0.4" high_pitch="0.8" low_rev="0.1" high_rev="1.0" volume="0.9" />  
+	<rev_sound filename="vmasstaa.wav" low_pitch="0.4" high_pitch="0.8" low_rev="0.1" high_rev="1.0" volume="1.8" />  
 	<rev_sound filename="tank_rev2.wav" low_pitch="0.3" high_pitch="0.5" low_rev="0.9" high_rev="1.0" volume="0.9" />
 
 	<sound key="squeal" filename="tire_squeal.wav" />

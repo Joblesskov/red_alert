@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_smg.weapon" key="wa_p90.weapon"
-    ai_burst_time="0.9" 
+    ai_burst_time="0.8" 
     ai_burst_time_variance="0.1" 
     ai_burst_wait_time="0.3" 
-    ai_burst_wait_time_variance="0.05" >
+    ai_burst_wait_time_variance="0.02" >
+
     <tag name="assault" />
     <specification retrigger_time="0.07" 
     accuracy_factor="1"
