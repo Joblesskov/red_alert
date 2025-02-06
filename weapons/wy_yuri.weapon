@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon key="wy_yuri.weapon" on_ground_up="0 0 1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="1.0" drop_count_factor_on_player_death="1.0" drop_count_limit_in_range="2">
+<weapon file="base_primary.weapon" key="wy_yuri.weapon" >
     <tag name="sniper" />
     <tag name="hero" />
+    <tag name="psychic" />
 
     <specification 
 		retrigger_time="3" 
@@ -12,7 +13,7 @@
 		can_shoot_standing="1" 
 		can_shoot_crouching="1"
 		can_shoot_prone="0"
-    	carry_in_two_hands="0"
+    carry_in_two_hands="0"
 		suppressed="1" 
 		name="Yuri" 
 		class="2" 
@@ -64,4 +65,5 @@
     <shield offset="-0.0 -1.0 1.0" extent="0.6 0.7 0.3" usable_for_cover="0"/>
     <target_factors tag="dog" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
     <target_factors tag="hero" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="phychic" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
 </weapon>

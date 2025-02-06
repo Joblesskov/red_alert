@@ -46,4 +46,5 @@
     <target_factors tag="mirage" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.01" />
     <target_factors tag="dog" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
     <target_factors tag="hero" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="psychic" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
 </weapon>

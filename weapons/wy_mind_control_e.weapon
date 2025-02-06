@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary.weapon" key="wy_mind_control_e.weapon">
     <tag name="sniper" />
+    <tag name="psychic" />
 
     <specification 
 		retrigger_time="4" 
@@ -49,5 +50,5 @@
     <modifier class="detectability" value="-0.1" />
     <target_factors tag="dog" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
     <target_factors tag="hero" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
-
+    <target_factors tag="psychic" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
 </weapon>
