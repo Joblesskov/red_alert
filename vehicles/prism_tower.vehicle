@@ -1,5 +1,6 @@
 <vehicle name="Prism Tower" key="prism_tower.vehicle" map_view_atlas_index="32" respawn_time="240.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" allow_owner_to_use_only="1"  >
 	<tag name="defensive2" />
+	<tag name="mc_immune" />
 
 	<tire_set offset="1.5 0.0 1.5" radius="0.1" />
 	<tire_set offset="1.5 0.0 -1.5" radius="0.1" />

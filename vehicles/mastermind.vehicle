@@ -3,6 +3,7 @@
 	<tag name="tank" />
 	<tag name="heavy" />
 	<tag name="any_tank" />
+	<tag name="mc_immune" />
    
 	<tire_set offset="2.0 0.0 2.8" radius="0.5" />
 	<tire_set offset="2.0 0.0 -2.8" radius="0.5" />

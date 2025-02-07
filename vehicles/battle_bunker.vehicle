@@ -1,5 +1,6 @@
 <vehicle name="Battle Bunker" key="battle_bunker.vehicle" map_view_atlas_index="35" respawn_time="80.0" protectors="6" soldier_capacity_offset="6" character_leave_request_mode="friendly" allow_owner_to_use_only="1"  >
 	<tag name="defensive2" />
+	<tag name="mc_immune" />
 
 	<tire_set offset="2 0 2" radius="0.1" />
 	<tire_set offset="2 0 -2" radius="0.1" />

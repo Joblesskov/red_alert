@@ -201,8 +201,12 @@ class RA2CommandHandler : Tracker {
 					if (soldier_count > 10) soldier_count = 10;
 					else if (soldier_count < 1) soldier_count = 1;
 				}
+				int faction_id = 0;
+				if (parameters.size() > 2) {
+					faction_id = parseInt(parameters[2]);
+				}
 				for (uint i = 0; i < soldier_count; i++) {
-					spawnInstanceNearPlayer(senderId, parameters[0], "soldier", 0);
+					spawnInstanceNearPlayer(senderId, parameters[0], "soldier", faction_id);
 				}
 			}
 		} else if (checkCommand(message, "god")) {

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary.weapon" key="wy_yuri.weapon" >
     <tag name="sniper" />
-    <tag name="hero" />
-    <tag name="psychic" />
+    <tag name="mc_immune" />
 
     <specification 
 		retrigger_time="3" 
@@ -23,7 +22,7 @@
 		spread_range="0"
 		use_basic_muzzle_smoke_effect="0"/>
 
-    <ballistics curve_height="10.0" near_far_distance="0.0" speed_estimation_near="1000.0" speed_estimation_far="1000.0" max_speed="10000.0" randomness="0.0" tweak_factor="9" /> 
+    <ballistics curve_height="10.0" near_far_distance="0.0" speed_estimation_near="1000.0" speed_estimation_far="1000.0" max_speed="10000.0" randomness="0.0" tweak_factor="9.3" /> 
 
     <animation state_key="recoil" animation_key="still, yuri" />
     <animation state_key="cycle" animation_key="cycle, yuri" />
@@ -63,7 +62,5 @@
     <shield offset="-0.3 -1.0 0.4" extent="0.3 0.7 1.0" usable_for_cover="0"/>
     <shield offset="-0.0 -1.0 -0.2" extent="0.6 0.7 0.3" usable_for_cover="0"/>
     <shield offset="-0.0 -1.0 1.0" extent="0.6 0.7 0.3" usable_for_cover="0"/>
-    <target_factors tag="dog" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
-    <target_factors tag="hero" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
-    <target_factors tag="phychic" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="mc_immune" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
 </weapon>
