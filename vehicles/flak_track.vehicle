@@ -1,4 +1,4 @@
-<vehicle name="Flak Track" key="flak_track.vehicle" usable_for_cover="0" respawn_time="40" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="10.0">
+<vehicle name="Flak Track" key="flak_track.vehicle" usable_for_cover="0" respawn_time="40" time_to_live_unsteerable="75" map_view_atlas_index="1" max_character_collision_speed_on_normal="10.0">
 	<tag name="metal_heavy" />
 	<tag name="medium" />
 	<tag name="apc" />

@@ -2,11 +2,11 @@
 <weapon key="vw_tesla.weapon" >
     <specification 
     slot="2" 
-    retrigger_time="2.5" 
+    retrigger_time="1.86" 
     accuracy_factor="0.5" 
     spread_range="0.5"
     sustained_fire_grow_step="1.0" 
-    sustained_fire_diminish_rate="0.45" 
+    sustained_fire_diminish_rate="0.6" 
     sight_range_modifier="1.2"
     magazine_size="-1" 
     can_shoot_standing="0" 
@@ -29,7 +29,7 @@
     <projectile file="tesla.projectile">
         <result class="blast" 
             radius="3" 
-            damage="1.35" 
+            damage="1.01" 
             push="0" 
             decal="1" 
             faction_compare="not_equal" 

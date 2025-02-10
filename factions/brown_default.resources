@@ -31,7 +31,7 @@
  	<vehicle key="jeep_2.vehicle" />
  	<vehicle key="flak_track.vehicle" />
  	<vehicle key="rhino_tank.vehicle" />
- 	<vehicle key="transport_truck_2.vehicle" />
+ 	<vehicle key="transport_s.vehicle" />
 
 	<call key="paratroopers1s.call" />
 	<call key="paratroopers2s.call" />

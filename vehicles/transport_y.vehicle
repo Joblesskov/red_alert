@@ -1,0 +1,72 @@
+<vehicle name="Amphibious Transport" key="transport_y.vehicle" usable_for_cover="0" respawn_time="72" map_view_atlas_index="4" minimum_fill_requirement="0.3" max_character_collision_speed_on_normal="15.0" >
+	<tag name="truck" />
+	<tag name="heavy" />
+	<tire_set offset="1.2 0.0 2.0" radius="0.64" />
+	<tire_set offset="1.2 0.0 -2.0" radius="0.64" />
+
+	<control 
+	max_speed="12.0" 
+	acceleration="18.0" 
+	max_reverse_speed="7.0" 
+	max_rotation="0.9" 
+	max_water_depth="5.0" />
+
+	<physics 
+	max_health="15" 
+	blast_damage_threshold="0.3" 
+	mass="1.5" 
+	extent="4.2 0.0 5.9" 
+	offset="0 0.0 0" 
+	top_offset="0 6 0" 
+	collision_response_factor="2.0"
+	collision_model_pos="0 0 0" 
+	collision_model_extent="4.2 3.0 5.9" 
+	visual_offset="0 1.0 0" 
+	surface_friction_factor="0" 
+	friction_offset="0.2" 
+	surface_drag_factor="0"
+	drag_offset="0.0"
+	drag_modifier_in_water="1.0"
+	gravity="-25"
+	gravity_in_water="-25" /> 
+
+	<visual class="chassis" mesh_filename="transport_a.mesh" texture_filename="transport_y.png" />
+	<visual class="chassis" key="broken" mesh_filename="transport_a_broken.mesh" texture_filename="transport_y_broken.png" />
+
+	<character_slot type="driver" position="1.2 0.2 1.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="passenger" position="-1.2 0.2 1.5" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="1.2 0.2 1.0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="-1.2 0.2 1.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="1.2 0.2 0.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="-1.2 0.2 0.5" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="1.2 0.2 0.0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="-1.2 0.2 0.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="1.2 0.2 -0.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="-1.2 0.2 -0.5" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="1.2 0.2 -1.0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="-1.2 0.2 -1.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+
+	<!-- sound handling -->
+	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.15" volume="0.6" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.6" high_pitch="1.7" low_rev="0.08" high_rev="1.0" volume="0.6" />
+	
+	<sound key="ignition" filename="vhoysed.wav" />
+	<sound key="hit" filename="rubber_boat_hit1.wav" /> 
+	<sound key="hit" filename="rubber_boat_hit2.wav" />  
+	<sound key="hit" filename="rubber_boat_hit3.wav" />  
+	<sound key="horn" filename="horn_truck.wav" />   
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
+  	<sound key="cleanup" filename="vehicle_explosion_1.wav" />
+
+	<effect event_key="drive_chassis" ref="hover" offset="0 0.1 0" />		
+	<effect event_key="health" value="7.5" ref="SmallSmokeVehicle" offset="0 1.5 0" />
+	<effect event_key="health" value="3.75" ref="MediumSmokeVehicle" offset="0 1.5 0" />
+	<effect event_key="health" value="3.75" ref="BrokenSparkle" post_processing="0" offset="0 1.5 0" />    
+	<effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0 1.5 0" />
+  
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="20.0" />
+	</event>
+</vehicle>

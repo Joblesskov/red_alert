@@ -22,6 +22,9 @@
 	<vehicle file="transport_truck.vehicle" />
 	<vehicle file="transport_truck_1.vehicle" />
 	<vehicle file="transport_truck_2.vehicle" />
+	<vehicle file="transport_a.vehicle" />
+	<vehicle file="transport_s.vehicle" />
+	<vehicle file="transport_y.vehicle" />
 	<vehicle file="mobile_armory.vehicle" />
 	<vehicle file="armored_truck.vehicle" />
 	<vehicle file="radar_truck.vehicle" />
