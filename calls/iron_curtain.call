@@ -24,7 +24,7 @@
         launch_time="3.0"
         spawn_time="5.0"
         horizontal_offset_at_spawn="0.0"
-        vertical_offset_at_spawn="3.0"
+        vertical_offset_at_spawn="10.0"
         initial_speed_to_target="0.0" >
         <sound class="launch" fileref="siroread.wav" />
     </round>

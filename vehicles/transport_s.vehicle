@@ -1,6 +1,6 @@
 <vehicle name="Amphibious Transport" key="transport_s.vehicle" usable_for_cover="0" respawn_time="72" map_view_atlas_index="4" minimum_fill_requirement="0.3" max_character_collision_speed_on_normal="15.0" >
 	<tag name="truck" />
-	<tag name="medium" />
+	<tag name="heavy" />
 	<tire_set offset="1.1 0.0 2.4" radius="0.64" />
 	<tire_set offset="1.1 0.0 -2.4" radius="0.64" />
 

@@ -43,7 +43,6 @@
 	<vehicle key="mobile_armory.vehicle" />
 	<vehicle key="atv_base.vehicle" />
 	<vehicle key="atv_armory.vehicle" />
-	<vehicle key="rubber_boat.vehicle" />
 
 	<vehicle key="cover1.vehicle" />
 	<vehicle key="sandbag_cover.vehicle" />

@@ -1,6 +1,7 @@
 <vehicle file="vehicle_base.vehicle" name="Pigeon P5" key="jeep_1.vehicle" map_view_atlas_index="0" minimum_fill_requirement="0.5">
 	<tag name="metal_thin" />
 	<tag name="jeep" />  
+	<tag name="light" />  
 
 	<tire_set offset="0.768 0.0 1.24" radius="0.4" />
 	<tire_set offset="0.768 0.0 -1.24" radius="0.4" />
@@ -48,9 +49,9 @@
 	<effect event_key="slide" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
 	<!-- <effect event_key="slide_hard" type="particle" key="terrain" ref="Burst" use_surface_color="1" /> -->
 
-      	<effect event_key="health" value="0.75" ref="SmallSmokeVehicle" offset="0.32 1.2 2.0" /> 
-        <effect event_key="health" value="0.15" ref="SmallSmokeVehicle" offset="0.32 1.2 2.0" />  
-        <effect event_key="health" value="0.15" ref="BrokenSparkle" post_processing="0" offset="0.32 0.9 2.0" />         
+      	<effect event_key="health" value="1.5" ref="SmallSmokeVehicle" offset="0.32 1.2 2.0" /> 
+        <effect event_key="health" value="0.75" ref="SmallSmokeVehicle" offset="0.32 1.2 2.0" />  
+        <effect event_key="health" value="0.75" ref="BrokenSparkle" post_processing="0" offset="0.32 0.9 2.0" />         
         <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.32 1.5 2.1" />
         <effect event_key="destroyed" ref="SmallFireRepeat" offset="0.32 0.9 2.1" />
         <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   

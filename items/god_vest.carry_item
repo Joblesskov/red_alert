@@ -4,7 +4,7 @@
         <hud_icon filename="hud_worn_underpants.png" />
         <inventory encumbrance="0" price="0" />
         <capacity value="0" source="rank" source_value="0.0" />
-        <capacity value="1" source="rank" source_value="100.0" />
+        <capacity value="1" source="rank" source_value="1.0" />
 
         <model mesh_filename="underpants.mesh" texture_filename="underpants.png" />
 
