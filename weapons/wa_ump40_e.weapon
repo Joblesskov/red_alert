@@ -21,6 +21,7 @@
         <result class="hit" kill_probability="0.54" kill_decay_start_time="0.25" kill_decay_end_time="0.40" />
         <trail probability="1" key="BulletEliteTrail"/>
     </projectile>
-    <modifier class="speed" value="+0.1" />
+	<modifier class="speed" value="+0.12" />
+	<modifier class="hit_success_probability" value="-0.1" />
 </weapon>
 

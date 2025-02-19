@@ -16,7 +16,7 @@
     <capacity value="1" source="rank" source_value="0.4"/>
     <hud_icon filename="hud_flakt_e.png" />
 	<addon_model filename="elite.xml" />
-    <modifier class="speed" value="-0.1" />
+	<modifier class="hit_success_probability" value="-0.1" />
 
     <ballistics curve_height="5.0" near_far_distance="4.0" speed_estimation_near="120.0" speed_estimation_far="120.0" max_speed="120.0" randomness="0.0" tweak_factor="2.2" />
     <projectile file="flak.projectile" pulldown_in_air="27">
