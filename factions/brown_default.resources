@@ -32,6 +32,8 @@
  	<vehicle key="flak_track.vehicle" />
  	<vehicle key="rhino_tank.vehicle" />
  	<vehicle key="transport_s.vehicle" />
+    <vehicle key="sentry_gun.vehicle" />
+    <vehicle key="tesla_coil.vehicle" />
 
 	<call key="paratroopers1s.call" />
 	<call key="paratroopers2s.call" />

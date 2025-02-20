@@ -2,7 +2,7 @@
 <weapon file="wy_fist.weapon" key="wy_fist_e.weapon">
     <specification
     name="Fist (Elite)"
-    damage="8" 
+    damage="4" 
     range="2.5"
     stab_range="2.5"/>
 

@@ -3,7 +3,6 @@
     <tag name="cqb" />
 	
     <specification
-	retrigger_time="-1.0" 
 	magazine_size="1"  
 	carry_in_two_hands="0" 
 	can_shoot_standing="1" 

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="wy_fist.weapon">
+<weapon file="base_primary.weapon" key="wy_fist.weapon" >
     <tag name="cqb" />
     <tag name="mc_immune" />
-
     <specification
 	magazine_size="-1" 
     can_shoot_prone="0" 
@@ -15,7 +14,7 @@
     affect_characters="1"
     affect_vehicles="1"
     sight_range_modifier="1" 
-    damage="4"
+    damage="2"
     slot="0" 
     range="2"
   	stab_enabled="0"

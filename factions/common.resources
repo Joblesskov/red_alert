@@ -39,7 +39,6 @@
 	<carry_item key="vest_blackops.carry_item" enabled="0" />	
 	<carry_item key="vest_thick_skin.carry_item" enabled="0" />
 
-	<vehicle key="buggy.vehicle" /> 
 	<vehicle key="mobile_armory.vehicle" />
 	<vehicle key="atv_base.vehicle" />
 	<vehicle key="atv_armory.vehicle" />

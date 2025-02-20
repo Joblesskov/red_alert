@@ -34,7 +34,9 @@
  	<vehicle key="jeep.vehicle" />
  	<vehicle key="ifv.vehicle" />
  	<vehicle key="grizzly_tank.vehicle" />
- 	<vehicle key="transport_a.vehicle" />   
+ 	<vehicle key="transport_a.vehicle" /> 
+    <vehicle key="pillbox.vehicle" />
+    <vehicle key="prism_tower.vehicle" />
 
 	<call key="paratroopers1a.call" />
 	<call key="paratroopers2a.call" />

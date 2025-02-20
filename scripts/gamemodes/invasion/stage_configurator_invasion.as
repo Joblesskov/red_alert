@@ -1659,6 +1659,9 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 		stage.m_finalBattle = true;
 		stage.m_hidden = true;
+		
+		stage.addTracker(DestroyVehicleToCaptureBase(m_metagame, "radio_jammer.vehicle", 2));
+		stage.addTracker(DestroyVehicleToCaptureBase(m_metagame, "radar_tower.vehicle", 2));
 
 		// make neutral instantly not alive to avoid any possibility to gain capacity, like via not losing all bases first 
 		// and then gaining bases which have vehicles that give capacity offset..

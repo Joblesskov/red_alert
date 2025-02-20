@@ -3,6 +3,7 @@
 	<tag name="tank" />
 	<tag name="medium" />
 	<tag name="any_tank" />
+	<tag name="artillery" />
    
 	<tire_set offset="2.1 0.0 +2.6" radius="0.5" />
 	<tire_set offset="2.1 0.0 -2.6" radius="0.5" />

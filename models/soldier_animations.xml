@@ -18386,7 +18386,7 @@
             <position x="4.623178" y="4.067707" z="-12.999729" />
         </frame>
     </animation>
-    <animation loop="1" end="2.850000" speed="1.500000" comment="healing, bandage">
+    <animation loop="1" end="2.850000" speed="1.000000" comment="healing, bandage">
         <frame time="0.000000">
             <position x="-0.058239" y="54.722645" z="4.199837" />
             <position x="0.960468" y="48.372215" z="1.436818" />
@@ -22040,7 +22040,7 @@
             <position x="5.157977" y="0.237121" z="4.695737" />
         </frame>
     </animation>
-    <animation loop="0" end="0.400000" speed="1.200000" comment="stabbing, fast">
+    <animation loop="1" end="0.750000" speed="1.000000" comment="stabbing, fast">
         <frame time="0.000000">
             <position x="1.479291" y="53.728004" z="2.628979" />
             <position x="1.208598" y="46.853119" z="1.339539" />
