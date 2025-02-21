@@ -37,7 +37,7 @@
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
 	<turret offset="0 2.079 -0.855" weapon_key="vw_magnetron.weapon" weapon_offset="0 0.7 2.5" weapon_recoil="0" max_rotation_step="0.0001" />
-	<turret offset="0 2.044 1.886" weapon_key="vw_lasher_mg.weapon" weapon_offset="0 0.3 0.3" weapon_recoil="0" max_rotation_step="0.0004" rotation_range="3.14" />
+	<turret offset="0 2.044 2.4" weapon_key="vw_magnetron_mg.weapon" weapon_offset="0 0.3 0" weapon_recoil="0" max_rotation_step="0.0004" rotation_range="3.14" />
 
 	<visual class="chassis" mesh_filename="magnetron_chassis.mesh" texture_filename="magnetron_chassis.png" />
 	<visual class="turret" turret_index="0" mesh_filename="magnetron_turret.mesh" texture_filename="magnetron_turret.png" />

@@ -30,6 +30,7 @@ Vehicle
     <weapon file="vw_gattling.weapon" />
     <weapon file="vw_mastermind.weapon" />
     <weapon file="vw_magnetron.weapon" />
+    <weapon file="vw_magnetron_mg.weapon" />
     
     <weapon file="vw_pillbox_mg.weapon" />
     <weapon file="vw_pillbox_mg_ap.weapon" />

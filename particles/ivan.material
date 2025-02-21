@@ -1,0 +1,51 @@
+material ivanbomb{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+			depth_func always_pass
+
+        	texture_unit{
+            	texture crivexp.png
+			}
+		}
+	}
+}
+
+particle_system Ivanbomb
+{
+	quota 200
+	material ivanbomb
+	particle_width 5
+	particle_height 5
+	renderer billboard
+	billboard_type point
+	
+	emitter Point
+	{
+		angle 0
+		colour 0.5 0.5 0.5 1
+		direction 0 1 0
+		emission_rate 100
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.5
+		duration 0.0099
+	}
+	
+	affector Scaler
+	{
+		rate 10
+	}
+
+	affector ColourFader
+	{
+		red -2
+		green	-2
+		blue	-2
+		alpha -2
+	}
+}

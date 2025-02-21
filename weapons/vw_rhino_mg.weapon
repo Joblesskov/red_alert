@@ -23,7 +23,7 @@
     <animation key="hold" ref="32" />
     <animation key="hold_on_wall" ref="1" />
     <animation key="walking" ref="31" />
-    <sound key="fire" fileref="tank_mg_shot.wav" volume="0.7" />
+    <sound key="fire" fileref="buggy_mg_shot.wav" volume="0.5" />
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
