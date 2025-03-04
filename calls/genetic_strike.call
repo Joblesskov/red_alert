@@ -5,10 +5,10 @@
     acknowledge_comment="Roger."
     notify_metagame="1" >
 
-	<round instances="12"
+	<round instances="4"
 		instance_class="grenade"
 		instance_key="genobomb.projectile" 
-		instance_spread="10 40 10" 
+		instance_spread="5 20 5" 
 		common_spread="0 0 0" 
 		launch_time="3.0"
 		spawn_time="5.0">
@@ -16,14 +16,13 @@
 		<sound class="spawn" fileref="woosh1.wav" />
 	</round>
 
-	<round instances="12"
+	<round instances="8"
 		instance_class="grenade"
 		instance_key="genobomb.projectile" 
 		instance_spread="10 20 10" 
 		common_spread="0 0 0" 
-		launch_time="7.0"
-		spawn_time="7.0">
-		<sound class="spawn" fileref="woosh1.wav" />
+		launch_time="3.0"
+		spawn_time="5.0">
 	</round>
 
     <hud_icon filename="call_genetic_strike.png" />

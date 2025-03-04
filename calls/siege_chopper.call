@@ -11,7 +11,7 @@
 		<sound class="launch" fileref="vchoa2c.wav" volume="1.5" />
     </round>
 
-    <round instances="8"
+    <round instances="10"
 		instance_class="grenade"
 		instance_key="scho_artillery_shell.projectile" 
 		instance_spread="10 15 10" 
@@ -22,7 +22,7 @@
 		<sound class="spawn" fileref="woosh1.wav" />
     </round>
 
-    <round instances="8"
+    <round instances="10"
 		instance_class="grenade"
 		instance_key="scho_artillery_shell.projectile" 
 		instance_spread="10 15 10" 
@@ -36,6 +36,6 @@
     <hud_icon filename="call_siege_chopper.png" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="0.6" />
-    <inventory encumbrance="0.0" price="160.0" />
+    <inventory encumbrance="0.0" price="180.0" />
 
 </call>

@@ -59,7 +59,7 @@ class RepairCrane : Tracker {
         } else if (sourceKey == "iron_curtain") {
             range = 7.0;
             repairValue = 100000;
-            overHealth = 10.0;
+            overHealth = 5.0;
             y_offset = 0.0;
             xpReward = 0.0;
             rpReward = 0;

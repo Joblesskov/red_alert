@@ -17,7 +17,7 @@ drop_count_limit_in_range="1">
     <model filename="dynamite.xml" />
     <hud_icon filename="hud_dynamite.png" />
 
-    <throwable curve_height="6.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="15.0" max_speed="14.0" randomness="0.07" />
+    <throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
 
     <commonness value="1" can_respawn_with="1" in_stock="1"/>
     <inventory encumbrance="4.0" price="5.0" />

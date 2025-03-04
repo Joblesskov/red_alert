@@ -2,9 +2,9 @@
 <weapon key="vw_bunker_mg.weapon" >
     <specification 
     slot="2" 
-    retrigger_time="0.24" 
+    retrigger_time="0.125" 
     accuracy_factor="1" 
-    sustained_fire_grow_step="0.09"
+    sustained_fire_grow_step="0.125"
     sustained_fire_diminish_rate="0.3" 
     sight_range_modifier="1.25"
     magazine_size="-1" 
@@ -37,7 +37,7 @@
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
         <result class="hit" 
-        kill_probability="0.7" 
+        kill_probability="0.55" 
         kill_decay_start_time="0.35" 
         kill_decay_end_time="0.55" />
     </projectile>

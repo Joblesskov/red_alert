@@ -16,8 +16,7 @@
     <model />
     <hud_icon  />
 
-
-    <effect class="result" key="terrain" ref="BloodExplosionGreenSmall" post_processing="1" lighting="0"/>
+    <effect class="result" key="terrain" ref="AcidCloud" post_processing="1" />
     <effect class="result" key="other" copy="terrain" />
     <effect class="result" key="vehicle" copy="terrain" />  
     <effect class="result" key="static_object" copy="terrain" />

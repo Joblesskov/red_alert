@@ -2,7 +2,7 @@
 <weapon key="vw_bunker_mg_ap.weapon" >
     <specification 
     slot="2" 
-    retrigger_time="0.48" 
+    retrigger_time="0.42" 
     accuracy_factor="1" 
     sustained_fire_grow_step="0.19"
     sustained_fire_diminish_rate="0.3" 
