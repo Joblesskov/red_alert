@@ -130,7 +130,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_ppsh41.weapon" />
-			<weapon key="ws_ppsh41_e.weapon" />
+			<weapon key="ws_ppsh41.weapon" />
 
 			<weapon key="medikit.weapon" />
 
@@ -168,7 +168,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_flak.weapon" />
-			<weapon key="ws_flak_e.weapon" />
+			<weapon key="ws_flak.weapon" />
 
 			<weapon key="ws_rpg-7.weapon" />
 
@@ -270,7 +270,7 @@
 		<models file="brown_default.models" />
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_knife.weapon" />
-			<weapon key="ws_knife_e.weapon" />
+			<weapon key="ws_knife.weapon" />
 
 			<weapon key="ws_dynamite_resource.weapon" />
 
@@ -305,7 +305,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_tesla.weapon" />
-			<weapon key="ws_tesla_e.weapon" />
+			<weapon key="ws_tesla.weapon" />
 
 			<carry_item key="eodvest.carry_item" />
 			<carry_item key="vest_plate.carry_item" />
@@ -343,7 +343,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_desolator.weapon" />
-			<weapon key="ws_desolator_e.weapon" />
+			<weapon key="ws_desolator.weapon" />
 
 			<projectile key="rad_eruption.projectile" />
 
@@ -443,8 +443,8 @@
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_ump40.weapon" />
 			<weapon key="wa_m60.weapon" />
-			<weapon key="wa_ump40_e.weapon" />
-			<weapon key="wa_m60_e.weapon" />
+			<weapon key="wa_ump40.weapon" />
+			<weapon key="wa_m60.weapon" />
 
 			<weapon key="medikit.weapon" />
 			<weapon key="riot_shield.weapon" />
@@ -484,7 +484,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_stoner_lmg.weapon" />
-			<weapon key="wa_stoner_lmg_e.weapon" />
+			<weapon key="wa_stoner_lmg.weapon" />
 
 			<weapon key="wa_javelin.weapon" />
 
@@ -519,7 +519,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_p90.weapon" />
-			<weapon key="wa_p90_e.weapon" />
+			<weapon key="wa_p90.weapon" />
 
 			<weapon key="medikit.weapon" />
 			
@@ -555,7 +555,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_awp.weapon" />
-			<weapon key="wa_awp_e.weapon" />
+			<weapon key="wa_awp.weapon" />
 
 			<carry_item key="camo_vest.carry_item" />
 		</resources>
@@ -584,7 +584,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_rocketeer.weapon" />
-			<weapon key="wa_rocketeer_e.weapon" />
+			<weapon key="wa_rocketeer.weapon" />
 			
 			<carry_item key="vest_exo.carry_item" />
 		</resources>
@@ -615,7 +615,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_chrono.weapon" />
-			<weapon key="wa_chrono_e.weapon" />
+			<weapon key="wa_chrono.weapon" />
 
 			<carry_item key="vest_blackops.carry_item" />
 		</resources>
@@ -678,7 +678,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="wy_psychic_jab.weapon" />
-			<weapon key="wy_psychic_jab_e.weapon" />
+			<weapon key="wy_psychic_jab.weapon" />
 
 			<weapon key="medikit.weapon" />
 
@@ -714,7 +714,7 @@
 		<models file="brown_default.models" />
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="wy_fist.weapon" />
-			<weapon key="wy_fist_e.weapon" />
+			<weapon key="wy_fist.weapon" />
 
 			<carry_item key="vest_thick_skin.carry_item" />
 		</resources>
@@ -745,7 +745,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wy_virus.weapon" />
-			<weapon key="wy_virus_e.weapon" />
+			<weapon key="wy_virus.weapon" />
 
 			<carry_item key="camo_vest.carry_item" />
 		</resources>
@@ -814,7 +814,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="wy_mind_control.weapon" />
-			<weapon key="wy_mind_control_e.weapon" />
+			<weapon key="wy_mind_control.weapon" />
 
 			<projectile key="psychic_blast.projectile" />
 
