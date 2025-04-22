@@ -28,8 +28,6 @@
     <projectile key="flare_prism_tank.projectile" />
     <projectile key="flare_mirage_tank.projectile" />
     <projectile key="flare_tank_destroyer.projectile" />
-    
-	<carry_item key="vest_blackops.carry_item" />	
 
  	<vehicle key="jeep.vehicle" />
  	<vehicle key="ifv.vehicle" />

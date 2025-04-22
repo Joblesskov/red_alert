@@ -50,38 +50,62 @@ weapon
 	<text key="psychic blast" text="心灵冲击" />
 	<text key="rad eruption" text="辐射爆发" />
 vest
-	<text key="unarmored" text="无甲" />
-	<text key="black ops vest" text="夜行特战服"/> 
-	<text key="black ops vest, 80&#37;" text="夜行特战服，80&#37;"/> 
-	<text key="black ops vest, 60&#37;" text="夜行特战服，60&#37;"/> 
-	<text key="black ops vest, 40&#37;" text="夜行特战服，40&#37;"/> 
-	<text key="black ops vest, 20&#37;" text="夜行特战服，20&#37;"/> 
-	<text key="black ops vest, destroyed" text="夜行特战服，已损坏"/> 
-	<text key="EOD armor, 80&#37;" text="防爆服，80&#37;" />
-	<text key="EOD armor, 60&#37;" text="防爆服，60&#37;" />
-	<text key="EOD armor, 40&#37;" text="防爆服，40&#37;" />
-	<text key="EOD armor, 20&#37;" text="防爆服，20&#37;" />
-	<text key="EOD armor, destroyed" text="防爆服，已损坏" />
-	<text key="Plate" text="金属护甲" />
-	<text key="Plate, 90&#37;" text="金属护甲, 90&#37;" />
-	<text key="Plate, 80&#37;" text="金属护甲, 80&#37;" />
-	<text key="Plate, 70&#37;" text="金属护甲, 70&#37;" />
-	<text key="Plate, 60&#37;" text="金属护甲, 60&#37;" />
-	<text key="Plate, 50&#37;" text="金属护甲, 50&#37;" />
-	<text key="Plate, 40&#37;" text="金属护甲, 40&#37;" />
-	<text key="Plate, 30&#37;" text="金属护甲, 30&#37;" />
-	<text key="Plate, 20&#37;" text="金属护甲, 20&#37;" />
-	<text key="Plate, 10&#37;" text="金属护甲, 10&#37;" />
-	<text key="Thick Skin" text="基因改造" />
-	<text key="Thick Skin, 90&#37;" text="基因改造, 90&#37;" />
-	<text key="Thick Skin, 80&#37;" text="基因改造, 80&#37;" />
-	<text key="Thick Skin, 70&#37;" text="基因改造, 70&#37;" />
-	<text key="Thick Skin, 60&#37;" text="基因改造, 60&#37;" />
-	<text key="Thick Skin, 50&#37;" text="基因改造, 50&#37;" />
-	<text key="Thick Skin, 40&#37;" text="基因改造, 40&#37;" />
-	<text key="Thick Skin, 30&#37;" text="基因改造, 30&#37;" />
-	<text key="Thick Skin, 20&#37;" text="基因改造, 20&#37;" />
-	<text key="Thick Skin, 10&#37;" text="基因改造, 10&#37;" />
+	<text key="unarmored" text="肉人" />
+	<text key="unarmored, 1/2" text="肉人, 1/2" />
+	<text key="flak armor I" text="布甲 I" />
+	<text key="flak armor I, 2/3" text="布甲 I, 2/3" />
+	<text key="flak armor I, 1/3" text="布甲 I, 1/3" />
+	<text key="flak armor II" text="布甲 II" />
+	<text key="flak armor II, 3/4" text="布甲 II, 3/4" />
+	<text key="flak armor II, 2/4" text="布甲 II, 2/4" />
+	<text key="flak armor II, 1/4" text="布甲 II, 1/4" />
+	<text key="flak armor III" text="布甲 III" />
+	<text key="flak armor III, 4/5" text="布甲 III, 4/5" />
+	<text key="flak armor III, 3/5" text="布甲 III, 3/5" />
+	<text key="flak armor III, 2/5" text="布甲 III, 2/5" />
+	<text key="flak armor III, 1/5" text="布甲 III, 1/5" />
+	<text key="flak armor III, 0/5" text="布甲 III, 0/5" />
+	<text key="none armor I" text="无甲 I" />
+	<text key="none armor I, 3/4" text="无甲 I, 3/4" />
+	<text key="none armor I, 2/4" text="无甲 I, 2/4" />
+	<text key="none armor I, 1/4" text="无甲 I, 1/4" />
+	<text key="none armor II" text="无甲 II" />
+	<text key="none armor II, 4/5" text="无甲 II, 4/5" />
+	<text key="none armor II, 3/5" text="无甲 II, 3/5" />
+	<text key="none armor II, 2/5" text="无甲 II, 2/5" />
+	<text key="none armor II, 1/5" text="无甲 II, 1/5" />
+	<text key="none armor III" text="无甲 III" />
+	<text key="none armor III, 5/6" text="无甲 III, 5/6" />
+	<text key="none armor III, 4/6" text="无甲 III, 4/6" />
+	<text key="none armor III, 3/6" text="无甲 III, 3/6" />
+	<text key="none armor III, 2/6" text="无甲 III, 2/6" />
+	<text key="none armor III, 1/6" text="无甲 III, 1/6" />
+	<text key="none armor III, 0/6" text="无甲 III, 0/6" />
+	<text key="plate armor I" text="铁甲 I" />
+	<text key="plate armor I, 5/6" text="铁甲 I, 5/6" />
+	<text key="plate armor I, 4/6" text="铁甲 I, 4/6" />
+	<text key="plate armor I, 3/6" text="铁甲 I, 3/6" />
+	<text key="plate armor I, 2/6" text="铁甲 I, 2/6" />
+	<text key="plate armor I, 1/6" text="铁甲 I, 1/6" />
+	<text key="plate armor II" text="铁甲 II" />
+	<text key="plate armor II, 7/8" text="铁甲 II, 7/8" />
+	<text key="plate armor II, 6/8" text="铁甲 II, 6/8" />
+	<text key="plate armor II, 5/8" text="铁甲 II, 5/8" />
+	<text key="plate armor II, 4/8" text="铁甲 II, 4/8" />
+	<text key="plate armor II, 3/8" text="铁甲 II, 3/8" />
+	<text key="plate armor II, 2/8" text="铁甲 II, 2/8" />
+	<text key="plate armor II, 1/8" text="铁甲 II, 1/8" />
+	<text key="plate armor III" text="铁甲 III" />
+	<text key="plate armor III, 9/10" text="铁甲 III, 9/10" />
+	<text key="plate armor III, 8/10" text="铁甲 III, 8/10" />
+	<text key="plate armor III, 7/10" text="铁甲 III, 7/10" />
+	<text key="plate armor III, 6/10" text="铁甲 III, 6/10" />
+	<text key="plate armor III, 5/10" text="铁甲 III, 5/10" />
+	<text key="plate armor III, 4/10" text="铁甲 III, 4/10" />
+	<text key="plate armor III, 3/10" text="铁甲 III, 3/10" />
+	<text key="plate armor III, 2/10" text="铁甲 III, 2/10" />
+	<text key="plate armor III, 1/10" text="铁甲 III, 1/10" />
+	<text key="plate armor III, 0/10" text="铁甲 III, 0/10" />
 vehicle
     <text key="Grizzly Tank" text="灰熊坦克" /> 
     <text key="Rhino Tank" text="犀牛坦克" /> 

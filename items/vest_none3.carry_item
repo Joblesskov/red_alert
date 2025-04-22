@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="vest_none3.carry_item" name="none armor III" slot="1" transform_on_consume="vest_none3_1" time_to_live_out_in_the_open="0.0">
+        <hud_icon filename="hud_vest_none3.png" />
+        <model />
+        <inventory encumbrance="0" price="50" />
+        <commonness value="1" in_stock="1" can_respawn_with="0" />
+        
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+    </carry_item>
+
+    <carry_item key="vest_none3_1" name="none armor III, 5/6" slot="1" transform_on_consume="vest_none3_2" time_to_live_out_in_the_open="0.0">
+        <hud_icon filename="hud_vest_none3_1.png" />
+        <model />
+        <inventory encumbrance="0" price="30" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" consumes_item="1" />
+		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+    </carry_item>
+
+    <carry_item key="vest_none3_2" name="none armor III, 4/6" slot="1" transform_on_consume="vest_none3_3" time_to_live_out_in_the_open="0.0">
+        <hud_icon filename="hud_vest_none3_2.png" />
+        <model />
+        <inventory encumbrance="0" price="15" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
+		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+    </carry_item>
+
+    <carry_item key="vest_none3_3" name="none armor III, 3/6" slot="1" transform_on_consume="vest_none3_4" time_to_live_out_in_the_open="0.0">
+        <hud_icon filename="hud_vest_none3_3.png" />
+        <model />
+        <inventory encumbrance="0" price="5" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
+		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+    </carry_item>
+
+    <carry_item key="vest_none3_4" name="none armor III, 2/6" slot="1" transform_on_consume="vest_none3_5" time_to_live_out_in_the_open="0.0">
+        <hud_icon filename="hud_vest_none3_4.png" />
+        <model />
+        <inventory encumbrance="0" price="3" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" consumes_item="1" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
+		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+    </carry_item>
+
+    <carry_item key="vest_none3_5" name="none armor III, 1/6" slot="1" transform_on_consume="vest_none3_6" time_to_live_out_in_the_open="0.0">
+        <hud_icon filename="hud_vest_none3_5.png" />
+        <model />
+        <inventory encumbrance="0" price="1" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" consumes_item="1" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" consumes_item="1" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
+		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+    </carry_item>
+
+    <carry_item key="vest_none3_6" name="none armor III, 0/6" slot="1" time_to_live_out_in_the_open="0.0">
+        <hud_icon filename="hud_vest_none3_6.png" />
+        <model />
+        <inventory encumbrance="0" price="0" />
+        <commonness value="0" in_stock="0" can_respawn_with="0" />
+        
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="1" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
+		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+    </carry_item>
+</carry_items>
