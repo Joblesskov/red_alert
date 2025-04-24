@@ -27,13 +27,15 @@
 
     <model filename="suppressed_smg1.xml" />
     <hud_icon filename="hud_spy.png" />
-    <inventory encumbrance="10.0" price="15.0" />
-    <commonness value="1" />
+    <inventory encumbrance="10" price="10" />
+    <commonness value="1" can_respawn_with="1" in_stock="1"/>
     <capacity value="0" source="rank" source_value="0.0"/>
-    <capacity value="1" source="rank" source_value="0.5"/>
+    <capacity value="1" source="rank" source_value="0.6"/>
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.5" kill_decay_start_time="0.33" kill_decay_end_time="0.43" />
     </projectile>
+
     <modifier class="speed" value="+0.02" />
+    <modifier class="detectability" value="-0.3" />
 </weapon>

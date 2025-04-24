@@ -15,7 +15,7 @@
 	class="0"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"
-	projectile_speed="110.0"
+	projectile_speed="200.0"
 	projectiles_per_shot="2"
     barrel_offset_3d="0.0 10.0 0.0"
     sight_height_offset="6.0"
@@ -54,11 +54,11 @@
 
     <hud_icon filename="hud_rocketeer.png" />
     <commonness value="1" in_stock="1" can_respawn_with="1"/>
-    <inventory encumbrance="5.0" price="50.0" />
+    <inventory encumbrance="5" price="30" />
     <capacity value="0" source="rank" source_value="0.0"/>
-    <capacity value="1" source="rank" source_value="1.0"/>
+    <capacity value="1" source="rank" source_value="0.8"/>
 
-    <projectile file="bullet_ap.projectile" time_to_live="0.35">
+    <projectile file="bullet_ap.projectile" time_to_live="0.15">
         <result class="blast" 
         push="0"
 		radius="1" 
@@ -66,9 +66,6 @@
         faction_compare="not_equal" 
         damage_origin_vehicle="0" />
     </projectile>
-    
-    <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="1.0" />
     
     <stance state_key="running" accuracy="0.4" />
     <stance state_key="walking" accuracy="0.9" />
@@ -79,12 +76,10 @@
     <stance state_key="standing" accuracy="0.9" />
     <stance state_key="crouching" accuracy="1.0" />
     <stance state_key="prone" accuracy="1.0" />
-    <modifier class="speed" value="+0.1" />    
-    <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="0"/>
-	
     <effect class="muzzle" ref="MuzzleDual1" />
     <effect class="muzzle" ref="MuzzleSmokeDual1" />
     <effect class="muzzle" ref="MuzzleDual2" /> 
     <effect class="muzzle" ref="MuzzleSmokeDual2" />
 
+    <modifier class="speed" value="+0.1" />
 </weapon>

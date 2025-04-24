@@ -6,41 +6,59 @@ weapon
 	<text key="AKM" text="AKM突击步枪" />
 	<text key="AKM (AP)" text="AKM突击步枪 (穿甲)" />
 	<text key="AWP" text="AWP狙击步枪" />
+	<text key="AWP (Veteran)" text="AWP狙击步枪 (老兵)" />
 	<text key="AWP (Elite)" text="AWP狙击步枪 (精英)" />
 	<text key="Colt M1911" text="柯尔特M1911" />
 	<text key="Colt M1911 (Precision)" text="柯尔特M1911 (精确)" />
 	<text key="Fist" text="拳头" />
+	<text key="Fist (Veteran)" text="拳头 (老兵)" />
 	<text key="Fist (Elite)" text="拳头 (精英)" />
 	<text key="Flak Gun" text="便携高射炮" />
+	<text key="Flak Gun (Veteran)" text="便携高射炮 (老兵)" />
 	<text key="Flak Gun (Elite)" text="便携高射炮 (精英)" />
 	<text key="Knife" text="匕首" />
+	<text key="Knife (Veteran)" text="匕首 (老兵)" />
 	<text key="Knife (Elite)" text="匕首 (精英)" />
 	<text key="Neutron Microgun" text="中子加特林" />
+	<text key="Neutron Microgun (Veteran)" text="中子加特林 (老兵)" />
 	<text key="Neutron Microgun (Elite)" text="中子加特林 (精英)" />
 	<text key="M60" text="M60E4通用机枪" />
+	<text key="M60 (Veteran)" text="M60E4通用机枪 (老兵)" />
 	<text key="M60 (Elite)" text="M60E4通用机枪 (精英)" />
 	<text key="Mind Control" text="心灵控制" />
+	<text key="Mind Control (Veteran)" text="心灵控制 (老兵)" />
 	<text key="Mind Control (Elite)" text="心灵控制 (精英)" />
 	<text key="MP5SD" text="MP5微声冲锋枪" />
+	<text key="MP5SD (Veteran)" text="MP5微声冲锋枪 (老兵)" />
+	<text key="MP5SD (Elite)" text="MP5微声冲锋枪 (精英)" />
 	<text key="mini UZI" text="Mini UZI轻型冲锋枪" />
 	<text key="P90" text="P90冲锋枪" />
+	<text key="P90 (Veteran)" text="P90冲锋枪 (老兵)" />
 	<text key="P90 (Elite)" text="P90冲锋枪 (精英)" />
 	<text key="mini-Tesla Coil" text="小型磁暴线圈" />
+	<text key="mini-Tesla Coil (Veteran)" text="小型磁暴线圈 (老兵)" />
 	<text key="mini-Tesla Coil (Elite)" text="小型磁暴线圈 (精英)" />
 	<text key="PPSh-41" text="波波沙冲锋枪" />
+	<text key="PPSh-41 (Veteran)" text="波波沙冲锋枪 (老兵)" />
 	<text key="PPSh-41 (Elite)" text="波波沙冲锋枪 (精英)" />
 	<text key="Psychic Jab" text="心灵之火" />
+	<text key="Psychic Jab (Veteran)" text="心灵之火 (老兵)" />
 	<text key="Psychic Jab (Elite)" text="心灵之火 (精英)" />
 	<text key="Rad Cannon" text="辐射炮" />
+	<text key="Rad Cannon (Veteran)" text="辐射炮 (老兵)" />
 	<text key="Rad Cannon (Elite)" text="辐射炮 (精英)" />
 	<text key="Rocketeer" text="双子机炮" />
+	<text key="Rocketeer (Veteran)" text="双子机炮 (老兵)" />
 	<text key="Rocketeer (Elite)" text="双子机炮 (精英)" />
 	<text key="Steyr TMP" text="斯太尔TMP战术冲锋枪"/>
 	<text key="Stoner LMG" text="斯通纳轻机枪" />
+	<text key="Stoner LMG (Veteran)" text="斯通纳轻机枪 (老兵)" />
 	<text key="Stoner LMG (Elite)" text="斯通纳轻机枪 (精英)" />
     <text key="UMP40" text="UMP-40冲锋枪" /> 
+    <text key="UMP40 (Veteran)" text="UMP-40冲锋枪 (老兵)" /> 
     <text key="UMP40 (Elite)" text="UMP-40冲锋枪 (精英)" /> 
     <text key="Virus Dart Gun" text="病毒狙击枪" /> 
+    <text key="Virus Dart Gun (Veteran)" text="病毒狙击枪 (老兵)" /> 
     <text key="Virus Dart Gun (Elite)" text="病毒狙击枪 (精英)" /> 
     <text key="Yuri" text="尤里" /> 
 

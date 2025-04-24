@@ -32,12 +32,12 @@
 
     <hud_icon filename="hud_seal.png" />
     <commonness value="1" can_respawn_with="1" in_stock="1" />
-    <inventory encumbrance="10.0" price="20.0" />
+    <inventory encumbrance="10" price="20" />
     <capacity value="0" source="rank" source_value="0.0"/>
-    <capacity value="1" source="rank" source_value="0.5"/>
+    <capacity value="1" source="rank" source_value="0.4"/>
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.65" 
+        <result class="hit" kill_probability="0.60" 
         kill_decay_start_time="0.25" 
         kill_decay_end_time="0.46" />
     </projectile>

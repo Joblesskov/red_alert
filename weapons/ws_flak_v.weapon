@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="ws_flak.weapon" key="ws_flak_v.weapon">
+    <specification 
+        retrigger_time="0.5" 
+        accuracy_factor="0.94" 
+        sustained_fire_grow_step="0.25" 
+        magazine_size="20" 
+        name="Flak Gun (Veteran)"/>
+
+    <commonness value="100" />    
+    <inventory price="15" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.2"/>
+    <hud_icon filename="hud_flakt_v.png" />
+	<addon_model filename="veteran.xml" />
+
+    <ballistics curve_height="5.0" near_far_distance="4.0" speed_estimation_near="120.0" speed_estimation_far="120.0" max_speed="120.0" randomness="0.0" tweak_factor="2.2" />
+    <projectile file="flak.projectile" pulldown_in_air="27">
+        <result class="blast" 
+        radius="3.5" 
+        damage="0.15" 
+        push="0" 
+        faction_compare="not_equal" 
+        damage_origin_vehicle="0" />  
+    </projectile>
+
+    <modifier class="speed" value="-0.05" />
+	<modifier class="hit_success_probability" value="-0.08" />
+</weapon>
+

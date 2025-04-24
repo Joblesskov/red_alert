@@ -3,7 +3,7 @@
     <carry_item key="vest_plate3.carry_item" name="plate armor III" slot="1" transform_on_consume="vest_plate3_1" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3.png" />
         <model />
-        <inventory encumbrance="0" price="50" />
+        <inventory encumbrance="10" price="50" />
         <commonness value="1" in_stock="1" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -21,7 +21,7 @@
     <carry_item key="vest_plate3_1" name="plate armor III, 9/10" slot="1" transform_on_consume="vest_plate3_2" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_1.png" />
         <model />
-        <inventory encumbrance="0" price="40" />
+        <inventory encumbrance="10" price="40" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -39,7 +39,7 @@
     <carry_item key="vest_plate3_2" name="plate armor III, 8/10" slot="1" transform_on_consume="vest_plate3_3" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_2.png" />
         <model />
-        <inventory encumbrance="0" price="25" />
+        <inventory encumbrance="10" price="25" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -57,7 +57,7 @@
     <carry_item key="vest_plate3_3" name="plate armor III, 7/10" slot="1" transform_on_consume="vest_plate3_4" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_3.png" />
         <model />
-        <inventory encumbrance="0" price="15" />
+        <inventory encumbrance="10" price="15" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -75,7 +75,7 @@
     <carry_item key="vest_plate3_4" name="plate armor III, 6/10" slot="1" transform_on_consume="vest_plate3_5" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_4.png" />
         <model />
-        <inventory encumbrance="0" price="8" />
+        <inventory encumbrance="10" price="8" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -93,7 +93,7 @@
     <carry_item key="vest_plate3_5" name="plate armor III, 5/10" slot="1" transform_on_consume="vest_plate3_6" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_5.png" />
         <model />
-        <inventory encumbrance="0" price="5" />
+        <inventory encumbrance="10" price="5" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -111,7 +111,7 @@
     <carry_item key="vest_plate3_6" name="plate armor III, 4/10" slot="1" transform_on_consume="vest_plate3_7" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_6.png" />
         <model />
-        <inventory encumbrance="0" price="4" />
+        <inventory encumbrance="10" price="4" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -129,7 +129,7 @@
     <carry_item key="vest_plate3_7" name="plate armor III, 3/10" slot="1" transform_on_consume="vest_plate3_8" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_7.png" />
         <model />
-        <inventory encumbrance="0" price="3" />
+        <inventory encumbrance="10" price="3" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -147,7 +147,7 @@
     <carry_item key="vest_plate3_8" name="plate armor III, 2/10" slot="1" transform_on_consume="vest_plate3_9" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_8.png" />
         <model />
-        <inventory encumbrance="0" price="2" />
+        <inventory encumbrance="10" price="2" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" consumes_item="1" />
@@ -165,7 +165,7 @@
     <carry_item key="vest_plate3_9" name="plate armor III, 1/10" slot="1" transform_on_consume="vest_plate3_10" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_9.png" />
         <model />
-        <inventory encumbrance="0" price="1" />
+        <inventory encumbrance="10" price="1" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" consumes_item="1" />
@@ -183,7 +183,7 @@
     <carry_item key="vest_plate3_10" name="plate armor III, 0/10" slot="1" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_plate3_10.png" />
         <model />
-        <inventory encumbrance="0" price="0" />
+        <inventory encumbrance="10" price="0" />
         <commonness value="0" in_stock="0" can_respawn_with="0" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="1" />

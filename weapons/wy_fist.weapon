@@ -58,7 +58,7 @@
     <weak_hand_hold offset="1" />
 	
 	<commonness value="1" can_respawn_with="1" in_stock="1"/>
-	<inventory encumbrance="40.0" price="2.0" />
+	<inventory encumbrance="40" price="3" />
 	
 	<stance state_key="running" accuracy="1.0" />
 	<stance state_key="walking" accuracy="1.0" />
@@ -67,4 +67,7 @@
 	<stance state_key="standing" accuracy="1.0" />
 	<stance state_key="crouching" accuracy="1.0" />
 	<stance state_key="prone" accuracy="1.0" />
+
+	<modifier class="speed" value="+0.20" />
+	<modifier class="hit_success_probability" value="-0.10" />
 </weapon>

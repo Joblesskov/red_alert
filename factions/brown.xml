@@ -116,7 +116,7 @@
 		</attribute_config>
 	</soldier>
 	
-	100~1000 3000~6000
+	100~1000 2000~3000
 	<soldier name="conscript" spawn_score="1.0">
 		<character filename="default_male.character">
 			<sound key="death" fileref="icondia.wav" volume="0.5" />
@@ -130,7 +130,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_ppsh41.weapon" />
-			<weapon key="ws_ppsh41.weapon" />
+			<weapon key="ws_ppsh41_v.weapon" />
 
 			<weapon key="medikit.weapon" />
 
@@ -151,10 +151,10 @@
 		</attribute_config>
 		<attribute_config class="xp">
 			<attribute weight="1.0" min="0.01" max="0.1" />
-			<attribute weight="0.3" min="0.3" max="0.6" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
 		</attribute_config>
 	</soldier>
-	200~2000 4000~6000
+	100~1000 2000~3000
 	<soldier name="flak" spawn_score="0.3">
 		<character filename="default_male.character">
 			<sound key="death" fileref="ifladia.wav" volume="0.5" />
@@ -168,7 +168,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_flak.weapon" />
-			<weapon key="ws_flak.weapon" />
+			<weapon key="ws_flak_v.weapon" />
 
 			<weapon key="ws_rpg-7.weapon" />
 
@@ -188,8 +188,8 @@
 			<attribute weight="1.0" min="0.0" max="0.0" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.02" max="0.2" />
-			<attribute weight="0.3" min="0.4" max="0.6" />
+			<attribute weight="1.0" min="0.01" max="0.1" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
 		</attribute_config>
 	</soldier>
 	0~0
@@ -254,7 +254,7 @@
 			<attribute weight="1.0" min="0.3" max="1.0" />
 		</attribute_config>
 	</soldier>
-	1000~2000 3000~6000
+	1000~1500 3000~4500
 	<soldier name="ivan" spawn_score="0.15">
 		<character filename="default_male.character">
 			<sound key="death" fileref="icradia.wav" volume="0.5" />
@@ -270,7 +270,7 @@
 		<models file="brown_default.models" />
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_knife.weapon" />
-			<weapon key="ws_knife.weapon" />
+			<weapon key="ws_knife_v.weapon" />
 
 			<weapon key="ws_dynamite_resource.weapon" />
 
@@ -288,11 +288,11 @@
 			<attribute weight="1.0" min="0.0" max="0.0" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.1" max="0.2" />
-			<attribute weight="0.3" min="0.3" max="0.6" />
+			<attribute weight="1.0" min="0.1" max="0.15" />
+			<attribute weight="0.3" min="0.4" max="0.45" />
 		</attribute_config>
 	</soldier>
-	5000~10000 15000~30000
+	4000~6000 12000~18000
 	<soldier name="tesla" spawn_score="0.25">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="itesdia.wav" volume="0.5" />
@@ -305,7 +305,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_tesla.weapon" />
-			<weapon key="ws_tesla.weapon" />
+			<weapon key="ws_tesla_v.weapon" />
 
 			<carry_item key="vest_plate2.carry_item" />
 
@@ -324,11 +324,11 @@
 			<attribute weight="1.0" min="80" max="200" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.5" max="1.0" />
-			<attribute weight="0.3" min="1.5" max="3.0" />
+			<attribute weight="1.0" min="0.4" max="0.6" />
+			<attribute weight="0.3" min="1.2" max="1.8" />
 		</attribute_config>
 	</soldier>
-	8000~16000 24000~48000
+	6000~9000 14000~21000
 	<soldier name="desolator" spawn_score="0.15">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="idesdia.wav" volume="0.5" />
@@ -342,7 +342,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
 			<weapon key="ws_desolator.weapon" />
-			<weapon key="ws_desolator.weapon" />
+			<weapon key="ws_desolator_v.weapon" />
 
 			<projectile key="rad_eruption.projectile" />
 
@@ -364,8 +364,8 @@
 			<attribute weight="1.0" min="1000" max="1000" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.8" max="1.6" />
-			<attribute weight="0.3" min="2.4" max="4.8" />
+			<attribute weight="1.0" min="0.6" max="0.9" />
+			<attribute weight="0.3" min="1.4" max="2.1" />
 		</attribute_config>
 	</soldier>
 	100000

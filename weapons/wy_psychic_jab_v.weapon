@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wy_psychic_jab.weapon" key="wy_psychic_jab_v.weapon">
+    <specification 
+        retrigger_time="0.20" 
+        sustained_fire_grow_step="0.1"
+        sustained_fire_diminish_rate="0.3" 
+        name="Psychic Jab (Veteran)" 
+        cooldown_start="0.3"
+        cooldown_end="0.22"
+        projectile_speed="132.0"/>
+
+    <commonness value="100" />    
+    <inventory price="20" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="0.2"/>
+
+    <hud_icon filename="hud_initiate_v.png" />
+	<addon_model filename="veteran.xml" />
+
+	<modifier class="speed" value="+0.10" />
+	<modifier class="hit_success_probability" value="-0.08" />
+</weapon>
+

@@ -6,10 +6,16 @@
         <requirement class="weapon" slot="0" key="ws_ppsh41.weapon"/>
     </model>
 	<model filename="soldier_s_conscript.xml">
+        <requirement class="weapon" slot="0" key="ws_ppsh41_v.weapon"/>
+    </model>
+	<model filename="soldier_s_conscript.xml">
         <requirement class="weapon" slot="0" key="ws_ppsh41_e.weapon"/>
     </model>
 	<model filename="soldier_s_desolator.xml">
 		<requirement class="weapon" slot="0" key="ws_desolator.weapon"/>
+	</model>
+	<model filename="soldier_s_desolator.xml">
+		<requirement class="weapon" slot="0" key="ws_desolator_v.weapon"/>
 	</model>
 	<model filename="soldier_s_desolator.xml">
 		<requirement class="weapon" slot="0" key="ws_desolator_e.weapon"/>
@@ -18,16 +24,25 @@
 		<requirement class="weapon" slot="0" key="ws_flak.weapon"/>
 	</model>
 	<model filename="soldier_s_flakt.xml">
+		<requirement class="weapon" slot="0" key="ws_flak_v.weapon"/>
+	</model>
+	<model filename="soldier_s_flakt.xml">
 		<requirement class="weapon" slot="0" key="ws_flak_e.weapon"/>
 	</model>
 	<model filename="soldier_s_ivan.xml">
 		<requirement class="weapon" slot="0" key="ws_knife.weapon"/>
 	</model>
 	<model filename="soldier_s_ivan.xml">
+		<requirement class="weapon" slot="0" key="ws_knife_v.weapon"/>
+	</model>
+	<model filename="soldier_s_ivan.xml">
 		<requirement class="weapon" slot="0" key="ws_knife_e.weapon"/>
 	</model>
 	<model filename="soldier_s_teslat.xml">
 		<requirement class="weapon" slot="0" key="ws_tesla.weapon"/>
+	</model>
+	<model filename="soldier_s_teslat.xml">
+		<requirement class="weapon" slot="0" key="ws_tesla_v.weapon"/>
 	</model>
 	<model filename="soldier_s_teslat.xml">
 		<requirement class="weapon" slot="0" key="ws_tesla_e.weapon"/>
@@ -37,85 +52,5 @@
 	</model>
 	<model filename="soldier_s_boris.xml">
 		<requirement class="weapon" slot="0" key="ws_akm_1.weapon"/>
-	</model>
-
-	<model filename="soldier_s_gi.xml">
-		<requirement class="weapon" slot="0" key="wa_ump40.weapon"/>
-	</model>
-	<model filename="soldier_s_gi.xml">
-		<requirement class="weapon" slot="0" key="wa_ump40_e.weapon"/>
-	</model>
-	<model filename="soldier_s_gi.xml">
-		<requirement class="weapon" slot="0" key="wa_m60.weapon"/>
-	</model>
-	<model filename="soldier_s_gi.xml">
-		<requirement class="weapon" slot="0" key="wa_m60_e.weapon"/>
-	</model>
-	<model filename="soldier_s_chrono.xml">
-		<requirement class="weapon" slot="0" key="wa_chrono.weapon"/>
-	</model>
-	<model filename="soldier_s_chrono.xml">
-		<requirement class="weapon" slot="0" key="wa_chrono_e.weapon"/>
-	</model>
-	<model filename="soldier_s_ggi.xml">
-		<requirement class="weapon" slot="0" key="wa_stoner_lmg.weapon"/>
-	</model>
-	<model filename="soldier_s_ggi.xml">
-		<requirement class="weapon" slot="0" key="wa_stoner_lmg_e.weapon"/>
-	</model>
-	<model filename="soldier_s_rocketeer.xml">
-		<requirement class="weapon" slot="0" key="wa_rocketeer.weapon"/>
-	</model>
-	<model filename="soldier_s_rocketeer.xml">
-		<requirement class="weapon" slot="0" key="wa_rocketeer_e.weapon"/>
-	</model>
-	<model filename="soldier_s_seal.xml">
-		<requirement class="weapon" slot="0" key="wa_p90.weapon"/>
-	</model>
-	<model filename="soldier_s_seal.xml">
-		<requirement class="weapon" slot="0" key="wa_p90_e.weapon"/>
-	</model>
-	<model filename="soldier_s_sniper.xml">
-		<requirement class="weapon" slot="0" key="wa_awp.weapon"/>
-	</model>
-	<model filename="soldier_s_sniper.xml">
-		<requirement class="weapon" slot="0" key="wa_awp_e.weapon"/>
-	</model>
-	<model filename="soldier_camouflage_suit.xml">
-		<requirement class="weapon" slot="0" key="wa_mp5sd.weapon"/>
-	</model>
-	<model filename="soldier_s_tanya.xml">
-		<requirement class="weapon" slot="0" key="wa_colt_m1911.weapon"/>
-	</model>
-	<model filename="soldier_s_tanya.xml">
-		<requirement class="weapon" slot="0" key="wa_colt_m1911_1.weapon"/>
-	</model>
-	
-	<model filename="soldier_s_initiate.xml">
-		<requirement class="weapon" slot="0" key="wy_psychic_jab.weapon"/>
-	</model>
-	<model filename="soldier_s_initiate.xml">
-		<requirement class="weapon" slot="0" key="wy_psychic_jab_e.weapon"/>
-	</model>
-	<model filename="soldier_s_brute.xml">
-		<requirement class="weapon" slot="0" key="wy_fist.weapon"/>
-	</model>
-	<model filename="soldier_s_brute.xml">
-		<requirement class="weapon" slot="0" key="wy_fist_e.weapon"/>
-	</model>
-	<model filename="soldier_s_virus.xml">
-		<requirement class="weapon" slot="0" key="wy_virus.weapon"/>
-	</model>
-	<model filename="soldier_s_virus.xml">
-		<requirement class="weapon" slot="0" key="wy_virus_e.weapon"/>
-	</model>
-	<model filename="soldier_s_psicorp.xml">
-		<requirement class="weapon" slot="0" key="wy_mind_control.weapon"/>
-	</model>
-	<model filename="soldier_s_psicorp.xml">
-		<requirement class="weapon" slot="0" key="wy_mind_control_e.weapon"/>
-	</model>
-	<model filename="soldier_s_yuri.xml">
-		<requirement class="weapon" slot="0" key="wy_yuri.weapon"/>
 	</model>
 </models>

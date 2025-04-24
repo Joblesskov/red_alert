@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wa_stoner_lmg.weapon" key="wa_stoner_lmg_v.weapon">
+    <specification 
+    accuracy_factor="1.0" 
+    magazine_size="100" 
+    name="Stoner LMG (Veteran)" 
+    projectile_speed="132.0" />
+    
+    <commonness value="100" />    
+    <inventory price="20" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.2" />
+    <hud_icon filename="hud_ggi_v.png" />
+	<addon_model filename="veteran.xml" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.64" kill_decay_start_time="0.33" kill_decay_end_time="0.55" />
+    </projectile> 
+    
+	<modifier class="speed" value="+0.03" />
+	<modifier class="hit_success_probability" value="-0.08" />
+</weapon>

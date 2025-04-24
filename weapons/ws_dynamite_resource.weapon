@@ -14,8 +14,7 @@
     sight_range_modifier="1" 
     slot="1"
     deployment="0" />
-    <drop_on_death_result class="spawn" instance_class="projectile" instance_key="dynamite_death.projectile" min_amount="1" max_amount="1" offset="0 1 0" position_spread="0 0" direction_spread="0.01 0.01" />    
-
+    
     <animation state_key="recoil" 		animation_key="claymore deploy" />
     <animation state_key="hold" 		animation_key="still, single hand carry" />
     <animation state_key="hold_on_wall" 	animation_key="still, single hand carry" />

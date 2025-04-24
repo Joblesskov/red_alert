@@ -117,7 +117,7 @@
 		</attribute_config>
 	</soldier>
 	
-	100~1000 3000~6000
+	100~1000 2000~3000
 	<soldier name="gi" spawn_score="1.0">
 		<character filename="default_male.character">
 			<sound key="death" fileref="igidia.wav" volume="0.5" />
@@ -132,6 +132,8 @@
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_ump40.weapon" />
 			<weapon key="wa_m60.weapon" />
+			<weapon key="wa_ump40_v.weapon" />
+			<weapon key="wa_m60_v.weapon" />
 
 			<weapon key="medikit.weapon" />
 			<weapon key="riot_shield.weapon" />
@@ -154,10 +156,10 @@
 		</attribute_config>
 		<attribute_config class="xp">
 			<attribute weight="1.0" min="0.01" max="0.1" />
-			<attribute weight="0.3" min="0.3" max="0.6" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
 		</attribute_config>
 	</soldier>
-	200~2000 4000~6000
+	100~1000 2000~3000
 	<soldier name="ggi" spawn_score="0.3">
 		<character filename="default_male.character">
 			<sound key="death" fileref="iggidia.wav" volume="0.5" />
@@ -171,7 +173,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_stoner_lmg.weapon" />
-			<weapon key="wa_stoner_lmg.weapon" />
+			<weapon key="wa_stoner_lmg_v.weapon" />
 
 			<weapon key="wa_javelin.weapon" />
 
@@ -191,8 +193,8 @@
 			<attribute weight="1.0" min="0.0" max="0.0" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.02" max="0.2" />
-			<attribute weight="0.3" min="0.4" max="0.6" />
+			<attribute weight="1.0" min="0.01" max="0.1" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
 		</attribute_config>
 	</soldier>
 	0~0
@@ -258,7 +260,7 @@
 			<attribute weight="1.0" min="0.3" max="1.0" />
 		</attribute_config>
 	</soldier>
-	5000~10000 15000~30000
+	4000~6000 12000~18000
 	<soldier name="seal" spawn_score="0.18">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="iseadia.wav" volume="0.5" />
@@ -270,7 +272,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_p90.weapon" />
-			<weapon key="wa_p90.weapon" />
+			<weapon key="wa_p90_v.weapon" />
 
 			<weapon key="medikit.weapon" />
 			
@@ -297,11 +299,11 @@
 			<attribute weight="1.0" min="1000" max="1000" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.5" max="1.0" />
-			<attribute weight="0.3" min="1.5" max="3.0" />
+			<attribute weight="1.0" min="0.4" max="0.6" />
+			<attribute weight="0.3" min="1.2" max="1.8" />
 		</attribute_config>
 	</soldier>
-	5000~10000 15000~30000
+	6000~9000 12000~18000
 	<soldier name="sniper" spawn_score="0.15">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="isnidia.wav" volume="0.5" />
@@ -313,7 +315,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_awp.weapon" />
-			<weapon key="wa_awp.weapon" />
+			<weapon key="wa_awp_v.weapon" />
 
 			<carry_item key="vest_none2.carry_item" />
 			
@@ -333,11 +335,11 @@
 			<attribute weight="1.0" min="1000" max="1000" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.5" max="1.0" />
-			<attribute weight="0.3" min="1.5" max="3.0" />
+			<attribute weight="1.0" min="0.6" max="0.9" />
+			<attribute weight="0.3" min="1.2" max="1.8" />
 		</attribute_config>
 	</soldier>
-	10000~20000 30000~50000
+	8000~12000 14000~21000
 	<soldier name="rocketeer" spawn_score="0.12">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="irocdiea.wav" volume="0.5" />
@@ -347,7 +349,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_rocketeer.weapon" />
-			<weapon key="wa_rocketeer.weapon" />
+			<weapon key="wa_rocketeer_v.weapon" />
 			
 			<carry_item key="vest_none2.carry_item" />
 			
@@ -367,11 +369,11 @@
 			<attribute weight="1.0" min="1000" max="1000" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="1.0" max="2.0" />
-			<attribute weight="0.3" min="3.0" max="5.0" />
+			<attribute weight="1.0" min="0.8" max="1.2" />
+			<attribute weight="0.3" min="1.4" max="2.1" />
 		</attribute_config>
 	</soldier>
-	20000~50000 60000~100000
+	10000~15000 20000~30000
 	<soldier name="chrono" spawn_score="0.05">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="ichrdia.wav" volume="0.5" />
@@ -383,7 +385,7 @@
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_chrono.weapon" />
-			<weapon key="wa_chrono.weapon" />
+			<weapon key="wa_chrono_v.weapon" />
 
 			<carry_item key="vest_none2.carry_item" />
 		</resources>
@@ -399,22 +401,25 @@
 			<attribute weight="1.0" min="0.0" max="0.0" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="2.0" max="5.0" />
-			<attribute weight="0.3" min="6.0" max="10.0" />
+			<attribute weight="1.0" min="1.0" max="1.5" />
+			<attribute weight="0.3" min="2.0" max="3.0" />
 		</attribute_config>
 	</soldier>
-	15000~30000
+	6000~9000 14000~21000
 	<soldier name="spy" spawn_score="0.05" squad_size_xp_cap="0.0">
 		<character filename="default_miniboss_male.character">
 			<sound key="death" fileref="ispydia.wav" volume="0.5" />
 			<sound key="death" fileref="ispydib.wav" volume="0.5" />
 			<sound key="death" fileref="ispydic.wav" volume="0.5" />
 		</character>
-		<ai filename="lonewolf.ai" />
+		<ai filename="lonewolf.ai">
+			<parameter class="force_as_leader" value="1" />
+		</ai>
 		<models file="green_default.models" />
 
 		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
 			<weapon key="wa_mp5sd.weapon" />
+			<weapon key="wa_mp5sd_v.weapon" />
 
 			<carry_item key="vest_flak1.carry_item" />
 			
@@ -433,7 +438,8 @@
 			<attribute weight="1.0" min="200" max="300" />
 		</attribute_config>
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="1.5" max="3.0" />
+			<attribute weight="1.0" min="0.6" max="0.9" />
+			<attribute weight="0.3" min="1.4" max="2.1" />
 		</attribute_config>
 	</soldier>
 	100000

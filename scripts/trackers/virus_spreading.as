@@ -17,6 +17,7 @@ class VirusSpreading : Tracker {
 
 	array<string> virusKeys = {
 		"wy_virus.weapon",
+		"wy_virus_v.weapon",
 		"wy_virus_e.weapon",
 		"vw_magnetron_mg.weapon",
 		"virus_cloud_sub.projectile",

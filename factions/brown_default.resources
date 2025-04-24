@@ -4,17 +4,17 @@
     <weapon key="ws_akm.weapon" />
     <weapon key="ws_akm_1.weapon" />
     <weapon key="ws_desolator.weapon" />
-    <weapon key="ws_desolator_e.weapon" />
+    <weapon key="ws_desolator_v.weapon" />
     <weapon key="ws_dynamite_resource.weapon" />
     <weapon key="ws_flak.weapon" />
-    <weapon key="ws_flak_e.weapon" />
+    <weapon key="ws_flak_v.weapon" />
     <weapon key="ws_knife.weapon" />
-    <weapon key="ws_knife_e.weapon" />
+    <weapon key="ws_knife_v.weapon" />
     <weapon key="ws_ppsh41.weapon" />
-    <weapon key="ws_ppsh41_e.weapon" />
+    <weapon key="ws_ppsh41_v.weapon" />
     <weapon key="ws_rpg-7.weapon" />
     <weapon key="ws_tesla.weapon" />
-    <weapon key="ws_tesla_e.weapon" />
+    <weapon key="ws_tesla_v.weapon" />
     
 	<weapon key="resource_sentry_gun.weapon" />
 	<weapon key="resource_battle_bunker.weapon" />

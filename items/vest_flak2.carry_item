@@ -3,7 +3,7 @@
     <carry_item key="vest_flak2.carry_item" name="flak armor II" slot="1" transform_on_consume="vest_flak2_1" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_flak2.png" />
         <model />
-        <inventory encumbrance="0" price="15" />
+        <inventory encumbrance="10" price="15" />
         <commonness value="1" in_stock="1" can_respawn_with="1" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -15,13 +15,13 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="-0.15" />
+        <modifier class="hit_success_probability" value="-0.20" />
     </carry_item>
 
     <carry_item key="vest_flak2_1" name="flak armor II, 3/4" slot="1" transform_on_consume="vest_flak2_2" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_flak2_1.png" />
         <model />
-        <inventory encumbrance="0" price="5" />
+        <inventory encumbrance="10" price="5" />
         <commonness value="0" in_stock="0" can_respawn_with="1" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
@@ -33,13 +33,13 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="-0.15" />
+        <modifier class="hit_success_probability" value="-0.20" />
     </carry_item>
 
     <carry_item key="vest_flak2_2" name="flak armor II, 2/4" slot="1" transform_on_consume="vest_flak2_3" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_flak2_2.png" />
         <model />
-        <inventory encumbrance="0" price="2" />
+        <inventory encumbrance="10" price="2" />
         <commonness value="0" in_stock="0" can_respawn_with="1" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" consumes_item="1" />
@@ -51,13 +51,13 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="-0.15" />
+        <modifier class="hit_success_probability" value="-0.20" />
     </carry_item>
 
     <carry_item key="vest_flak2_3" name="flak armor II, 1/4" slot="1" time_to_live_out_in_the_open="0.0">
         <hud_icon filename="hud_vest_flak2_3.png" />
         <model />
-        <inventory encumbrance="0" price="0" />
+        <inventory encumbrance="10" price="0" />
         <commonness value="0" in_stock="0" can_respawn_with="1" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="1" />
@@ -69,6 +69,6 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="-0.15" />
+        <modifier class="hit_success_probability" value="-0.20" />
     </carry_item>
 </carry_items>

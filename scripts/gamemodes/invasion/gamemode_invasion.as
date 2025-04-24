@@ -342,7 +342,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(SupporterCommandHandler(this));
 
 		addTracker(RA2CommandHandler(this));
-		addTracker(MindControl(this));
+		// addTracker(MindControl(this));
 		addTracker(VirusSpreading(this));
 		addTracker(NighthawkGunRun(this));
 		addTracker(AircraftCarrierGunRun(this));
