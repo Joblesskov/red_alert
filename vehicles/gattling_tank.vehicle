@@ -46,8 +46,7 @@
 
 	<!-- sound handling -->
 	<rev_sound filename="truck_rev0.wav" low_pitch="0.85" high_pitch="1.05" low_rev="0.0" high_rev="0.7" volume="1.2" />
-	<rev_sound filename="truck_rev3.wav" low_pitch="0.6" high_pitch="1.1" low_rev="0.15" high_rev="0.8" volume="1.0" />
-	<rev_sound filename="truck_rev4.wav" low_pitch="0.8" high_pitch="1.1" low_rev="0.5" high_rev="1.0" volume="1.0" />
+	<rev_sound filename="vgatstaa.wav" low_pitch="0.7" high_pitch="1.0" low_rev="0.05" high_rev="0.7" volume="1.5" />
 
 	<sound key="slide" filename="slide_noise.wav" />
 	<sound key="squeal" filename="tire_squeal.wav" />

@@ -19,9 +19,6 @@
 	<vehicle file="jeep.vehicle" />
 	<vehicle file="jeep_1.vehicle" /> 
 	<vehicle file="jeep_2.vehicle" />
-	<vehicle file="transport_truck.vehicle" />
-	<vehicle file="transport_truck_1.vehicle" />
-	<vehicle file="transport_truck_2.vehicle" />
 	<vehicle file="transport_a.vehicle" />
 	<vehicle file="transport_s.vehicle" />
 	<vehicle file="transport_y.vehicle" />
