@@ -35,7 +35,7 @@
 
     <hud_icon filename="hud_boris.png" />
     <commonness value="1" can_respawn_with="0" in_stock="1" />
-    <inventory encumbrance="10.0" price="250.0" />
+    <inventory encumbrance="10" price="250.0" />
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="10.0"/>
 

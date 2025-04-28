@@ -43,7 +43,7 @@
     <model filename="desolator.xml" />  
     <hud_icon filename="hud_desolator.png" />
     <commonness value="1" can_respawn_with="1" in_stock="1"/>
-    <inventory encumbrance="12" price="30" />
+    <inventory encumbrance="10" price="30" />
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="0.6"/>
 

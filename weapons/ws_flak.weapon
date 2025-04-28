@@ -53,7 +53,7 @@
     <weak_hand_hold offset="0.3" />
 
     <commonness value="1" can_respawn_with="1" in_stock="1"/>    
-    <inventory encumbrance="30" price="5" />
+    <inventory encumbrance="10" price="5" />
 
     <modifier class="speed" value="-0.15" />
 </weapon>

@@ -136,7 +136,7 @@
 
 			<projectile key="hand_grenade.projectile" />
 
-			<carry_item key="vest_flak1.carry_item" />
+			<carry_item key="vest_flak2.carry_item" />
 		</resources>
 
 		<item_class_existence_config>
@@ -170,11 +170,9 @@
 			<weapon key="ws_flak.weapon" />
 			<weapon key="ws_flak_v.weapon" />
 
-			<weapon key="ws_rpg-7.weapon" />
-
 			<projectile key="impact_grenade.projectile" />
 
-			<carry_item key="vest_none1.carry_item" />
+			<carry_item key="vest_flak1.carry_item" />
 		</resources>
 
 		<item_class_existence_config>
@@ -276,7 +274,7 @@
 
 			<projectile key="dynamite.projectile" />
 
-			<carry_item key="vest_none2.carry_item" />
+			<carry_item key="vest_flak2.carry_item" />
 		</resources>
 		<item_class_existence_config>
 			<item_class_existence class="weapon" slot="1" probability="1.0" />

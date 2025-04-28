@@ -41,7 +41,7 @@
     <projectiles_per_shot value="1" />
     <weak_hand_hold offset="0.3" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="1.0" kill_probability_offset_on_successful_hit="3.0" kill_decay_start_time="0.55" kill_decay_end_time="0.8" />
+        <result class="hit" kill_probability="1.25" kill_probability_offset_on_successful_hit="2.75" kill_decay_start_time="0.55" kill_decay_end_time="0.8" />
         <effect class="result" key="character" ref="BloodSplat50Cal" lighting="1" />
         <effect class="result" key="character" ref="BurstShine50Cal" lighting="1" post_processing="0" />
     </projectile>

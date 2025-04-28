@@ -55,6 +55,7 @@
 #include "disc.as"
 #include "mutation.as"
 #include "sell_building.as"
+#include "brute_corresponding.as"
 
 // --------------------------------------------
 class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
@@ -349,6 +350,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(DiscGunRun(this));
 		addTracker(Mutation(this));
 		addTracker(SellBuiding(this));
+		addTracker(BruteCorresponding(this));
 	}
 
 	// --------------------------------------------

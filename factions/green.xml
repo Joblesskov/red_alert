@@ -141,7 +141,7 @@
 
 			<projectile key="hand_grenade.projectile" />
 
-			<carry_item key="vest_none1.carry_item" />
+			<carry_item key="vest_flak2.carry_item" />
 		</resources>
 
 		<item_class_existence_config>
@@ -317,7 +317,7 @@
 			<weapon key="wa_awp.weapon" />
 			<weapon key="wa_awp_v.weapon" />
 
-			<carry_item key="vest_none2.carry_item" />
+			<carry_item key="vest_flak2.carry_item" />
 			
 			<call key="paratroopers1a.call" />
 			<call key="paratroopers2a.call" />
@@ -351,7 +351,7 @@
 			<weapon key="wa_rocketeer.weapon" />
 			<weapon key="wa_rocketeer_v.weapon" />
 			
-			<carry_item key="vest_none2.carry_item" />
+			<carry_item key="vest_flak2.carry_item" />
 			
 			<call key="harrier.call" />
 			<call key="black_eagle.call" />
@@ -387,7 +387,7 @@
 			<weapon key="wa_chrono.weapon" />
 			<weapon key="wa_chrono_v.weapon" />
 
-			<carry_item key="vest_none2.carry_item" />
+			<carry_item key="vest_flak2.carry_item" />
 		</resources>
 
 		<item_class_existence_config>
@@ -496,7 +496,7 @@
 
 			<projectile key="hand_grenade.projectile" />
 
-			<carry_item key="vest2.carry_item" />
+			<carry_item key="flak2.carry_item" />
 		</resources>
 
 		<item_class_existence_config>
@@ -505,7 +505,6 @@
 
 		<attribute_config class="xp">
 			<attribute weight="1.0" min="0.01" max="0.1" />
-			<attribute weight="0.3" min="0.3" max="0.6" />
 		</attribute_config>
 	</soldier>
 

@@ -35,13 +35,20 @@
     
     <ballistics curve_height="8.0" near_far_distance="4.0" speed_estimation_near="70.0" speed_estimation_far="70.0" max_speed="70.0" randomness="0.0" tweak_factor="1.5" /> 
 
-    <projectile file="javelin.projectile" />
+    <projectile file="javelin.projectile">
+    <result class="blast" 
+        radius="3.5" 
+        damage="4.9" 
+        push="0.3" 
+        decal="1" 
+        damage_origin_vehicle="0" />
+    </projectile>
     <weak_hand_hold offset="-0.35" />
 
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="2" source="rank" source_value="0.1" />
-    <capacity value="3" source="rank" source_value="0.4" />      
-    <capacity value="4" source="rank" source_value="0.8" />
+    <capacity value="2" source="rank" source_value="0.01" />
+    <capacity value="3" source="rank" source_value="0.2" />      
+    <capacity value="4" source="rank" source_value="0.4" />
 
     <hud_icon filename="hud_javelin.png" />
     <commonness value="1" can_respawn_with="1" in_stock="1" />

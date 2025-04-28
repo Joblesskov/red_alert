@@ -133,7 +133,7 @@
 
 			<weapon key="medikit.weapon" />
 
-			<carry_item key="vest_none1.carry_item" />
+			<carry_item key="vest_flak1.carry_item" />
 		</resources>
 
 		<item_class_existence_config>
@@ -201,7 +201,7 @@
 			<weapon key="wy_fist.weapon" />
 			<weapon key="wy_fist_v.weapon" />
 
-			<carry_item key="vest_plate2.carry_item" />
+			<carry_item key="vest_brute.carry_item" />
 		</resources>
 		<item_class_existence_config>
 			<item_class_existence class="weapon" slot="1" probability="0.0" />
@@ -233,7 +233,7 @@
 			<weapon key="wy_virus.weapon" />
 			<weapon key="wy_virus_v.weapon" />
 
-			<carry_item key="vest_none1.carry_item" />
+			<carry_item key="vest_flak1.carry_item" />
 
 			<call key="paratroopers1y.call" />
 			<call key="paratroopers2y.call" />
@@ -275,7 +275,7 @@
 
 			<projectile key="psychic_blast.projectile" />
 
-			<carry_item key="vest_none1.carry_item" />
+			<carry_item key="vest_flak1.carry_item" />
 			
 			<call key="paratroopers1y.call" />
 			<call key="paratroopers2y.call" />
@@ -352,7 +352,7 @@
 		</item_class_existence_config>
 
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.02" max="0.2" />
+			<attribute weight="1.0" min="0.01" max="0.1" />
 		</attribute_config>
 	</soldier>
 

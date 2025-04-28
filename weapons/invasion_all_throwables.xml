@@ -18,12 +18,15 @@
     <projectile file="genobomb.projectile" />
     <projectile file="genobomb_sub.projectile" />
     <projectile file="hand_grenade.projectile" />
+    <projectile file="hand_grenade_blast.projectile" />
+    <projectile file="harrier_missile.projectile" />
     <projectile file="hornet_missile.projectile" />
+    <projectile file="hover_missile.projectile" />
+    <projectile file="hover_missile_blast.projectile" />
     <projectile file="impact_grenade.projectile" />
+    <projectile file="impact_grenade_blast.projectile" />
     <projectile file="iron_curtain.projectile" />
     <projectile file="javelin.projectile" />
-    <projectile file="harrier_missile.projectile" />
-    <projectile file="hover_missile.projectile" />
     <projectile file="laser.projectile" />
     <projectile file="lightning_bolt.projectile" />
     <projectile file="magnetic_beam.projectile" />

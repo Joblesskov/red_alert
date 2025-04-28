@@ -44,7 +44,7 @@
 	<hud_icon filename="hud_ivan.png" />
 	
 	<commonness value="1" can_respawn_with="1" in_stock="1"/>
-	<inventory encumbrance="5" price="3" />
+	<inventory encumbrance="10" price="3" />
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="0.1"/>
 	
