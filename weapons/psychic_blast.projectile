@@ -4,7 +4,7 @@
     <result class="spawn" 
         instance_class="projectile" 
         instance_key="psychic_blast_sub.projectile"
-        min_amount="4" max_amount="4" 
+        min_amount="6" max_amount="6" 
         offset="0 0 0" 
         position_spread="0 0" 
         direction_spread="0 0" />

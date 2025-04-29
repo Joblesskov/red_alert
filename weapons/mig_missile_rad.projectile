@@ -3,8 +3,8 @@
     <result class="spawn" 
         instance_class="grenade" 
         instance_key="rad_eruption_sub.projectile" 
-        min_amount="4" 
-        max_amount="6" 
+        min_amount="3" 
+        max_amount="4" 
         offset="0 4 0" 
         position_spread="6 -4" 
         direction_spread="0.0 0.0" />  

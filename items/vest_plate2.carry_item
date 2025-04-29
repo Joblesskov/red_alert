@@ -15,7 +15,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 
     <carry_item key="vest_plate2_1" name="plate armor II, 7/8" slot="1" transform_on_consume="vest_plate2_2" time_to_live_out_in_the_open="0.0">
@@ -33,7 +33,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 
     <carry_item key="vest_plate2_2" name="plate armor II, 6/8" slot="1" transform_on_consume="vest_plate2_3" time_to_live_out_in_the_open="0.0">
@@ -51,7 +51,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 
     <carry_item key="vest_plate2_3" name="plate armor II, 5/8" slot="1" transform_on_consume="vest_plate2_4" time_to_live_out_in_the_open="0.0">
@@ -69,7 +69,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 
     <carry_item key="vest_plate2_4" name="plate armor II, 4/8" slot="1" transform_on_consume="vest_plate2_5" time_to_live_out_in_the_open="0.0">
@@ -87,7 +87,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 
     <carry_item key="vest_plate2_5" name="plate armor II, 3/8" slot="1" transform_on_consume="vest_plate2_6" time_to_live_out_in_the_open="0.0">
@@ -105,7 +105,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 
     <carry_item key="vest_plate2_6" name="plate armor II, 2/8" slot="1" transform_on_consume="vest_plate2_7" time_to_live_out_in_the_open="0.0">
@@ -123,7 +123,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 
     <carry_item key="vest_plate2_7" name="plate armor II, 1/8" slot="1" time_to_live_out_in_the_open="0.0">
@@ -141,6 +141,6 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="death" consumes_item="1" />
 		<modifier class="melee_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-        <modifier class="hit_success_probability" value="+0.5" />
+        <modifier class="hit_success_probability" value="+0.4" />
     </carry_item>
 </carry_items>

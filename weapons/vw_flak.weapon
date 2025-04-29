@@ -20,7 +20,7 @@
     <hud_icon filename="hud_apc.png" />
     <commonness value="0.0" />
 
-    <ballistics curve_height="4.0" near_far_distance="4.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" randomness="0.0" tweak_factor="2.55" />
+    <ballistics curve_height="4.0" near_far_distance="4.0" speed_estimation_near="200.0" speed_estimation_far="200.0" max_speed="200.0" randomness="0.0" tweak_factor="2.56" />
     <projectile file="flak.projectile" pulldown_in_air="30">
         <result class="blast" 
             radius="4.0" 

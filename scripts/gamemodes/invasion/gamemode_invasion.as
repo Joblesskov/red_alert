@@ -56,6 +56,7 @@
 #include "mutation.as"
 #include "sell_building.as"
 #include "brute_corresponding.as"
+#include "unit_promote.as"
 
 // --------------------------------------------
 class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
@@ -343,7 +344,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(SupporterCommandHandler(this));
 
 		addTracker(RA2CommandHandler(this));
-		// addTracker(MindControl(this));
+		addTracker(MindControl(this));
 		addTracker(VirusSpreading(this));
 		addTracker(NighthawkGunRun(this));
 		addTracker(AircraftCarrierGunRun(this));
@@ -351,6 +352,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(Mutation(this));
 		addTracker(SellBuiding(this));
 		addTracker(BruteCorresponding(this));
+		addTracker(UnitPromote(this));
 	}
 
 	// --------------------------------------------
@@ -366,7 +368,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(Halloween(this));    // Halloween event only
 		addTracker(Emoticons(this));
 		addTracker(SquadEquipmentKitNavy(this));
-	/*	addTracker(IceTrade(this)); */
+		// addTracker(IceTrade(this));
         addTracker(Offdutyveteran(this));
 		addTracker(MrlManager(this));
 	}

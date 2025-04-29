@@ -19,17 +19,21 @@ class BruteCorresponding : Tracker {
         array<const XmlElement@>@ players = getPlayers(m_metagame);
         if (players.size() > 0) {
             for (int i = 0; i < players.size(); i++) {
+                // get player info
                 const XmlElement@ player = players[i];
                 int characterId = player.getIntAttribute("character_id");
                 const XmlElement@ characterInfo = getCharacterInfo2(m_metagame, characterId);
                 array<const XmlElement@>@ characterItem = characterInfo.getElementsByTagName("item");
 
                 if (characterItem.size() > 0) {
+                    // check corresponding
                     string weapon = characterItem[0].getStringAttribute("key");
                     string vest = characterItem[4].getStringAttribute("key");
                     bool is_weapon_brute = (weapon == "wy_fist.weapon" || weapon == "wy_fist_v.weapon" || weapon == "wy_fist_e.weapon");
                     bool is_vest_brute = startsWith(vest, "vest_b");
-                    if (is_weapon_brute && !is_vest_brute){
+
+                    // force corresponding
+                    if (is_weapon_brute && !is_vest_brute) {
                         XmlElement c("command");
                         c.setStringAttribute("class", "update_inventory");
                         c.setIntAttribute("character_id", characterId); 
@@ -41,7 +45,7 @@ class BruteCorresponding : Tracker {
                             c.appendChild(j);
                         }
                         m_metagame.getComms().send(c);
-                    } else if (!is_weapon_brute && is_vest_brute){
+                    } else if (!is_weapon_brute && is_vest_brute) {
                         XmlElement c("command");
                         c.setStringAttribute("class", "update_inventory");
                         c.setIntAttribute("character_id", characterId); 

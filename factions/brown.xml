@@ -154,6 +154,28 @@
 			<attribute weight="0.3" min="0.2" max="0.3" />
 		</attribute_config>
 	</soldier>
+	<soldier name="conscript_e" spawn_score="0.1" copy_from="conscript">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="ws_ppsh41_e.weapon" />
+
+			<weapon key="medikit.weapon" />
+
+			<projectile key="hand_grenade.projectile" />
+
+			<carry_item key="vest_flak3.carry_item" />
+
+			<call key="paratroopers1a.call" />
+			<call key="mig.call" />
+		</resources>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="120" max="200" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.2" />
+		</attribute_config>
+	</soldier>
+
 	100~1000 2000~3000
 	<soldier name="flak" spawn_score="0.3">
 		<character filename="default_male.character">
@@ -190,6 +212,26 @@
 			<attribute weight="0.3" min="0.2" max="0.3" />
 		</attribute_config>
 	</soldier>
+	<soldier name="flak_e" spawn_score="0.03" copy_from="flak">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="ws_flak_e.weapon" />
+
+			<projectile key="impact_grenade.projectile" />
+
+			<carry_item key="vest_flak3.carry_item" />
+
+			<call key="paratroopers1s.call" />
+			<call key="siege_chopper.call" />
+		</resources>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="120" max="200" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.2" />
+		</attribute_config>
+	</soldier>
+
 	0~0
 	<soldier name="dog" spawn_score="0.1">
 		<character filename="dog.character">
@@ -290,6 +332,22 @@
 			<attribute weight="0.3" min="0.4" max="0.45" />
 		</attribute_config>
 	</soldier>
+	<soldier name="ivan_e" spawn_score="0.015" copy_from="ivan">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="ws_knife_e.weapon" />
+
+			<weapon key="ws_dynamite_resource.weapon" />
+
+			<projectile key="dynamite.projectile" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.8" max="1.0" />
+		</attribute_config>
+	</soldier>
+
 	4000~6000 12000~18000
 	<soldier name="tesla" spawn_score="0.25">
 		<character filename="default_miniboss_male.character">
@@ -326,6 +384,25 @@
 			<attribute weight="0.3" min="1.2" max="1.8" />
 		</attribute_config>
 	</soldier>
+	<soldier name="tesla_e" spawn_score="0.025" copy_from="tesla">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="ws_tesla_e.weapon" />
+
+			<carry_item key="vest_plate3.carry_item" />
+
+			<call key="paratroopers1s.call" />
+			<call key="paratroopers2s.call" />
+			<call key="mig.call" />
+		</resources>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="200" max="300" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="2.0" max="3.0" />
+		</attribute_config>
+	</soldier>
+
 	6000~9000 14000~21000
 	<soldier name="desolator" spawn_score="0.15">
 		<character filename="default_miniboss_male.character">
@@ -366,6 +443,24 @@
 			<attribute weight="0.3" min="1.4" max="2.1" />
 		</attribute_config>
 	</soldier>
+	<soldier name="desolator_e" spawn_score="0.015" copy_from="desolator">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="ws_desolator_e.weapon" />
+
+			<projectile key="rad_eruption.projectile" />
+
+			<carry_item key="vest_plate3.carry_item" />
+
+			<call key="paratroopers1s.call" />
+			<call key="paratroopers2s.call" />
+			<call key="siege_chopper.call" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="4.0" max="5.0" />
+		</attribute_config>
+	</soldier>
+
 	100000
 	<soldier name="boris" spawn_score="0.03">
 		<character filename="default_miniboss_male.character">
@@ -424,5 +519,634 @@
 
 	<soldier name="prisoner" spawn_score="0" copy_from="conscript">
 
+	</soldier>
+
+	100~1000 2000~3000
+	<soldier name="gi" spawn_score="0">
+		<character filename="default_male.character">
+			<sound key="death" fileref="igidia.wav" volume="0.5" />
+			<sound key="death" fileref="igidib.wav" volume="0.5" />
+			<sound key="death" fileref="igidic.wav" volume="0.5" />
+			<sound key="death" fileref="igidid.wav" volume="0.5" />
+			<sound key="death" fileref="igidie.wav" volume="0.5" />
+		</character>
+		<ai filename="default.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_ump40.weapon" />
+			<weapon key="wa_m60.weapon" />
+			<weapon key="wa_ump40_v.weapon" />
+			<weapon key="wa_m60_v.weapon" />
+
+			<weapon key="medikit.weapon" />
+			<weapon key="riot_shield.weapon" />
+			<weapon key="cover_resource.weapon" />
+
+			<projectile key="hand_grenade.projectile" />
+
+			<carry_item key="vest_flak2.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.5" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.6" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.01" max="0.1" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
+		</attribute_config>
+	</soldier>
+	<soldier name="gi_e" spawn_score="0" copy_from="gi">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_ump40_e.weapon" />
+			<weapon key="wa_m60_e.weapon" />
+
+			<weapon key="medikit.weapon" />
+			<weapon key="riot_shield.weapon" />
+			<weapon key="cover_resource.weapon" />
+
+			<projectile key="hand_grenade.projectile" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="120" max="200" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.2" />
+		</attribute_config>
+	</soldier>
+
+	100~1000 2000~3000
+	<soldier name="ggi" spawn_score="0">
+		<character filename="default_male.character">
+			<sound key="death" fileref="iggidia.wav" volume="0.5" />
+			<sound key="death" fileref="iggidib.wav" volume="0.5" />
+			<sound key="death" fileref="iggidic.wav" volume="0.5" />
+			<sound key="death" fileref="iggidid.wav" volume="0.5" />
+			<sound key="death" fileref="iggidie.wav" volume="0.5" />
+		</character>
+		<ai filename="tankhunter.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_stoner_lmg.weapon" />
+			<weapon key="wa_stoner_lmg_v.weapon" />
+
+			<weapon key="wa_javelin.weapon" />
+
+			<projectile key="impact_grenade.projectile" />
+
+			<carry_item key="vest_plate1.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.01" max="0.1" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
+		</attribute_config>
+	</soldier>
+	<soldier name="ggi_e" spawn_score="0" copy_from="ggi">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_stoner_lmg_e.weapon" />
+
+			<weapon key="wa_javelin.weapon" />
+
+			<projectile key="impact_grenade.projectile" />
+
+			<carry_item key="vest_plate3.carry_item" />
+		</resources>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="120" max="200" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.2" />
+		</attribute_config>
+	</soldier>
+
+	4000~6000 12000~18000
+	<soldier name="seal" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="iseadia.wav" volume="0.5" />
+			<sound key="death" fileref="iseadib.wav" volume="0.5" />
+			<sound key="death" fileref="iseadic.wav" volume="0.5" />
+		</character>
+		<ai filename="eod.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_p90.weapon" />
+			<weapon key="wa_p90_v.weapon" />
+
+			<weapon key="medikit.weapon" />
+			
+			<projectile key="stun_grenade.projectile" />
+			<projectile key="c4.projectile" />
+
+			<carry_item key="vest_flak2.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="500" max="1000" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.4" max="0.6" />
+			<attribute weight="0.3" min="1.2" max="1.8" />
+		</attribute_config>
+	</soldier>
+	<soldier name="seal_e" spawn_score="0" copy_from="seal">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_p90_e.weapon" />
+
+			<weapon key="medikit.weapon" />
+			
+			<projectile key="stun_grenade.projectile" />
+			<projectile key="c4.projectile" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="2.0" max="3.0" />
+		</attribute_config>
+	</soldier>
+
+	6000~9000 12000~18000
+	<soldier name="sniper" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="isnidia.wav" volume="0.5" />
+			<sound key="death" fileref="isnidib.wav" volume="0.5" />
+			<sound key="death" fileref="isnidic.wav" volume="0.5" />
+		</character>
+		<ai filename="sniper.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_awp.weapon" />
+			<weapon key="wa_awp_v.weapon" />
+
+			<carry_item key="vest_flak2.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000" max="1000" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.6" max="0.9" />
+			<attribute weight="0.3" min="1.2" max="1.8" />
+		</attribute_config>
+	</soldier>
+	<soldier name="sniper_e" spawn_score="0" copy_from="sniper">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_awp_e.weapon" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="2.0" max="3.0" />
+		</attribute_config>
+	</soldier>
+
+	8000~12000 14000~21000
+	<soldier name="rocketeer" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="irocdiea.wav" volume="0.5" />
+		</character>
+		<ai filename="ranger.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_rocketeer.weapon" />
+			<weapon key="wa_rocketeer_v.weapon" />
+			
+			<carry_item key="vest_flak2.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000" max="1000" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.8" max="1.2" />
+			<attribute weight="0.3" min="1.4" max="2.1" />
+		</attribute_config>
+	</soldier>
+	<soldier name="rocketeer_e" spawn_score="0" copy_from="rocketeer">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_rocketeer_e.weapon" />
+			
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="3.0" max="4.0" />
+		</attribute_config>
+	</soldier>
+
+	10000~15000 20000~30000
+	<soldier name="chrono" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="ichrdia.wav" volume="0.5" />
+			<sound key="death" fileref="ichrdib.wav" volume="0.5" />
+			<sound key="death" fileref="ichrdic.wav" volume="0.5" />
+		</character>
+		<ai filename="elite.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_chrono.weapon" />
+			<weapon key="wa_chrono_v.weapon" />
+
+			<carry_item key="vest_flak2.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.5" />
+			<attribute weight="0.3" min="2.0" max="3.0" />
+		</attribute_config>
+	</soldier>
+	<soldier name="chrono" spawn_score="0" copy_from="chrono">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_chrono_e.weapon" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="5.0" max="6.0" />
+		</attribute_config>
+	</soldier>
+
+	6000~9000 14000~21000
+	<soldier name="spy" spawn_score="0" squad_size_xp_cap="0.0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="ispydia.wav" volume="0.5" />
+			<sound key="death" fileref="ispydib.wav" volume="0.5" />
+			<sound key="death" fileref="ispydic.wav" volume="0.5" />
+		</character>
+		<ai filename="lonewolf.ai">
+			<parameter class="force_as_leader" value="1" />
+		</ai>
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_mp5sd.weapon" />
+			<weapon key="wa_mp5sd_v.weapon" />
+
+			<carry_item key="vest_flak1.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="200" max="300" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.6" max="0.9" />
+			<attribute weight="0.3" min="1.4" max="2.1" />
+		</attribute_config>
+	</soldier>
+	<soldier name="spy_e" spawn_score="0" copy_from="spy">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_mp5sd_e.weapon" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="400" max="600" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="3.0" max="4.0" />
+		</attribute_config>
+	</soldier>
+
+	100000
+	<soldier name="tanya" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="itandia.wav" volume="0.5" />
+			<sound key="death" fileref="itandib.wav" volume="0.5" />
+			<sound key="death" fileref="itandic.wav" volume="0.5" />
+		</character>
+		<ai filename="elite.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wa_colt_m1911.weapon" />
+			<weapon key="wa_colt_m1911_1.weapon" />
+
+			<weapon key="medikit.weapon" />
+			
+			<projectile key="stun_grenade.projectile" />
+			<projectile key="c4.projectile" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1000.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10.0" max="10.1" />
+		</attribute_config>
+	</soldier>
+
+	100~1000 2000~3000
+	<soldier name="initiate" spawn_score="0">
+		<character filename="default_male.character">
+			<sound key="death" fileref="iinidia.wav" volume="0.5" />
+			<sound key="death" fileref="iinidib.wav" volume="0.5" />
+			<sound key="death" fileref="iinidic.wav" volume="0.5" />
+			<sound key="death" fileref="iinidid.wav" volume="0.5" />
+			<sound key="death" fileref="iinidie.wav" volume="0.5" />
+		</character>
+		<ai filename="default.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key="wy_psychic_jab.weapon" />
+			<weapon key="wy_psychic_jab_v.weapon" />
+
+			<weapon key="medikit.weapon" />
+
+			<carry_item key="vest_flak1.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.5" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.01" max="0.1" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
+		</attribute_config>
+	</soldier>
+	<soldier name="initiate_e" spawn_score="0" copy_from="initiate">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wy_psychic_jab_e.weapon" />
+
+			<weapon key="medikit.weapon" />
+
+			<carry_item key="vest_flak1.carry_item" />
+		</resources>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="120" max="200" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.2" />
+		</attribute_config>
+	</soldier>
+
+	100~1000 2000~3000
+	<soldier name="brute" spawn_score="0">
+		<character filename="default_male.character">
+			<sound key="death" fileref="ibrudia.wav" volume="0.5" />
+			<sound key="death" fileref="ibrudib.wav" volume="0.5" />
+			<sound key="death" fileref="ibrudic.wav" volume="0.5" />
+			<sound key="death" fileref="ibrudid.wav" volume="0.5" />
+			<sound key="death" fileref="ibrudie.wav" volume="0.5" />
+		</character>
+		<ai filename="eod.ai">
+			<parameter class="willingness_to_charge" value="0.9" />
+		</ai>
+		<models file="brown_default.models" />
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key="wy_fist.weapon" />
+			<weapon key="wy_fist_v.weapon" />
+
+			<carry_item key="vest_brute.carry_item" />
+		</resources>
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.01" max="0.1" />
+			<attribute weight="0.3" min="0.2" max="0.3" />
+		</attribute_config>
+	</soldier>
+	<soldier name="brute_e" spawn_score="0" copy_from="brute">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wy_fist_e.weapon" />
+
+			<carry_item key="vest_brute.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.2" />
+		</attribute_config>
+	</soldier>
+
+	6000~9000 14000~21000
+	<soldier name="virus" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="ivirdia.wav" volume="0.5" />
+			<sound key="death" fileref="ivirdib.wav" volume="0.5" />
+			<sound key="death" fileref="ivirdic.wav" volume="0.5" />
+			<sound key="death" fileref="ivirdid.wav" volume="0.5" />
+			<sound key="death" fileref="ivirdie.wav" volume="0.5" />
+		</character>
+		<ai filename="sniper.ai" />
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wy_virus.weapon" />
+			<weapon key="wy_virus_v.weapon" />
+
+			<carry_item key="vest_flak1.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="0.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="120" max="300" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.6" max="0.9" />
+			<attribute weight="0.3" min="1.4" max="2.1" />
+		</attribute_config>
+	</soldier>
+	<soldier name="virus_e" spawn_score="0" copy_from="virus">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wy_virus_e.weapon" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="3.0" max="4.0" />
+		</attribute_config>
+	</soldier>
+
+	10000~15000 20000~30000
+	<soldier name="psicorp" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="iyurdia.wav" volume="0.5" />
+			<sound key="death" fileref="iyurdib.wav" volume="0.5" />
+			<sound key="death" fileref="iyurdic.wav" volume="0.5" />
+		</character>
+		<ai filename="sniper.ai" >
+			<parameter class="min_distance_to_throw_grenade" value="0.0" />
+			<parameter class="max_distance_to_throw_grenade" value="6.5" />
+		</ai>
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key="wy_mind_control.weapon" />
+			<weapon key="wy_mind_control_v.weapon" />
+
+			<projectile key="psychic_blast.projectile" />
+
+			<carry_item key="vest_flak1.carry_item" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1000.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.5" />
+			<attribute weight="0.3" min="2.0" max="3.0" />
+		</attribute_config>
+	</soldier>
+	<soldier name="psicorp_e" spawn_score="0" copy_from="psicorp">
+		<resources clear_weapons="1" clear_calls="1" clear_carry_items="1" clear_grenades="1">
+			<weapon key="wy_mind_control_e.weapon" />
+
+			<projectile key="psychic_blast.projectile" />
+
+			<carry_item key="vest_flak3.carry_item" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="4.0" max="5.0" />
+		</attribute_config>
+	</soldier>
+
+	100000
+	<soldier name="yuri" spawn_score="0">
+		<character filename="default_miniboss_male.character">
+			<sound key="death" fileref="iyupdia.wav" volume="0.5" />
+			<sound key="death" fileref="iyupdib.wav" volume="0.5" />
+			<sound key="death" fileref="iyupdic.wav" volume="0.5" />
+			<sound key="death" fileref="iyupdid.wav" volume="0.5" />
+		</character>
+		<ai filename="elite.ai">
+			<parameter class="min_distance_to_throw_grenade" value="0.0" />
+			<parameter class="max_distance_to_throw_grenade" value="6.5" />
+		</ai>
+		<models file="brown_default.models" />
+
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key="wy_yuri.weapon" />
+
+			<projectile key="psychic_blast.projectile" />
+
+			<carry_item key="vest_flak2.carry_item" />
+			
+			<call key="paratroopers1y.call" />
+			<call key="paratroopers2y.call" />
+			<call key="disc.call" />
+			<call key="toxic_strike.call" />
+			<call key="genetic_strike.call" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="1000.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10.0" max="10.1" />
+		</attribute_config>
 	</soldier>
 </faction>

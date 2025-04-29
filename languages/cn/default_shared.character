@@ -2,6 +2,8 @@
 <character filename="default_base.character">
   <!-- defined in default.character for differentiation, see maps/lobby/default.character too -->
 <!--  <comment key="Hmm, no signal" text="嗯...没有信号"/> -->
+  <comment key="unit promoted" text="我升级了" />
+  <comment key="unit promoted reward" text="&#37;weapon_name 已添加至储藏处" />
   <comment key="Driver, abandon vehicle" text="司机，弃车" />
   <comment key="Driver, abandon vehicle" text="司机，跳车" />
   <comment key="Gunner, abandon vehicle" text="枪手，弃车" />

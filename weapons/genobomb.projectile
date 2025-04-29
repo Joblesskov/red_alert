@@ -5,7 +5,7 @@
     <result class="spawn" 
         instance_class="projectile" 
         instance_key="genobomb_sub.projectile"
-        min_amount="3" max_amount="3" 
+        min_amount="4" max_amount="4" 
         offset="0 1 0" 
         position_spread="0 0" 
         direction_spread="0 0" />

@@ -23,8 +23,10 @@ class MindControl : Tracker {
 		// immune to mind control
 		array<string> immuneKeys = {
 			"wy_mind_control.weapon",
+			"wy_mind_control_v.weapon",
 			"wy_mind_control_e.weapon",
 			"wy_fist.weapon",
+			"wy_fist_v.weapon",
 			"wy_fist_e.weapon",
 			"ws_akm.weapon",
 			"ws_akm_1.weapon",
