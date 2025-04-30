@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="ws_flak.weapon" key="ws_flak_v.weapon">
     <specification 
-        retrigger_time="0.5" 
+        retrigger_time="0.36" 
         accuracy_factor="0.94" 
-        sustained_fire_grow_step="0.25" 
+        sustained_fire_grow_step="0.2" 
         magazine_size="20" 
         name="Flak Gun (Veteran)"/>
 

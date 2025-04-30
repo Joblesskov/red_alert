@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="ws_ppsh41.weapon" key="ws_ppsh41_e.weapon">
+<weapon file="ws_ppsh41_v.weapon" key="ws_ppsh41_e.weapon">
 	<specification 
 	accuracy_factor="0.95"
-	sustained_fire_grow_step="0.225" 
-	sustained_fire_diminish_rate="2.25"
 	spread_range="0.225"
 	name="PPSh-41 (Elite)" 
-	projectile_speed="110.0"/>
-    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
-    <inventory price="120.0" />
-    <capacity value="0" source="rank" source_value="0.0"/>
-    <capacity value="1" source="rank" source_value="0.3"/>
-	<hud_icon filename="hud_conscript_e.png" />
+	sight_range_modifier="1.1"/>
+
+    <commonness value="1" can_respawn_with="0" in_stock="0"/>    
+    <inventory price="0" />
+    <hud_icon filename="hud_conscript_e.png" />
 	<addon_model filename="elite.xml" />
+
     <projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.55"
-		kill_decay_start_time="0.36"
-		kill_decay_end_time="0.45"/>
+		<result class="hit"
+		kill_probability="0.60"
+		kill_decay_start_time="0.37"
+		kill_decay_end_time="0.48"/>
         <trail probability="1" key="BulletEliteTrail"/>
 	</projectile>
-	<modifier class="speed" value="+0.1" />
-	<modifier class="hit_success_probability" value="-0.1" />
 </weapon>
 

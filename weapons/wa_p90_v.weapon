@@ -15,7 +15,8 @@
 	<addon_model filename="veteran.xml" />
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.66" 
+        <result class="hit" 
+        kill_probability="0.66" 
         kill_decay_start_time="0.25" 
         kill_decay_end_time="0.46" />
     </projectile>

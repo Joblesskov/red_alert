@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="ws_knife.weapon" key="ws_knife_e.weapon" >
+<weapon file="ws_knife_v.weapon" key="ws_knife_e.weapon" >
     <specification
     name="Knife (Elite)" 
-    range="3.0"
-	damage="3.0"
-    stab_range="3.0" />
+    range="2.5"
+	stab_range="2" />
 
-    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
-    <inventory price="110.0" />
-    <capacity value="0" source="rank" source_value="0.1"/>
-    <capacity value="1" source="rank" source_value="0.3"/>
-	<hud_icon filename="hud_ivan_e.png" />
+	<animation state_key="recoil"			animation_key="stabbing, very fast" />
+
+    <commonness value="1" can_respawn_with="0" in_stock="0"/>    
+    <inventory price="0" />
+    <hud_icon filename="hud_ivan_e.png" />
 	<addon_model filename="elite.xml" />
 
 	<modifier class="speed" value="+0.2" />
-	<modifier class="hit_success_probability" value="-0.2" />
+	<modifier class="hit_success_probability" value="-0.4" />
 	<shield offset="-0.3 0.0 0.3" extent="0.4 0.55 0.55" usable_for_cover="0" />
 </weapon>

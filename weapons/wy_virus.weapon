@@ -7,7 +7,7 @@
         class="0" 
         suppressed="1"
         projectile_speed="150" 
-        retrigger_time="0.6" 
+        retrigger_time="0.8" 
         accuracy_factor="1.0" 
         sight_range_modifier="1.5"
         sustained_fire_grow_step="1.0" 

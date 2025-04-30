@@ -11,10 +11,10 @@
 	class="5" 
 	slot="0" 
 	consume="0"
-  	stab_enabled="0"
-	stab_range="2.5"
-	damage="2"
-    range="2.5"
+  	stab_enabled="1"
+	stab_range="2"
+	damage="1"
+    range="2"
     character_state="death"/>
 	<drop_on_death_result class="spawn" instance_class="projectile" instance_key="dynamite_death.projectile" min_amount="1" max_amount="1" offset="0 1 0" position_spread="0 0" direction_spread="0.01 0.01" />    
 
@@ -34,7 +34,7 @@
     <animation state_key="prone_still" 		animation_key="prone still, sword" />
     <animation state_key="prone_moving" 		animation_key="prone moving, ninjato" />
 	<animation state_key="walking_backwards" 	animation_key="walking backwards, pistol" />
-	<animation state_key="stabbing"			animation_key="stabbing, fast" />
+	<animation state_key="stabbing"			animation_key="stabbing, fast once" />
 
 	<sound key="fire" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.6" />
 	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.6" />
@@ -49,5 +49,5 @@
     <capacity value="1" source="rank" source_value="0.1"/>
 	
 	<modifier class="speed" value="+0.10" />
-	<modifier class="hit_success_probability" value="-0.12" />
+	<modifier class="hit_success_probability" value="-0.2" />
 </weapon>

@@ -62,6 +62,7 @@ Allied Forces
     <weapon file="wa_mini_uzi.weapon" />
     <weapon file="wa_mp5sd.weapon" />
     <weapon file="wa_mp5sd_v.weapon" />
+    <weapon file="wa_mp5sd_e.weapon" />
     <weapon file="wa_p90.weapon" />
     <weapon file="wa_p90_v.weapon" />
     <weapon file="wa_p90_e.weapon" />

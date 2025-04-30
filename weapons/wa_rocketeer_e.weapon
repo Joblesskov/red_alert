@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="wa_rocketeer.weapon" key="wa_rocketeer_e.weapon">
+<weapon file="wa_rocketeer_v.weapon" key="wa_rocketeer_e.weapon">
     <specification 
-	    retrigger_time="0.5"
+	    retrigger_time="0.2"
+        sustained_fire_grow_step="0.2"
+        sustained_fire_diminish_rate="0.8"
 	    magazine_size="40"
-	    name="Rocketeer (Elite)"
-	    projectile_speed="120.0"/>
-    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
-    <inventory price="220.0" />
-    <capacity value="0" source="rank" source_value="1.0"/>
-    <capacity value="1" source="rank" source_value="3.0"/>
+	    name="Rocketeer (Elite)" />
+
+    <commonness value="1" can_respawn_with="0" in_stock="0"/>    
+    <inventory price="0" />
     <hud_icon filename="hud_rocketeer_e.png" />
 	<addon_model filename="elite.xml" />
-    <projectile file="bullet_ap.projectile" time_to_live="0.45">
+
+    <projectile file="bullet_ap.projectile" time_to_live="0.25">
         <result class="blast" 
 		radius="1" 
         push="0"
@@ -20,7 +21,6 @@
         damage_origin_vehicle="0" />
         <trail probability="1" key="BulletEliteTrail"/>
     </projectile>
-	<modifier class="speed" value="+0.15" />
-	<modifier class="hit_success_probability" value="-0.1" />
+    
 </weapon>
 

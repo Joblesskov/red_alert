@@ -2,7 +2,7 @@
 <weapon file="ws_knife.weapon" key="ws_knife_v.weapon" >
     <specification
     name="Knife (Veteran)" 
-	damage="3.0" />
+	damage="2" />
 
     <commonness value="100" />    
     <inventory price="10" />

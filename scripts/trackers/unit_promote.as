@@ -9,6 +9,7 @@ class UnitPromote : Tracker {
     protected Metagame@ m_metagame;
 	protected uint currentWeaponId = 0;
 	protected uint currentExp = 0;
+	protected uint currentFactor = 1;
 
 	protected array<string> eliteWeapons = {
 		"null.weapon",
@@ -88,6 +89,7 @@ class UnitPromote : Tracker {
 	};
 
 	protected dictionary enemyExp = {
+		{"default", 15},
 		{"dog", 20},
 		{"engineer", 30},
 		{"medic", 15},
@@ -131,15 +133,7 @@ class UnitPromote : Tracker {
     UnitPromote(Metagame@ metagame) {
         @m_metagame = @metagame;
     }
-	/*
-	TagName=character_kill key=wa_awp_v.weapon method_hint=hit
-	TagName=killer block=11 17 dead=0 faction_id=1 id=408 leader=0 
-		name=Michael Stein player_id=-1 position=383.287 6.73623 592.631 rp=1000 
-		soldier_group_name=sniper squad_size=0 wounded=0 xp=1     
-	TagName=target block=11 17 dead=0 faction_id=0 id=148 leader=0 
-		name=Peter Phillips player_id=-1 position=385.281 6.78942 587.467 rp=1000 
-		soldier_group_name=rocketeer squad_size=0 wounded=0 xp=1 
-	*/
+
 	protected void handleCharacterKillEvent(const XmlElement@ event) {
 		const XmlElement@ killer = event.getFirstElementByTagName("killer");
 		const XmlElement@ target = event.getFirstElementByTagName("target");
@@ -153,24 +147,27 @@ class UnitPromote : Tracker {
 			int playerId = killer.getIntAttribute("player_id");
 			string position = killer.getStringAttribute("position");
 			const XmlElement@ player = getPlayerInfo(m_metagame, playerId);
+
 			if (player !is null) {
 				// get player info
 				int characterId = player.getIntAttribute("character_id");
 				const XmlElement@ characterInfo = getCharacterInfo2(m_metagame, characterId);
 				array<const XmlElement@>@ characterItem = characterInfo.getElementsByTagName("item");
+
 				if (characterItem.size() > 0) {
 					string weapon = characterItem[0].getStringAttribute("key");
-					string method = event.getStringAttribute("method_hint");
-					string kill_weapon = event.getStringAttribute("key");
+					// string method = event.getStringAttribute("method_hint");
+					// string kill_weapon = event.getStringAttribute("key");
 
 					uint weaponid = uint(weaponId[weapon]);
-
+					// if (weaponid == 0) return;
 					// kill through the weapon or stab
-					if (method != "stab" && uint(weaponId[kill_weapon]) != weaponid) return;
+					// if (method != "stab" && uint(weaponId[kill_weapon]) != weaponid) return;
 
 					// using different weapon
 					if (currentWeaponId != weaponid) {
 						currentExp = 0;
+						currentFactor = 1;
 						currentWeaponId = weaponid;
 					}
 
@@ -178,37 +175,65 @@ class UnitPromote : Tracker {
 					string targetGroup = target.getStringAttribute("soldier_group_name");
 					uint experience = uint(enemyExp[targetGroup]);
 					
-					_log("CHECKTHIS");
-					
 					currentExp += experience;
-					if (currentExp >= requiredExp[weaponid]) {
+					if (currentExp >= requiredExp[weaponid] * currentFactor) {
 						// give elite weapon to player
-						Resource@ rewardWeapon = Resource(eliteWeapons[weaponid], "weapon");
+						string rewardWeapon = eliteWeapons[weaponid];
 
-						dictionary a;
-						a["%weapon_name"] = getResourceName(m_metagame, rewardWeapon.m_key, rewardWeapon.m_type);
+						int r = rand(1, 100);
+						int vestCount = 0;
+						if (r <= 60 ) {
+							vestCount = 1;
+						} else if (r <= 90) {
+							vestCount = 2;
+						} else {
+							vestCount = 3;
+						}
 
-						sendFactionMessageKeySaidAsCharacter(m_metagame, 0, characterId, "unit promoted");
-						sendPrivateMessageKey(m_metagame, playerId, "unit promoted reward", a);
 
 						XmlElement c("command");
 						c.setStringAttribute("class", "update_inventory");
 						c.setIntAttribute("character_id", characterId); 
 						c.setStringAttribute("container_type_class", "stash");
-								XmlElement i("item"); 
-								i.setStringAttribute("class", rewardWeapon.m_type); 
-								i.setStringAttribute("key", rewardWeapon.m_key); 
-								c.appendChild(i); 
-						m_metagame.getComms().send(c);
+							// weapon
+							XmlElement i("item"); 
+							i.setStringAttribute("class", "weapon"); 
+							i.setStringAttribute("key", rewardWeapon); 
+							c.appendChild(i); 
+							dictionary a;
+							a["%weapon_name"] = getResourceName(m_metagame, rewardWeapon, "weapon");
+							sendFactionMessageKeySaidAsCharacter(m_metagame, 0, characterId, "unit promoted");
+							sendPrivateMessageKey(m_metagame, playerId, "unit promoted reward", a);
+							
+							// vest
+							while (vestCount-- > 0) {
+								string rewardVest;
+								int rr = rand(1, 100);
+								if (rr <= 66) {
+									rewardVest = "vest_flak3.carry_item";
+								} else {
+									rewardVest = "vest_plate3.carry_item";
+								}
+								XmlElement j("item"); 
+								j.setStringAttribute("class", "carry_item"); 
+								j.setStringAttribute("key", rewardVest); 
+								c.appendChild(j); 
+								dictionary b;
+								b["%weapon_name"] = getResourceName(m_metagame, rewardVest, "carry_item");
+								sendPrivateMessageKey(m_metagame, playerId, "unit promoted reward", b);
+							}
 
 						XmlElement command("command");
 						command.setStringAttribute("class", "play_sound");
 						command.setStringAttribute("filename", "gupgrad1.wav");
 						command.setStringAttribute("position", position);
+
+						m_metagame.getComms().send(c);
 						m_metagame.getComms().send(command);
 
-						// reset exp
+						// reset exp and double factor
 						currentExp = 0;
+						currentFactor *= 2;
 					}
 				}
 			}
@@ -216,6 +241,7 @@ class UnitPromote : Tracker {
 	}
 
 	protected void handlePlayerDieEvent(const XmlElement@ event) {
+		currentFactor = 1;
 		currentExp = 0;
 	}
 }

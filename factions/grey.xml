@@ -157,7 +157,7 @@
 
 			<weapon key="medikit.weapon" />
 
-			<carry_item key="vest_flak1.carry_item" />
+			<carry_item key="vest_flak3.carry_item" />
 
 			<call key="paratroopers1y.call" />
 		</resources>

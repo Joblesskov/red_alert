@@ -986,7 +986,7 @@
 
 			<weapon key="medikit.weapon" />
 
-			<carry_item key="vest_flak1.carry_item" />
+			<carry_item key="vest_flak3.carry_item" />
 		</resources>
 
 		<attribute_config class="rp">
@@ -1159,12 +1159,6 @@
 			<projectile key="psychic_blast.projectile" />
 
 			<carry_item key="vest_flak2.carry_item" />
-			
-			<call key="paratroopers1y.call" />
-			<call key="paratroopers2y.call" />
-			<call key="disc.call" />
-			<call key="toxic_strike.call" />
-			<call key="genetic_strike.call" />
 		</resources>
 
 		<item_class_existence_config>
