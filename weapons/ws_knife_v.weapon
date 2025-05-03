@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="ws_knife.weapon" key="ws_knife_v.weapon" >
+    <specification
+    name="Knife (Veteran)" 
+	damage="2" />
+
+    <commonness value="100" />    
+    <inventory price="10" />
+    <capacity value="0" source="rank" source_value="0.1"/>
+    <capacity value="1" source="rank" source_value="0.3"/>
+	<hud_icon filename="hud_ivan_v.png" />
+	<addon_model filename="veteran.xml" />
+
+	<shield offset="0.0 0.0 0.0" extent="0.8 0.8 0.6" usable_for_cover="0"/>
+	<shield offset="-0.2 0.0 0.6" extent="0.8 0.8 0.6" usable_for_cover="0" />
+</weapon>

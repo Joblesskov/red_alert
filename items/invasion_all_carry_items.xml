@@ -3,17 +3,14 @@
 vests
 	<carry_item file="god_vest.carry_item" />
 	<carry_item file="unarmored.carry_item" />
-	<carry_item file="vest1.carry_item" />      
-	<carry_item file="vest2.carry_item" /> 
-	<carry_item file="vest3.carry_item" />
-	<carry_item file="vest_exo.carry_item" />
-	<carry_item file="camouflage_suit.carry_item" />
-	<carry_item file="camo_vest.carry_item" />
-	<carry_item file="vest_blackops.carry_item" />	
-	<carry_item file="eodvest.carry_item" /> 
 	<carry_item file="dog.carry_item" />
-	<carry_item file="vest_plate.carry_item" />
-	<carry_item file="vest_thick_skin.carry_item" />
+	<carry_item file="vest_flak1.carry_item" />
+	<carry_item file="vest_flak2.carry_item" />
+	<carry_item file="vest_flak3.carry_item" />
+	<carry_item file="vest_plate1.carry_item" />
+	<carry_item file="vest_plate2.carry_item" />
+	<carry_item file="vest_plate3.carry_item" />
+	<carry_item file="vest_brute.carry_item" />
 
 costumes
 	<!--

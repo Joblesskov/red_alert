@@ -14,6 +14,7 @@ class RA2CommandHandler : Tracker {
 	// --------------------------------------------
 	RA2CommandHandler(Metagame@ metagame) {
 		@m_metagame = @metagame;
+		m_metagame.getComms().send("<command class='set_metagame_event' name='character_kill' enabled='1' />");
 	}
 	
 	// ----------------------------------------------------

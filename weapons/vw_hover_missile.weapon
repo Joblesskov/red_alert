@@ -22,13 +22,11 @@
 
     <ballistics curve_height="10" near_far_distance="0" speed_estimation_near="150.0" speed_estimation_far="150.0" max_speed="150.0" tweak_factor="1.9" randomness="0.0" />
     <projectile file="hover_missile.projectile">
-        <result class="blast" 
-            radius="3.0" 
-            damage="0.45" 
-            push="0.06"
-            decal="1"
-            damage_origin_vehicle="0"
-            faction_compare="not_equal"/>
+        <result class="spawn" 
+        instance_class="grenade" 
+        instance_key="hover_missile_blast.projectile"
+        min_amount="2" max_amount="2" 
+        position_spread="1 0" />
         <trail probability="1.0" key="MissileTrail" />
     </projectile>
     

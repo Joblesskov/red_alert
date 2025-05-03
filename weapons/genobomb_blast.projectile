@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="genobomb" slot="2" pulldown_in_air="0" key="genobomb_blast.projectile">
+    <result class="blast" 
+        radius="5.0" 
+        damage="0.1" 
+        push="0.05" 
+        decal="1" 
+        character_state="death" />
+    <trigger class="time" time_to_live="0.0"/>
+    <rotation class="motion" />
+</projectile>

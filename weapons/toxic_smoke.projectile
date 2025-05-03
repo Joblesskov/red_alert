@@ -4,7 +4,7 @@
     <trigger class="impact" />
     <result class="spawn" 
         instance_class="grenade" 
-        instance_key="virus_cloud_sub.projectile" 
+        instance_key="virus_cloud_blast.projectile" 
         min_amount="9" 
         max_amount="12" 
         offset="0 16 0" 

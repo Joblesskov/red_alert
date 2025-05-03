@@ -2,8 +2,8 @@
 <projectile class="bullet" name="rad beam" slot="1" time_to_live="1.0" pulldown_in_air="4" key="desolator_bullet_e.projectile">
     <result class="spawn" 
         instance_class="grenade" 
-        instance_key="desolator_sub.projectile"
-        min_amount="4" max_amount="6" 
+        instance_key="desolator_blast.projectile"
+        min_amount="5" max_amount="5" 
         offset="0 0 0" 
         position_spread="0 0" 
         direction_spread="0 0" />

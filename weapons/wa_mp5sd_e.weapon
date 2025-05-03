@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wa_mp5sd_v.weapon" key="wa_mp5sd_e.weapon">
+    <specification name="MP5SD (Elite)" />
+
+	<addon_model filename="elite.xml" />
+    <hud_icon filename="hud_spy_e.png" />
+    <inventory price="0" />
+    <commonness value="1" can_respawn_with="0" in_stock="0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit" 
+        kill_probability="0.60" 
+        kill_decay_start_time="0.33" 
+        kill_decay_end_time="0.43" />
+        <trail probability="1" key="BulletEliteTrail"/>
+    </projectile>
+
+    <modifier class="detectability" value="-0.55" />
+</weapon>

@@ -50,9 +50,9 @@
     <weak_hand_hold offset="0.3" />
 
     <commonness value="1" can_respawn_with="1" in_stock="1"/>    
-    <inventory encumbrance="30.0" price="80.0" />
+    <inventory encumbrance="10" price="50" />
     <capacity value="0" source="rank" source_value="0.0"/>
-    <capacity value="1" source="rank" source_value="2.0"/>
+    <capacity value="1" source="rank" source_value="1.0"/>
 
     <modifier class="speed" value="+0.1" />
 	

@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <weapon key="wa_awp.weapon" />
-    <weapon key="wa_awp_e.weapon" />
+    <weapon key="wa_awp_v.weapon" />
     <weapon key="wa_chrono.weapon" />
-    <weapon key="wa_chrono_e.weapon" />
+    <weapon key="wa_chrono_v.weapon" />
     <weapon key="wa_colt_m1911.weapon" />
     <weapon key="wa_colt_m1911_1.weapon" />
     <weapon key="wa_javelin.weapon" />
     <weapon key="wa_m60.weapon" />
-    <weapon key="wa_m60_e.weapon" />
+    <weapon key="wa_m60_v.weapon" />
     <weapon key="wa_mini_uzi.weapon" />
     <weapon key="wa_mp5sd.weapon" />
+    <weapon key="wa_mp5sd_v.weapon" />
     <weapon key="wa_p90.weapon" />
-    <weapon key="wa_p90_e.weapon" />
+    <weapon key="wa_p90_v.weapon" />
     <weapon key="wa_rocketeer.weapon" />
-    <weapon key="wa_rocketeer_e.weapon" />
+    <weapon key="wa_rocketeer_v.weapon" />
     <weapon key="wa_stoner_lmg.weapon" />
-    <weapon key="wa_stoner_lmg_e.weapon" />
+    <weapon key="wa_stoner_lmg_v.weapon" />
     <weapon key="wa_ump40.weapon" />
-    <weapon key="wa_ump40_e.weapon" />
+    <weapon key="wa_ump40_v.weapon" />
 
 	<weapon key="resource_pillbox.weapon" />
 	<weapon key="resource_prism_tower.weapon" />
@@ -28,8 +29,6 @@
     <projectile key="flare_prism_tank.projectile" />
     <projectile key="flare_mirage_tank.projectile" />
     <projectile key="flare_tank_destroyer.projectile" />
-    
-	<carry_item key="vest_blackops.carry_item" />	
 
  	<vehicle key="jeep.vehicle" />
  	<vehicle key="ifv.vehicle" />

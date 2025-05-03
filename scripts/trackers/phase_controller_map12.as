@@ -329,13 +329,13 @@ class Phase4 : Phase {
 
 		if (!m_continueMode) {
 			// spawners to fill the arena at moment of getting to own it
-			m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(622,0,467), 6, "default"));
-			m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(638,0,522), 6, "default"));
-			m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(686,0,521), 6, "default"));
-			m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(707,0,460), 6, "default"));
-			m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(655,0,435), 6, "default"));
-			m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(699,0,391), 6, "default"));
-			m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(617,0,408), 6, "default"));
+			// m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(622,0,467), 6, "default"));
+			// m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(638,0,522), 6, "default"));
+			// m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(686,0,521), 6, "default"));
+			// m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(707,0,460), 6, "default"));
+			// m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(655,0,435), 6, "default"));
+			// m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(699,0,391), 6, "default"));
+			// m_metagame.addTracker(Spawner(m_metagame, 1, Vector3(617,0,408), 6, "default"));
 
 			// spawn enemy tank2
 			{

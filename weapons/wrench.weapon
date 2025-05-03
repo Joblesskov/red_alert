@@ -40,7 +40,7 @@
 
     <hud_icon filename="hud_wrench.png" />
     <commonness value="0.0" />
-    <inventory encumbrance="9.0" price="10.0" />
+    <inventory encumbrance="9" price="10.0" />
     <modifier class="speed" value="+0.06" />    
 
 </weapon>

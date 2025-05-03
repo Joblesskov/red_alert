@@ -4,7 +4,7 @@
     <trigger class="time" time_to_live="0.0"/>
     <result class="spawn" 
         instance_class="grenade" 
-        instance_key="virus_cloud_sub.projectile" 
+        instance_key="virus_cloud_blast.projectile" 
         min_amount="6" 
         max_amount="8" 
         offset="0 6 0" 

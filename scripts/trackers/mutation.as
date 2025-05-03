@@ -10,6 +10,8 @@
 class Mutation : Tracker {
 	protected Metagame@ m_metagame;
 	protected float m_delay = 1.2f;
+	protected bool m_started = true;
+	protected bool m_ended = false;
 
     Mutation(Metagame@ metagame) {
 		@m_metagame = @metagame;
@@ -20,7 +22,7 @@ class Mutation : Tracker {
 		const XmlElement@ target = event.getFirstElementByTagName("target");
 		string killKey = event.getStringAttribute("key");
 
-		if (killer !is null && target !is null && killKey == "genobomb_sub.projectile") {
+		if (killer !is null && target !is null && killKey == "genobomb_blast.projectile") {
 			string targetPos = target.getStringAttribute("position");
 			int factionId = killer.getIntAttribute("faction_id");
 			
@@ -40,6 +42,14 @@ class Mutation : Tracker {
 	void update(float time) {
 		// increase the delay until the next genetic strike
 		if (m_delay < 1.2f) m_delay += time * 0.3f;
+	}
+
+	bool hasEnded() const {
+		return m_ended;
+	}
+
+	bool hasStarted() const {
+		return m_started;
 	}
 }
 

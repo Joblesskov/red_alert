@@ -32,19 +32,8 @@
 #include "antifarm.as"
 
 // community trackers
-#include "gps_laptop.as"
-#include "emp_grenade.as"
 #include "repair_crane.as"
-#include "a10_gun_run.as"
-#include "gunship_run.as"
-#include "squad_equipment_kit.as"
 #include "rangefinder.as"
-#include "halloween.as"  // Halloween event only (since Halloween 2022 enabled permanently)
-#include "sbl.as"
-#include "emoticons.as"
-#include "mrl_manager.as"
-#include "squad_equipment_kit_navy.as"
-#include "offdutyveteran.as"
 
 // red alert trackers
 #include "ra2_command_handler.as"
@@ -55,6 +44,9 @@
 #include "disc.as"
 #include "mutation.as"
 #include "sell_building.as"
+#include "brute_corresponding.as"
+#include "unit_promote.as"
+#include "auto_heal.as"
 
 // --------------------------------------------
 class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
@@ -266,12 +258,6 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 			addTracker(m_specialCargoVehicleManager);
 			m_specialCargoVehicleManager.applyAvailability();
 		}
-
-		setupMinibosses();
-		setupDogs();
-		setupRipper();
-		setupGrinch();
-		setupOffdutyveteran();
 	}
 
 	// --------------------------------------------
@@ -327,17 +313,13 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(PrisonBreakObjective(this, 0));
 		setupDisableRadioAtMatchOver();
 		addTracker(AutoSaver(this));
-		// addTracker(BasicCommandHandler(this));
-        addTracker(SBLTracker(this));
 		
 		setupExperimentalFeatures();
-		setupIcecreamReport();
 		
 		setupCallMarkers();
 		
 		setupSpawnTimeHandler();
 		setupSideBaseAttackHandler();
-		setupIdlerKicker();
 
 		addTracker(SupporterCommandHandler(this));
 
@@ -349,172 +331,16 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(DiscGunRun(this));
 		addTracker(Mutation(this));
 		addTracker(SellBuiding(this));
+		addTracker(BruteCorresponding(this));
+		addTracker(UnitPromote(this));
+		addTracker(AutoHeal(this));
 	}
 
 	// --------------------------------------------
 	protected void setupExperimentalFeatures() {
-		addTracker(GpsLaptop(this));
-		addTracker(EmpGrenade(this));
 		addTracker(RepairCrane(this));
-		addTracker(A10GunRun(this));
-		addTracker(AC130GunRun(this));        
-		addTracker(SquadEquipmentKit(this)); 
 		addTracker(RangeFinder(this)); 
-		addTracker(AntiFarm(this));
-		addTracker(Halloween(this));    // Halloween event only
-		addTracker(Emoticons(this));
-		addTracker(SquadEquipmentKitNavy(this));
-	/*	addTracker(IceTrade(this)); */
-        addTracker(Offdutyveteran(this));
-		addTracker(MrlManager(this));
 	}
-
-	// --------------------------------------------
-	protected void setupMinibosses() {
-		{
-			// disable minibosses in friendly faction 
-			// to prevent harvesting rares from minibosses
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", 0);
-			command.setStringAttribute("soldier_group_name", "miniboss");
-			command.setFloatAttribute("spawn_score", 0.0f);
-			getComms().send(command);
-
-			command.setStringAttribute("soldier_group_name", "miniboss_female");
-			getComms().send(command);
-		}
-
-		for (uint i = 1; i < m_factions.size(); ++i) {
-			const FactionConfig@ config = m_factions[i].m_config;
-			// increase minibosses in enemy factions slightly
-			// 0.005 -> 0.007 (0.004 male, 0.003 female)
-      // 0.007 -> 0.009 (0.006 male, 0.003 female)   (1.65)
-			bool femaleExists = true;
-			if (config.m_file == "brown.xml") {
-				femaleExists = false;
-			}
-
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", i);
-			command.setStringAttribute("soldier_group_name", "miniboss");
-			command.setFloatAttribute("spawn_score", femaleExists ? 0.006f : 0.009f);
-			getComms().send(command);
-
-			if (femaleExists) {
-				command.setStringAttribute("soldier_group_name", "miniboss_female");
-				command.setFloatAttribute("spawn_score", 0.003f);
-				getComms().send(command);
-			}
-		}
-	}
-
-	// --------------------------------------------
-	protected void setupDogs() {
-		{
-			// enable dogs in friendly faction only
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", 0);
-			command.setStringAttribute("soldier_group_name", "dog");
-			command.setFloatAttribute("spawn_score", 0.008f);
-			getComms().send(command);
-        }
-
-		for (uint i = 1; i < m_factions.size(); ++i) {
-			const FactionConfig@ config = m_factions[i].m_config;
-		{
-			// disable dogs in enemy factions 
-			// to prevent players to have to kill dogs
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", i);
-			command.setStringAttribute("soldier_group_name", "dog");
-			command.setFloatAttribute("spawn_score", 0.0f);
-			getComms().send(command);
-		}
-
-      }
-	}
-
-	protected void setupRipper() {
-		{
-			// disable rippers in friendly faction
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", 0);
-			command.setStringAttribute("soldier_group_name", "elite ripper");
-			command.setFloatAttribute("spawn_score", 0.0f);
-			getComms().send(command);
-        }
-
-		for (uint i = 1; i < m_factions.size(); ++i) {
-			const FactionConfig@ config = m_factions[i].m_config;
-		{
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", i);
-			command.setStringAttribute("soldier_group_name", "elite ripper");
-			command.setFloatAttribute("spawn_score", 0.0f);    // 0.008 during Halloween event
-			getComms().send(command);
-		}
-
-      }
-	}
-
-	protected void setupGrinch() {
-	    _log("Setting up grinch faction...");
-		{
-			// disable grinch in friendly faction
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", 0);
-			command.setStringAttribute("soldier_group_name", "grinch");
-			command.setFloatAttribute("spawn_score", 0.0f);
-			getComms().send(command);
-        }
-
-		for (uint i = 1; i < m_factions.size(); ++i) {
-			const FactionConfig@ config = m_factions[i].m_config;
-		{
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", i);
-			command.setStringAttribute("soldier_group_name", "grinch");
-			command.setFloatAttribute("spawn_score", 0.0f);    // 0.008 during xmas event, else 0.0
-			getComms().send(command);
-		}
-
-      }
-	}
-	
-	protected void setupOffdutyveteran() {
-	    _log("Setting up Off-duty Veteran faction...");
-		{
-			// disable the old man in friendly faction
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", 0);
-			command.setStringAttribute("soldier_group_name", "off duty veteran");
-			command.setFloatAttribute("spawn_score", 0.0f);
-			getComms().send(command);
-        }
-
-		for (uint i = 1; i < m_factions.size(); ++i) {
-			const FactionConfig@ config = m_factions[i].m_config;
-		{
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction");
-			command.setIntAttribute("faction_id", i);
-			command.setStringAttribute("soldier_group_name", "off duty veteran");
-			command.setFloatAttribute("spawn_score", 0.004f);    // 0.004 (was 0.008 on launch) during Summer event, else 0.0
-			getComms().send(command);
-		}
-
-      }
-	}
-	
 
 	// --------------------------------------------
 	protected void setupDisableRadioAtMatchOver() {
@@ -608,17 +434,6 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 				0.05, 0.0,    // side base attack probability
 				0.005, 0.0)); // lonewolf spawn score
 		}
-	}
-
-	// --------------------------------------------
-	protected void setupIdlerKicker() {
-		addTracker(IdlerKicker(this));
-	}
-	
-	// --------------------------------------------
-	protected void setupIcecreamReport() {
-		VehicleHintConfig hintConfig("icecream.vehicle", "icecream truck exists", "", 0, "region", false, 300.0, 600.0);
-		addTracker(VehicleHintManager(this, hintConfig));
 	}
 	
 	// --------------------------------------------

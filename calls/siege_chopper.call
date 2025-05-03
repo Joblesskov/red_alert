@@ -11,7 +11,7 @@
 		<sound class="launch" fileref="vchoa2c.wav" volume="1.5" />
     </round>
 
-    <round instances="10"
+    <round instances="12"
 		instance_class="grenade"
 		instance_key="scho_artillery_shell.projectile" 
 		instance_spread="10 15 10" 
@@ -22,7 +22,7 @@
 		<sound class="spawn" fileref="woosh1.wav" />
     </round>
 
-    <round instances="10"
+    <round instances="12"
 		instance_class="grenade"
 		instance_key="scho_artillery_shell.projectile" 
 		instance_spread="10 15 10" 

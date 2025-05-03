@@ -23,8 +23,10 @@ class MindControl : Tracker {
 		// immune to mind control
 		array<string> immuneKeys = {
 			"wy_mind_control.weapon",
+			"wy_mind_control_v.weapon",
 			"wy_mind_control_e.weapon",
 			"wy_fist.weapon",
+			"wy_fist_v.weapon",
 			"wy_fist_e.weapon",
 			"ws_akm.weapon",
 			"ws_akm_1.weapon",
@@ -36,9 +38,9 @@ class MindControl : Tracker {
 
 		// range
 		dictionary dictR = {
-			{"mind_control", 2},
-			{"mind_control_e", 2.5},
-			{"mind_control_y", 3.25},
+			{"mind_control", 2.5},
+			{"mind_control_e", 3},
+			{"mind_control_y", 3.5},
 			{"mind_control_t", 3.5},
 			{"mind_control_s", 17}
 		};

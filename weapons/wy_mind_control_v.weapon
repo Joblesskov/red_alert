@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="wy_mind_control_v.weapon">
+    <tag name="sniper" />
+    <tag name="mc_immune" />
+
+    <specification 
+		retrigger_time="5" 
+		accuracy_factor="1.1" 
+		sustained_fire_grow_step="1.0" 
+		sustained_fire_diminish_rate="0.21" 
+		magazine_size="100" 
+		can_shoot_standing="1" 
+		suppressed="1" 
+		name="Mind Control (Veteran)" 
+		class="2" 
+		projectile_speed="120.0" 
+		barrel_offset_3d="0 1 -0.1" 
+		sight_range_modifier="1.2"
+		use_basic_muzzle_smoke_effect="0"
+		spread_range="0"/>
+
+    <ballistics curve_height="10.0" near_far_distance="0.0" speed_estimation_near="1000.0" speed_estimation_far="1000.0" max_speed="10000.0" randomness="0.0" tweak_factor="9.3" /> 
+
+    <animation state_key="recoil" animation_key="recoil, mind control" />
+    <animation state_key="cycle" animation_key="cycle, mind control" />
+    <animation state_key="reload" animation_key="recoil1" />
+    <animation state_key="running" animation_key="running, no weapon, 60" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, no weapon, 61" />
+    <animation state_key="crouch_moving_backwards"   animation_key="crouching backwards, single hand carry" /> 
+
+    <effect class="muzzle" ref="" />
+
+    <sound key="fire" fileref="iyurat1a.wav" pitch_variety="0.1"/>
+
+    <model filename="" />
+
+    <projectile file="alpha_wave.projectile">
+        <result class="notify_script" key="mind_control_e" />
+        <effect class="result" key="terrain" ref="AlphaWaveWoosh2" lighting="1" />
+        <effect class="result" key="other" copy="terrain" /> 
+    </projectile>
+
+    <hud_icon filename="hud_psicorp_v.png" />
+	<addon_model filename="veteran.xml" />
+    <commonness value="100" />    
+    <inventory encumbrance="10" price="150.0" />
+    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="1" source="rank" source_value="2.0"/>
+
+    <modifier class="detectability" value="-0.1" />
+	<modifier class="speed" value="+0.10" />
+	<modifier class="hit_success_probability" value="-0.08" />
+    <target_factors tag="mc_immune" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="heavy" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="medium" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+</weapon>

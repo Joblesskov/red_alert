@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="wa_stoner_lmg.weapon" key="wa_stoner_lmg_e.weapon">
+<weapon file="wa_stoner_lmg_v.weapon" key="wa_stoner_lmg_e.weapon">
     <specification 
-        accuracy_factor="1.0" 
-        magazine_size="100" 
-        name="Stoner LMG (Elite)" />
-    <commonness value="3" can_respawn_with="0" in_stock="1"/>    
-    <inventory price="130.0" />
-    <capacity value="0" source="rank" source_value="0.0"/>
-    <capacity value="1" source="rank" source_value="0.4"/>
+    name="Stoner LMG (Elite)"
+    sight_range_modifier="1.15" />
+
+    <commonness value="1" can_respawn_with="0" in_stock="0"/>    
+    <inventory price="0" />
     <hud_icon filename="hud_ggi_e.png" />
+    <model filename="stoner_lmg_shield.xml" />
 	<addon_model filename="elite.xml" />
+
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.62" kill_decay_start_time="0.33" kill_decay_end_time="0.55" />
+        <result class="hit" 
+        kill_probability="0.70" 
+        kill_decay_start_time="0.33" 
+        kill_decay_end_time="0.55" />
         <trail probability="1" key="BulletEliteTrail"/>
     </projectile> 
+
     <shield offset="-0.6 -0.1 0" extent="0.4 0.8 0.8" usable_for_cover="0"/>
-	<modifier class="speed" value="+0.08" />
-	<modifier class="hit_success_probability" value="-0.12" />
 </weapon>

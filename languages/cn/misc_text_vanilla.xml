@@ -4,44 +4,62 @@ red alert
 weapon
 	<text key="AEK-919k" text="AEK-919k冲锋枪" />
 	<text key="AKM" text="AKM突击步枪" />
-	<text key="AKM (AP)" text="AKM突击步枪 (穿甲)" />
+	<text key="AKM (AP)" text="AKM突击步枪（穿甲）" />
 	<text key="AWP" text="AWP狙击步枪" />
-	<text key="AWP (Elite)" text="AWP狙击步枪 (精英)" />
+	<text key="AWP (Veteran)" text="AWP狙击步枪（老兵）" />
+	<text key="AWP (Elite)" text="AWP狙击步枪（精英）" />
 	<text key="Colt M1911" text="柯尔特M1911" />
-	<text key="Colt M1911 (Precision)" text="柯尔特M1911 (精确)" />
+	<text key="Colt M1911 (Precision)" text="柯尔特M1911（精确）" />
 	<text key="Fist" text="拳头" />
-	<text key="Fist (Elite)" text="拳头 (精英)" />
+	<text key="Fist (Veteran)" text="拳头（老兵）" />
+	<text key="Fist (Elite)" text="拳头（精英）" />
 	<text key="Flak Gun" text="便携高射炮" />
-	<text key="Flak Gun (Elite)" text="便携高射炮 (精英)" />
+	<text key="Flak Gun (Veteran)" text="便携高射炮（老兵）" />
+	<text key="Flak Gun (Elite)" text="便携高射炮（精英）" />
 	<text key="Knife" text="匕首" />
-	<text key="Knife (Elite)" text="匕首 (精英)" />
+	<text key="Knife (Veteran)" text="匕首（老兵）" />
+	<text key="Knife (Elite)" text="匕首（精英）" />
 	<text key="Neutron Microgun" text="中子加特林" />
-	<text key="Neutron Microgun (Elite)" text="中子加特林 (精英)" />
+	<text key="Neutron Microgun (Veteran)" text="中子加特林（老兵）" />
+	<text key="Neutron Microgun (Elite)" text="中子加特林（精英）" />
 	<text key="M60" text="M60E4通用机枪" />
-	<text key="M60 (Elite)" text="M60E4通用机枪 (精英)" />
+	<text key="M60 (Veteran)" text="M60E4通用机枪（老兵）" />
+	<text key="M60 (Elite)" text="M60E4通用机枪（精英）" />
 	<text key="Mind Control" text="心灵控制" />
-	<text key="Mind Control (Elite)" text="心灵控制 (精英)" />
+	<text key="Mind Control (Veteran)" text="心灵控制（老兵）" />
+	<text key="Mind Control (Elite)" text="心灵控制（精英）" />
 	<text key="MP5SD" text="MP5微声冲锋枪" />
+	<text key="MP5SD (Veteran)" text="MP5微声冲锋枪（老兵）" />
+	<text key="MP5SD (Elite)" text="MP5微声冲锋枪（精英）" />
 	<text key="mini UZI" text="Mini UZI轻型冲锋枪" />
 	<text key="P90" text="P90冲锋枪" />
-	<text key="P90 (Elite)" text="P90冲锋枪 (精英)" />
+	<text key="P90 (Veteran)" text="P90冲锋枪（老兵）" />
+	<text key="P90 (Elite)" text="P90冲锋枪（精英）" />
 	<text key="mini-Tesla Coil" text="小型磁暴线圈" />
-	<text key="mini-Tesla Coil (Elite)" text="小型磁暴线圈 (精英)" />
+	<text key="mini-Tesla Coil (Veteran)" text="小型磁暴线圈（老兵）" />
+	<text key="mini-Tesla Coil (Elite)" text="小型磁暴线圈（精英）" />
 	<text key="PPSh-41" text="波波沙冲锋枪" />
-	<text key="PPSh-41 (Elite)" text="波波沙冲锋枪 (精英)" />
+	<text key="PPSh-41 (Veteran)" text="波波沙冲锋枪（老兵）" />
+	<text key="PPSh-41 (Elite)" text="波波沙冲锋枪（精英）" />
 	<text key="Psychic Jab" text="心灵之火" />
-	<text key="Psychic Jab (Elite)" text="心灵之火 (精英)" />
+	<text key="Psychic Jab (Veteran)" text="心灵之火（老兵）" />
+	<text key="Psychic Jab (Elite)" text="心灵之火（精英）" />
 	<text key="Rad Cannon" text="辐射炮" />
-	<text key="Rad Cannon (Elite)" text="辐射炮 (精英)" />
+	<text key="Rad Cannon (Veteran)" text="辐射炮（老兵）" />
+	<text key="Rad Cannon (Elite)" text="辐射炮（精英）" />
 	<text key="Rocketeer" text="双子机炮" />
-	<text key="Rocketeer (Elite)" text="双子机炮 (精英)" />
+	<text key="Rocketeer (Veteran)" text="双子机炮（老兵）" />
+	<text key="Rocketeer (Elite)" text="双子机炮（精英）" />
 	<text key="Steyr TMP" text="斯太尔TMP战术冲锋枪"/>
 	<text key="Stoner LMG" text="斯通纳轻机枪" />
-	<text key="Stoner LMG (Elite)" text="斯通纳轻机枪 (精英)" />
+	<text key="Stoner LMG (Veteran)" text="斯通纳轻机枪（老兵）" />
+	<text key="Stoner LMG (Elite)" text="斯通纳轻机枪（精英）" />
     <text key="UMP40" text="UMP-40冲锋枪" /> 
-    <text key="UMP40 (Elite)" text="UMP-40冲锋枪 (精英)" /> 
+    <text key="UMP40 (Veteran)" text="UMP-40冲锋枪（老兵）" /> 
+    <text key="UMP40 (Elite)" text="UMP-40冲锋枪（精英）" /> 
     <text key="Virus Dart Gun" text="病毒狙击枪" /> 
-    <text key="Virus Dart Gun (Elite)" text="病毒狙击枪 (精英)" /> 
+    <text key="Virus Dart Gun (Veteran)" text="病毒狙击枪（老兵）" /> 
+    <text key="Virus Dart Gun (Elite)" text="病毒狙击枪（精英）" /> 
     <text key="Yuri" text="尤里" /> 
 
 	<text key="sell building" text="变卖建筑" />
@@ -50,38 +68,59 @@ weapon
 	<text key="psychic blast" text="心灵冲击" />
 	<text key="rad eruption" text="辐射爆发" />
 vest
-	<text key="unarmored" text="无甲" />
-	<text key="black ops vest" text="夜行特战服"/> 
-	<text key="black ops vest, 80&#37;" text="夜行特战服，80&#37;"/> 
-	<text key="black ops vest, 60&#37;" text="夜行特战服，60&#37;"/> 
-	<text key="black ops vest, 40&#37;" text="夜行特战服，40&#37;"/> 
-	<text key="black ops vest, 20&#37;" text="夜行特战服，20&#37;"/> 
-	<text key="black ops vest, destroyed" text="夜行特战服，已损坏"/> 
-	<text key="EOD armor, 80&#37;" text="防爆服，80&#37;" />
-	<text key="EOD armor, 60&#37;" text="防爆服，60&#37;" />
-	<text key="EOD armor, 40&#37;" text="防爆服，40&#37;" />
-	<text key="EOD armor, 20&#37;" text="防爆服，20&#37;" />
-	<text key="EOD armor, destroyed" text="防爆服，已损坏" />
-	<text key="Plate" text="金属护甲" />
-	<text key="Plate, 90&#37;" text="金属护甲, 90&#37;" />
-	<text key="Plate, 80&#37;" text="金属护甲, 80&#37;" />
-	<text key="Plate, 70&#37;" text="金属护甲, 70&#37;" />
-	<text key="Plate, 60&#37;" text="金属护甲, 60&#37;" />
-	<text key="Plate, 50&#37;" text="金属护甲, 50&#37;" />
-	<text key="Plate, 40&#37;" text="金属护甲, 40&#37;" />
-	<text key="Plate, 30&#37;" text="金属护甲, 30&#37;" />
-	<text key="Plate, 20&#37;" text="金属护甲, 20&#37;" />
-	<text key="Plate, 10&#37;" text="金属护甲, 10&#37;" />
-	<text key="Thick Skin" text="基因改造" />
-	<text key="Thick Skin, 90&#37;" text="基因改造, 90&#37;" />
-	<text key="Thick Skin, 80&#37;" text="基因改造, 80&#37;" />
-	<text key="Thick Skin, 70&#37;" text="基因改造, 70&#37;" />
-	<text key="Thick Skin, 60&#37;" text="基因改造, 60&#37;" />
-	<text key="Thick Skin, 50&#37;" text="基因改造, 50&#37;" />
-	<text key="Thick Skin, 40&#37;" text="基因改造, 40&#37;" />
-	<text key="Thick Skin, 30&#37;" text="基因改造, 30&#37;" />
-	<text key="Thick Skin, 20&#37;" text="基因改造, 20&#37;" />
-	<text key="Thick Skin, 10&#37;" text="基因改造, 10&#37;" />
+	<text key="unarmored" text="肉人" />
+	<text key="unarmored, 2/3" text="肉人, 2/3" />
+	<text key="unarmored, 1/3" text="肉人, 1/3" />
+	<text key="flak armor I" text="布甲Ⅰ" />
+	<text key="flak armor I, 3/4" text="布甲Ⅰ, 3/4" />
+	<text key="flak armor I, 2/4" text="布甲Ⅰ, 2/4" />
+	<text key="flak armor I, 1/4" text="布甲Ⅰ, 1/4" />
+	<text key="flak armor II" text="布甲Ⅱ" />
+	<text key="flak armor II, 4/5" text="布甲Ⅱ, 4/5" />
+	<text key="flak armor II, 3/5" text="布甲Ⅱ, 3/5" />
+	<text key="flak armor II, 2/5" text="布甲Ⅱ, 2/5" />
+	<text key="flak armor II, 1/5" text="布甲Ⅱ, 1/5" />
+	<text key="flak armor III" text="布甲Ⅲ" />
+	<text key="flak armor III, 5/6" text="布甲Ⅲ, 5/6" />
+	<text key="flak armor III, 4/6" text="布甲Ⅲ, 4/6" />
+	<text key="flak armor III, 3/6" text="布甲Ⅲ, 3/6" />
+	<text key="flak armor III, 2/6" text="布甲Ⅲ, 2/6" />
+	<text key="flak armor III, 1/6" text="布甲Ⅲ, 1/6" />
+	<text key="flak armor III, 0/6" text="布甲Ⅲ, 0/6" />
+	<text key="plate armor I" text="铁甲Ⅰ" />
+	<text key="plate armor I, 5/6" text="铁甲Ⅰ, 5/6" />
+	<text key="plate armor I, 4/6" text="铁甲Ⅰ, 4/6" />
+	<text key="plate armor I, 3/6" text="铁甲Ⅰ, 3/6" />
+	<text key="plate armor I, 2/6" text="铁甲Ⅰ, 2/6" />
+	<text key="plate armor I, 1/6" text="铁甲Ⅰ, 1/6" />
+	<text key="plate armor II" text="铁甲Ⅱ" />
+	<text key="plate armor II, 7/8" text="铁甲Ⅱ, 7/8" />
+	<text key="plate armor II, 6/8" text="铁甲Ⅱ, 6/8" />
+	<text key="plate armor II, 5/8" text="铁甲Ⅱ, 5/8" />
+	<text key="plate armor II, 4/8" text="铁甲Ⅱ, 4/8" />
+	<text key="plate armor II, 3/8" text="铁甲Ⅱ, 3/8" />
+	<text key="plate armor II, 2/8" text="铁甲Ⅱ, 2/8" />
+	<text key="plate armor II, 1/8" text="铁甲Ⅱ, 1/8" />
+	<text key="plate armor III" text="铁甲Ⅲ" />
+	<text key="plate armor III, 9/10" text="铁甲Ⅲ, 9/10" />
+	<text key="plate armor III, 8/10" text="铁甲Ⅲ, 8/10" />
+	<text key="plate armor III, 7/10" text="铁甲Ⅲ, 7/10" />
+	<text key="plate armor III, 6/10" text="铁甲Ⅲ, 6/10" />
+	<text key="plate armor III, 5/10" text="铁甲Ⅲ, 5/10" />
+	<text key="plate armor III, 4/10" text="铁甲Ⅲ, 4/10" />
+	<text key="plate armor III, 3/10" text="铁甲Ⅲ, 3/10" />
+	<text key="plate armor III, 2/10" text="铁甲Ⅲ, 2/10" />
+	<text key="plate armor III, 1/10" text="铁甲Ⅲ, 1/10" />
+	<text key="plate armor III, 0/10" text="铁甲Ⅲ, 0/10" />
+	<text key="brute armor" text="基因甲" />
+	<text key="brute armor, 8/9" text="基因甲, 8/9" />
+	<text key="brute armor, 7/9" text="基因甲, 7/9" />
+	<text key="brute armor, 6/9" text="基因甲, 6/9" />
+	<text key="brute armor, 5/9" text="基因甲, 5/9" />
+	<text key="brute armor, 4/9" text="基因甲, 4/9" />
+	<text key="brute armor, 3/9" text="基因甲, 3/9" />
+	<text key="brute armor, 2/9" text="基因甲, 2/9" />
+	<text key="brute armor, 1/9" text="基因甲, 1/9" />
 vehicle
     <text key="Grizzly Tank" text="灰熊坦克" /> 
     <text key="Rhino Tank" text="犀牛坦克" /> 

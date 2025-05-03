@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wa_rocketeer.weapon" key="wa_rocketeer_v.weapon">
+    <specification 
+    retrigger_time="0.35"
+	sustained_fire_diminish_rate="3.0"
+    magazine_size="30"
+    name="Rocketeer (Veteran)"
+    projectile_speed="220.0"/>
+
+    <commonness value="100" />    
+    <inventory price="100" />
+    <capacity value="0" source="rank" source_value="0.8" />
+    <capacity value="1" source="rank" source_value="1.4" />
+    <hud_icon filename="hud_rocketeer_v.png" />
+	<addon_model filename="veteran.xml" />
+
+	<modifier class="speed" value="+0.18" />
+	<modifier class="hit_success_probability" value="-0.08" />
+</weapon>
+

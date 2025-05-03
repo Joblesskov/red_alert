@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <weapon key="wy_fist.weapon" />
-    <weapon key="wy_fist_e.weapon" />
+    <weapon key="wy_fist_v.weapon" />
     <weapon key="wy_mind_control.weapon" />
-    <weapon key="wy_mind_control_e.weapon" />
+    <weapon key="wy_mind_control_v.weapon" />
     <weapon key="wy_psychic_jab.weapon" />
-    <weapon key="wy_psychic_jab_e.weapon" />
+    <weapon key="wy_psychic_jab_v.weapon" />
     <weapon key="wy_steyr_tmp.weapon" />
     <weapon key="wy_virus.weapon" />
-    <weapon key="wy_virus_e.weapon" />
+    <weapon key="wy_virus_v.weapon" />
     <weapon key="wy_yuri.weapon" />
 
     <weapon key="resource_gattling_cannon.weapon" />
@@ -18,8 +18,6 @@
     <projectile key="flare_mastermind.projectile" />
     <projectile key="flare_magnetron.projectile" />
     
-    <carry_item key="vest_thick_skin.carry_item" />
-	
  	<vehicle key="jeep_1.vehicle" />
  	<vehicle key="gattling_tank.vehicle" />
  	<vehicle key="lasher_tank.vehicle" />

@@ -16,7 +16,7 @@
 		<sound class="spawn" fileref="woosh1.wav" />
 	</round>
 
-	<round instances="16"
+	<round instances="24"
 		instance_class="grenade"
 		instance_key="toxic_smoke.projectile" 
 		instance_spread="15 20 15" 
@@ -25,7 +25,7 @@
 		spawn_time="5.0">
 	</round>
 
-	<round instances="16"
+	<round instances="24"
 		instance_class="grenade"
 		instance_key="toxic_smoke.projectile" 
 		instance_spread="15 20 15" 

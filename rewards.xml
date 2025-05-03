@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <reward_config>
-	<reward class="enemy_shot" 					base="+0.0006" 	bonus="0.006"  type="xp" />  <!-- 5XP*0.3 + 0.005*soldierXP*0.3 - bonus capped to 10k XP -->
-	<reward class="enemy_killed_in_explosion" 	base="+0.0004" 	bonus="0.004"  type="xp" />
+	<reward class="enemy_shot" 					base="+0.0005" 	bonus="0.005"  type="xp" />  <!-- 5XP*0.3 + 0.005*soldierXP*0.3 - bonus capped to 10k XP -->
+	<reward class="enemy_killed_in_explosion" 	base="+0.0005" 	bonus="0.005"  type="xp" />
 	<reward class="enemy_stabbed" 				base="+0.0008"	bonus="0.008"  type="xp" />
 	<reward class="enemy_kill_combo" 			base="+0.0020"	bonus="0.001"  type="xp" />
 
 	<reward class="enemy_shot" 					base="3"	bonus="6.0"	type="rp" />
-	<reward class="enemy_stabbed" 				base="4" 	bonus="8.0"	type="rp" />
-	<reward class="enemy_killed_in_explosion" 	base="2" 	bonus="4.0"	type="rp" />
+	<reward class="enemy_stabbed" 				base="5" 	bonus="8.0"	type="rp" />
+	<reward class="enemy_killed_in_explosion" 	base="3" 	bonus="6.0"	type="rp" />
 
 	<reward class="self_suicide" 				base="-0.0" 	bonus="0.0" 	type="xp" />  
 	<reward class="self_killed" 				base="-0.0" 	bonus="0.0" 	type="xp" />        
@@ -15,8 +15,8 @@
 	<reward class="fellow_killed_in_explosion" 		base="-0.0002" 	bonus="-0.001" 	type="xp" />
 	<reward class="fellow_killed_in_explosion" 		base="-2" 			type="rp" />
 
-	<reward class="fellow_unwound" 				base="+0.001" 	bonus="0.005" 	type="xp" />
-	<reward class="fellow_unwound" 				base="+5"		bonus="5.0" 	type="rp" />  
+	<reward class="fellow_unwound" 				base="+0.0025" 	bonus="0" 	type="xp" />
+	<reward class="fellow_unwound" 				base="+10"		bonus="0" 	type="rp" />  
 
 	<reward class="staying_alive" 				base="20" 			type="rp" />
 

@@ -2,7 +2,10 @@
 <projectile class="grenade" name="impact grenade" key="impact_grenade.projectile" slot="0" radius="0.15" drop_count_limit_in_range="4">
     <tag name="grenade" />
 
-    <result class="blast" radius="3.0" damage="2.01" push="0.3" decal="1" character_state="death" faction_compare="not_equal" damage_origin_vehicle="0" />
+    <result class="spawn" 
+    instance_class="grenade" 
+    instance_key="hand_grenade_blast.projectile"
+    min_amount="6" max_amount="6" />
     <trigger class="impact" />
     <rotation class="random" />
 
@@ -14,8 +17,7 @@
     <!-- projectile slot 0 is used for hand grenade items currently -->
     <!-- bound to change -->
     <commonness value="0.5" />
-    <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="2" source="rank" source_value="0.05" />
+    <capacity value="2" source="rank" source_value="0.0" />
     <capacity value="3" source="rank" source_value="0.2" />
     <capacity value="4" source="rank" source_value="0.4" />
     <capacity value="6" source="rank" source_value="0.8" />

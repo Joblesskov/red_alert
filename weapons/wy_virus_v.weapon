@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="wy_virus.weapon" key="wy_virus_v.weapon">
+    <specification
+        name="Virus Dart Gun (Veteran)" 
+        projectile_speed="165.0" />
+
+    <hud_icon filename="hud_virus_v.png"/>
+	<addon_model filename="veteran.xml" />
+
+    <commonness value="100" />
+    <inventory price="80"/>
+    <capacity value="0" source="rank" source_value="0.6"/>
+    <capacity value="1" source="rank" source_value="1.4"/>
+
+    <projectile file="virus_dart.projectile">
+        <result class="hit" 
+            kill_probability="1.2" 
+            kill_probability_offset_on_successful_hit="3.8" 
+            kill_decay_start_time="0.55" 
+            kill_decay_end_time="0.8" />
+        <trail probability="1" key="GreenTrail"/>
+    </projectile>
+
+	<modifier class="speed" value="+0.04" />
+	<modifier class="hit_success_probability" value="-0.08" />
+</weapon>
