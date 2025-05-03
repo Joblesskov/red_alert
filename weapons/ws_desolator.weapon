@@ -11,7 +11,7 @@
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Rad Cannon" 
-	class="4" 
+	class="0" 
 	burst_shots="1"
     projectiles_per_shot="1"
 	sight_range_modifier="1.2" 
@@ -19,8 +19,7 @@
 	barrel_offset="0.4"
     use_basic_muzzle_smoke_effect="0" />
 
-    <animation key="recoil" ref="40" />
-    <!-- <animation key="reload" ref="35" /> -->
+    <animation state_key="recoil" animation_key="recoil, shoulder" />
     <animation state_key="reload" animation_key="reloading, pf98" />    
     <animation key="hold" ref="39" />
     <animation key="hold_on_wall" ref="39" />

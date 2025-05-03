@@ -3,6 +3,7 @@
     <specification 
     name="Neutron Microgun (Elite)" 
     class="0" 
+    magazine_size="40"
     burst_shots="0" />
 
     <projectile file="neutron.projectile">

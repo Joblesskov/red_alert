@@ -2,7 +2,7 @@
 <weapon file="base_primary_smg.weapon" key="wa_p90.weapon"
     ai_burst_time="0.8" 
     ai_burst_time_variance="0.1" 
-    ai_burst_wait_time="0.5" 
+    ai_burst_wait_time="0.6" 
     ai_burst_wait_time_variance="0.02" >
 
     <tag name="assault" />
@@ -38,7 +38,7 @@
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.60" 
-        kill_decay_start_time="0.25" 
+        kill_decay_start_time="0.30" 
         kill_decay_end_time="0.46" />
     </projectile>
     <modifier class="speed" value="+0.07" />

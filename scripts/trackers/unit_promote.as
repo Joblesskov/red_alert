@@ -32,23 +32,23 @@ class UnitPromote : Tracker {
 	};
 
 	protected array<uint> requiredExp = {
-		0,
+		999999,
+		300,
 		400,
-		500,
+		150,
+		300,
+		300,
+		350,
 		200,
+		300,
+		200,
+		100,
+		150,
+		250,
+		100,
 		400,
-		400,
-		500,
-		200,
-		500,
-		200,
-		200,
-		200,
-		400,
-		200,
-		500,
-		200,
-		500
+		150,
+		350
 	};
 
 	protected dictionary weaponId = {
@@ -121,13 +121,13 @@ class UnitPromote : Tracker {
 		{"virus_e", 100},
 		{"spy", 60},
 		{"spy_e", 120},
-		{"psicorp", 70},
-		{"psicorp_e", 140},
-		{"chrono", 70},
-		{"chrono_e", 140},
-		{"yuri", 150},
-		{"tanya", 150},
-		{"boris", 150}
+		{"psicorp", 80},
+		{"psicorp_e", 160},
+		{"chrono", 80},
+		{"chrono_e", 160},
+		{"yuri", 100},
+		{"tanya", 100},
+		{"boris", 100}
 	};
 
     UnitPromote(Metagame@ metagame) {

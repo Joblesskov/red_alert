@@ -9,7 +9,7 @@
 
     <commonness value="100" />    
     <inventory price="50" />
-    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="0" source="rank" source_value="0.4"/>
     <capacity value="1" source="rank" source_value="1.2"/>
     <hud_icon filename="hud_seal_v.png" />
 	<addon_model filename="veteran.xml" />
@@ -17,7 +17,7 @@
     <projectile file="bullet.projectile">
         <result class="hit" 
         kill_probability="0.66" 
-        kill_decay_start_time="0.25" 
+        kill_decay_start_time="0.30" 
         kill_decay_end_time="0.46" />
     </projectile>
 

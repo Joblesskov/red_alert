@@ -3,7 +3,7 @@
 
     <result class="spawn" 
         instance_class="projectile" 
-        instance_key="psychic_blast_sub.projectile"
+        instance_key="psychic_blast_blast.projectile"
         min_amount="6" max_amount="6" 
         offset="0 0 0" 
         position_spread="0 0" 
@@ -24,8 +24,8 @@
 
     <commonness value="1.0" />
     <capacity value="0" source="rank" source_value="0.0" /> 
-    <capacity value="4" source="rank" source_value="2.0" /> 
-    <capacity value="6" source="rank" source_value="6.0" /> 
+    <capacity value="4" source="rank" source_value="1.0" /> 
+    <capacity value="6" source="rank" source_value="2.0" /> 
     <inventory encumbrance="3.0" price="2.0" in_stock="1" />
     
     <effect class="result" key="terrain" ref="PsychicBlast" lighting="0" />

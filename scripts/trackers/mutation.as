@@ -22,7 +22,7 @@ class Mutation : Tracker {
 		const XmlElement@ target = event.getFirstElementByTagName("target");
 		string killKey = event.getStringAttribute("key");
 
-		if (killer !is null && target !is null && killKey == "genobomb_sub.projectile") {
+		if (killer !is null && target !is null && killKey == "genobomb_blast.projectile") {
 			string targetPos = target.getStringAttribute("position");
 			int factionId = killer.getIntAttribute("faction_id");
 			

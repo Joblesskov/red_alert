@@ -4,7 +4,7 @@
         <hud_icon filename="hud_vest_brute.png" />
         <model />
         <inventory encumbrance="10" price="0" />
-        <commonness value="1" in_stock="0" can_respawn_with="1" />
+        <commonness value="0.0001" in_stock="0" can_respawn_with="1" />
         
         <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="1" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0" />

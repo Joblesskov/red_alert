@@ -9,7 +9,7 @@
     <hud_icon filename="hud_spy_v.png" />
     <inventory price="40" />
     <commonness value="100" />
-    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="0" source="rank" source_value="0.6"/>
     <capacity value="1" source="rank" source_value="1.4"/>
 
     <projectile file="bullet.projectile">

@@ -20,8 +20,8 @@ class VirusSpreading : Tracker {
 		"wy_virus_v.weapon",
 		"wy_virus_e.weapon",
 		"vw_magnetron_mg.weapon",
-		"virus_cloud_sub.projectile",
-		"toxic_bomb_sub.projectile"
+		"virus_cloud_blast.projectile",
+		"toxic_bomb_blast.projectile"
 	};
 
 	protected void handleCharacterKillEvent(const XmlElement@ event) {
@@ -50,7 +50,7 @@ class VirusSpreading : Tracker {
 				"faction_id='" + killer.getIntAttribute("faction_id") + "' "+
 				"position='" + target.getStringAttribute("position") + "' "+
 				"instance_class='grenade' "+
-				"instance_key='virus_cloud_sub.projectile' "+
+				"instance_key='virus_cloud_blast.projectile' "+
                 "character_id='" + killer.getIntAttribute("id") + "' "+
 				"/>";
 				

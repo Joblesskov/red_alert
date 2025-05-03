@@ -15,8 +15,8 @@
 	<reward class="fellow_killed_in_explosion" 		base="-0.0002" 	bonus="-0.001" 	type="xp" />
 	<reward class="fellow_killed_in_explosion" 		base="-2" 			type="rp" />
 
-	<reward class="fellow_unwound" 				base="+0.001" 	bonus="0.005" 	type="xp" />
-	<reward class="fellow_unwound" 				base="+5"		bonus="5.0" 	type="rp" />  
+	<reward class="fellow_unwound" 				base="+0.0025" 	bonus="0" 	type="xp" />
+	<reward class="fellow_unwound" 				base="+10"		bonus="0" 	type="rp" />  
 
 	<reward class="staying_alive" 				base="20" 			type="rp" />
 

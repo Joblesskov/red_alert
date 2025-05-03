@@ -38,9 +38,9 @@ class MindControl : Tracker {
 
 		// range
 		dictionary dictR = {
-			{"mind_control", 2},
-			{"mind_control_e", 2.5},
-			{"mind_control_y", 3.25},
+			{"mind_control", 2.5},
+			{"mind_control_e", 3},
+			{"mind_control_y", 3.5},
 			{"mind_control_t", 3.5},
 			{"mind_control_s", 17}
 		};

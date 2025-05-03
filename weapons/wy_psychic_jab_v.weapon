@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="wy_psychic_jab.weapon" key="wy_psychic_jab_v.weapon">
+<weapon file="wy_psychic_jab.weapon" key="wy_psychic_jab_v.weapon"
+    ai_burst_time="0.9" 
+    ai_burst_time_variance="0.2" 
+    ai_burst_wait_time="0.9" 
+    ai_burst_wait_time_variance="0.1" >
     <specification 
         retrigger_time="0.20" 
         sustained_fire_grow_step="0.1"

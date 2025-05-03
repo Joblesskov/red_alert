@@ -2,7 +2,7 @@
 <projectile class="grenade" name="Maverick 3" slot="2" key="mig_missile_rad.projectile" pulldown_in_air="20">
     <result class="spawn" 
         instance_class="grenade" 
-        instance_key="rad_eruption_sub.projectile" 
+        instance_key="rad_eruption_blast.projectile" 
         min_amount="3" 
         max_amount="4" 
         offset="0 4 0" 

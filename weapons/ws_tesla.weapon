@@ -11,7 +11,7 @@
         can_shoot_standing="1" 
         suppressed="0" 
         name="mini-Tesla Coil" 
-        class="4" 
+        class="0" 
         carry_in_two_hands="0"
         sight_range_modifier="1.0"  
         projectile_speed="190"

@@ -26,7 +26,7 @@ particle_system SmokeFlak
 
 	affector Scaler
 	{
-		rate	2
+		rate	4
 	}
 
 	affector Rotator

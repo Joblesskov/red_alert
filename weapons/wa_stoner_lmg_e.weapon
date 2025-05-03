@@ -7,6 +7,7 @@
     <commonness value="1" can_respawn_with="0" in_stock="0"/>    
     <inventory price="0" />
     <hud_icon filename="hud_ggi_e.png" />
+    <model filename="stoner_lmg_shield.xml" />
 	<addon_model filename="elite.xml" />
 
     <projectile file="bullet.projectile">

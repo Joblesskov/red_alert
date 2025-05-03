@@ -4,7 +4,7 @@
     <trigger class="time" time_to_live="0.0"/>
     <result class="spawn" 
         instance_class="grenade" 
-        instance_key="rad_eruption_sub.projectile" 
+        instance_key="rad_eruption_blast.projectile" 
         min_amount="12" 
         max_amount="12" 
         offset="0 9.7 0" 
@@ -19,8 +19,8 @@
 
     <commonness value="1.0" />
     <capacity value="0" source="rank" source_value="0.0" /> 
-    <capacity value="2" source="rank" source_value="0.8" /> 
-    <capacity value="4" source="rank" source_value="2.4" /> 
+    <capacity value="2" source="rank" source_value="0.6" /> 
+    <capacity value="4" source="rank" source_value="1.4" /> 
     <inventory encumbrance="3.0" price="3.0" in_stock="1" />
 
     <sound class="result" key="other" fileref="idesat2a.wav" volume="1.2" />

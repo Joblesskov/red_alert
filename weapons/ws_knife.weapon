@@ -36,7 +36,7 @@
 	<animation state_key="walking_backwards" 	animation_key="walking backwards, pistol" />
 	<animation state_key="stabbing"			animation_key="stabbing, fast once" />
 
-	<sound key="fire" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.6" />
+	<sound key="effect" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.6" />
 	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.6" />
 	<sound key="stab_hit" fileref="impact_body1.wav" pitch_variety="0.05" volume="0.8" />
 
@@ -48,6 +48,6 @@
     <capacity value="0" source="rank" source_value="0.0"/>
     <capacity value="1" source="rank" source_value="0.1"/>
 	
-	<modifier class="speed" value="+0.10" />
+	<modifier class="speed" value="+0.1" />
 	<modifier class="hit_success_probability" value="-0.2" />
 </weapon>

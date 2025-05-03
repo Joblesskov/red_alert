@@ -9,7 +9,7 @@
 
     <commonness value="100" />
     <inventory price="80"/>
-    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="0" source="rank" source_value="0.6"/>
     <capacity value="1" source="rank" source_value="1.4"/>
 
     <projectile file="virus_dart.projectile">

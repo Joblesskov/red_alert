@@ -4,7 +4,7 @@
     <trigger class="impact" />
     <result class="spawn" 
         instance_class="projectile" 
-        instance_key="genobomb_sub.projectile"
+        instance_key="genobomb_blast.projectile"
         min_amount="4" max_amount="4" 
         offset="0 1 0" 
         position_spread="0 0" 

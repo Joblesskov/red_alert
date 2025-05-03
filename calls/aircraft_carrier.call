@@ -15,7 +15,7 @@
 
 	<hud_icon filename="call_aircraft_carrier.png" />
 	<capacity value="0" source="rank" source_value="0.0" />
-	<capacity value="100" source="rank" source_value="0.8" />
+	<capacity value="100" source="rank" source_value="1.0" />
 	<inventory encumbrance="0.0" price="240.0" />
 
 </call>

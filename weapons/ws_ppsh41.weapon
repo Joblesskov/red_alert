@@ -2,7 +2,7 @@
 <weapon file="base_primary_smg.weapon" key="ws_ppsh41.weapon"
 	ai_burst_time="0.6" 
     ai_burst_time_variance="0.05" 
-    ai_burst_wait_time="0.6" 
+    ai_burst_wait_time="0.8" 
     ai_burst_wait_time_variance="0.05" >
 
 	<specification 
@@ -42,7 +42,7 @@
 	<projectile file="bullet.projectile">
 		<result class="hit"
 		kill_probability="0.51"
-		kill_decay_start_time="0.34"
+		kill_decay_start_time="0.30"
 		kill_decay_end_time="0.44" />
 	</projectile>
 

@@ -5,7 +5,7 @@
     acknowledge_comment="Roger."
     notify_metagame="1" >
 
-	<round instances="4"
+	<round instances="6"
 		instance_class="grenade"
 		instance_key="genobomb.projectile" 
 		instance_spread="5 20 5" 
@@ -16,7 +16,7 @@
 		<sound class="spawn" fileref="woosh1.wav" />
 	</round>
 
-	<round instances="8"
+	<round instances="12"
 		instance_class="grenade"
 		instance_key="genobomb.projectile" 
 		instance_spread="10 20 10" 

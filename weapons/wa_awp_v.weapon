@@ -8,7 +8,7 @@
     <inventory price="60" />
     <hud_icon filename="hud_sniper_v.png" />
 	<addon_model filename="veteran.xml" />
-    <capacity value="0" source="rank" source_value="0.0"/>
+    <capacity value="0" source="rank" source_value="0.6"/>
     <capacity value="1" source="rank" source_value="1.2"/>
 
     <projectile file="bullet.projectile">

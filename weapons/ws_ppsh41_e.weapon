@@ -2,7 +2,7 @@
 <weapon file="ws_ppsh41_v.weapon" key="ws_ppsh41_e.weapon">
 	<specification 
 	accuracy_factor="0.95"
-	spread_range="0.225"
+	spread_range="0.2"
 	name="PPSh-41 (Elite)" 
 	sight_range_modifier="1.1"/>
 
@@ -14,7 +14,7 @@
     <projectile file="bullet.projectile">
 		<result class="hit"
 		kill_probability="0.60"
-		kill_decay_start_time="0.37"
+		kill_decay_start_time="0.33"
 		kill_decay_end_time="0.48"/>
         <trail probability="1" key="BulletEliteTrail"/>
 	</projectile>
