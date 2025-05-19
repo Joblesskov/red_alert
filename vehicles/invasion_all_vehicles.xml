@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
 <!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
+	<vehicle file="barracks_a.vehicle" />
+	<vehicle file="barracks_s.vehicle" />
+	<vehicle file="barracks_y.vehicle" />
+	<vehicle file="warfactory_a.vehicle" />
+	<vehicle file="warfactory_s.vehicle" />
+	<vehicle file="warfactory_y.vehicle" />
+
 	<vehicle file="grizzly_tank.vehicle" />
 	<vehicle file="ifv.vehicle" />
 	<vehicle file="mirage_tank.vehicle" />

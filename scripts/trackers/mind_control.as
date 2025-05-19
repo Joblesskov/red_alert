@@ -64,7 +64,7 @@ class MindControl : Tracker {
         int controllerId = event.getIntAttribute("character_id");
 		Vector3 controlPos = stringToVector3(event.getStringAttribute("position"));
 		const XmlElement@ controller = getCharacterInfo2(m_metagame, controllerId);
-		int factionId = controller.getIntAttribute("faction_id");
+		uint factionId = controller.getIntAttribute("faction_id");
 		
 		for (uint f = 0; f < 4; f++) {
 			// skip own faction

@@ -47,6 +47,7 @@
 #include "brute_corresponding.as"
 #include "unit_promote.as"
 #include "auto_heal.as"
+#include "unit_train.as"
 
 // --------------------------------------------
 class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
@@ -334,6 +335,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(BruteCorresponding(this));
 		addTracker(UnitPromote(this));
 		addTracker(AutoHeal(this));
+		addTracker(UnitTrain(this));
 	}
 
 	// --------------------------------------------

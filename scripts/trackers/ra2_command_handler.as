@@ -206,7 +206,7 @@ class RA2CommandHandler : Tracker {
 				if (parameters.size() > 2) {
 					faction_id = parseInt(parameters[2]);
 				}
-				for (uint i = 0; i < soldier_count; i++) {
+				for (int i = 0; i < soldier_count; i++) {
 					spawnInstanceNearPlayer(senderId, parameters[0], "soldier", faction_id);
 				}
 			}

@@ -18,7 +18,7 @@ class AutoHeal : Tracker {
     protected void trigger() {
         array<const XmlElement@>@ players = getPlayers(m_metagame);
         if (players.size() > 0) {
-            for (int i = 0; i < players.size(); i++) {
+            for (uint i = 0; i < players.size(); i++) {
                 // get player info
                 const XmlElement@ player = players[i];
                 int characterId = player.getIntAttribute("character_id");

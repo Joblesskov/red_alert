@@ -9,7 +9,7 @@
 	<control max_speed="24.0" acceleration="8.0" max_reverse_speed="7.0" min_health_to_steer="0.12" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
 
 	<physics max_health="2.4" mass="0.36" extent="2.4 0.0 4.2" offset="0 0.0 0" top_offset="0 4 0" collision_model_pos="0 0.5 0.0" collision_model_extent="2.6 2.0 5.4" visual_offset="0 0.25 -0" gravity="-41" preserve_motion_on_impact_factor="1.0" friction_offset="0.0" drag_offset="-0.1" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" 
-	collision_response_factor="2.0"/>  
+	collision_response_factor="3.9"/>  
 
 	<visual class="chassis" mesh_filename="jeep_body_2.mesh" texture_filename="jeep_2.png" />
 	<visual class="chassis" key="broken" mesh_filename="jeep_body_2_broken.mesh" texture_filename="jeep_2_broken.png" />
