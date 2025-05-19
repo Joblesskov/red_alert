@@ -1158,7 +1158,7 @@
 
 			<projectile key="psychic_blast.projectile" />
 
-			<carry_item key="vest_flak2.carry_item" />
+			<carry_item key="vest_flak3.carry_item" />
 		</resources>
 
 		<item_class_existence_config>

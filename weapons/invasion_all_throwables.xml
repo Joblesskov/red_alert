@@ -33,6 +33,7 @@
     <projectile file="mig_missile_explosion.projectile" />
     <projectile file="mig_missile_rad.projectile" />
     <projectile file="mirage_cannon.projectile" />
+    <projectile file="mirage_cannon_blast.projectile" />
     <projectile file="neutron.projectile" />
     <projectile file="nuke.projectile" />
     <projectile file="nuke_under.projectile" />

@@ -11,7 +11,7 @@
     suppressed="0" 
     name="mirage gun" 
     class="0" 
-    projectile_speed="200.0" 
+    projectile_speed="300.0" 
     slot="2" 
     barrel_offset_3d="0 0 0" 
     use_basic_muzzle_smoke_effect="0"
@@ -21,13 +21,13 @@
     <commonness value="0.0" />
     
     <projectile file="mirage_cannon.projectile">
-        <result class="blast" 
-        radius="2.0" 
-        damage="2.01" 
-        push="0" 
-        decal="1"
-        damage_origin_vehicle="0"
-        faction_compare="not_equal" />
+        <result class="spawn" 
+            instance_class="grenade" 
+            instance_key="mirage_cannon_blast.projectile"
+            min_amount="5" max_amount="5" 
+            offset="0 0 0" 
+            position_spread="0 0" 
+            direction_spread="0 0" />
         <trail probability="1" key="RedTrail" />
     </projectile>
     
