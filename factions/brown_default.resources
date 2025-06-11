@@ -31,6 +31,8 @@
  	<vehicle key="transport_s.vehicle" />
     <vehicle key="sentry_gun.vehicle" />
     <vehicle key="tesla_coil.vehicle" />
+    <vehicle key="barracks_s.vehicle" />
+    <vehicle key="warfactory_s.vehicle" />
 
 	<call key="paratroopers1s.call" />
 	<call key="paratroopers2s.call" />

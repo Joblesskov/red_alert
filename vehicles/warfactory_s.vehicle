@@ -1,4 +1,4 @@
-<vehicle name="War Factory" key="warfactory_s.vehicle" map_view_atlas_index="-1" existence="one_per_faction" reserves_spawn_point="1" protectors="3" soldier_capacity_offset="3" respawn_time="3600.0" usable_for_cover="0" >    
+<vehicle name="War Factory" key="warfactory_s.vehicle" map_view_atlas_index="-1" protectors="6" soldier_capacity_offset="3" respawn_time="600" usable_for_cover="1" >    
 	<tag name="warfactory" />
 
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
@@ -6,11 +6,21 @@
 
 	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
                                                                                                                                                        
-	<physics max_health="12.0" mass="10000.0" extent="3.5 0.0 3.5" offset="0 0.0 0" top_offset="0 2 0" collision_model_pos="0 2.0 0" collision_model_extent="3.5 14 3.5" visual_offset="0 0.0 0.0" /> 
+	<physics max_health="50" 
+	mass="10000.0" 
+	extent="5.4 0.0 12" 
+	offset="0 0.0 0" 
+	top_offset="0 2 0" 
+	collision_model_pos="0 0 0" 
+	collision_model_extent="5.4 7.0 12" 
+	visual_offset="0 0.7 0" /> 
 
-	<visual class="chassis" mesh_filename="water_tower.mesh" texture_filename="water_tower.png" />
-	
-	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 1.8 0.0" />
+	<visual class="chassis" mesh_filename="warfactory_s.mesh" texture_filename="warfactory_s.png" />
+		
+	<effect event_key="health" value="25" ref="SmallSmokeVehicle" offset="0 3.5 0" />  
+	<effect event_key="health" value="12.5" ref="MediumSmokeVehicle" offset="0 3.5 0" />  
+  	<effect event_key="health" value="12.5" ref="SmallFireRepeat" offset="0 3.5 0" />  
+	<effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
 
 	<event key="destroy_xp_reward">
 		<trigger class="destroy" />
@@ -19,11 +29,38 @@
   
 	<event key="destroy_rp_reward">
 		<trigger class="destroy" />
-		<result class="reward" rp="200" />
+		<result class="reward" rp="250" />
 	</event>
 
 	<event key="spot_rp_reward">
 		<trigger class="spot" />
-		<result class="reward" rp="50.0" />
+		<result class="reward" rp="50" />
 	</event>
+
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_radartower.visual_item" min_amount="2" max_amount="3" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.05 0.2" />
+	</event>
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor1.visual_item" min_amount="2" max_amount="3" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	</event>  
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_truck1.visual_item" min_amount="1" max_amount="2" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	</event>   
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_jeep2.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.05 0.2" />
+	</event>  
+
+	<event>
+		<trigger class="cleanup" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_cleanup.visual_item" min_amount="20" max_amount="30" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.1" /> 
+	</event>
+ 	<event>
+		<trigger class="cleanup" />
+		<result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
+	</event>
+	
 </vehicle>

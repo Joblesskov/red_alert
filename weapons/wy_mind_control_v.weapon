@@ -53,4 +53,5 @@
     <target_factors tag="mc_immune" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
     <target_factors tag="heavy" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
     <target_factors tag="medium" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
+    <target_factors tag="mirage" distance="0.0" direction="0.0" squad_command="0.0" base_score="0.0" />
 </weapon>

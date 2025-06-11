@@ -154,6 +154,16 @@ vehicle
     <text key="Psychic Tower" text="心灵控制塔" /> 
     <text key="psychic tower deploy" text="心灵控制塔部署包" /> 
 
+	<text Key="Power Plant" text="发电厂" />
+	<text key="Tesla Reactor" text="磁能反应炉" />
+	<text key="Bio Reactor" text="生化反应炉" />
+	<text key="Barracks" text="兵营"/>
+	<text key="War Factory" text="战争工厂"/>
+	<text key="Airforce Command Headquarters" text="空指部"/>
+	<text key="Radar Tower" text="雷达" />
+	<text key="Psychic Radar" text="心灵感应器" />
+	<text key="Battle Lab" text="作战实验室" />
+
     <text key="Prism Tank Drop" text="光棱坦克空投信标"/> 
     <text key="Mirage Tank Drop" text="幻影坦克空投信标"/> 
     <text key="Tank Destroyer Drop" text="坦克杀手空投信标"/> 
@@ -236,40 +246,12 @@ vanilla
 	<text key="riot shield" text="防暴盾" />
 	<text key="riot shield 100&#37;" text="防暴盾100&#37;" />
 	<text key="riot shield 50&#37;" text="防暴盾50&#37;" />
-	<text key="M72 LAW" text="M72轻型反装甲火箭筒" />
 	<text key="rocket" text="火箭弹" />
-	<text key="M240" text="M240轻机枪" />
-	<text key="Mossberg 500" text="莫斯伯格500霰弹枪" />
-	<text key="M16A4" text="M16A4突击步枪" />
-	<text key="F2000" text="F2000突击步枪" />
-	<text key="Benelli M4" text="伯耐利M4霰弹枪" />
-	<text key="Benelli M4 suppressed" text="伯耐利M4霰弹枪（消音）" />  
-	<text key="pepperdust" text="Pepperdust晕眩霰弹枪" />
 	<text key="Tank cannon" text="坦克主炮" />
 	<text key="Tank MG" text="坦克机枪" />
-	<text key="AKS-74U" text="AKS-74U卡宾枪" />
 	<text key="Medikit" text="医疗包" />
-	<text key="TOW" text="“陶”式反坦克导弹" />
-	<text key="VSS Vintorez" text="VSS微声狙击步枪 " />
-	<text key="Neostead 2000" text="尼奥斯泰德2000霰弹枪" />
 	<text key="Cover deploy" text="掩体部署包" />
-	<text key="Humvee MG" text="悍马机枪" />
-	<text key="m79 grenade launcher" text="M79榴弹发射器" />
-	<text key="M79" text="M79" />
-	<text key="MG deploy" text="重机枪部署包" />
-	<text key="MG" text="重机枪" />
-	<text key="D40mm-Flak" text="Flak 40mm防空炮" />
-	<text key="PS Mortar" text="巡逻艇迫击炮" />
-	<text key="PB" text="PB 6P9微声手枪" />
-	<text key="Glock 17" text="Glock 17手枪" />
-	<text key="Beretta M9" text="伯莱塔M9手枪" />
-	<text key="Desert Eagle" text="沙漠之鹰" />
-	<text key="Desert Eagle GOLD" text="黄金沙漠之鹰" />
-	<text key="AA-12" text="AA-12全自动霰弹枪" />
-	<text key="MGL Flasher" text="MGL闪光弹发射器" />
 	<text key="grenade" text="榴弹" />
-	<text key="Barrett M107" text="巴雷特M107半自动狙击步枪" />
-	<text key="XM8" text="XM8突击步枪" />
 	<text key="hand grenade" text="手榴弹" />
 	<text key="mortar shell" text="迫击炮弹" />
 	<text key="impact grenade" text="触发式手榴弹" />
@@ -280,69 +262,17 @@ vanilla
 	<text key="Naval mine" text="水雷" />
 	<text key="stun grenade" text="震撼弹" />
 	<text key="grenade" text="榴弹" />
-	<text key="whiskey bottle" text="威士忌" />
-	<text key="cigarettes" text="香烟" />
-	<text key="100 dollars" text="100美元" />
-	<text key="GameGirl" text="GameGirl游戏机" />
-	<text key="gem" text="宝石" />
-	<text key="Lona Misa" text="蒙娜丽莎" />
-	<text key="Horny magazine" text="小黄书" />
-	<text key="comic book" text="漫画书" />
-	<text key="RWR handbook" text="RWR游戏手册" />
-	<text key="Oscar statue" text="奥斯卡小金人" />
-	<text key="Vest, type II" text="Ⅱ型防弹背心" />
-	<text key="Vest, type II, 50&#37;" text="Ⅱ型防弹背心，50&#37;" />
-	<text key="Vest, type II, 25&#37;" text="Ⅱ型防弹背心，25&#37;" />
-	<text key="cigars" text="雪茄" />
-	<text key="beer can" text="啤酒罐" />
-	<text key="lighter" text="打火机" />
-	<text key="steroids" text="肾上腺素" />
-	<text key="Teddy Bear" text="泰迪熊" />
-	<text key="Vest, type III" text="Ⅲ型防弹背心" />
-	<text key="Vest, type III, 80&#37;" text="Ⅲ型防弹背心，80&#37;" />
-	<text key="Vest, type III, 60&#37;" text="Ⅲ型防弹背心，60&#37;" />
-	<text key="Vest, type III, 40&#37;" text="Ⅲ型防弹背心，40&#37;" />
-	<text key="Vest, type III, 20&#37;" text="Ⅲ型防弹背心，20&#37;" />
-	<text key="Holy Bible" text="圣经" />
-	<text key="Holy Koran" text="古兰经" />
-	<text key="chewing-gum" text="口香糖" />
-	<text key="bizarre rubber bullet...?" text="奇异的橡胶子弹...？" />
-	<text key="chocolate" text="巧克力" />
-	<text key="300 dollars" text="300美元" />
-	<text key="energy drink" text="能量饮料" />
-	<text key="fancy Sunglasses" text="花哨的太阳镜" />
-	<text key="ghetto blaster" text="手提式录音机" />
-	<text key="razor" text="剃须刀" />
-	<text key="willy boy" text="套套" />
-	<text key="King-size willy boy" text="超大号套套" />
-	<text key="sunglasses" text="太阳镜" />
-	<text key="iPoo blue edition" text="iPoo宝石蓝版" />
-	<text key="iPoo red edition" text="iPoo中国红版" />
-	<text key="iPoo white edition" text="iPoo珍珠白版" />
-	<text key="iPoo silver edition" text="iPoo太空银版" />
-	<text key="iPoo yellow edition" text="iPoo土豪金版" />
-	<text key="iPoo green edition" text="iPoo翡翠绿版" />
-	<text key="iPoo pink limited edition" text="iPoo脑残粉限量版" />
-	<text key="poker cards" text="扑克牌" />
+
 	<text key="Jeep" text="吉普车" />
-	<text key="SIK-AP APC" text="SIK-AP步战车" />
+
 	<text key="Spawn truck" text="重生车" />
 	<text key="Comms truck" text="通讯车" />
 	<text key="Rubber boat" text="橡皮艇" />
-	<text key="RWR1a1 Tank" text="RWR1a1主战坦克" />
-	<text key="Tiger" text="“虎”式重型坦克" />
-	<text key="Humvee" text="悍马车" />
-	<text key="Buggy" text="沙漠巡逻车" />
-	<text key="Transport truck" text="运兵车" />
-	<text key="Radar Tower" text="信号塔" />
-	<text key="Patrol ship" text="巡逻艇" />
-	<text key="MG" text="重机枪" />
-	<text key="Minigun" text="M134加特林机枪" />
+
 	<text key="Armory truck" text="军械车" />
 	<text key="Fuel tank" text="油罐" />
 	<text key="Radio jammer" text="无线电干扰发生器" />
 	<text key="Water Tower" text="水塔" />
-	<text key="Mortar" text="迫击炮" />
 	<text key="?" text="???" />
 	<text key="Target" text="目标" />
 	<text key="throw some grenades at me!" text="朝这里扔手榴弹！" />
@@ -354,23 +284,13 @@ vanilla
 	<text key="try firing your weapon while crouched behind cover" text="试着蹲在掩体后面开火" />
 	<text key="single shots can be more effective&#37;EOLtry it on the targets at the firing range" text="点射会更有效率&#37;EOL试着在射程内射击目标" />
 	<text key="you can check or rebind every key&#37;EOLin the options>control config menu, try &#37;control_controls_config_shortcut" text="你可以查看或重新绑定任何键&#37;EOL在设置->按键配置菜单中,试试 &#37;control_controls_config_shortcut 键" />
-	<text key="cover drop" text="空投沙袋" />
-	<text key="I need sandbags" text="我需要沙袋！" />
 	<text key="Confirmed" text="确认" />
-	<text key="Sandbags on the way" text="沙袋正在路上" />
-	<text key="mortar strike (1x8)" text="迫击炮打击（1x8）" />
-	<text key="Fire mission" text="火炮支援" />
-	<text key="fire one round." text="1轮迫击炮打击" />
 	<text key="Roger, wait one." text="收到，稍等" />
-	<text key="Round on the way." text="迫击炮来袭" />
 	<text key="4 paratroopers" text="4个伞兵" />
 	<text key="Reinforcements" text="增援部队" />
 	<text key="requesting 4" text="请求4人支援" />
 	<text key="Roger" text="明白" />
 	<text key="4 airborne" text="4个空降兵" />
-	<text key="Greenbelts" text="绿皮带" />
-	<text key="Graycollars" text="灰衣领" />
-	<text key="Brownpants" text="棕裤子" />
 
 	<text key="ground" text="地面" />
 	<text key="equipment" text="装备" />
@@ -407,71 +327,13 @@ vanilla
 
 	<text key="Game started" text="开始游戏" />
 
-	<text key="AK47" text="AK47突击步枪" />
-	<text key="G36" text="G36突击步枪"/>
-	<text key="PKM" text="PKM通用机枪"/>
-	<text key="FAMAS G1" text="FAMAS-G1突击步枪"/>
-	<text key="Dragunov SVD" text="Dragunov SVD半自动狙击步枪"/>
-	<text key="SPAS-12" text="SPAS-12多功能霰弹枪"/>
-	<text key="QCW-05" text="QCW-05式微声冲锋枪"/>
-	<text key="PSG-90" text="PSG-90狙击步枪"/>
-	<text key="RPG-7" text="RPG-7火箭筒"/>
-	<text key="M2 Carl Gustav" text="M2无后坐力炮"/>
-	<text key="L85A2" text="L85A2突击步枪"/>
-	<text key="SG 552" text="SG552卡宾枪"/>
-	<text key="IMI Negev" text="IMI Negev轻机枪"/>
-	<text key="QBS-09" text="QBS-09式半自动霰弹枪"/>
-	<text key="Scorpion Evo III" text="“蝎”式Evo Ⅲ微声冲锋枪"/>
-	<text key="MiniGun deploy" text="M134加特林机枪部署包"/>
-	<text key="Mortar deploy" text="迫击炮部署包"/>
-	<text key="XM-25" text="XM-25空爆弹发射器"/>
-	<text key="TOW deploy" text="“陶”式反坦克导弹部署包"/>
-	<text key="D40mm-Flak-proto" text="Flak 40mm防空炮"/>
-	<text key="Missile launcher" text="导弹发射器"/>
-	<text key="briefcase" text="公文包"/>
 	<text key="Cargo truck" text="运货卡车"/>
-	<text key="Prisoner transport" text="运囚车"/>
-	<text key="Prison door" text="监狱大门"/>
-	<text key="Anti-Air" text="防空炮"/>
-	<text key="Mortar Ammunition" text="迫击炮弹药箱"/>
 	<text key="Cargo vehicle" text="运货汽车"/>
-	<text key="Tractor" text="拖拉机"/>
-	<text key="Pigeon P5" text="Pigeon P5吉普车"/>
-	<text key="Urbal UAS" text="Urbal UAS吉普车"/>
-	<text key="GT-C APC" text="GT-C步战车"/>
-	<text key="BTX APC" text="BTX步战车"/>
-	<text key="Leopold II Tank" text="貂Ⅱ主战坦克"/>
-	<text key="TroX-80 Tank" text="TroX-80主战坦克"/>
-	<text key="DarkCat Tank" text="黑猫坦克"/>
-	<text key="Vulcan Tank" text="火神坦克"/>
-	<text key="mortar strike (3x8)" text="迫击炮打击（3x8）"/>
-	<text key="fire three rounds." text="3轮迫击炮打击"/>
-	<text key="Roger, wait three." text="收到，3秒倒数"/>
-	<text key="Rounds on the way." text="火炮来袭"/>
+
 	<text key="8 paratroopers" text="8个伞兵"/>
 	<text key="requesting 8" text="请求8人支援"/>
 	<text key="8 airborne" text="8个空降兵"/>
-	<text key="artillery strike (2x16)" text="火炮打击（2x16）"/>
-	<text key="fire two rounds, artillery advised." text="2轮榴弹炮打击"/>
-	<text key="Roger, wait two." text="收到，2秒倒数"/>
-	<text key="Rounds on the way." text="迫击炮来袭"/>
-	<text key="artillery strike (10x16)" text="火炮打击（5x16）"/>
-	<text key="fire eight rounds, artillery advised." text="5轮榴弹炮打击"/>
-	<text key="Roger, wait eight." text="收到，5秒倒数"/>
-	<text key="Rounds on the way." text="火炮来袭"/>
-	<text key="Rubber boat drop" text="空降橡皮艇"/>
-	<text key="I need water transport!" text="我需要水上载具！"/>
-	<text key="Confirmed, rubber boat is in the air." text="已确认，正在空运橡皮艇"/>
-	<text key="Airdropping rubber boat now." text="正在空投橡皮艇"/>
-	<text key="spawn Humvee" text="空投悍马"/>
-	<text key="spawn Buggy" text="空投沙漠巡逻车"/>  
-	<text key="I need combat transportation" text="我需要悍马战车！"/>
-	<text key="Confirmed, Humvee's in the air." text="已确认，正在空运悍马"/>
-	<text key="Airdropping Humvee now." text="正在空投悍马"/>
-    <text key="spawn VFS" text="空投VFS装甲侦查车"/>
-    <text key="I need light armoured anti-tank vehicle" text="我需要轻型反坦克装甲车！"/>
-    <text key="Confirmed, VFS's in the air." text="已确认，正在空运VFS装甲侦查车"/>
-    <text key="Airdropping VFS now." text="正在空投VFS装甲侦查车"/>
+
 	<text key="spawn tank" text="空投坦克"/>
 	<text key="I need armoured support!" text="我需要坦克支援!"/>
 	<text key="Confirmed, tank is in the air." text="已确认，正在空运坦克"/>
@@ -507,11 +369,6 @@ vanilla
 	<text key="Elite Commando" text="精英突击队员"/>
   
 	<text key="Binoculars" text="望远镜"/>
-	<text key="WB-II Microgun" text="WB-Ⅱ轻型加特林机枪"/>
-	<text key="Vest, type I" text="Ⅰ型防弹背心" />
-	<text key="Vest, type I, 50&#37;" text="Ⅰ型防弹背心, 50&#37;"/>
-  
-	<text key="Camouflage suit" text="伪装服"/>
 
 	<text key="Stolen" text="已窃取"/>
 	<text key="Locked" text="锁定"/>
@@ -519,42 +376,8 @@ vanilla
 	<text key="Rank challenge completed" text="等级挑战完成: &#37;rank_title" />      
 
 	<text key="Click to respawn" text="点击复活" />
-  
-	<text key="AT mine" text="反坦克地雷"   />
-	<text key="tank trap deploy" text="坦克陷阱部署包"  />
 
-	<text key="worn underpants" text="破烂的内裤"/>  
-	<text key="unreleased Justin Beerbar CD" text="贾斯汀·比巴卜未发行的CD唱片"/> 
-    
-  <text key="I need fast combat transportation" text="我需要快速运输战车！"/>
-  <text key="Confirmed, Buggy's in the air." text="已确认，正在空运沙漠巡逻车"/>
-  <text key="Airdropping Buggy now." text="正在空投沙漠巡逻车"/>  
-  
 	<text key="Javelin" text="“标枪”反坦克导弹"/> 
-	<text key="EOD armor" text="防爆服"/>
-  
-	<text key="Model 29 Revolver" text="Model 29左轮手枪"/>
-	<text key="KRISS Vector" text="KRISS 维克托微声冲锋枪"/>
-	<text key="MG-42" text="MG-42通用机枪"/>
-	<text key="M712 Schnellfeuer" text="M712冲锋手枪"/>
-	<text key="Beretta 93R" text="伯莱塔93R消音冲锋手枪"/>
-	<text key="Pecheneg Bullpup" text="“佩切涅格”犊牛机枪"/>
-	<text key="Portable Mortar" text="便携式迫击炮"/>
-	<text key="Sawn-Off Shotgun" text="截短霰弹枪"/>
-	<text key="SCAR SSR" text="SCAR SSR精准射手步枪"/>
-	<text key="M202 flash" text="M202“闪光”火箭发射器"/>
-	<text key="Milkor MGL" text="Milkor榴弹发射器"/>
-	<text key="MP7" text="MP7冲锋枪"/>
-	<text key="Buckshot Bess Musket" text="燧发枪"/>
-	<text key="Grenade Launcher" text="自动榴弹发射器"/>
-	<text key="GL Deploy" text="榴弹发射器部署包"/>
-	<text key="Lahti L-39" text="Lahti L-39反坦克步枪"/>
-	<text key="APR" text="APR微声狙击步枪"/>
-	<text key="Chain SAW" text="“链锯”消音轻机枪"/>
-	<text key="Patriot" text="武装皮卡"/>
-	<text key="Radar Tank" text="雷达坦克"/>
-	
-	
 	
 	<text key="stab kill notification" text="&#37;name1刺杀了&#37;name2" />
 	<text key="blast kill notification" text="&#37;name1用&#37;weapon杀死了&#37;name2 " />
@@ -566,59 +389,16 @@ vanilla
 	<text key="large wrench" text="大扳手" />
 	<text key="small wrench" text="小扳手" />   
 
-
-	<text key="gold bar" text="金条" />
-  
 	<text key="quad" text="全地形车" /> 
-	<text key="supply quad" text="补给车" /> 
-	<text key="mortar tank" text="M113迫击炮装甲车" />
-  
-	<text key="MK23 SOCOM" text="MK23特种作战手枪"/> 
-	<text key="AAC Honey Badger" text="“蜜獾”消音突击步枪"/> 
-  
-	<text key="blue box" text="蓝箱子"/>
-	<text key="purple box" text="紫箱子"/>
-	<text key="titan box" text="泰坦箱子"/>
-	<text key="Laptop" text="笔记本电脑"/>
-        
-
-	<text key="spawn supplies" text="请求补给车"/>
-	<text key="I need supplies!" text="我需要补给车！"/>
-	<text key="Confirmed, supply is in the air." text="已确认，正在空运补给车"/>
-	<text key="Airdropping supply quad now." text="正在空运补给车"/>
   
 	<text key="Disabled" text="重生点禁用" />    
-       
-	<!--Fix missing-->
-	<text key="44 Magnum" text=".44马格南左轮手枪" />
-	<text key="Pink Panda" text="粉嫩熊猫车" />
-	<text key="Jackhammer" text="“汽锤”全自动霰弹枪" />
-	<text key="ARES Shrike" text="ARES“伯劳鸟”轻机枪" />
-	<text key="Stoner 62" text="斯通纳62轻机枪（瞄镜）" />
-	<text key="Pickashoe" text="皮卡丘" />
-	<text key="costume, clown" text="小丑服" />
-	<text key="costume, werewolf" text="狼人服" />
-	<text key="costume, santa" text="圣诞服" />
-	<text key="SMAW" text="SMAW火箭筒" />
-	<text key="Radar Tank HMG" text="雷达坦克机枪" />
-	<text key="Vulcan HMG" text="火神炮" />
-	<text key=".50 cal" text=".50重机枪" />
-	<text key="Kamasutra" text="爱经" />
-	<text key="PAW-20" text="PAW-20半自动榴弹发射器" />
-	<text key="UTS-15" text="UTS-15泵动式霰弹枪" />
 	
 	<!--v1.64-->   
 	<text key="kicking player" text="踢出玩家: &#37;player_name！" />
-	<text key="flamethrower" text="火焰喷射器" />
 	<text key="tracer" text="信标枪" />
 	<text key="tracer dart" text="定位信标" />
 	<text key="tracer missile" text="跟踪导弹" />
-	<text key="taser" text="泰瑟枪" />
-	<text key="community box" text="社群箱子Ⅰ" />
-	<text key="mustela" text="“鼬鼠”装甲车" />
-	<text key="Mustela Drop" text="“鼬鼠”装甲车空投信标" />
-	<text key="AA-12 Frag" text="AA-12全自动霰弹枪（破片弹）" />
-	<text key="Mutagen, Lizard" text="蜥蜴诱变剂" />
+
 
 	<!--v1.65-->
 	<text key="bandage" text="绷带" />
@@ -649,24 +429,7 @@ vanilla
 	<text key="Defense target" text="防御目标"/>
 	<text key="Extraction point" text="撤离点"/>
 	<text key="radio" text="电台" />
-	
-	<text key="Medical Dart Gun" text="医疗枪" />
-    <text key="FN FAL" text="FN FAL突击步枪" />
-	<text key="FN FAL - bayonet" text="FN FAL突击步枪（刺刀）" />
-	<text key="M16A4 - shield and scope" text="M16A4突击步枪（枪盾|瞄镜）" />
-	<text key="Golden Knife" text="氪金匕首" />
-	<text key="L30P-GUNFU" text="L30P格斗手枪" />
-	<text key="Javelin, anti-personnel" text="“标枪”反步兵导弹" />
-	<text key="TTI-Combat Shield" text="TTI格斗盾牌" />
-	<text key="Banana peel" text="香蕉皮" />
-	<text key="Doom's Hammer" text="毁灭之锤" />
-	<text key="AAV-G17/A1 Drop" text="G17/A1两栖战车空投信标" />
-	<text key="AAV-G17/A1" text="G17/A1两栖战车" />
-	<text key="Bananza" text="香蕉车" />
-	<text key="Banana Car Drop" text="香蕉车空投信标" />
-	<text key="Camouflaged Vest" text="迷彩背心" />
-	<text key="costume, banana" text="香蕉服" />
-	<text key="community box 2" text="社群箱子 Ⅱ" />
+
 	<text key="godmode" text="上帝模式" />
   
     <text key="your penalty has started" text="你已经进入TK惩罚状态！" />
@@ -676,70 +439,7 @@ vanilla
     <text key="Online terminated"  text="连接中断"/>   
     <text key="Server created"  text="服务器已创建"/>
     <text key="Server restarted" text="服务器已重启" /> 
-    
-    <text key="community box 3" text="社群箱子 Ⅲ" />     
-    <text key="gun truck drop" text="武装卡车空投信标"/>  
-    <text key="FST ACAV Drop" text="ACAV步兵战车空投信标" />
-    <text key="30mm" text="30毫米"/>         
-    <text key="Dragon fire" text="龙息" />
-    <text key="EMP grenade" text="EMP手雷" /> 
-    <text key="shuriken" text="手里剑" />     
-    <text key="Camouflaged Vest, 80&#37;" text="迷彩背心，80&#37;" />
-    <text key="Camouflaged Vest, 50&#37;" text="迷彩背心，50&#37;" />
-    <text key="Camouflaged Vest, 20&#37;" text="迷彩背心，20&#37;" />
-    <text key="Camouflaged Vest, destroyed" text="迷彩背心，已损坏" />     
-    <text key="Psycho Butcher" text="杀人魔" />  
-    <text key="Chain Saw" text="油锯" />
-    <text key="GL" text="自动榴弹发射器" />                      
-    <text key="AAV7 GL" text="两栖战车榴弹发射器" />               
-    <text key="AAV7 MG" text="两栖战车机枪" />              
-    <text key="medical dart" text="医疗飞镖" />               
-    <text key="MX4 Storm" text="MX4“风暴”冲锋枪" />               
-    <text key="PP-19 Bizon" text="PP-19“野牛”冲锋枪" />            
-    <text key="trauma kit" text="创伤医护包" />    <!-- no need --> 
-    <text key="Dragons breath" text="龙息霰弹枪" />    
-    <text key="M711-LA Enforcer" text="M711-LA “执行者”步枪" />   
-    <text key="GPS laptop" text="GPS定位电脑" />         
-    <text key="Hornet" text="“黄蜂”导弹发射器" />             
-    <text key="Hornet deploy" text="“黄蜂”导弹发射器部署包" />
-    <text key="Repair crane"  text="机械修理臂" />
-    <text key="Repair crane deploy"  text="机械修理臂部署包" />
-    <text key="Squall" text="“咆哮者”金属风暴系统" />
-    <text key="Vest Repair Kit" text="背心修复包" />        
-    <text key="ACAV minigun" text="ACAV加特林机枪" />                                     
-    <text key="Prison hatch" text="监狱天窗" />                                            
-    <text key="FST ACAV" text="ACAV 步兵战车" />                  
-    <text key="Ice cream van" text="冰淇淋车" />
-    <text key="Ice cream" text="冰淇淋" />   
-    <text key="Lottery ticket" text="彩票" />                   
-    <text key="Tracer dart missile" text="指引导弹"/>  
-    <text key="Gun truck" text="武装卡车" />          
-    <text key="Satellite spotting" text="卫星探测" />             
-    <text key="Observation mission" text="监视任务" />           
-    <text key="Scanning area for strategic targets." text="正在扫描此区域目标。" />     
-    <text key="Scanning area, open your maps, soldiers!" text="扫描区域中，打开你的地图，士兵！" />                      
-    <text key="Elite Reinforcements" text="精英小队支援" />  
-    
-    <text key="community box 4" text="社群箱子 Ⅳ"/>
-    <text key="Blowgun" text="吹箭"/>
-    <text key="Buggy MG" text="巡逻车载机枪"/>
-    <text key="Steyr AUG" text="斯太尔AUG突击步枪"/> 
-    <text key="MG-3" text="车载MG3"/>
-    <text key="Frag-12" text="Frag-12高爆霰弹枪"/>
-    <text key="G11" text="H&amp;K G11突击步枪"/>
-	<text key="G11 - burst" text="H&amp;K G11突击步枪（三连发）"/>
-    <text key="TKB-059" text="TKB-059三管突击步枪"/>     
-    <text key="Compound Bow" text="军用材质复合弓"/>     
-    <text key="PF-98" text="PF-98 XN1 120mm火箭筒"/> 
-    <text key="RWM Mortar" text="RWM轻型便捷迫击炮"/>
-    <text key="M6 Lynx" text="GM6“山猫”狙击步枪"/>
-    <text key="GL06" text="GL-06榴弹发射器"/>
-    <text key="RGM-40" text="RGM-40榴弹发射器"/>
-    <text key="Golden AK47" text="黄金AK-47突击步枪"/>
-    <text key="Mustela Mk20" text="“鼬鼠”Mk.20装甲支援车"/>
 
-    <text key="community box 5" text="社群箱子 V"/>        
-    
     <text key="Kicked from server" text="已从服务器踢出！" />
 	<text key="Kicked - Temp banned" text="你暂时受到了TK惩罚, 剩余时间: &#37;ban_time 分钟" />
 	<text key="Kicked - Steam ID not found; try playing in Steam" text="并未找到你的Steam ID。&#37;PS请问你是不是没有从Steam打开游戏？如果没有的话试试从Steam打开。" />
@@ -766,83 +466,9 @@ vanilla
 #13 - 故意过多的占用游戏内无线电支援序列会导致玩家会从服务器内踢出/ID禁用。&#37;PS
 #14 - 官服与其他玩家进行游戏内物品交易时务必谨慎！任何交易时的损失都由交易双方承担，原则上管理员不处理对相关追责问题。" />  
 
-    <text key="Requesting close air support" text="正在请求近距离空中支援"/>
-    <text key="Cluster bombing" text="集束炸弹轰炸"/>
-    <text key="Requesting air strike" text="正在请求对目标进行空袭"/>
-    <text key="A-10 gun run" text="A-10“雷霆”攻击机火炮打击"/>
-    <text key="Requesting Gunship air support" text="正在请求空中炮艇火力支援"/>
-    <text key="Gunship run" text="空中炮艇火力支援"/>
     <text key="Roger." text="收到。"/>    
-    <text key="gunship HMG" text="空中炮艇-重型机炮"/>
-    <text key="gunship cannon" text="空中炮艇-主炮"/>
-    <text key="Aircraft approaching designated area." text="炮艇正在飞往指定区域"/>    
-    <text key="ZJX-19/XE" text="ZJX-19/XE 装甲抢修车"/>
-    <text key="ZJX-19/XE Drop" text="ZJX-19/XE 装甲抢修车空投信标"/>
-    <text key="ZJX-19/XE MG" text="装甲抢修车-机枪"/>
-    <text key="FT-CROC" text="烈焰装甲运输车"/>
-    <text key="FT-CROC Drop" text="烈焰装甲运输车空投信标"/>
-    <text key="FT-CROC MG" text="烈焰装甲运输车-机枪"/>
-    <text key="Legion" text="Legion步兵坦克"/>
-    <text key="165mm HESH" text="Legion步兵坦克-165毫米榴弹炮"/>  
-    <text key="Legion MG" text="Legion步兵坦克-机枪"/>
-    <text key="M528" text="M528火力支援车"/>
-    <text key="M528 Drop" text="M528火力支援车空投信标"/>
-    <text key="M528 HMG" text="M528-重型机枪"/>
-    <text key="M528 AP" text="M528-人员杀伤导弹"/>
-    <text key="NOXE Ghost" text="NOXE Ghost导弹发射车"/>
-    <text key="NOXE Ghost Drop" text="NOXE Ghost导弹发射车空投信标"/>
-    <text key="NOXE rocket" text="导弹发射车-导弹"/>
-    <text key="SEV-90" text="SEV-90反战车坦克"/>
-    <text key="SEV-90 Drop" text="SEV-90反战车坦克空投信标"/>
-    <text key="SEV-90 40mm" text="SEV-90反战车坦克-四十毫米战车炮"/>
-    <text key="Acid Explosion" text="酸性爆炸"/>
-    <text key="Body Explosion" text="尸体爆炸"/> 
-    <text key="ballistic knife" text="弹道战术刀"/>
-    <text key="Helium balloon" text="氢气球"/>
-    <text key="Stim pack" text="兴奋剂"/>
-    <text key="Stim pack, active" text="兴奋剂（已激活）"/>
-    <text key="Squad Equipment Kit" text="小队装甲包"/>
-    <text key="cluster bomb" text="集束炸弹"/>
-    <text key="Exo carrier" text="外骨骼装甲"/>
-    <text key="Exo carrier, 50&#37;" text="外骨骼装甲， 50&#37;"/>
-    <text key="Exo carrier, destroyed" text="外骨骼装甲，已损坏"/>
-    <text key="L30P-DUALIST" text="双持L30P格斗手枪"/>
-    <text key="RWM mortar" text="便携迫击炮"/>
-    <text key="KP-31 Suomi" text="KP-31 索米冲锋枪"/>
-    <text key="Chicken carrier" text="鸡笼"/>
-    <text key="Ninjato" text="忍者刀"/>
-    <text key="M320" text="M320榴弹发射器"/>
-    <text key="P416" text="P416突击步枪"/>
-    <text key="rocket artillery" text="火箭炮击"/> 
+
 	<text key="Repair required" text="需要修理" />    
-
-<!-- 1.84 additions -->
-
-	<text key="50 cal"/>
-	<text key="chickens"/>
-    <text key="community box 6" text="社群箱子 VI"/>
-    <text key="44 Magnum, rapid fire" text=".44马格南左轮手枪（快速射击）"/>
-    <text key="Cavalry saber" text="骑兵军刀"/>
-    <text key="KSxS-6 Hunter" text="KSxS-6 猎枪"/>      <!-- double barrel hunter rifle -->
-    <text key="KSxS-6 Hunter, double shot" text="KSxS-6 猎枪（双发）"/>  <!-- double barrel hunter rifle, shooting both barrels at the same time -->
-    <text key="Ninjato, firecrackers" text="忍者刀（摔炮）"/>     <!-- Ninjato alt, with firecrackers instead of ninja stars -->
-    <text key="firecracker" text="摔炮"/>
-    <text key="Compound Bow, explosive" text="军用材质复合弓（爆炸箭头）"/>    <!-- alt with explosive arrow instead of normal arrow -->
-    <text key="Ultimax 100" text="Ultimax 100轻机枪（弹鼓）"/>
-    <text key="Ultimax 100, magazine" text="Ultimax 100轻机枪（弹匣）"/>    <!-- 100 ammo magazine instead of 30 for the alt version  -->
-    <text key="ASh-12.7" text="ASh-12.7突击步枪"/>
-    <text key="MAC-10" text="MAC-10冲锋枪"/>
-    <text key="MAC-10 SD" text="MAC-10冲锋枪（消音）"/>
-    <text key="ARES Shrike, semi-auto" text="ARES“伯劳鸟”轻机枪（单发）"/>
-    <text key="RPD" text="RPD轻机枪"/>
-    <text key="RPD - bipod" text="RPD轻机枪（架设）"/>    <!-- alt of the RPD with a bipod for prone only but more precise use -->
-    <text key="Kulakov" text="Kulakov 燃烧榴弹发射器"/>
-    <text key="flame grenade" text="燃烧榴弹"/>   <!-- incendiary grenades of the kulakov grenade launcher -->
-    <text key="Zweihander" text="双手巨剑"/>    <!-- medieval sword -->
-    <text key="Golden MP5SD" text="黄金MP5微声冲锋枪"/>
-    <text key="AK47 w/ GP25 GL" text="AK47/GP25（下挂榴弹）"/>    <!-- AK47 with underbarrel grenade launcher -->
-    <text key="G36 w/ AG36 GL" text="G36/AG36（下挂榴弹）"/>
-    <text key="M16A4 w/ M203 GL" text="M16A4/M203（下挂榴弹）"/>
 
     <text key="Kicked - Idling" text="被服务器自动踢出 - 达到挂机时长上限" /> 
 	<text key="General of the Army (II)" text="五星上将 (II)" />
@@ -851,129 +477,15 @@ vanilla
 	<text key="General of the Army (V)" text="五星上将 (V)" />
     <text key="Field Marshal" text="陆军元帅" />
     <text key="Vice President" text="副总统" />	
-	
-	<!-- 1.88 update (Halloween) -->
 
-	<text key="ripper elite" text="精英级开膛手" />
     <text key="combat dog" text="军犬" />
-    <text key="Defibrillator" text="电复律机"/>
-	<text key="G3A3 - scoped" text="G3A3突击步枪（3倍瞄具）"/>
-	<text key="G3A3" text="G3A3突击步枪（红点瞄具）"/>
-	<text key="dp28" text="DP-28轻机枪"/>
-	<text key="dp28 - shield" text="DP-28轻机枪（枪盾）"/>
-	<text key="m14k" text="M14k半自动步枪"/>
-	<text key="m14k (stim)" text="M14k半自动步枪（肾上腺素）"/>
-	<text key="qbz-95" text="QBZ-95式突击步枪"/>
-	<text key="qbz-95 - underbarrel shotgun" text="QBZ-95式突击步枪（下挂霰弹）"/>
-	<text key="Welding torch" text="维修喷枪"/>
-	<text key="FD-338" text="FD-338射手步枪"/>
-	<text key="FD-338SD" text="FD-338射手步枪（消音）"/>
-	<text key="Banner" text="牌子"/>
-	<text key="propane" text="喷枪自爆"/>
-	<text key="costume, werewolf, destroyed" text="狼人服，已损坏"/>
-	<text key="costume, werewolf, frenzy!" text="狼人服，狂暴！"/>
-	<text key="costume, clown, destroyed" text="小丑服，已损坏"/>
-	<text key="costume, santa, destroyed" text="圣诞服，已损坏"/>
-	<text key="Mutagen, Lizard, damaged" text="蜥蜴诱变剂，已损坏"/>
-	<text key="costume, banana, destroyed" text="香蕉服，已损坏"/>
-	<text key="pumpkin box" text="南瓜箱子" /> 
-	<text key="wings, vampire" text="吸血鬼之翼"/>
-	<text key="wings, vampire, blood thirsty" text="吸血鬼之翼，嗜血"/>
-	<text key="costume, chicken" text="小鸡服"/>
-	<text key="costume, chicken, destroyed" text="小鸡服，已损坏"/>
-    <text key="Golden Dragunov SVD" text="黄金Dragunov SVD半自动狙击步枪"/>
-    <text key="Reaper's Scythe" text="死神之息"/>
-    <text key="bats" text="吸血出击"/>
-    <text key="howling" text="狼吼"/>
-    <text key="costume, reaper" text="死神服"/>
-    <text key="costume, reaper (damaged)" text="死神服（受损）"/>
-    <text key="costume, reaper (unchained)" text="死神服（解锁）"/>
-	<text key="Lijia's Pumpkin" text="老黎的南瓜车" />
-	<text key="Evil Pumpkin" text="老黎的邪恶南瓜"  />
-	<text key="Lijia's Pumpkin Spawn" text="老黎的南瓜车"/>
-	
-<!-- 1.90 update (Xmas) -->
-
-    <text key="Golden bell" text="金色小丁当"/>
-    <text key="Christmas biscuit" text="圣诞小饼干"/>
-    <text key="Candy cane" text="手杖糖"/>
-    <text key="Santa's stocking" text="圣诞长筒袜"/>
-    <text key="Xmas box" text="圣诞箱子"/>     
-    <text key="Xmas Jeep Drop" text="圣诞快乐车空投信标"/>
-    <text key="Xmas Jeep" text="圣诞快乐车"/>
-    <text key="Xmas tree" text="圣诞树"/>
-    <text key="grinch" text="Bad Santa" old_text="圣诞鬼灵精"/>
     <text key="Dog Comfort" text="军犬（谢谢医疗兵！）" />
-
-<!-- 1.91 -->
-
-	<text key="Beretta M9 suppressed" text="伯莱塔M9消音手枪" />
-	<text key="Glock 17 suppressed" text="Glock 17 消音手枪" />
- 
 	<text key="move to backpack" text="移至背包" />
 	<text key="equip" text="装备" />
 	<text key="move to armory" text="移至军械库" />
 	<text key="move to stash" text="移至储藏处" />
 	<text key="drop on ground" text="扔在地上" />
 	<text key="single/multi item mode" text="单一/多种物品模式" />	
-
-<!-- 1.92 -->
-
-	<text key="VFS" text="VFS装甲侦查车" />
-	<text key="VFS MG" text="VFS车载重机枪" />
-	<text key="VFS AT" text="VFS车载反坦克系统" /> 
-
-<!-- 1.95 leftovers -->
-	
-	<text key="stim" />
-	<text key="Oh you, farmer, you!" />
-	<text key="explosive arrow" />
-	<text key="Patrol Ship MG" />
-	<text key="Patriot" />
-	<text key="Patriot MG" />
-	<text key="Long Claws" />
-	<text key="Elastic Tendons" />
-	<text key="self stun" />
-	<text key="dog" />
-	<text key="dog, healthy" />
-	<text key="dog_3" />
-	<text key="dog, injured" />
-    <text key="Psycho Butcher, wounded" text="杀人魔，已损坏" />
-	<text key="EOD armor, 50%" />
-	<text key="EOD armor, 55%" />
-	
-<!-- 1.96 -->	
-
-	<text key="community box 7" text="社群箱子 VII"/>
-	<text key="costume, panda" text="熊猫服"/>
-	<text key="costume, panda, destroyed" text="熊猫服，已损坏"/>
-	<text key="rotten banana" text="烂香蕉"/>
-	<text key="Dog Crate" text="狗狗笼"/>
-	<text key="F1" text="一级圆程式赛车"/>
-	<text key="F1 Drop" text="一级圆程式赛车空投信标"/>
-	<text key="LAI-109" text="LAI-109多管火箭炮车" />
-	<text key="LAI-109 Drop" text="LAI-109多管火箭炮车空投信标" />
-	<text key="LAI-109 Missile" text="LAI-109-火箭弹" />
-	<text key="LAILV-002" text="LAILV-002装甲运兵车" />
-	<text key="LAILV-002 Drop" text="LAILV-002装甲运兵车空投信标" />
-	<text key="LAILV-002 HMG" text="LAILV-002车载双联速射炮" />
-	<text key="MMLS-528" text="MMLS-528自行布雷系统" />
-	<text key="MMLS-528 Drop" text="MMLS-528自行布雷系统空投信标" />
-	<text key="M528 AT" text="MMLS-528-反坦克地雷" />
-	<text key="Gilboa DBR" text="基利波双管突击步枪" />
-	<text key="MGV-176" text="MGV-176冲锋枪" />
-	<text key="SKS" text="SKS半自动步枪" />
-	<text key="SKS - Incendiary" text="SKS半自动步枪（燃烧弹）" />
-	<text key="MPX" text="MPX冲锋枪" />
-	<text key="MPX - Hollow Point" text="MPX冲锋枪（空尖弹）" />   
-	<text key="SBL" text="圆锯发射器" />
-	<text key="AN-94" text="AN-94突击步枪" />
-	<text key="AN-94 - burst" text="AN-94突击步枪（双发）" />
-	<text key="Ordnance Shovel" text="工兵铲" />
-	<text key="Dog Bone" text="狗骨头" />
-	
-	<text key="claymore shield" text="claymore shield"/>
-	
 </translation>
 
 

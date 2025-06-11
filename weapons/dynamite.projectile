@@ -5,7 +5,7 @@ class="grenade"
 name="dynamite" 
 key="dynamite.projectile" 
 slot="0" 
-can_be_disarmed="1" 
+can_be_disarmed="0" 
 can_be_detected_by_driver="0" 
 drop_count_limit_in_range="1">
 

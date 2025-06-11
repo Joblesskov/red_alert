@@ -24,6 +24,8 @@
  	<vehicle key="transport_y.vehicle" />  
     <vehicle key="gattling_cannon.vehicle" />
     <vehicle key="psychic_tower.vehicle" />
+    <vehicle key="barracks_y.vehicle" />
+    <vehicle key="warfactory_y.vehicle" />
 
 	<call key="paratroopers1y.call" />
 	<call key="paratroopers2y.call" />

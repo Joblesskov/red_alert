@@ -36,6 +36,8 @@
  	<vehicle key="transport_a.vehicle" /> 
     <vehicle key="pillbox.vehicle" />
     <vehicle key="prism_tower.vehicle" />
+    <vehicle key="barracks_a.vehicle" />
+    <vehicle key="warfactory_a.vehicle" />
 
 	<call key="paratroopers1a.call" />
 	<call key="paratroopers2a.call" />

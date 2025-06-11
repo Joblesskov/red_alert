@@ -21,9 +21,9 @@
 		allow_skinpacks="1">
 
 		<preset text="Let's play" help="Help:Let's play" id="test"
-			friendly_capacity="2.20"
+			friendly_capacity="1.20"
 			friendly_accuracy="1.00"
-			enemy_capacity="1.80"
+			enemy_capacity="1.00"
 			enemy_accuracy="1.00"
 			xp_multiplier="1.00"
 			rp_multiplier="1.00"
@@ -31,9 +31,9 @@
 		/>
 
 		<preset text="Difficulty:Normal" help="Help:Hard" id="normal"
-			friendly_capacity="2.20"
+			friendly_capacity="1.20"
 			friendly_accuracy="0.96"
-			enemy_capacity="1.80"
+			enemy_capacity="1.00"
 			enemy_accuracy="0.95"
 			xp_multiplier="1.00"
 			rp_multiplier="1.00"
