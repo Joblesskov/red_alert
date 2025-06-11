@@ -271,7 +271,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage1() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Keepsake Bay";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map2";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map2";
 		stage.m_mapInfo.m_id = "map2";
 		
 		stage.m_includeLayers.insertLast("layer1.invasion"); 
@@ -322,7 +322,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage2() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Fridge Valley";
-		stage.m_mapInfo.m_path = "media/packages/vanilla.winter/maps/map4";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map4";
 		stage.m_mapInfo.m_id = "map4";
 		
 		stage.m_includeLayers.insertLast("layer1.invasion");		
@@ -369,7 +369,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage3() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Old Fort Creek";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map3";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map3";
 		stage.m_mapInfo.m_id = "map3";
 
 		stage.m_includeLayers.insertLast("layer1.invasion");
@@ -418,7 +418,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage4() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Power Junction";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map7";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map7";
 		stage.m_mapInfo.m_id = "map7";
 
 		stage.m_includeLayers.insertLast("layer1.invasion");        
@@ -478,7 +478,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage5() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Moorland Trenches";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map1";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map1";
 		stage.m_mapInfo.m_id = "map1";
 		
 		stage.m_includeLayers.insertLast("layer1.invasion"); 
@@ -532,7 +532,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage6() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Bootleg Islands";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map5";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map5";
 		stage.m_mapInfo.m_id = "map5";
 
 		stage.m_maxSoldiers = 11 * 10;
@@ -578,7 +578,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage7() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Rattlesnake Crescent";
-		stage.m_mapInfo.m_path = "media/packages/vanilla.desert/maps/map6";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map6";
 		stage.m_mapInfo.m_id = "map6";
 
 		stage.m_maxSoldiers = 15 * 9;
@@ -627,7 +627,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage8() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Vigil Island";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map8";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map8";
 		stage.m_mapInfo.m_id = "map8";
 
 		stage.m_includeLayers.insertLast("layer1.invasion"); 
@@ -684,7 +684,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage9() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Black Gold Estuary";
-		stage.m_mapInfo.m_path = "media/packages/vanilla.desert/maps/map9";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map9";
 		stage.m_mapInfo.m_id = "map9";
 
 		stage.m_includeLayers.insertLast("layer1.invasion");
@@ -742,7 +742,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage10() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Railroad Gap";
-		stage.m_mapInfo.m_path = "media/packages/vanilla.desert/maps/map10";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map10";
 		stage.m_mapInfo.m_id = "map10";
 		
 		stage.m_includeLayers.insertLast("layer1.invasion");
@@ -796,7 +796,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage11() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Iron Enclave";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map13";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map13";
 		stage.m_mapInfo.m_id = "map13";
 		
 		stage.m_includeLayers.insertLast("layer1.invasion"); 
@@ -860,7 +860,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupStage12() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Misty Heights";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map14";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map14";
 		stage.m_mapInfo.m_id = "map14";
 		
 		stage.m_includeLayers.insertLast("layer1.invasion");

@@ -2,7 +2,7 @@
 <models>
 	<model filename="soldier_a_engineer.xml" />
 
-	<!-- <model filename="soldier_a_gi.xml">
+	<model filename="soldier_a_gi.xml">
 		<requirement class="weapon" slot="0" key="wa_ump40.weapon"/>
 	</model>
 	<model filename="soldier_a_gi.xml">
@@ -180,5 +180,5 @@
 	</model>
 	<model filename="soldier_a_yuri.xml">
 		<requirement class="weapon" slot="0" key="wy_yuri.weapon"/>
-	</model> -->
+	</model>
 </models>

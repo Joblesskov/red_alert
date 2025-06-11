@@ -18,10 +18,10 @@ void main(dictionary@ inputData) {
 	// --------------------------------------------
 	// TODO: replace with your package's folder here
 	// --------------------------------------------
-	array<string> overlays = {
-                "media/packages/red_alert"
-        };
-        settings.m_overlayPaths = overlays;
+	// array<string> overlays = {
+    //             "media/packages/red_alert"
+    //     };
+    //     settings.m_overlayPaths = overlays;
 
 	MyGameMode metagame(settings);
 

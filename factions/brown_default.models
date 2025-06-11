@@ -2,7 +2,7 @@
 <models>
 	<model filename="soldier_s_engineer.xml" />
 	
-	<!-- <model filename="soldier_s_conscript.xml">
+	<model filename="soldier_s_conscript.xml">
         <requirement class="weapon" slot="0" key="ws_ppsh41.weapon"/>
     </model>
 	<model filename="soldier_s_conscript.xml">
@@ -180,5 +180,5 @@
 	</model>
 	<model filename="soldier_s_yuri.xml">
 		<requirement class="weapon" slot="0" key="wy_yuri.weapon"/>
-	</model> -->
+	</model>
 </models>
