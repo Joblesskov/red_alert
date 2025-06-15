@@ -1,4 +1,4 @@
-<vehicle name="Barracks" key="barracks_s.vehicle" map_view_atlas_index="-1" protectors="3" soldier_capacity_offset="3" respawn_time="300" usable_for_cover="1" >    
+<vehicle name="Barracks" key="barracks_s.vehicle" map_view_atlas_index="56" protectors="3" soldier_capacity_offset="6" respawn_time="360" usable_for_cover="1" >    
 	<tag name="barracks" />
 	<spawn_point offset="0 0 5"/>
 

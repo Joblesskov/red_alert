@@ -21,9 +21,9 @@
 
     <projectile key="dynamite.projectile" />
     <projectile key="rad_eruption.projectile" />
-    <projectile key="flare_tesla_tank.projectile" />
+    <!-- <projectile key="flare_tesla_tank.projectile" />
     <projectile key="flare_v3.projectile" />
-    <projectile key="flare_apocalypse_tank.projectile" />
+    <projectile key="flare_apocalypse_tank.projectile" /> -->
 
  	<vehicle key="jeep_2.vehicle" />
  	<vehicle key="flak_track.vehicle" />

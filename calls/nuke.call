@@ -54,5 +54,5 @@
     <hud_icon filename="call_nuke.png" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="2.0" />
-    <inventory encumbrance="0.0" price="1500.0" />
+    <inventory encumbrance="0.0" price="1000.0" />
 </call>

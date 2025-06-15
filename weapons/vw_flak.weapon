@@ -34,5 +34,5 @@
 
     <sound class="operation" key="fire" fileref="vflaat1a.wav" />
     <sound class="operation" key="fire" fileref="vflaat1b.wav" />
-
+    <target_factors tag="heavy" distance="0.1" direction="0.1" squad_command="0.1" base_score="0.1" />
 </weapon>

@@ -43,4 +43,7 @@
         <trail probability="1" key="GreenTrail"/>
         <effect class="result" key="character" ref="BloodSplatGreenSmall" post_processing="1" lighting="0" />
     </projectile>
+    <target_factors tag="heavy" distance="0.1" direction="0.1" squad_command="0.1" base_score="0.1" />
+    <target_factors tag="medium" distance="0.1" direction="0.1" squad_command="0.1" base_score="0.1" />
+
 </weapon>

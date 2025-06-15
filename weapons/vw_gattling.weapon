@@ -35,4 +35,5 @@
 
     <sound class="operation" key="fire" fileref="vgatlo2b.wav" pitch_variety="0.05" />	
 	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
+    <target_factors tag="heavy" distance="0.1" direction="0.1" squad_command="0.1" base_score="0.1" />
 </weapon>

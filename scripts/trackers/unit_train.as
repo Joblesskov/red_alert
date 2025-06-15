@@ -6,8 +6,10 @@
 #include "query_helpers2.as"
 
 const float TRAIN_TIME_INTERVAL = 1.0f;
-const float INFANTRY_TIME_FACTOR = 0.5f;
-const float VEHICLE_TIME_FACTOR = 1.3f;
+const float INFANTRY_TIME_FACTOR = 0.4f;
+const float VEHICLE_TIME_FACTOR = 1.5f;
+const float CHECK_CAPACITY_INTERVAL = 10.0f;
+const uint MAX_VEHICLES_PER_FACTION = 50;
 
 class unit {
 	string name;
@@ -32,10 +34,13 @@ class UnitTrain : Tracker {
     protected bool m_started = true;
     protected bool m_ended = false;
 	protected float m_interval = TRAIN_TIME_INTERVAL;
+	protected float m_long_interval = CHECK_CAPACITY_INTERVAL;
 
 	protected array<uint> allVehicleKeys = {};
 	protected array<string> TrainingUnits = {};
 	protected array<uint> TrainingTimer = {};
+	protected array<bool> canTrainSoldiers = {true, true, true, true};
+	protected array<bool> canTrainVehicles = {true, true, true, true};
 
     protected array<string> validVehicleKeys = {
 		"barracks_a.vehicle",
@@ -116,12 +121,12 @@ class UnitTrain : Tracker {
 
 	unit selectScoredUnit(array<unit@> units) {
 		float totalScore = 0.0f;
-		for (int i = 0; i < units.length(); i++) {
+		for (uint i = 0; i < units.length(); i++) {
 			totalScore += units[i].score;
 		}
 		float selectedScore = rand(0.0f, totalScore);
 
-		for (int i = 0; i < units.length(); i++) {
+		for (uint i = 0; i < units.length(); i++) {
 			if (selectedScore <= units[i].score) {
 				return units[i];
 			} else {
@@ -169,6 +174,7 @@ class UnitTrain : Tracker {
 		uint vehicleId = allVehicleKeys[vehicleIndex];
 		const XmlElement@ vehicle = getVehicleInfo(m_metagame, vehicleId);
 
+		int factionId = vehicle.getIntAttribute("owner_id");
 		string position = vehicle.getStringAttribute("position");
 		string forward = vehicle.getStringAttribute("forward");
 		string spawnClass = getTrainType(vehicle.getStringAttribute("key"));
@@ -183,17 +189,26 @@ class UnitTrain : Tracker {
 
 		XmlElement command("command");
 		command.setStringAttribute("class", "create_instance");
-		command.setIntAttribute("faction_id", vehicle.getIntAttribute("owner_id"));
+		command.setIntAttribute("faction_id", factionId);
 		command.setStringAttribute("position", position);
 		command.setStringAttribute("instance_class", spawnClass);
 		command.setStringAttribute("instance_key", TrainingUnits[vehicleIndex]);
-		m_metagame.getComms().send(command);
+
+		if (spawnClass == "vehicle") {
+			if (canTrainVehicles[factionId]) {
+				m_metagame.getComms().send(command);
+			}
+		} else {
+			if (canTrainSoldiers[factionId]) {
+				m_metagame.getComms().send(command);
+			}
+		}
 
 		return;
 	}
 
 	void updateTrain() {
-		for (int i = 0; i < allVehicleKeys.length(); i++) {
+		for (uint i = 0; i < allVehicleKeys.length(); i++) {
 			TrainingTimer[i] --;
 			if (TrainingTimer[i] == 0) {
 				spawnTrainUnit(i);
@@ -201,6 +216,21 @@ class UnitTrain : Tracker {
 			}
 		}
 		return;
+	}
+
+	void updateCapacity() {
+		for (uint f = 0; f < getFactions(m_metagame).size(); ++f) {
+			const XmlElement@ faction = getFactionInfo(m_metagame, f);
+
+			if (faction is null) return;
+
+			int soldierCapacity = faction.getIntAttribute("soldier_capacity");
+			int soldiers = faction.getIntAttribute("soldiers");
+
+			array<const XmlElement@>@ vehicles = getAllVehicles(m_metagame, f);
+			canTrainVehicles[f] = vehicles.length() < MAX_VEHICLES_PER_FACTION;
+			canTrainSoldiers[f] = soldiers < soldierCapacity;
+		}
 	}
 
 	protected void handleVehicleSpawnEvent(const XmlElement@ event) {
@@ -244,9 +274,16 @@ class UnitTrain : Tracker {
 
 	void update(float time) {
 		m_interval -= time;
+		m_long_interval -= time;
+		
 		if (m_interval < 0.0f) {
 			updateTrain();
 			m_interval = TRAIN_TIME_INTERVAL;
+		}
+
+		if (m_long_interval < 0.0f) {
+			updateCapacity();
+			m_long_interval = CHECK_CAPACITY_INTERVAL;
 		}
 		return;
 	}

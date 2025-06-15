@@ -212,7 +212,7 @@ class RA2CommandHandler : Tracker {
 			}
 		} else if (checkCommand(message, "god")) {
 			spawnInstanceNearPlayer(senderId, "god_vest.carry_item", "carry_item", 0, false, 0.5); 
-		} 
+		}
 	}
 
 	// --------------------------------------------

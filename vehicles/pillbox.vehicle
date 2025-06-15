@@ -1,4 +1,4 @@
-<vehicle name="Pillbox" key="pillbox.vehicle" map_view_atlas_index="29" respawn_time="80.0" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" allow_owner_to_use_only="1"  >
+<vehicle name="Pillbox" key="pillbox.vehicle" map_view_atlas_index="29" respawn_time="120" protectors="1" soldier_capacity_offset="1" character_leave_request_mode="friendly" allow_owner_to_use_only="1"  >
 	<tag name="defensive1" />
 	<tag name="mc_immune" />
 

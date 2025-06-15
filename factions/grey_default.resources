@@ -15,8 +15,8 @@
     <weapon key="resource_psychic_tower.weapon" />
 
     <projectile key="psychic_blast.projectile" />
-    <projectile key="flare_mastermind.projectile" />
-    <projectile key="flare_magnetron.projectile" />
+    <!-- <projectile key="flare_mastermind.projectile" />
+    <projectile key="flare_magnetron.projectile" /> -->
     
  	<vehicle key="jeep_1.vehicle" />
  	<vehicle key="gattling_tank.vehicle" />

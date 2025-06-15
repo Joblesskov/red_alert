@@ -31,14 +31,20 @@ class SellBuiding : Tracker{
         Vector3 sellPos = stringToVector3(event.getStringAttribute("position"));
         array<const XmlElement@>@ vehicles = getAllVehicles(m_metagame, 0);
 		dictionary sellableBuildings = {
-            {"pillbox.vehicle", 50},
-            {"prism_tower.vehicle", 150},
-            {"grand_cannon.vehicle", 200},
-            {"sentry_gun.vehicle", 50},
-            {"battle_bunker.vehicle", 50},
-            {"tesla_coil.vehicle", 150},
-            {"gattling_cannon.vehicle", 100},
-            {"psychic_tower.vehicle", 150}
+            {"pillbox.vehicle", 10},
+            {"prism_tower.vehicle", 30},
+            {"grand_cannon.vehicle", 40},
+            {"sentry_gun.vehicle", 10},
+            {"battle_bunker.vehicle", 10},
+            {"tesla_coil.vehicle", 30},
+            {"gattling_cannon.vehicle", 20},
+            {"psychic_tower.vehicle", 30},
+            {"barracks_a.vehicle", 100},
+            {"barracks_s.vehicle", 100},
+            {"barracks_y.vehicle", 100},
+            {"warfactory_a.vehicle", 400},
+            {"warfactory_s.vehicle", 400},
+            {"warfactory_y.vehicle", 400}
 		};
 
         // get all vehicles

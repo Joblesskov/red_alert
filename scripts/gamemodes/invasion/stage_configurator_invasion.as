@@ -309,6 +309,14 @@ class StageConfiguratorInvasion : StageConfigurator {
 
 			stage.m_extraCommands.insertLast(command);
 		}
+		{
+			XmlElement c1("command");
+			c1.setStringAttribute("class", "faction_resources");
+			c1.setIntAttribute("faction_id", 1);
+			addFactionResourceElements(c1, "vehicle", array<string> = {"barracks_a.vehicle", "barracks_s.vehicle", "barracks_y.vehicle"}, false);
+
+			stage.m_extraCommands.insertLast(c1);
+		}
 
 		// metadata
 		stage.m_primaryObjective = "capture";
@@ -504,21 +512,13 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 		{
 			Faction f(getFactionConfigs()[1], createCommanderAiCommand(1));
-			f.m_overCapacity = 60;
+			// f.m_overCapacity = 60;
 			stage.m_factions.insertLast(f);
 		}
 		{
 			Faction f(getFactionConfigs()[2], createCommanderAiCommand(2));
-			f.m_overCapacity = 60;
+			// f.m_overCapacity = 60;
 			stage.m_factions.insertLast(f);
-		}
-		{
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction_resources");
-			command.setIntAttribute("faction_id", 1);
-			addFactionResourceElements(command, "vehicle", array<string> = {"aa_emplacement.vehicle"}, true);
-
-			stage.m_extraCommands.insertLast(command);
 		}
 
 		// metadata
@@ -601,7 +601,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		}
 		{
 			Faction f(getFactionConfigs()[2], createCommanderAiCommand(1, 0.45, 0.2));
-			f.m_overCapacity = 80;
+			// f.m_overCapacity = 80;
 			f.m_capacityOffset = 15;
 			stage.m_factions.insertLast(f);
 		}

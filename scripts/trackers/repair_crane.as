@@ -12,12 +12,18 @@
 class RepairCrane : Tracker {
     protected Metagame@ m_metagame;
     protected array<string> m_excludedVehicles;
+    protected array<int> m_appliedVehicles;
+    protected float m_interval = 5.0f;
+    protected float m_healthReduction = 0.125f;
+    protected bool m_started = true;
+    protected bool m_ended = false;
 
     // --------------------------------------------
     RepairCrane(Metagame@ metagame) {
         @m_metagame = @metagame;
         m_excludedVehicles = array<string> = {"cover1.vehicle", "sandbag_cover.vehicle"};
     }
+
 
     // --------------------------------------------
     protected void handleResultEvent(const XmlElement@ event) {
@@ -59,7 +65,7 @@ class RepairCrane : Tracker {
         } else if (sourceKey == "iron_curtain") {
             range = 7.0;
             repairValue = 100000;
-            overHealth = 5.0;
+            overHealth = 10.0;
             y_offset = 0.0;
             xpReward = 0.0;
             rpReward = 0;
@@ -91,45 +97,31 @@ class RepairCrane : Tracker {
 
                             //checking that targetKey is not in m_excludedVehicles
                             if (m_excludedVehicles.find(targetKey) < 0) {
-                                //repair tank can't repair repair tanks to prevent self repair
-                                if (not(sourceKey == "repair_tank" && targetKey == "zjx19.vehicle")) {
-                                    float vehicleHealth = vehicleInfo.getFloatAttribute("health");
+                                float vehicleHealth = vehicleInfo.getFloatAttribute("health");
 
-                                    //not running for destroyed vehicles
-                                    if (vehicleHealth > 0.0) {
-                                        float vehicleMaxHealth = vehicleInfo.getFloatAttribute("max_health");
-                                        float vehicleMaxOverHealth = vehicleMaxHealth * overHealth;
+                                //not running for destroyed vehicles
+                                if (vehicleHealth > 0.0) {
+                                    float vehicleMaxHealth = vehicleInfo.getFloatAttribute("max_health");
+                                    float vehicleMaxOverHealth = vehicleMaxHealth * overHealth;
 
-                                        //only running the update command when necessary
-                                        if (vehicleHealth < vehicleMaxOverHealth) {
-                                            //rounding error fix
-                                            vehicleMaxOverHealth += 0.01;
+                                    //only running the update command when necessary
+                                    if (vehicleHealth < vehicleMaxOverHealth) {
+                                        //rounding error fix
+                                        vehicleMaxOverHealth += 0.01;
 
-                                            string command = "";
+                                        string command = "";
 
-                                            //calculating and applying repairs
-                                            float vehicleHealthDifference = vehicleMaxOverHealth - vehicleHealth;
-                                            if (vehicleHealthDifference > repairValue){
-                                                vehicleHealth += repairValue;
-                                                vehicleHealthDifference = repairValue;
-                                                command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleHealth + "' />";
-                                            } else {
-                                                command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleMaxOverHealth + "' />";
-                                            }
-                                            m_metagame.getComms().send(command);
-
-                                            //rewarding the repairer
-                                            float xpRewardFinal = xpReward * vehicleHealthDifference;
-                                            float rpRewardFinal = rpReward * vehicleHealthDifference;
-                                            if (xpRewardFinal > 0.0) {
-                                                command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
-                                                m_metagame.getComms().send(command);
-                                            }
-                                            if (rpRewardFinal > 0.0) {
-                                                command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
-                                                m_metagame.getComms().send(command);
-                                            }
+                                        //calculating and applying repairs
+                                        float vehicleHealthDifference = vehicleMaxOverHealth - vehicleHealth;
+                                        if (vehicleHealthDifference > repairValue){
+                                            vehicleHealth += repairValue;
+                                            vehicleHealthDifference = repairValue;
+                                            command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleHealth + "' />";
+                                        } else {
+                                            command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleMaxOverHealth + "' />";
                                         }
+                                        m_appliedVehicles.push_back(vehicleId);
+                                        m_metagame.getComms().send(command);
                                     }
                                 }
                             }
@@ -140,4 +132,51 @@ class RepairCrane : Tracker {
         }
     }
 
+    void trigger() {
+        for (int i = m_appliedVehicles.length() - 1; i >= 0; --i) {
+            int vehicleId = m_appliedVehicles[i];
+            const XmlElement@ vehicleInfo = getVehicleInfo(m_metagame, vehicleId);
+
+            if (vehicleInfo is null) {
+                m_appliedVehicles.removeAt(i);
+                continue;
+            }
+
+            float vehicleHealth = vehicleInfo.getFloatAttribute("health");
+            float vehicleMaxHealth = vehicleInfo.getFloatAttribute("max_health");
+            
+            // deestroyed or below 100%
+            if (vehicleHealth <= vehicleMaxHealth) {
+                m_appliedVehicles.removeAt(i);
+                continue;
+            }
+
+            // update health
+            float vehicleHealthPercentage = vehicleHealth / vehicleMaxHealth;
+            float newHealth;
+            if (vehicleHealthPercentage > 1.0 + m_healthReduction) {
+                newHealth = (vehicleHealthPercentage - m_healthReduction) * vehicleMaxHealth;
+            } else {
+                newHealth = vehicleMaxHealth;
+            }
+
+            m_metagame.getComms().send("<command class='update_vehicle' id='" + vehicleId + "' health='" + newHealth + "' />");
+        }
+    }
+
+    void update(float time) {
+        m_interval -= time;
+        if (m_interval < 0.0f) {
+            m_interval = 2.5f;
+            trigger();
+        }
+    }
+
+	bool hasEnded() const {
+		return m_ended;
+	}
+
+	bool hasStarted() const {
+		return m_started;
+	}
 }

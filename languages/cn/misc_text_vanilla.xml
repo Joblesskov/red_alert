@@ -268,6 +268,8 @@ vanilla
 	<text key="Spawn truck" text="重生车" />
 	<text key="Comms truck" text="通讯车" />
 	<text key="Rubber boat" text="橡皮艇" />
+	<text key="Pigeon P5" text="Pigeon P5吉普车"/>
+	<text key="Urbal UAS" text="Urbal UAS吉普车"/>
 
 	<text key="Armory truck" text="军械车" />
 	<text key="Fuel tank" text="油罐" />

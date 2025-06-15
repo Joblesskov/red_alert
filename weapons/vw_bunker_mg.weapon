@@ -41,4 +41,7 @@
         kill_decay_start_time="0.35" 
         kill_decay_end_time="0.55" />
     </projectile>
+    
+    <target_factors tag="heavy" distance="0.1" direction="0.1" squad_command="0.1" base_score="0.1" />
+    <target_factors tag="medium" distance="0.1" direction="0.1" squad_command="0.1" base_score="0.1" />
 </weapon>
