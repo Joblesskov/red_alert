@@ -15,6 +15,7 @@
 	max_health="15" 
 	blast_damage_threshold="0.1" 
 	mass="1.5" 
+	broken_mass="0.1"
 	extent="4.2 0.0 5.9" 
 	offset="0 0.0 0" 
 	top_offset="0 6 0" 
@@ -35,18 +36,17 @@
 	<visual class="chassis" key="broken" mesh_filename="transport_a_broken.mesh" texture_filename="transport_a_broken.png" />
 
 	<character_slot type="driver" position="1.2 0.2 1.0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="passenger" position="-1.2 0.2 0.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="1.2 0.2 -0.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="-1.2 0.2 -0.5" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="1.2 0.2 -1.0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="-1.2 0.2 -1.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="1.2 0.2 -1.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="-1.2 0.2 -1.5" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="1.2 0.2 -2.0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="-1.2 0.2 -2.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="1.2 0.2 -2.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" />
-	<character_slot type="passenger" position="-1.2 0.2 -2.5" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
-
+	<character_slot type="passenger" position="-1.2 0.2 1.0" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+	
+	<character_slot type="passenger" position="-1.0 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.7 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.4 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.1 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="+0.1 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="+0.4 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="+0.7 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="+1.0 0.2 -2.8" rotation="0" exit_rotation="3.14" hiding="1" />
+	
 	<!-- sound handling -->
 	<rev_sound filename="hovercraft_loop.wav" low_pitch="0.95" high_pitch="1.0" low_rev="0.0" high_rev="0.2" volume="0.7" />
 	<rev_sound filename="hovercraft_loop.wav" low_pitch="1.0" high_pitch="1.5" low_rev="0.1" high_rev="1" volume="1.2" />

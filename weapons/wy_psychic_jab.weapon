@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary.weapon" key="wy_psychic_jab.weapon"
-    ai_burst_time="0.625" 
+    ai_burst_time="0.875" 
     ai_burst_time_variance="0.25" 
     ai_burst_wait_time="1.0" 
     ai_burst_wait_time_variance="0.2" >
@@ -18,7 +18,7 @@
         class="0" 
 		sight_range_modifier="1.05"
         carry_in_two_hands="0"
-        barrel_offset_3d="0.0 0.5 0.3"
+        barrel_offset_3d="0.0 0.5 0.0"
         projectile_speed="120.0"
         cooldown_start="0.3"
         cooldown_end="0.2"

@@ -1,6 +1,7 @@
-<vehicle name="Barracks" key="barracks_a.vehicle" map_view_atlas_index="56" protectors="3" soldier_capacity_offset="6" respawn_time="360" usable_for_cover="1" >    
+<vehicle name="Barracks" key="barracks_a.vehicle" map_view_atlas_index="56" protectors="0" soldier_capacity_offset="10" respawn_time="360" usable_for_cover="1" >    
 	<tag name="barracks" />
 	<spawn_point offset="0 0 5"/>
+	<item_container class="armory" offset="0 0 1.9" soldier_group="supply_ba" />
 
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
 	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />

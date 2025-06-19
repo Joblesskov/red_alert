@@ -18,6 +18,7 @@
 	<physics 
 	max_health="10" 
 	mass="0.8"
+	broken_mass="0.1"
     remove_collision_threshold="0.03"		
 	extent="3.2 0.0 6.4" 
 	offset="0 0.0 0" 

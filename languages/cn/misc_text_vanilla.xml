@@ -335,6 +335,7 @@ vanilla
 	<text key="8 paratroopers" text="8个伞兵"/>
 	<text key="requesting 8" text="请求8人支援"/>
 	<text key="8 airborne" text="8个空降兵"/>
+	<text key="flare" text="重生信号弹" />
 
 	<text key="spawn tank" text="空投坦克"/>
 	<text key="I need armoured support!" text="我需要坦克支援!"/>

@@ -28,7 +28,7 @@
 	collision_model_pos="0 -0.5 0" 
 	collision_model_extent="3.0 3.0 8.4" 
 	visual_offset="0 0.5 0" 
-	friction_offset="0.0" 
+	friction_offset="0.2" 
 	drag_offset="-0.05" /> 
 
 	<turret offset="0 1.86 -3.8" weapon_key="vw_v3.weapon" weapon_offset="0 0 0" weapon_recoil="1" max_rotation_step="0" />
@@ -37,8 +37,8 @@
 	<visual class="tire" mesh_filename="v3_tire.mesh" texture_filename="v3_tire.png" />
 	<visual class="chassis" key="broken" mesh_filename="v3_chassis.mesh" texture_filename="v3_chassis_broken.png" />
 
-	<character_slot type="driver" position="0.6 0.3 1.7" rotation="0" exit_rotation="1.57" hiding="1" />
-	<character_slot type="gunner" position="-0.6 0.3 1.7" rotation="0" exit_rotation="-1.57" hiding="1" >
+	<character_slot type="driver" position="0.6 0 1.7" rotation="0" exit_rotation="1.57" hiding="1" />
+	<character_slot type="gunner" position="-0.6 0 1.7" rotation="0" exit_rotation="-1.57" hiding="1" >
 		<turret index="0" />
 	</character_slot>
 

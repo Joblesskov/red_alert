@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <weapon key="ws_aek_919k.weapon" />
+    <weapon key="ws_akm.weapon" />
+    <weapon key="ws_akm_1.weapon" />
+    <weapon key="ws_desolator.weapon" />
+    <weapon key="ws_desolator_v.weapon" />
+    <weapon key="ws_dynamite_resource.weapon" />
+    <weapon key="ws_flak.weapon" />
+    <weapon key="ws_flak_v.weapon" />
+    <weapon key="ws_knife.weapon" />
+    <weapon key="ws_knife_v.weapon" />
+    <weapon key="ws_ppsh41.weapon" />
+    <weapon key="ws_ppsh41_v.weapon" />
+    <weapon key="ws_tesla.weapon" />
+    <weapon key="ws_tesla_v.weapon" />
+
+    <projectile key="dynamite.projectile" enabled="1" />
+    <projectile key="rad_eruption.projectile" enabled="1" />
+</resources>

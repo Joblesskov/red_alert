@@ -19,6 +19,7 @@
 	max_health="9" 
 	blast_damage_threshold="0.1" 
 	mass="1.1" 
+	broken_mass="0.1"
     remove_collision_threshold="0.03"
 	extent="2.5 0 6.2" 
 	offset="0 0 0" 

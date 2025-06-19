@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="sell.call"
+	radio_view_text="sell building" 
+	initiation_comment1=""
+	acknowledge_comment=""
+	launch_comment=""
+	notify_metagame="1" >
+     
+    <round 
+        launch_time="2.0"
+        spawn_time="2.0" >
+    </round>
+
+    <hud_icon filename="call_sell.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.1" />
+    <inventory encumbrance="0.0" price="1.0" />
+</call>

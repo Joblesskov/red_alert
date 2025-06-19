@@ -289,7 +289,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_maxRandomCrates = 4;
 
 		{
-			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0));                                                  
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.55, 0.1));                                                  
 			f.m_capacityOffset = 0; 
 			f.m_capacityMultiplier = 1.0;
 			f.m_bases = 1;
@@ -301,14 +301,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 			f.m_capacityOffset = 8;
 			stage.m_factions.insertLast(f);
 		}
-		{
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction_resources");
-			command.setIntAttribute("faction_id", 0);
-			addFactionResourceElements(command, "vehicle", array<string> = {"noxe.vehicle"}, false);
-
-			stage.m_extraCommands.insertLast(command);
-		}
+		
 		{
 			XmlElement c1("command");
 			c1.setStringAttribute("class", "faction_resources");
@@ -348,7 +341,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_maxRandomCrates = 3;
 
 		{
-			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0));
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.55, 0.1));
 			f.m_bases = 1;
 			stage.m_factions.insertLast(f);
 		}
@@ -358,13 +351,14 @@ class StageConfiguratorInvasion : StageConfigurator {
 			f.m_capacityOffset = 5;
 			stage.m_factions.insertLast(f); 
 		}
+		
 		{
-			XmlElement command("command");
-			command.setStringAttribute("class", "faction_resources");
-			command.setIntAttribute("faction_id", 1);
-			addFactionResourceElements(command, "vehicle", array<string> = {"aa_emplacement.vehicle"}, true);
+			XmlElement c1("command");
+			c1.setStringAttribute("class", "faction_resources");
+			c1.setIntAttribute("faction_id", 1);
+			addFactionResourceElements(c1, "vehicle", array<string> = {"barracks_a.vehicle", "barracks_s.vehicle", "barracks_y.vehicle"}, false);
 
-			stage.m_extraCommands.insertLast(command);
+			stage.m_extraCommands.insertLast(c1);
 		}
 		// metadata
 		stage.m_primaryObjective = "capture";
@@ -773,7 +767,14 @@ class StageConfiguratorInvasion : StageConfigurator {
 			f.m_capacityOffset = 20; 
 			stage.m_factions.insertLast(f);
 		}
+		{
+			XmlElement c1("command");
+			c1.setStringAttribute("class", "faction_resources");
+			c1.setIntAttribute("faction_id", 1);
+			addFactionResourceElements(c1, "vehicle", array<string> = {"barracks_a.vehicle", "barracks_s.vehicle", "barracks_y.vehicle"}, false);
 
+			stage.m_extraCommands.insertLast(c1);
+		}
 		// metadata
 		stage.m_primaryObjective = "capture";
 		stage.m_radioObjectivePresent = false;
@@ -957,7 +958,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 			stage.m_factions.insertLast(f);
 		}
 		{
-// attack score is taken from the map16 attack handler script, if bases => 5    
+		// attack score is taken from the map16 attack handler script, if bases => 5    
 			Faction f(getFactionConfigs()[2], createCommanderAiCommand(2, 0.65, 0.1));
 			f.m_overCapacity = 40;
 			f.m_capacityOffset = 5;
@@ -995,15 +996,15 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_mapInfo.m_path = "media/packages/vanilla.desert/maps/map6";
 		stage.m_mapInfo.m_id = "map6_2";
 
-	// we want to exclude some layers here, as the default ones are already used for the other map6
-	int index = stage.m_includeLayers.find("layer1.default");
-	if (index >= 0) {
-	stage.m_includeLayers.removeAt(index);
-	}
-	index = stage.m_includeLayers.find("bases.default");
-	if (index >= 0) {
-	stage.m_includeLayers.removeAt(index);
-	}
+		// we want to exclude some layers here, as the default ones are already used for the other map6
+		int index = stage.m_includeLayers.find("layer1.default");
+		if (index >= 0) {
+		stage.m_includeLayers.removeAt(index);
+		}
+		index = stage.m_includeLayers.find("bases.default");
+		if (index >= 0) {
+		stage.m_includeLayers.removeAt(index);
+		}
 
 		stage.m_includeLayers.insertLast("layer1.invasion");
 		stage.m_includeLayers.insertLast("layer1_2.default"); 
@@ -1072,14 +1073,14 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_fogRange = 70.0;
 
 		// we want to exclude some layers here
-	int index = stage.m_includeLayers.find("layer1.default");
-	if (index >= 0) {
-	stage.m_includeLayers.removeAt(index);
-	}
-	index = stage.m_includeLayers.find("bases.default");
-	if (index >= 0) {
-	stage.m_includeLayers.removeAt(index);
-	}
+		int index = stage.m_includeLayers.find("layer1.default");
+		if (index >= 0) {
+		stage.m_includeLayers.removeAt(index);
+		}
+		index = stage.m_includeLayers.find("bases.default");
+		if (index >= 0) {
+		stage.m_includeLayers.removeAt(index);
+		}
 
 
 		stage.m_includeLayers.insertLast("layer1_2.default"); 
@@ -1112,7 +1113,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 			stage.m_factions.insertLast(f);
 		}
 		{
-// attack score is taken from the map1_2 attack handler script, if bases => 11
+		// attack score is taken from the map1_2 attack handler script, if bases => 11
 			Faction f(getFactionConfigs()[2], createCommanderAiCommand(2, 0.70, 0.1));
 			f.m_overCapacity = 50;
 			f.m_capacityOffset = 30;
@@ -1644,7 +1645,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 	protected Stage@ setupFinalStage1() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Final mission I"; // warning, default.character has reference to this name, careful if it needs to be changed
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map11";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map11";
 		stage.m_mapInfo.m_id = "map11";
 
 		stage.m_includeLayers.insertLast("layer1.invasion");
@@ -1722,7 +1723,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		PhasedStage@ stage = createPhasedStage();
 		stage.setPhaseController(PhaseControllerMap12(m_metagame));
 		stage.m_mapInfo.m_name = "Final mission II";	// warning, default.character has reference to this name, careful if it needs to be changed
-		stage.m_mapInfo.m_path = "media/packages/vanilla.winter/maps/map12";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map12";
 		stage.m_mapInfo.m_id = "map12";
 		
 		stage.m_includeLayers.insertLast("layer1.invasion");

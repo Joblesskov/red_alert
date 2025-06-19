@@ -191,7 +191,7 @@ class StageConfiguratorCampaign : StageConfiguratorInvasion {
 
 	// --------------------------------------------
 	protected void setupStartingMaps() {
-		m_mapRotatorCampaign.addStartingMap("map6");
+		m_mapRotatorCampaign.addStartingMap("map2");
 		// map4 no longer an option as a starting map
 		//m_mapRotatorCampaign.addStartingMap("map4");
 
@@ -199,9 +199,9 @@ class StageConfiguratorCampaign : StageConfiguratorInvasion {
 		if (settings.m_continueAsNewCampaign) {
 			// add more starting maps when continuing the campaign after finishing it
 			m_mapRotatorCampaign.addStartingMap("map1");
-			m_mapRotatorCampaign.addStartingMap("map2");
 			m_mapRotatorCampaign.addStartingMap("map3");
 			m_mapRotatorCampaign.addStartingMap("map5");
+			m_mapRotatorCampaign.addStartingMap("map6");
 			m_mapRotatorCampaign.addStartingMap("map7");
 			m_mapRotatorCampaign.addStartingMap("map8");
 			m_mapRotatorCampaign.addStartingMap("map9");
@@ -225,7 +225,7 @@ class StageConfiguratorCampaign : StageConfiguratorInvasion {
 	protected Stage@ setupStage8() {
 		Stage@ stage = createStage();
 		stage.m_mapInfo.m_name = "Vigil Island";
-		stage.m_mapInfo.m_path = "media/packages/vanilla/maps/map8";
+		stage.m_mapInfo.m_path = "media/packages/red_alert/maps/map8";
 		stage.m_mapInfo.m_id = "map8";
 
 		stage.m_includeLayers.insertLast("layer1.invasion"); 
@@ -234,11 +234,11 @@ class StageConfiguratorCampaign : StageConfiguratorInvasion {
 
 		stage.m_maxSoldiers = 21 * 5;     // was 33 * 3 in 1.65
 		stage.m_playerAiCompensation = 4;                                         // was 4 (1.81) was 5 (1.86)
-    stage.m_playerAiReduction = 2;                                            // was 2 (1.81) was 2.5 (1.86)  
+    	stage.m_playerAiReduction = 2;                                            // was 2 (1.81) was 2.5 (1.86)  
 		stage.m_soldierCapacityModel = "constant";
 
-    stage.m_minRandomCrates = 1; 
-    stage.m_maxRandomCrates = 2;
+		stage.m_minRandomCrates = 1; 
+		stage.m_maxRandomCrates = 2;
 
 		stage.m_defenseWinTime = 720.0;   // was 600 in 1.65
 		stage.m_defenseWinTimeMode = "custom";

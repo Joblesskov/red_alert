@@ -5,7 +5,7 @@
 	sustained_fire_grow_step="0.9" 
 	sustained_fire_diminish_rate="1.0" 
 	magazine_size="12" 
-	name="Rad Cannon (Elite)" />
+	name="Rad Cannon (Veteran)" />
 
     <hud_icon filename="hud_desolator_v.png" />
 	<addon_model filename="veteran.xml" />

@@ -15,6 +15,7 @@
     <projectile key="dynamite.projectile" enabled="0" />
     <projectile key="rad_eruption.projectile" enabled="0" />
     <projectile key="psychic_blast.projectile" enabled="0" />
+    <projectile key="flare.projectile" />
     <projectile key="flare_prism_tank.projectile" enabled="0" />
     <projectile key="flare_mirage_tank.projectile" enabled="0" />
     <projectile key="flare_tank_destroyer.projectile" enabled="0" />
@@ -24,21 +25,19 @@
     <projectile key="flare_mastermind.projectile" enabled="0" />
     <projectile key="flare_magnetron.projectile" enabled="0" />
 
-	<carry_item key="god_vest.carry_item" />
 	<carry_item key="unarmored.carry_item" />
 	<carry_item key="vest_flak1.carry_item" />
 	<carry_item key="vest_flak2.carry_item" />
-	<carry_item key="vest_flak3.carry_item" />
+	<carry_item key="vest_flak3.carry_item" enabled="0" />
 	<carry_item key="vest_plate1.carry_item" />
 	<carry_item key="vest_plate2.carry_item" />
-	<carry_item key="vest_plate3.carry_item" />
+	<carry_item key="vest_plate3.carry_item" enabled="0" />
 	<carry_item key="dog.carry_item" />
-	<carry_item key="vest_brute.carry_item" />
+	<carry_item key="vest_brute.carry_item" enabled="0" />
 	<carry_item key="god_vest.carry_item" enabled="0" />
 
 	<vehicle key="mobile_armory.vehicle" />
 	<vehicle key="atv_base.vehicle" />
-	<vehicle key="atv_armory.vehicle" />
 
 	<vehicle key="cover1.vehicle" />
 	<vehicle key="sandbag_cover.vehicle" />
@@ -55,4 +54,6 @@
 	<vehicle key="water_tower.vehicle" />  
 	<vehicle key="para_spawn.vehicle" /> 
 	<vehicle key="tractor.vehicle" />
+
+    <call key="sell.call" />
 </resources>

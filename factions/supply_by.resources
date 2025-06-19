@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <weapon key="wy_fist.weapon" />
+    <weapon key="wy_fist_v.weapon" />
+    <weapon key="wy_mind_control.weapon" />
+    <weapon key="wy_mind_control_v.weapon" />
+    <weapon key="wy_psychic_jab.weapon" />
+    <weapon key="wy_psychic_jab_v.weapon" />
+    <weapon key="wy_steyr_tmp.weapon" />
+    <weapon key="wy_virus.weapon" />
+    <weapon key="wy_virus_v.weapon" />
+    <weapon key="wy_yuri.weapon" />
+
+    <projectile key="psychic_blast.projectile" enabled="1" />
+</resources>

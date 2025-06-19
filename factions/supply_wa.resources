@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <projectile key="flare_prism_tank.projectile" enabled="1" />
+    <projectile key="flare_mirage_tank.projectile" enabled="1" />
+    <projectile key="flare_tank_destroyer.projectile" enabled="1" />
+</resources>

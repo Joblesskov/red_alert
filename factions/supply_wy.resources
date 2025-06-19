@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <projectile key="flare_mastermind.projectile" enabled="1" />
+    <projectile key="flare_magnetron.projectile" enabled="1" />
+</resources>

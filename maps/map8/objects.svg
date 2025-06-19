@@ -29,10 +29,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.7682071"
-     inkscape:cx="581.03181"
-     inkscape:cy="1383.3165"
+     inkscape:cx="583.2339"
+     inkscape:cy="1301.7345"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer9"
      showgrid="true"
      inkscape:window-width="1707"
      inkscape:window-height="996"
@@ -30367,7 +30367,7 @@ key = gas_tank.vehicle;</desc>
          inkscape:label=""
          inkscape:connector-curvature="0"
          id="wall40-7-1-1-9-52-0-9-2-3"
-         d="m 626.00693,784.33798 -4.64154,5.74114 -8.1233,-1.09944 -21.47081,-9.89372 -5.0351,-6.71173 -2.05138,-8.1708"
+         d="m 625.37776,769.65741 -0.0276,9.51614 -11.05941,4.35335 -14.13053,-0.24649 -10.48789,-4.40478 -0.3736,-8.79997"
          style="display:inline;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new">
         <desc
            id="desc11203-1-7-7-5-9-3-64-6-1">template = SandbagWall1;</desc>
@@ -30505,7 +30505,7 @@ separator_at_end = 0;</desc>
          inkscape:label=""
          inkscape:connector-curvature="0"
          id="wall40-7-1-1-9-52-0-9-2-3-0"
-         d="m 589.19855,746.86142 5.49982,-4.31006 9.1371,0.52438 14.59002,2.91728 11.86627,12.59716 0.54865,8.06287"
+         d="m 587.52077,759.44476 -0.16268,-7.24617 10.81488,-4.29924 15.63863,0.19089 10.18849,5.04715 0.33893,8.2726"
          style="display:inline;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new">
         <desc
            id="desc11203-1-7-7-5-9-3-64-6-1-9">template = SandbagWall1;</desc>
@@ -39412,10 +39412,10 @@ key = atv_base.vehicle;</desc>
 key = water_tower.vehicle;</desc>
       </rect>
       <rect
-         transform="matrix(0.89942328,0.43707868,-0.43707868,0.89942328,0,0)"
+         transform="matrix(0.99962663,0.02732386,-0.02732386,0.99962663,0,0)"
          inkscape:label=""
-         y="417.927"
-         x="880.02979"
+         y="745.19574"
+         x="626.26489"
          height="7.3961515"
          width="3.982286"
          id="spawn1-70-2-8-17-7"

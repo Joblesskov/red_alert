@@ -2,7 +2,7 @@
 <weapon file="base_primary.weapon" key="ws_tesla_e.weapon"
     ai_burst_time="0.1" 
     ai_burst_time_variance="0" 
-    ai_burst_wait_time="0.5" 
+    ai_burst_wait_time="0.8" 
     ai_burst_wait_time_variance="0.05" >
 
     <tag name="cqb" />

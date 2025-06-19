@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="vw_gattling.weapon" key="vw_gattling_t.weapon">
     <specification 
-    spread_range="0.35"
+    spread_range="0.25"
     sight_range_modifier="1.25"
     projectile_speed="120.0" 
     barrel_offset_3d="0 0 0" />

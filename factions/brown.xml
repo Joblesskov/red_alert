@@ -116,6 +116,34 @@
 		</attribute_config>
 	</soldier>
 	
+	<soldier name="supply_ba" spawn_score="0.0">
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" />
+		<resources file="common.resources" />
+		<resources file="supply_ba.resources" />
+	</soldier>
+	<soldier name="supply_bs" spawn_score="0.0">
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" />
+		<resources file="common.resources" />
+		<resources file="supply_bs.resources" />
+	</soldier>
+	<soldier name="supply_by" spawn_score="0.0">
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" />
+		<resources file="common.resources" />
+		<resources file="supply_by.resources" />
+	</soldier>
+	<soldier name="supply_wa" spawn_score="0.0">
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" />
+		<resources file="supply_wa.resources" />
+	</soldier>
+	<soldier name="supply_ws" spawn_score="0.0">
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" />
+		<resources file="supply_ws.resources" />
+	</soldier>
+	<soldier name="supply_wy" spawn_score="0.0">
+		<resources clear_weapons="1" clear_calls="1" clear_grenades="1" clear_carry_items="1" />
+		<resources file="supply_wy.resources" />
+	</soldier>
+	
 	100~1000 2000~3000
 	<soldier name="conscript" spawn_score="1.0">
 		<character filename="default_male.character">

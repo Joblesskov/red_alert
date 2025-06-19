@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <projectile key="flare_tesla_tank.projectile" enabled="1" />
+    <projectile key="flare_v3.projectile" enabled="1" />
+    <projectile key="flare_apocalypse_tank.projectile" enabled="1" />
+</resources>

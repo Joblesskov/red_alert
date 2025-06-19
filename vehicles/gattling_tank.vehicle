@@ -19,6 +19,7 @@
 	max_health="10.5" 
 	blast_damage_threshold="0.1" 
 	mass="1.1" 
+	broken_mass="0.1"
     remove_collision_threshold="0.03"
 	extent="3.6 0.0 5.3" 
 	offset="0 0 0" 
@@ -27,7 +28,7 @@
 	collision_model_pos="0 0 0" 
 	collision_model_extent="3.6 3.5 5.3" 
 	visual_offset="0 0.55 0" 
-	friction_offset="0.0" 
+	friction_offset="0.2" 
 	drag_offset="-0.05" /> 
 
 	<turret offset="0 1.474 -0.108" weapon_key="vw_gattling_ap.weapon" weapon_offset="0.26 0.763 0.909" weapon_recoil="0.05" max_rotation_step="0.00018" />

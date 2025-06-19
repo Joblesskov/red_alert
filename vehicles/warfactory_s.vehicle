@@ -1,5 +1,6 @@
 <vehicle name="War Factory" key="warfactory_s.vehicle" map_view_atlas_index="57" protectors="3" soldier_capacity_offset="3" respawn_time="720" usable_for_cover="1" >    
 	<tag name="warfactory" />
+	<item_container class="armory" offset="0 0 6.0" soldier_group="supply_ws" />
 
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
 	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />

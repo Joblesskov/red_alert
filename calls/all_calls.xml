@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <calls>
+	<call file="sell.call" />
+
 	<call file="paratroopers1a.call" />
 	<call file="paratroopers2a.call" />
 	<call file="paratroopers1s.call" />
