@@ -336,12 +336,12 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(UnitPromote(this));
 		addTracker(AutoHeal(this));
 		addTracker(UnitTrain(this));
+		addTracker(RepairCrane(this));
+		addTracker(RangeFinder(this)); 
 	}
 
 	// --------------------------------------------
 	protected void setupExperimentalFeatures() {
-		addTracker(RepairCrane(this));
-		addTracker(RangeFinder(this)); 
 	}
 
 	// --------------------------------------------

@@ -17,32 +17,38 @@
 		collision_model_extent="4 6 4" 
 		visual_offset="0 0 0" /> 
 	
+	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="0.00" rotation_range="6.28" />
 	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg_ap.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="0.00" rotation_range="6.28" />
 	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="1.05" rotation_range="6.28" />
+	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg_ap.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="1.05" rotation_range="6.28" />
+	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="2.09" rotation_range="6.28" />
 	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg_ap.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="2.09" rotation_range="6.28" />
 	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="3.14" rotation_range="6.28" />
+	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg_ap.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="3.14" rotation_range="6.28" />
+	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="4.19" rotation_range="6.28" />
 	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg_ap.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="4.19" rotation_range="6.28" />
 	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="5.24" rotation_range="6.28" />
+	<turret offset="0 1.9 0" weapon_key="vw_bunker_mg_ap.weapon" weapon_offset="0 0 2" weapon_recoil="0.05" physics_recoil="0" max_rotation_step="0.0005" rotation="5.24" rotation_range="6.28" />
 
 	<visual class="chassis" mesh_filename="battle_bunker.mesh" texture_filename="battle_bunker.png" />
 
 	<character_slot type="gunner" position="0 0.5 1" rotation="0.00" exit_rotation="0.00" hiding="1" >
-		<turret index="0" />
+		<turret index="0" /> <turret index="1" />
 	</character_slot>
 	<character_slot type="gunner" position="0.86 0.5 0.5" rotation="1.05" exit_rotation="1.05" hiding="1" >
-		<turret index="1" />
+		<turret index="2" /> <turret index="3" />
 	</character_slot>
 	<character_slot type="gunner" position="-0.86 0.5 0.5" rotation="5.24" exit_rotation="5.24" hiding="1" >
-		<turret index="5" />
+		<turret index="10" /> <turret index="11" />
 	</character_slot>
 	<character_slot type="gunner" position="0.86 0.5 -0.5" rotation="2.09" exit_rotation="2.09" hiding="1" >
-		<turret index="2" />
+		<turret index="4" /> <turret index="5" />
 	</character_slot>
 	<character_slot type="gunner" position="-0.86 0.5 -0.5" rotation="4.19" exit_rotation="4.19" hiding="1" >
-		<turret index="4" />
+		<turret index="8" /> <turret index="9" />
 	</character_slot>
 	<character_slot type="gunner" position="0 0.5 -1" rotation="3.14" exit_rotation="3.14" hiding="1" >
-		<turret index="3" />
+		<turret index="6" /> <turret index="7" />
 	</character_slot>
 
 	<event key="receive_damage_xp_reward">

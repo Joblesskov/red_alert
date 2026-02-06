@@ -17,14 +17,15 @@
 		collision_model_extent="2.8 4.0 2.8" 
 		visual_offset="0 0 0" /> 
 	
-	<turret offset="0 2.35 0" weapon_key="vw_gattling_ap_t.weapon" weapon_offset="-1.17 0.37 1.67" weapon_recoil="0" physics_recoil="0" max_rotation_step="0.0004" rotation="0" />
+	<turret offset="0 2.35 0" weapon_key="vw_gattling_ap_t.weapon" weapon_offset="0 0.37 1.67" weapon_recoil="0" physics_recoil="0" max_rotation_step="0.0004" rotation="0" />
+	<turret offset="0 2.35 0" weapon_key="vw_gattling_t.weapon" weapon_offset="-1.17 0.37 1.67" weapon_recoil="0" physics_recoil="0" max_rotation_step="0.0004" rotation="0" />
 	<turret offset="0 2.35 0" weapon_key="vw_gattling_t.weapon" weapon_offset="1.17 0.37 1.67" weapon_recoil="0" physics_recoil="0" max_rotation_step="0.0004" rotation="0" />
 
 	<visual class="chassis" mesh_filename="gattling_cannon.mesh" texture_filename="gattling_cannon.png" />
     <visual class="turret" turret_index="0" mesh_filename="gattling_cannon_turret.mesh" texture_filename="gattling_cannon_turret.png" />
 	
 	<character_slot type="gunner" position="0 0.5 -1" rotation="0" exit_rotation="3.14" hiding="1" >
-		<turret index="0" /><turret index="1" />
+		<turret index="0" /> <turret index="1" /> <turret index="2" />
 	</character_slot>
 
 	<event key="receive_damage_xp_reward">

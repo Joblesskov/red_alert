@@ -2,7 +2,7 @@
 <weapon key="vw_pillbox_mg.weapon" >
     <specification 
     slot="2" 
-    retrigger_time="0.125" 
+    retrigger_time="0.12" 
     accuracy_factor="1" 
     spread_range="0.2" 
     sustained_fire_grow_step="0.033" 
@@ -17,28 +17,14 @@
     class="0" 
     projectile_speed="120.0" />
     
-    <animation key="recoil" ref="12" />
-    <animation key="recoil" ref="13" />
-    <animation key="recoil" ref="14" />
-    <animation key="reload" ref="33" />
-    <animation key="hold" ref="32" />
-    <animation key="hold_on_wall" ref="1" />
-    <animation key="walking" ref="31" />
     <sound key="fire" fileref="bpilatta.wav" />
-    <sound key="magazine_out" fileref="mg_clip_out.wav" />
-    <sound key="magazine_in" fileref="mg_clip_in.wav" />
-    <sound key="cycle" fileref="rifle_chamber.wav" />
 	
     <model mesh_filename="technical_mg.mesh" texture_filename="technical_mg.png" />
 
     <hud_icon filename="hud_pillbox.png" />
-    <commonness value="0.05" />
-    <inventory encumbrance="10.0" price="2.0" />
 
-    <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.8" kill_decay_start_time="0.35" kill_decay_end_time="0.70" />
     </projectile>
     <target_factors tag="heavy" distance="0.1" direction="0.1" squad_command="0.1" base_score="0.1" />
-
 </weapon>

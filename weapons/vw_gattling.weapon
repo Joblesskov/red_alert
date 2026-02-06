@@ -19,9 +19,7 @@
     projectiles_per_shot="2" />
 
     <model mesh_filename="gattling_tank_barrel.mesh" texture_filename="gattling_tank_barrel.png" />
-    <hud_icon filename="hud_minigun.png" />
-    <commonness value="0.0" can_respawn_with="0" />
-    <inventory encumbrance="10.0" price="40.0" />    
+    <hud_icon filename="hud_minigun.png" />  
   
     <projectile file="bullet.projectile">
         <result class="hit" 

@@ -5,6 +5,7 @@
     <projectile file="alpha_wave_s1.projectile" />
     <projectile file="apocalypse_cannon.projectile" />
     <projectile file="black_eagle_missile.projectile" />
+    <projectile file="bulleti.projectile" />
     <projectile file="c4.projectile" />
     <projectile file="debri_destroy_small.projectile" />
     <projectile file="desolator_bullet.projectile" />
