@@ -3,8 +3,8 @@
     <tag name="cqb" />
 	<specification 
         retrigger_time="1.4" 
-        accuracy_factor="0.5" 
-        spread_range="0.6"
+        accuracy_factor="0" 
+        spread_range="0.4"
         sustained_fire_grow_step="2.3" 
         sustained_fire_diminish_rate="0.5" 
         magazine_size="10" 
@@ -55,9 +55,6 @@
 
     <effect class="muzzle" ref="MuzzleTesla" lighting="0" />
     <effect class="muzzle" ref="ShineTesla" lighting="0" />
-
-    <stance state_key="running" accuracy="0.85" />
-    <stance state_key="walking" accuracy="0.85" />
 
     <modifier class="speed" value="-0.12" />    
     <modifier class="detectability" value="+0.05" />    

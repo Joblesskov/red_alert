@@ -62,6 +62,6 @@
     <effect class="result" key="shield" ref="ShieldBurst" />
 	
     <!-- <trail probability="1.0" key="laser" /> -->
-    <trail probability="1.0" />
+    <trail probability="1.0" key="BulletApTrail" />
 
 </projectile>

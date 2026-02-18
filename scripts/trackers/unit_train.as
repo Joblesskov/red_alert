@@ -53,34 +53,50 @@ class UnitTrain : Tracker {
 
 	protected array<unit@> infantryA = {
 		unit("gi", 10, 1.0f),
+		unit("gi_e", 10, 0.1f),
 		unit("ggi", 15, 0.3f),
+		unit("ggi_e", 15, 0.03f),
 		unit("dog", 15, 0.1f),
 		unit("engineer", 20, 0.05f),
 		unit("seal", 30, 0.18f),
+		unit("seal_e", 30, 0.018f),
 		unit("sniper", 35, 0.15f),
+		unit("sniper_e", 35, 0.015f),
 		unit("rocketeer", 45, 0.12f),
+		unit("rocketeer_e", 45, 0.012f),
 		unit("chrono", 50, 0.05f),
+		unit("chrono_e", 50, 0.005f),
 		unit("spy", 50, 0.05f),
+		unit("spy_e", 50, 0.005f),
 		unit("tanya", 60, 0.03f)
 	};
 
 	protected array<unit@> infantryS = {
 		unit("conscript", 10, 1.0f),
+		unit("conscript_e", 10, 0.01f),
 		unit("flak", 15, 0.3f),
+		unit("flak_e", 15, 0.03f),
 		unit("dog", 15, 0.1f),
 		unit("engineer", 20, 0.05f),
 		unit("ivan", 20, 0.15f),
+		unit("ivan_e", 20, 0.015f),
 		unit("tesla", 40, 0.25f),
+		unit("tesla_e", 40, 0.025f),
 		unit("desolator", 45, 0.15f),
+		unit("desolator_e", 45, 0.015f),
 		unit("boris", 60, 0.03f)
 	};
 
 	protected array<unit@> infantryY = {
 		unit("initiate", 10, 1.0f),
+		unit("initiate_e", 10, 0.01f),
 		unit("brute", 15, 0.3f),
+		unit("brute_e", 15, 0.03f),
 		unit("engineer", 20, 0.05f),
 		unit("virus", 40, 0.15f),
+		unit("virus_e", 40, 0.015f),
 		unit("psicorp", 50, 0.10f),
+		unit("psicorp_e", 50, 0.01f),
 		unit("yuri", 60, 0.02f)
 	};
 

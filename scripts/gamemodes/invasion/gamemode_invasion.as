@@ -32,7 +32,6 @@
 #include "antifarm.as"
 
 // community trackers
-#include "repair_crane.as"
 #include "rangefinder.as"
 
 // red alert trackers
@@ -48,6 +47,7 @@
 #include "unit_promote.as"
 #include "auto_heal.as"
 #include "unit_train.as"
+#include "iron_curtain.as"
 
 // --------------------------------------------
 class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
@@ -336,7 +336,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(UnitPromote(this));
 		addTracker(AutoHeal(this));
 		addTracker(UnitTrain(this));
-		addTracker(RepairCrane(this));
+		addTracker(IronCurtain(this));
 		addTracker(RangeFinder(this)); 
 	}
 

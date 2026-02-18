@@ -2,8 +2,8 @@ particle_system IronCurtainShine
 {
 	quota	1000
 	material	woosh
-	particle_width	20
-	particle_height	20
+	particle_width	25
+	particle_height	25
 	cull_each	false
 	renderer	billboard
 	billboard_type	point
@@ -30,6 +30,6 @@ particle_system IronCurtainShine
 
 	affector Scaler
 	{
-		rate	-60
+		rate	-90
 	}
 }

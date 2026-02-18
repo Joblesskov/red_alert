@@ -289,7 +289,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_maxRandomCrates = 4;
 
 		{
-			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.55, 0.1));                                                  
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.5, 0.1));                                                  
 			f.m_capacityOffset = 0; 
 			f.m_capacityMultiplier = 1.0;
 			f.m_bases = 1;
@@ -341,7 +341,7 @@ class StageConfiguratorInvasion : StageConfigurator {
 		stage.m_maxRandomCrates = 3;
 
 		{
-			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.55, 0.1));
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.5, 0.1));
 			f.m_bases = 1;
 			stage.m_factions.insertLast(f);
 		}

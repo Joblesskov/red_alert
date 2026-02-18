@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="ws_tesla.weapon" key="ws_tesla_v.weapon">
 	<specification 
-    retrigger_time="0.6" 
+    retrigger_time="0.8" 
     magazine_size="12"
     name="mini-Tesla Coil (Veteran)" />
 

@@ -179,7 +179,7 @@ class RA2CommandHandler : Tracker {
 		} else if(checkCommand(message, "dead")) {
 			killCharacter(m_metagame, characterId, true);
 		} else if(checkCommand(message, "iron_curtain")) {
-			spawnInstanceNearPlayer(senderId, "iron_curtain.projectile", "grenade", 0, false, 0);
+			spawnInstanceNearPlayer(senderId, "iron_curtain.projectile", "grenade", 0, false, 0, 10.0f);
 		} else if (checkCommand(message, "v")) {
 			array<string> parameters = parseParameters(message, "v");
 			if (parameters.size() > 0) {
@@ -277,13 +277,14 @@ class RA2CommandHandler : Tracker {
 	}
 	
 	// ----------------------------------------------------
-	protected void spawnInstanceNearPlayer(int senderId, string key, string type, int factionId = 0, bool skydive = false, float offset = 5.0) {
+	protected void spawnInstanceNearPlayer(int senderId, string key, string type, int factionId = 0, bool skydive = false, float offset = 5.0, float height = 0.0) {
 		const XmlElement@ playerInfo = getPlayerInfo(m_metagame, senderId);
 		if (playerInfo !is null) {
 			const XmlElement@ characterInfo = getCharacterInfo(m_metagame, playerInfo.getIntAttribute("character_id"));
 			if (characterInfo !is null) {
 				Vector3 pos = stringToVector3(characterInfo.getStringAttribute("position"));
 				pos.m_values[0] += offset;
+				pos.m_values[1] += height;
 				if (skydive) {
 					pos.m_values[1] += 50.0;
 				}

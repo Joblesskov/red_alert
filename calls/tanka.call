@@ -11,8 +11,8 @@
            instance_key="grizzly_tank.vehicle" 
            instance_spread="0 0 0" 
            common_spread="0 0 0" 
-           launch_time="3.0"
-           spawn_time="7.0"
+           launch_time="2.0"
+           spawn_time="4.0"
            horizontal_offset_at_spawn="0.0"
            vertical_offset_at_spawn="3.0"
            initial_speed_to_target="0.0"
@@ -22,8 +22,8 @@
     </round>
     
     <round 
-        launch_time="7.0"
-        spawn_time="7.0">s
+        launch_time="4.0"
+        spawn_time="4.0">
 		<effect class="launch" ref="Chronosphere" />
     </round>
 
