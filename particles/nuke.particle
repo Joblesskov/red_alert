@@ -321,8 +321,8 @@ particle_system SmokeNuke
 		width	8
 		height	8
 		depth	0
-		inner_width		3
-		inner_height	3
+		inner_width		0.4
+		inner_height	0.4
 	}
 
 	affector Scaler
